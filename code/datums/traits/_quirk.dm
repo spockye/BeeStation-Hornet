@@ -66,7 +66,6 @@
 
 /datum/quirk/proc/handle_parent_del()
 	SIGNAL_HANDLER
-	quirk_holder = null
 	qdel(src)
 
 /datum/quirk/process(delta_time)
