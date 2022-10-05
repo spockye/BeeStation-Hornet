@@ -993,14 +993,8 @@
 /obj/structure/table,
 /obj/item/folder,
 /obj/item/paper/guides/jobs/hydroponics,
-/obj/structure/cable/yellow{
-	icon_state = "1-2"
-	},
 /obj/item/pen,
 /obj/item/storage/crayons,
-/obj/structure/cable/yellow{
-	icon_state = "2-8"
-	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/security/prison)
@@ -14071,7 +14065,6 @@
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
 "aWl" = (
-/obj/structure/disposalpipe/segment,
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
@@ -19074,9 +19067,6 @@
 	dir = 8
 	},
 /turf/open/space,
-/area/space/nearstation)
-"blx" = (
-/turf/closed/wall,
 /area/space/nearstation)
 "bly" = (
 /obj/structure/window/reinforced{
@@ -33586,7 +33576,7 @@
 	req_access_txt = "24"
 	},
 /turf/open/floor/plating,
-/area/engine/atmos)
+/area/maintenance/starboard)
 "cjn" = (
 /obj/machinery/atmospherics/components/binary/pump{
 	dir = 1
@@ -35538,6 +35528,9 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
 	},
 /turf/open/floor/plasteel/white,
@@ -40281,10 +40274,6 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/medical/medbay/aft)
-"cDL" = (
-/obj/structure/lattice,
-/turf/closed/wall/r_wall,
-/area/medical/virology)
 "cDM" = (
 /obj/structure/disposalpipe/segment{
 	dir = 9
@@ -40497,7 +40486,7 @@
 "cEA" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
-/area/space/nearstation)
+/area/science/shuttledock)
 "cEB" = (
 /obj/structure/chair{
 	dir = 4
@@ -41582,8 +41571,7 @@
 /turf/open/floor/plasteel/freezer,
 /area/medical/virology)
 "cIy" = (
-/obj/machinery/disposal/bin,
-/obj/effect/turf_decal/bot,
+/obj/structure/table,
 /turf/open/floor/plasteel,
 /area/medical/virology)
 "cIz" = (
@@ -51603,9 +51591,6 @@
 /area/maintenance/port/aft)
 "feG" = (
 /obj/structure/cable/yellow{
-	icon_state = "1-2"
-	},
-/obj/structure/cable/yellow{
 	icon_state = "2-8"
 	},
 /obj/effect/turf_decal/tile/green{
@@ -52259,9 +52244,6 @@
 /turf/open/floor/plasteel/freezer,
 /area/crew_quarters/kitchen)
 "fwJ" = (
-/obj/structure/cable/yellow{
-	icon_state = "1-2"
-	},
 /obj/machinery/door/airlock/virology/glass{
 	name = "Monkey Pen";
 	req_access_txt = "39"
@@ -57211,9 +57193,6 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
-/obj/structure/cable/yellow{
-	icon_state = "1-4"
-	},
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
 	dir = 8
 	},
@@ -57866,12 +57845,6 @@
 	},
 /turf/open/floor/plasteel/white/corner,
 /area/hallway/secondary/entry)
-"iPk" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/turf/open/floor/plating/airless,
-/area/space)
 "iPr" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -65206,8 +65179,6 @@
 /turf/open/floor/plasteel/dark,
 /area/chapel/main)
 "nfF" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/structure/closet/l3closet/virology,
 /obj/item/storage/box/masks,
 /obj/effect/turf_decal/box,
@@ -77993,7 +77964,6 @@
 /turf/open/floor/plasteel,
 /area/hallway/secondary/entry)
 "uZK" = (
-/obj/structure/disposalpipe/segment,
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
@@ -79191,7 +79161,6 @@
 /turf/open/floor/plasteel,
 /area/gateway)
 "vIs" = (
-/obj/structure/disposalpipe/segment,
 /obj/machinery/door/airlock/medical{
 	name = "Observation"
 	},
@@ -82496,9 +82465,6 @@
 /turf/open/floor/plasteel,
 /area/engine/break_room)
 "xAF" = (
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
 /obj/structure/easel,
 /obj/item/canvas/twentythree_twentythree,
 /obj/item/canvas/twentythree_twentythree,
@@ -99303,8 +99269,8 @@ aaa
 aaa
 aaa
 aaa
-vLD
-vLD
+lMJ
+lMJ
 aaa
 aaa
 aaf
@@ -99557,12 +99523,12 @@ aaa
 aaa
 aaa
 aaa
-vLD
+lMJ
 qkj
 aaa
-iPk
-vLD
-vLD
+frA
+lMJ
+lMJ
 aaa
 aaa
 aaf
@@ -100071,7 +100037,7 @@ aaf
 aaa
 aaa
 aaf
-vLD
+lMJ
 aaf
 aaa
 aaf
@@ -101961,7 +101927,7 @@ cKs
 avr
 cBR
 cBR
-cDL
+cBR
 cBR
 cBR
 cDG
@@ -119973,7 +119939,7 @@ aaa
 aaf
 aaa
 aaa
-vLD
+lMJ
 aaa
 aaf
 aaa
@@ -120228,8 +120194,8 @@ aaf
 aaf
 aaf
 aaf
-vLD
-vLD
+lMJ
+lMJ
 aaf
 aaa
 aaa
@@ -120471,9 +120437,9 @@ czD
 cQB
 cAO
 cBL
-cEA
+cAP
 cDu
-cEA
+dxk
 ack
 cJf
 ack
@@ -120728,9 +120694,9 @@ czD
 czI
 cAP
 cAP
-blx
+czD
 anS
-blx
+dvY
 aaa
 aaf
 aaa
@@ -122766,9 +122732,9 @@ ovj
 ovj
 ovj
 ovj
-vLD
-vLD
-vLD
+lMJ
+lMJ
+lMJ
 ctl
 mjJ
 htz
@@ -123026,7 +122992,7 @@ cmc
 cpM
 crc
 aaf
-vLD
+lMJ
 aaa
 aaa
 mjJ
@@ -128418,7 +128384,7 @@ aaa
 aaf
 aaa
 aaf
-vLD
+lMJ
 aaa
 aaa
 aaf
