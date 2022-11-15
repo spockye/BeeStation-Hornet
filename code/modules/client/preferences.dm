@@ -240,6 +240,16 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 
 				dat += "<span style='border: 1px solid #161616; background-color: #[active_character.features["ethcolor"]];'>&nbsp;&nbsp;&nbsp;</span> <a href='?_src_=prefs;preference=color_ethereal;task=input'>Change</a><BR>"
 
+			if("apidcolor" in active_character.pref_species.default_features)
+
+				if(!use_skintones)
+					dat += APPEARANCE_CATEGORY_COLUMN
+
+				dat += "<h3>Apid Color</h3>"
+
+				dat += "<span style='border: 1px solid #161616; background-color: #[active_character.features["apidcolor"]];'>&nbsp;&nbsp;&nbsp;</span> <a href='?_src_=prefs;preference=color_apid;task=input'>Change</a><BR>"
+
+
 			if(istype(active_character.pref_species, /datum/species/plasmaman))
 
 				if(!use_skintones)
@@ -456,6 +466,45 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 				dat += "<h3>Insect Type</h3>"
 
 				dat += "<a href='?_src_=prefs;preference=insect_type;task=input'>[active_character.features["insect_type"]]</a><BR>"
+
+				mutant_category++
+				if(mutant_category >= MAX_MUTANT_ROWS)
+					dat += "</td>"
+					mutant_category = 0
+
+			if("apid_antenna" in active_character.pref_species.mutant_bodyparts)
+				if(!mutant_category)
+					dat += APPEARANCE_CATEGORY_COLUMN
+
+				dat += "<h3>apid antenna</h3>"
+
+				dat += "<a href='?_src_=prefs;preference=apid_antenna;task=input'>[active_character.features["apid_antenna"]]</a><BR>"
+
+				mutant_category++
+				if(mutant_category >= MAX_MUTANT_ROWS)
+					dat += "</td>"
+					mutant_category = 0
+
+			if("apid_stripes" in active_character.pref_species.mutant_bodyparts)
+				if(!mutant_category)
+					dat += APPEARANCE_CATEGORY_COLUMN
+
+				dat += "<h3>apid stripes</h3>"
+
+				dat += "<a href='?_src_=prefs;preference=apid_stripes;task=input'>[active_character.features["apid_stripes"]]</a><BR>"
+
+				mutant_category++
+				if(mutant_category >= MAX_MUTANT_ROWS)
+					dat += "</td>"
+					mutant_category = 0
+
+			if("apid_headstripes" in active_character.pref_species.mutant_bodyparts)
+				if(!mutant_category)
+					dat += APPEARANCE_CATEGORY_COLUMN
+
+				dat += "<h3>apid headstripes</h3>"
+
+				dat += "<a href='?_src_=prefs;preference=apid_headstripes;task=input'>[active_character.features["apid_headstripes"]]</a><BR>"
 
 				mutant_category++
 				if(mutant_category >= MAX_MUTANT_ROWS)
@@ -1502,7 +1551,6 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 					if(new_etherealcolor)
 						active_character.features["ethcolor"] = GLOB.color_list_ethereal[new_etherealcolor]
 
-
 				if("helmet_style")
 					var/style = input(user, "Choose your helmet style", "Character Preference") as null|anything in list(HELMET_DEFAULT, HELMET_MK2, HELMET_PROTECTIVE)
 					if(style)
@@ -1607,6 +1655,30 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 
 					if(new_insect_type)
 						active_character.features["insect_type"] = new_insect_type
+
+				if("apid_antenna")
+					var/new_apid_antenna
+
+					new_apid_antenna = input(user, "Choose your apid antennae:", "Character Preference") as null|anything in GLOB.apid_antenna_list
+
+					if(new_apid_antenna)
+						active_character.features["apid_antenna"] = new_apid_antenna
+
+				if("apid_stripes")
+					var/new_apid_stripes
+
+					new_apid_stripes = input(user, "Choose your apid stripes:", "Character Preference") as null|anything in GLOB.apid_stripes_list
+
+					if(new_apid_stripes)
+						active_character.features["apid_stripes"] = new_apid_stripes
+
+				if("apid_headstripes")
+					var/new_apid_headstripes
+
+					new_apid_headstripes = input(user, "Choose your apid headstripes:", "Character Preference") as null|anything in GLOB.apid_headstripes_list
+
+					if(new_apid_headstripes)
+						active_character.features["apid_headstripes"] = new_apid_headstripes
 
 				if("s_tone")
 					var/new_s_tone = input(user, "Choose your character's skin-tone:", "Character Preference")  as null|anything in GLOB.skin_tones
