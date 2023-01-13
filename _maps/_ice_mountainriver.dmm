@@ -1,0 +1,402 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/open/floor/plating/ashplanet/wateryrock,
+/area/centcom/evac)
+"c" = (
+/obj/effect/turf_decal/weather/snow/corner,
+/turf/open/floor/grass/snow/safe{
+	icon_state = "snow_dug"
+	},
+/area/centcom/evac)
+"f" = (
+/obj/structure/flora/rock/pile/icy,
+/turf/open/floor/grass/snow/safe,
+/area/centcom/evac)
+"h" = (
+/obj/item/toy/snowball{
+	pixel_y = -8;
+	pixel_x = -6
+	},
+/obj/item/toy/snowball{
+	pixel_y = -8;
+	pixel_x = 2
+	},
+/obj/item/toy/snowball{
+	pixel_y = -8;
+	pixel_x = 11
+	},
+/obj/item/toy/snowball{
+	pixel_y = -2;
+	pixel_x = 6
+	},
+/obj/item/toy/snowball{
+	pixel_y = -2;
+	pixel_x = -3
+	},
+/obj/item/toy/snowball{
+	pixel_y = 5;
+	pixel_x = 2
+	},
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 5
+	},
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 6
+	},
+/turf/open/floor/grass/snow/safe{
+	icon_state = "snow_dug"
+	},
+/area/centcom/evac)
+"m" = (
+/obj/structure/chair/wood{
+	dir = 8
+	},
+/obj/item/toy/plush/beeplushie,
+/turf/open/floor/grass/snow/safe{
+	icon_state = "snow_dug"
+	},
+/area/centcom/evac)
+"o" = (
+/obj/structure/flora/stump,
+/turf/open/floor/grass/snow/safe,
+/area/centcom/evac)
+"q" = (
+/obj/structure/chair/wood{
+	dir = 4
+	},
+/obj/item/toy/plush/moth/snow,
+/turf/open/floor/grass/snow/safe{
+	icon_state = "snow_dug"
+	},
+/area/centcom/evac)
+"s" = (
+/obj/effect/turf_decal/weather/snow/corner,
+/obj/item/reagent_containers/food/drinks/mug/cocoa{
+	pixel_y = 20;
+	pixel_x = -10
+	},
+/turf/open/floor/grass/snow/safe{
+	icon_state = "snow_dug"
+	},
+/area/centcom/evac)
+"t" = (
+/obj/structure/flora/tree/pine,
+/turf/open/floor/grass/snow/safe,
+/area/centcom/evac)
+"u" = (
+/obj/structure/bonfire/prelit,
+/turf/open/floor/grass/snow/safe{
+	icon_state = "snow_dug"
+	},
+/area/centcom/evac)
+"w" = (
+/turf/open/water,
+/area/centcom/evac)
+"y" = (
+/obj/structure/flora/bush,
+/turf/open/floor/grass/snow/safe,
+/area/centcom/evac)
+"z" = (
+/turf/open/floor/plating/ice/smooth,
+/area/centcom/evac)
+"B" = (
+/turf/open/floor/plating/ice,
+/area/centcom/evac)
+"E" = (
+/obj/structure/flora/rock/icy,
+/obj/structure/flora/grass/both,
+/turf/open/floor/grass/snow/safe,
+/area/centcom/evac)
+"F" = (
+/turf/closed/mineral/snowmountain/cavern,
+/area/centcom/evac)
+"G" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 6
+	},
+/turf/open/floor/grass/snow/safe{
+	icon_state = "snow_dug"
+	},
+/area/centcom/evac)
+"I" = (
+/turf/open/floor/grass/snow/safe,
+/area/centcom/evac)
+"K" = (
+/obj/item/grown/log,
+/obj/item/grown/log{
+	pixel_y = 4;
+	pixel_x = -5
+	},
+/obj/item/grown/log{
+	pixel_y = -2;
+	pixel_x = -1
+	},
+/obj/item/grown/log{
+	pixel_y = 6;
+	pixel_x = 2
+	},
+/turf/open/floor/grass/snow/safe{
+	icon_state = "snow_dug"
+	},
+/area/centcom/evac)
+"M" = (
+/obj/structure/statue/snow/snowman,
+/turf/open/floor/grass/snow/safe,
+/area/centcom/evac)
+"N" = (
+/obj/structure/flora/tree/dead,
+/turf/open/floor/grass/snow/safe,
+/area/centcom/evac)
+"O" = (
+/obj/structure/flora/rock/pile/icy,
+/turf/open/floor/plating/ice,
+/area/centcom/evac)
+"W" = (
+/obj/structure/flora/grass/both,
+/turf/open/floor/grass/snow/safe,
+/area/centcom/evac)
+"Z" = (
+/obj/item/flashlight/lantern,
+/turf/open/floor/grass/snow/safe,
+/area/centcom/evac)
+
+(1,1,1) = {"
+F
+F
+F
+w
+w
+w
+F
+F
+F
+F
+F
+F
+F
+"}
+(2,1,1) = {"
+F
+F
+F
+F
+w
+w
+F
+F
+F
+F
+F
+F
+F
+"}
+(3,1,1) = {"
+F
+F
+F
+F
+w
+w
+F
+F
+F
+F
+F
+F
+F
+"}
+(4,1,1) = {"
+F
+F
+F
+F
+w
+w
+w
+F
+F
+F
+F
+F
+F
+"}
+(5,1,1) = {"
+F
+F
+F
+F
+w
+w
+w
+w
+F
+F
+F
+F
+F
+"}
+(6,1,1) = {"
+F
+F
+F
+F
+F
+w
+B
+B
+B
+F
+F
+F
+F
+"}
+(7,1,1) = {"
+F
+F
+F
+F
+F
+F
+B
+O
+w
+B
+w
+F
+F
+"}
+(8,1,1) = {"
+F
+F
+F
+F
+F
+F
+z
+z
+B
+w
+w
+w
+w
+"}
+(9,1,1) = {"
+F
+F
+F
+q
+c
+F
+I
+z
+z
+B
+a
+a
+w
+"}
+(10,1,1) = {"
+F
+F
+F
+u
+c
+Z
+I
+N
+y
+F
+F
+a
+a
+"}
+(11,1,1) = {"
+F
+F
+F
+m
+s
+I
+I
+I
+I
+F
+F
+F
+F
+"}
+(12,1,1) = {"
+F
+F
+F
+K
+G
+I
+W
+I
+I
+F
+F
+F
+F
+"}
+(13,1,1) = {"
+F
+F
+F
+h
+o
+I
+I
+I
+W
+F
+F
+F
+F
+"}
+(14,1,1) = {"
+F
+F
+M
+I
+I
+I
+I
+t
+I
+f
+F
+F
+F
+"}
+(15,1,1) = {"
+F
+y
+f
+W
+I
+I
+I
+I
+t
+W
+Z
+F
+F
+"}
+(16,1,1) = {"
+F
+I
+t
+I
+I
+I
+t
+I
+I
+I
+I
+I
+E
+"}

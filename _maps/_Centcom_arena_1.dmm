@@ -1,0 +1,4650 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ak" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/bot,
+/obj/item/grenade/syndieminibomb{
+	pixel_x = 6;
+	pixel_y = 4
+	},
+/obj/item/grenade/syndieminibomb{
+	pixel_x = -4;
+	pixel_y = 4
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"ap" = (
+/obj/structure/railing/corner{
+	dir = 4;
+	color = "#A47449"
+	},
+/obj/structure/railing/corner{
+	dir = 1;
+	color = "#A47449"
+	},
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"aB" = (
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/centcom/evac)
+"aC" = (
+/obj/structure/reagent_dispensers/fueltank,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"aM" = (
+/obj/machinery/button/door{
+	id = "syndieshutters_small_cargo";
+	name = "Window shutters";
+	pixel_x = 28
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"bj" = (
+/obj/machinery/computer/secure_data/syndie,
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"bm" = (
+/obj/structure/table/reinforced,
+/obj/item/stack/sheet/mineral/plastitanium{
+	amount = 30
+	},
+/obj/item/stack/cable_coil/red,
+/obj/item/assembly/prox_sensor{
+	desc = "Used for scanning and alerting when someone enters a certain proximity. This one is slightly shifted to the left.";
+	pixel_x = -6;
+	pixel_y = 6
+	},
+/obj/item/assembly/flash/handheld,
+/obj/item/storage/belt/utility{
+	pixel_y = -3
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"bE" = (
+/obj/structure/frame,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"bP" = (
+/obj/effect/turf_decal/trimline/blue/line,
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+"bU" = (
+/turf/open/floor/plating/dirt/jungle/dark,
+/area/centcom/evac)
+"bZ" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"ch" = (
+/obj/effect/turf_decal/bot,
+/obj/structure/closet/syndicate,
+/obj/item/ammo_box/magazine/m556,
+/obj/item/ammo_box/magazine/m556,
+/obj/item/ammo_box/magazine/mm712x82,
+/obj/item/ammo_box/magazine/sniper_rounds,
+/obj/item/ammo_box/magazine/smgm45,
+/obj/item/ammo_box/magazine/smgm45,
+/obj/item/ammo_box/magazine/smgm45,
+/obj/item/ammo_box/magazine/smgm45,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"cp" = (
+/turf/open/floor/plating/foam,
+/area/centcom/evac)
+"cv" = (
+/turf/closed/mineral/random/jungle,
+/area/centcom/evac)
+"cI" = (
+/obj/structure/railing{
+	color = "#A47449";
+	dir = 8
+	},
+/obj/structure/railing{
+	color = "#A47449";
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/centcom/evac)
+"cK" = (
+/obj/item/reagent_containers/food/snacks/donkpocket/honk/warm{
+	pixel_x = -8;
+	pixel_y = 11;
+	name = "incredibly warm Honk-pocket";
+	bonus_reagents = list(/datum/reagent/medicine/omnizine=20,/datum/reagent/consumable/laughter=3)
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"cQ" = (
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 1
+	},
+/obj/structure/railing{
+	dir = 4;
+	layer = 4.1
+	},
+/obj/structure/closet/syndicate,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"dp" = (
+/obj/structure/chair{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/centcom/evac)
+"dq" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+/area/centcom/evac)
+"du" = (
+/obj/structure/railing{
+	dir = 4;
+	layer = 4.1
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"dC" = (
+/obj/item/trash/cheesie,
+/obj/structure/flora/rock/pile,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/greenglow,
+/turf/open/floor/plating/dirt/jungle/wasteland,
+/area/centcom/evac)
+"dJ" = (
+/obj/structure/flora/ausbushes/reedbush{
+	pixel_x = -8;
+	pixel_y = 19
+	},
+/obj/structure/flora/ausbushes/reedbush{
+	pixel_x = 5;
+	pixel_y = 11
+	},
+/turf/open/water/jungle,
+/area/centcom/evac)
+"ek" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/dirt/jungle/dark,
+/area/centcom/evac)
+"fh" = (
+/obj/structure/flora/rock/pile/largejungle{
+	pixel_y = -10;
+	pixel_x = -12
+	},
+/turf/open/water/jungle,
+/area/centcom/evac)
+"fK" = (
+/obj/structure/grille/broken,
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"fN" = (
+/turf/open/floor/plating{
+	icon_state = "platingdmg2"
+	},
+/area/centcom/evac)
+"fY" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/backpack/duffelbag/med/surgery,
+/obj/item/clothing/gloves/color/latex,
+/obj/item/storage/pill_bottle/epinephrine{
+	pixel_x = 10;
+	pixel_y = 9
+	},
+/obj/item/storage/pill_bottle/mannitol{
+	pixel_x = 10;
+	pixel_y = 5
+	},
+/turf/open/floor/plasteel/grid,
+/area/centcom/evac)
+"gC" = (
+/obj/machinery/porta_turret/syndicate/pod{
+	dir = 9
+	},
+/turf/closed/wall/r_wall/syndicate,
+/area/centcom/evac)
+"gL" = (
+/obj/machinery/computer/mech_bay_power_console{
+	dir = 1
+	},
+/turf/open/floor/pod/light,
+/area/centcom/evac)
+"gN" = (
+/obj/structure/railing{
+	color = "#A47449";
+	dir = 2
+	},
+/turf/open/floor/wood,
+/area/centcom/evac)
+"gR" = (
+/obj/effect/decal/cleanable/oil,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"hd" = (
+/obj/structure/table/reinforced,
+/obj/item/megaphone/command,
+/turf/open/floor/plasteel,
+/area/centcom/evac)
+"hj" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/box/handcuffs{
+	pixel_x = 5
+	},
+/obj/item/storage/box/handcuffs{
+	pixel_x = 5;
+	pixel_y = 11
+	},
+/obj/item/storage/lockbox/loyalty,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"hC" = (
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 6
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 6
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 6
+	},
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/box,
+/obj/machinery/suit_storage_unit/syndicate,
+/obj/structure/railing{
+	dir = 4;
+	layer = 4.1
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"hE" = (
+/obj/effect/turf_decal/trimline/brown/filled/line,
+/obj/effect/turf_decal/trimline/brown/filled/line,
+/obj/effect/turf_decal/trimline/brown/filled/line,
+/obj/effect/turf_decal/bot,
+/obj/structure/closet/syndicate,
+/obj/item/ammo_box/magazine/m10mm,
+/obj/item/ammo_box/magazine/m10mm,
+/obj/item/ammo_box/magazine/m10mm,
+/obj/item/ammo_box/magazine/m10mm,
+/obj/item/ammo_box/magazine/m10mm/ap,
+/obj/item/ammo_box/magazine/m10mm/fire,
+/obj/item/ammo_box/magazine/m10mm/hp,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"jg" = (
+/turf/open/floor/plating{
+	icon_state = "platingdmg1"
+	},
+/area/centcom/evac)
+"jr" = (
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 9
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 9
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 9
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/closet/crate/bin{
+	pixel_y = 10
+	},
+/obj/item/trash/pistachios,
+/obj/item/trash/syndi_cakes,
+/obj/item/trash/waffles,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"jM" = (
+/obj/structure/flora/ausbushes/stalkybush{
+	pixel_x = -12;
+	pixel_y = 10
+	},
+/turf/open/water/jungle,
+/area/centcom/evac)
+"jN" = (
+/obj/structure/tank_dispenser/oxygen,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"jO" = (
+/obj/item/trash/cheesie{
+	pixel_x = -22;
+	pixel_y = -9
+	},
+/obj/item/trash/chips,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/vomit/old{
+	pixel_y = 6;
+	pixel_x = 9
+	},
+/obj/item/storage/bag/trash,
+/turf/open/floor/plating/dirt/jungle/wasteland,
+/area/centcom/evac)
+"kl" = (
+/obj/machinery/mech_bay_recharge_port{
+	dir = 8
+	},
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plating,
+/area/centcom/evac)
+"km" = (
+/obj/effect/decal/cleanable/food/tomato_smudge,
+/turf/open/floor/plating/dirt/jungle/wasteland,
+/area/centcom/evac)
+"ks" = (
+/obj/machinery/power/port_gen/pacman{
+	anchored = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+/area/centcom/evac)
+"kJ" = (
+/obj/structure/flora/ausbushes/stalkybush{
+	pixel_x = -3;
+	pixel_y = 15
+	},
+/turf/open/water/jungle,
+/area/centcom/evac)
+"kK" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Preparation Room";
+	req_access_txt = "150"
+	},
+/obj/effect/turf_decal/stripes/closeup,
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"lc" = (
+/obj/structure/flora/ausbushes/stalkybush{
+	pixel_y = 23;
+	pixel_x = -3
+	},
+/obj/structure/flora/ausbushes/stalkybush{
+	pixel_x = 13;
+	pixel_y = 7
+	},
+/turf/open/water/jungle,
+/area/centcom/evac)
+"lv" = (
+/obj/structure/table/reinforced,
+/obj/item/powertool/jaws_of_life,
+/obj/structure/railing{
+	dir = 10;
+	layer = 4.1
+	},
+/obj/item/pickaxe/drill{
+	pixel_y = 6;
+	pixel_x = 3
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"lw" = (
+/obj/structure/flora/rock/pile/largejungle{
+	pixel_x = -6;
+	pixel_y = -1
+	},
+/turf/open/water/jungle,
+/area/centcom/evac)
+"lT" = (
+/obj/structure/frame,
+/obj/effect/decal/cleanable/glass{
+	dir = 8;
+	pixel_x = -9
+	},
+/turf/open/floor/plating/dirt/jungle/wasteland,
+/area/centcom/evac)
+"mi" = (
+/turf/closed/wall/r_wall/syndicate,
+/area/centcom/evac)
+"nz" = (
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/bot,
+/obj/structure/rack,
+/obj/item/gun/ballistic/automatic/m90,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"nM" = (
+/obj/item/trash/tray{
+	pixel_x = 18;
+	pixel_y = -3
+	},
+/obj/item/trash/sosjerky{
+	pixel_x = 12;
+	pixel_y = 10
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/chem_pile,
+/obj/item/cigbutt,
+/obj/item/trash/boritos,
+/turf/open/floor/plating/dirt/jungle/wasteland,
+/area/centcom/evac)
+"nT" = (
+/obj/structure/closet/secure_closet/ertCom,
+/obj/item/flashlight/seclite,
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel/techmaint{
+	icon_state = "techfloor_gray"
+	},
+/area/centcom/evac)
+"nX" = (
+/obj/machinery/door/airlock/hatch,
+/obj/machinery/door/firedoor,
+/turf/open/space/basic,
+/area/centcom/evac)
+"oq" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/oil/streak,
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"oJ" = (
+/obj/machinery/porta_turret/syndicate/pod{
+	dir = 10
+	},
+/turf/closed/wall/r_wall/syndicate,
+/area/centcom/evac)
+"oT" = (
+/obj/item/toy/cards/deck/syndicate{
+	pixel_x = -4
+	},
+/obj/item/storage/fancy/cigarettes/cigpack_syndicate{
+	pixel_x = 11;
+	pixel_y = 6
+	},
+/obj/item/lighter/greyscale{
+	pixel_x = 11;
+	pixel_y = -2
+	},
+/obj/machinery/computer/security/telescreen/entertainment{
+	pixel_y = 28
+	},
+/obj/structure/table/reinforced,
+/turf/open/floor/pod/dark,
+/area/centcom/evac)
+"pi" = (
+/obj/effect/turf_decal/siding/white,
+/turf/open/floor/plasteel,
+/area/centcom/evac)
+"pq" = (
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 5
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/centcom/evac)
+"pD" = (
+/obj/machinery/porta_turret/syndicate/pod{
+	dir = 6
+	},
+/turf/closed/wall/r_wall/syndicate,
+/area/centcom/evac)
+"pF" = (
+/obj/structure/flora/ausbushes/reedbush{
+	pixel_x = 1;
+	pixel_y = 15
+	},
+/turf/open/water/jungle,
+/area/centcom/evac)
+"pP" = (
+/mob/living/simple_animal/hostile/syndicate/ranged/smg,
+/turf/open/floor/plating/dirt/jungle/dark,
+/area/centcom/evac)
+"qe" = (
+/turf/open/floor/pod/dark,
+/area/centcom/evac)
+"ql" = (
+/obj/structure/flora/rock/pile/largejungle{
+	pixel_x = -2;
+	pixel_y = 10
+	},
+/turf/open/water/jungle,
+/area/centcom/evac)
+"qA" = (
+/obj/structure/flora/ausbushes/stalkybush{
+	pixel_y = 15;
+	pixel_x = -22
+	},
+/turf/open/water/jungle,
+/area/centcom/evac)
+"qN" = (
+/obj/structure/table/optable{
+	name = "Robotics Operating Table"
+	},
+/turf/open/floor/plasteel/grid,
+/area/centcom/evac)
+"qT" = (
+/obj/item/trash/cheesie,
+/obj/item/trash/candy,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/plating/dirt/jungle/wasteland,
+/area/centcom/evac)
+"rq" = (
+/obj/structure/reagent_dispensers/watertank,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"rt" = (
+/obj/machinery/vending/security,
+/turf/open/floor/plasteel/techmaint{
+	icon_state = "techfloor_gray"
+	},
+/area/centcom/evac)
+"rG" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"rI" = (
+/obj/item/trash/cheesie{
+	pixel_y = -3;
+	pixel_x = 6
+	},
+/obj/item/trash/sosjerky{
+	pixel_x = 1;
+	pixel_y = -2
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/chem_pile,
+/obj/item/cigbutt{
+	pixel_x = 2;
+	pixel_y = 10
+	},
+/turf/open/floor/plating/dirt/jungle/wasteland,
+/area/centcom/evac)
+"rN" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/dirt/jungle/wasteland,
+/area/centcom/evac)
+"rO" = (
+/obj/structure/bed/roller,
+/obj/item/bedsheet/medical,
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+"sx" = (
+/obj/structure/railing/corner{
+	dir = 8;
+	color = "#A47449"
+	},
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"sz" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"sE" = (
+/obj/item/trash/pistachios{
+	pixel_y = -3;
+	pixel_x = -10
+	},
+/obj/item/trash/popcorn{
+	pixel_y = -6;
+	pixel_x = -5
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/food/salt,
+/turf/open/floor/plating/dirt/jungle/wasteland,
+/area/centcom/evac)
+"sQ" = (
+/obj/structure/flora/rock/pile/largejungle{
+	pixel_x = 0;
+	pixel_y = -22
+	},
+/turf/closed/mineral/random/jungle,
+/area/centcom/evac)
+"sT" = (
+/obj/structure/closet/syndicate/nuclear,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"tr" = (
+/obj/structure/flora/rock/pile/largejungle{
+	pixel_x = -15;
+	pixel_y = -20
+	},
+/turf/closed/mineral/random/jungle,
+/area/centcom/evac)
+"ts" = (
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 9
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 9
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 9
+	},
+/obj/structure/sign/poster/contraband/random{
+	pixel_x = -32
+	},
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"ue" = (
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/centcom/evac)
+"uh" = (
+/obj/structure/flora/rock/pile/largejungle{
+	pixel_y = 13;
+	pixel_x = -34
+	},
+/turf/closed/mineral/random/jungle,
+/area/centcom/evac)
+"um" = (
+/obj/structure/flora/ausbushes/stalkybush{
+	pixel_x = -6;
+	pixel_y = 8
+	},
+/turf/open/water/jungle,
+/area/centcom/evac)
+"uq" = (
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+/area/centcom/evac)
+"us" = (
+/obj/machinery/porta_turret/syndicate/pod{
+	dir = 5
+	},
+/turf/closed/wall/r_wall/syndicate,
+/area/centcom/evac)
+"vi" = (
+/obj/structure/flora/rock/pile/largejungle,
+/turf/closed/mineral/random/jungle,
+/area/centcom/evac)
+"vn" = (
+/obj/item/trash/plate,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/food/flour,
+/turf/open/floor/plating/dirt/jungle/wasteland,
+/area/centcom/evac)
+"vJ" = (
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/machinery/button/door{
+	id = "syndiecargo_entranceshutters";
+	name = "cargohold shutters";
+	pixel_x = 28
+	},
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/bot,
+/obj/item/gun/ballistic/automatic/pistol,
+/obj/item/gun/ballistic/automatic/pistol{
+	pixel_y = 5
+	},
+/obj/item/gun/ballistic/automatic/pistol{
+	pixel_y = 10
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"vN" = (
+/obj/effect/turf_decal/trimline/brown/filled/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/brown/filled/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/brown/filled/corner{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/generic,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"vQ" = (
+/mob/living/simple_animal/hostile/syndicate/melee,
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"wA" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating{
+	icon_state = "platingdmg1"
+	},
+/area/centcom/evac)
+"wB" = (
+/obj/item/trash/candle,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/blood/gibs/old,
+/turf/open/floor/plating/dirt/jungle/wasteland,
+/area/centcom/evac)
+"wE" = (
+/obj/structure/table/reinforced,
+/obj/item/gun/ballistic/automatic/pistol{
+	pixel_y = -1
+	},
+/obj/item/melee/transforming/energy/sword{
+	pixel_y = 14
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"wH" = (
+/obj/structure/shuttle/engine/large,
+/turf/open/floor/plating,
+/area/centcom/evac)
+"xd" = (
+/obj/machinery/power/smes{
+	charge = 5e+006
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"xf" = (
+/obj/effect/turf_decal/trimline/brown/filled/warning{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/brown/filled/warning{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/brown/filled/warning{
+	dir = 8
+	},
+/obj/effect/turf_decal/loading_area{
+	dir = 4
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"xx" = (
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/box,
+/obj/machinery/suit_storage_unit/syndicate,
+/obj/structure/railing{
+	dir = 4;
+	layer = 4.1
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"xK" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/bot,
+/obj/item/grenade/frag{
+	pixel_x = 6;
+	pixel_y = -3
+	},
+/obj/item/grenade/frag,
+/obj/item/grenade/frag{
+	pixel_x = -5;
+	pixel_y = -4
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"xM" = (
+/obj/structure/frame,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating/dirt/jungle/wasteland,
+/area/centcom/evac)
+"xO" = (
+/obj/structure/railing/corner{
+	dir = 2;
+	color = "#A47449"
+	},
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"yj" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/mecha/combat/marauder/mauler,
+/turf/open/floor/mech_bay_recharge_floor,
+/area/centcom/evac)
+"yw" = (
+/obj/effect/decal/cleanable/robot_debris,
+/obj/structure/table/reinforced,
+/obj/item/storage/toolbox/syndicate{
+	pixel_y = 8
+	},
+/obj/item/assembly/voice,
+/obj/item/assembly/signaler{
+	desc = "Used to remotely activate devices. Allows for syncing when using a secure signaler on another. Slightly scooted.";
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/item/assembly/igniter,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/space/basic,
+/area/centcom/evac)
+"yB" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/machinery/computer/camera_advanced/syndie{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"yQ" = (
+/turf/open/floor/plasteel/grid,
+/area/centcom/evac)
+"yS" = (
+/obj/machinery/door/airlock/hatch,
+/obj/machinery/door/firedoor,
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/centcom/evac)
+"zb" = (
+/obj/structure/table/reinforced,
+/obj/item/gun/ballistic/automatic/ar,
+/turf/open/floor/plasteel/techmaint{
+	icon_state = "techfloor_gray"
+	},
+/area/centcom/evac)
+"Ac" = (
+/obj/effect/turf_decal/trimline/brown/filled/warning,
+/obj/effect/turf_decal/trimline/brown/filled/warning,
+/obj/effect/turf_decal/trimline/brown/filled/warning,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"Ae" = (
+/obj/item/trash/chips{
+	pixel_x = -5;
+	pixel_y = 2
+	},
+/obj/item/trash/candy{
+	pixel_x = -6;
+	pixel_y = 7
+	},
+/obj/effect/decal/cleanable/oil/slippery,
+/turf/open/floor/plating/dirt/jungle/wasteland,
+/area/centcom/evac)
+"Aj" = (
+/obj/machinery/light/small,
+/obj/mecha/combat/marauder,
+/turf/open/floor/mech_bay_recharge_floor,
+/area/centcom/evac)
+"Ap" = (
+/obj/structure/barricade/sandbags,
+/turf/open/floor/plating/dirt/jungle/dark,
+/area/centcom/evac)
+"As" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/cigbutt{
+	pixel_x = -14
+	},
+/obj/item/cigbutt{
+	pixel_x = -5;
+	pixel_y = 5
+	},
+/obj/item/cigbutt{
+	pixel_x = -8;
+	pixel_y = -3
+	},
+/obj/item/cigbutt/cigarbutt,
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"At" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/oil,
+/obj/item/cigbutt/roach,
+/obj/item/trash/can/food/beans,
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"AN" = (
+/obj/effect/decal/cleanable/glass{
+	dir = 8;
+	pixel_x = -9
+	},
+/turf/open/floor/plating/dirt/jungle/wasteland,
+/area/centcom/evac)
+"AT" = (
+/obj/machinery/door/airlock/hatch,
+/obj/effect/turf_decal/stripes/closeup,
+/turf/open/floor/plasteel/dark,
+/area/centcom/evac)
+"Bg" = (
+/mob/living/simple_animal/hostile/syndicate/ranged/smg,
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"Bi" = (
+/turf/open/floor/plasteel/stairs{
+	icon = 'icons/obj/stairs.dmi';
+	dir = 8
+	},
+/area/centcom/evac)
+"Bn" = (
+/obj/machinery/computer/operating{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/grid,
+/area/centcom/evac)
+"Br" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/floor/plasteel/stairs,
+/area/centcom/evac)
+"Bz" = (
+/obj/structure/rack,
+/obj/item/pickaxe/mini,
+/obj/item/flashlight/seclite,
+/obj/item/extinguisher/mini,
+/obj/item/tank/internals/oxygen/yellow,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"Cj" = (
+/obj/structure/table,
+/obj/machinery/microwave{
+	pixel_y = 5
+	},
+/obj/item/storage/box/donkpockets/donkpocketteriyaki{
+	pixel_x = 4;
+	pixel_y = 5
+	},
+/obj/item/storage/box/donkpockets/donkpocketteriyaki,
+/obj/effect/decal/cleanable/food/flour{
+	pixel_y = -7
+	},
+/turf/open/floor/pod,
+/area/centcom/evac)
+"Cm" = (
+/obj/item/gun/ballistic/automatic/wt550,
+/obj/item/gun/ballistic/automatic/wt550{
+	pixel_y = 5
+	},
+/obj/structure/rack,
+/obj/effect/turf_decal/delivery,
+/obj/item/gun/energy/ionrifle{
+	pixel_y = -7
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"Cr" = (
+/turf/open/floor/plasteel/dark,
+/area/centcom/evac)
+"Cv" = (
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"Cy" = (
+/obj/structure/flora/ausbushes/reedbush{
+	pixel_x = -6;
+	pixel_y = 5
+	},
+/turf/open/water/jungle,
+/area/centcom/evac)
+"CC" = (
+/obj/structure/railing{
+	dir = 1;
+	layer = 4.1
+	},
+/turf/open/floor/plasteel,
+/area/centcom/evac)
+"CJ" = (
+/obj/structure/grille,
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"Dg" = (
+/turf/open/floor/plasteel/rockvault,
+/area/centcom/evac)
+"DQ" = (
+/obj/structure/flora/rock/pile,
+/turf/open/floor/plating/dirt/jungle/wasteland,
+/area/centcom/evac)
+"Ew" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/bot,
+/obj/structure/rack,
+/obj/item/gun/ballistic/automatic/c20r{
+	pixel_x = 5;
+	pixel_y = 3
+	},
+/obj/item/gun/ballistic/automatic/c20r{
+	pixel_x = 6;
+	pixel_y = -6
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"EU" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/bot,
+/obj/item/grenade/plastic/c4{
+	pixel_x = -4
+	},
+/obj/item/grenade/plastic/c4{
+	pixel_x = 6
+	},
+/obj/item/grenade/plastic/c4,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"EZ" = (
+/obj/structure/shuttle/engine/heater,
+/obj/structure/window/reinforced/survival_pod{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/centcom/evac)
+"Fc" = (
+/obj/machinery/computer/monitor/secret{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"FF" = (
+/obj/effect/decal/cleanable/greenglow,
+/obj/effect/decal/cleanable/cobweb,
+/turf/open/floor/plating/dirt/jungle/wasteland,
+/area/centcom/evac)
+"FG" = (
+/obj/structure/shuttle/engine/propulsion,
+/turf/open/floor/plating,
+/area/centcom/evac)
+"FL" = (
+/obj/machinery/light,
+/obj/structure/railing{
+	dir = 4;
+	layer = 4.1
+	},
+/obj/machinery/mech_bay_recharge_port{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/centcom/evac)
+"FN" = (
+/obj/structure/railing{
+	dir = 8;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/siding/white{
+	dir = 8
+	},
+/turf/open/floor/plasteel/stairs,
+/area/centcom/evac)
+"FR" = (
+/obj/structure/railing{
+	dir = 8;
+	layer = 4.1
+	},
+/obj/structure/closet/secure_closet/ertEngi,
+/obj/effect/turf_decal/bot,
+/obj/item/flashlight/seclite,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"Gi" = (
+/obj/structure/flora/junglebush/large{
+	pixel_x = -22;
+	pixel_y = -8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"Gq" = (
+/obj/structure/flora/rock/pile/largejungle{
+	pixel_y = 4;
+	pixel_x = -9
+	},
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"GK" = (
+/obj/structure/railing{
+	dir = 1;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/siding/white{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/centcom/evac)
+"GP" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/glass{
+	dir = 8
+	},
+/turf/open/floor/plating/dirt/jungle/wasteland,
+/area/centcom/evac)
+"He" = (
+/obj/effect/turf_decal/trimline/blue/line{
+	dir = 9
+	},
+/obj/effect/turf_decal/trimline/blue/filled/corner,
+/obj/structure/rack,
+/obj/item/storage/firstaid/regular{
+	pixel_x = 5;
+	pixel_y = 2
+	},
+/obj/item/storage/firstaid/medical{
+	pixel_x = -3;
+	pixel_y = -3
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+"Ht" = (
+/obj/effect/turf_decal/trimline/brown/filled/line,
+/obj/effect/turf_decal/trimline/brown/filled/line,
+/obj/effect/turf_decal/trimline/brown/filled/line,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/box,
+/obj/machinery/suit_storage_unit/syndicate,
+/obj/structure/railing{
+	dir = 8;
+	layer = 4.1
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"Hx" = (
+/obj/structure/barricade/sandbags,
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"Id" = (
+/obj/structure/closet/crate/freezer/blood,
+/obj/machinery/iv_drip,
+/turf/open/floor/plasteel/rockvault,
+/area/centcom/evac)
+"Ih" = (
+/turf/open/floor/plating,
+/area/centcom/evac)
+"IG" = (
+/obj/structure/railing/corner{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/centcom/evac)
+"IM" = (
+/obj/machinery/door/poddoor{
+	id = "syndiecargo_entranceshutters";
+	name = "Cargo hold"
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/plasteel/tech/grid,
+/area/centcom/evac)
+"IP" = (
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/box,
+/obj/machinery/suit_storage_unit/syndicate,
+/obj/structure/railing{
+	dir = 8;
+	layer = 4.1
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"IQ" = (
+/obj/effect/turf_decal/trimline/brown/filled/warning{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/loading_area{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/brown/filled/warning{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/brown/filled/warning{
+	dir = 8
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"IU" = (
+/obj/structure/closet/secure_closet/ertSec,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"Jc" = (
+/obj/machinery/power/apc/auto_name/north,
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+	},
+/area/centcom/evac)
+"Jr" = (
+/obj/structure/flora/ausbushes/reedbush{
+	pixel_x = -20;
+	pixel_y = 13
+	},
+/obj/structure/flora/ausbushes/reedbush{
+	pixel_x = -3;
+	pixel_y = 11
+	},
+/obj/structure/railing{
+	color = "#A47449";
+	dir = 2
+	},
+/turf/open/water/jungle,
+/area/centcom/evac)
+"JF" = (
+/obj/machinery/door/poddoor/shutters{
+	id = "syndieshutters_small_cargo";
+	name = "blast shutters"
+	},
+/obj/structure/grille,
+/turf/open/floor/plating,
+/area/centcom/evac)
+"JM" = (
+/obj/structure/grille,
+/turf/open/floor/plating/dirt/jungle/wasteland,
+/area/centcom/evac)
+"JP" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"JT" = (
+/obj/structure/flora/rock/pile/largejungle{
+	pixel_y = 4;
+	pixel_x = -9
+	},
+/turf/open/water/jungle,
+/area/centcom/evac)
+"JY" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/pod/dark,
+/area/centcom/evac)
+"Kb" = (
+/obj/structure/closet/crate,
+/obj/item/stack/sheet/glass{
+	amount = 10
+	},
+/obj/item/stack/sheet/mineral/plastitanium{
+	amount = 20
+	},
+/obj/item/storage/box/lights/bulbs,
+/obj/item/storage/toolbox/mechanical,
+/obj/item/stack/sheet/mineral/plasma{
+	amount = 20
+	},
+/obj/machinery/light,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"Kk" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"Ku" = (
+/obj/structure/table/reinforced,
+/obj/item/grenade/plastic/c4{
+	pixel_x = -4
+	},
+/obj/item/grenade/plastic/c4{
+	pixel_x = 6
+	},
+/obj/item/grenade/plastic/c4,
+/obj/item/clothing/ears/earmuffs,
+/turf/open/floor/plasteel/techmaint{
+	icon_state = "techfloor_gray"
+	},
+/area/centcom/evac)
+"KD" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"KI" = (
+/obj/structure/railing,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"KO" = (
+/obj/structure/table/reinforced,
+/obj/item/phone{
+	pixel_x = -3;
+	pixel_y = -2
+	},
+/turf/open/floor/plasteel,
+/area/centcom/evac)
+"KT" = (
+/obj/structure/toilet{
+	dir = 8;
+	icon_state = "toilet00"
+	},
+/obj/structure/sink{
+	pixel_y = 24
+	},
+/obj/machinery/light/small,
+/turf/open/floor/plasteel/showroomfloor,
+/area/centcom/evac)
+"Lt" = (
+/obj/structure/railing{
+	dir = 4;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/siding/white{
+	dir = 4
+	},
+/turf/open/floor/plasteel/stairs,
+/area/centcom/evac)
+"Ly" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"LB" = (
+/obj/item/trash/chips{
+	pixel_x = 10;
+	pixel_y = -10
+	},
+/obj/structure/closet/crate/trashcart,
+/turf/open/floor/plating/dirt/jungle/wasteland,
+/area/centcom/evac)
+"LI" = (
+/obj/structure/closet/toolcloset,
+/obj/effect/turf_decal/box,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"LO" = (
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/centcom/evac)
+"Ma" = (
+/turf/open/floor/plasteel/techmaint{
+	icon_state = "techfloor_gray"
+	},
+/area/centcom/evac)
+"Mz" = (
+/turf/open/water/jungle,
+/area/centcom/evac)
+"MM" = (
+/obj/effect/turf_decal/trimline/brown/filled/line,
+/obj/effect/turf_decal/trimline/brown/filled/line,
+/obj/effect/turf_decal/trimline/brown/filled/line,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"MR" = (
+/obj/structure/flora/ausbushes/stalkybush{
+	pixel_x = 1;
+	pixel_y = 16
+	},
+/turf/open/water/jungle,
+/area/centcom/evac)
+"Nk" = (
+/obj/structure/bed/pod,
+/obj/item/bedsheet/black,
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/structure/sign/poster/contraband/random{
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel/dark,
+/area/centcom/evac)
+"Ny" = (
+/turf/closed/indestructible/riveted,
+/area/centcom/evac)
+"Nz" = (
+/obj/structure/table/reinforced,
+/obj/item/mecha_parts/mecha_equipment/weapon/ballistic/carbine{
+	pixel_x = 7;
+	pixel_y = -2
+	},
+/obj/item/mecha_parts/mecha_equipment/drill,
+/obj/item/mecha_parts/mecha_equipment/repair_droid,
+/turf/open/floor/plasteel/rockvault,
+/area/centcom/evac)
+"NE" = (
+/obj/effect/turf_decal/trimline/blue/line{
+	dir = 10
+	},
+/obj/effect/turf_decal/trimline/blue/filled/corner{
+	dir = 4
+	},
+/obj/machinery/sleeper{
+	dir = 1
+	},
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+"NL" = (
+/obj/effect/turf_decal/trimline/brown/filled/line,
+/obj/effect/turf_decal/trimline/brown/filled/line,
+/obj/effect/turf_decal/trimline/brown/filled/line,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"NN" = (
+/obj/structure/rack,
+/obj/item/gun/energy/e_gun{
+	pixel_x = 3;
+	pixel_y = -3
+	},
+/obj/item/gun/energy/e_gun,
+/obj/item/gun/energy/e_gun{
+	pixel_x = -3;
+	pixel_y = 3
+	},
+/turf/open/floor/plasteel/techmaint{
+	icon_state = "techfloor_gray"
+	},
+/area/centcom/evac)
+"NR" = (
+/obj/structure/girder,
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"Oy" = (
+/obj/machinery/light{
+	dir = 4;
+	pixel_x = 4
+	},
+/turf/open/water/jungle,
+/area/centcom/evac)
+"OA" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/plasteel,
+/area/centcom/evac)
+"OI" = (
+/obj/structure/closet/secure_closet/ertSec,
+/obj/effect/turf_decal/bot,
+/obj/item/flashlight/seclite,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"OQ" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/trash/can/food/beefbroth,
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"OT" = (
+/obj/effect/turf_decal/trimline/blue/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+"OW" = (
+/obj/structure/dresser,
+/obj/effect/decal/cleanable/cobweb,
+/turf/open/floor/plasteel/dark,
+/area/centcom/evac)
+"Pc" = (
+/obj/item/trash/cheesie{
+	pixel_y = 3
+	},
+/obj/item/trash/can{
+	pixel_x = -9;
+	pixel_y = -4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/leaper_sludge,
+/turf/open/floor/plating/dirt/jungle/wasteland,
+/area/centcom/evac)
+"Pe" = (
+/mob/living/simple_animal/hostile/retaliate/nanotrasenpeace/ranged,
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"Pu" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"Pv" = (
+/obj/structure/bed/roller,
+/obj/item/bedsheet/medical,
+/turf/open/floor/plasteel/rockvault,
+/area/centcom/evac)
+"PJ" = (
+/obj/effect/turf_decal/trimline/brown/filled/warning{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/brown/filled/warning{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/brown/filled/warning{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"Qa" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel/grid,
+/area/centcom/evac)
+"Qf" = (
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"QL" = (
+/obj/machinery/suit_storage_unit/syndicate,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"QY" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/firstaid/regular,
+/obj/item/gun/energy/chrono_gun{
+	pixel_y = 5
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"Rs" = (
+/obj/structure/closet/secure_closet/ertMed,
+/obj/effect/turf_decal/bot,
+/obj/item/flashlight/seclite,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"Ry" = (
+/obj/item/trash/syndi_cakes,
+/obj/structure/flora/rock/pile/largejungle,
+/turf/open/floor/plating/dirt/jungle/wasteland,
+/area/centcom/evac)
+"RC" = (
+/obj/structure/flora/rock/pile/largejungle{
+	pixel_x = -1
+	},
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"RE" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/trash/waffles,
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"RS" = (
+/obj/structure/flora/rock/pile/largejungle,
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"RT" = (
+/obj/structure/table/reinforced,
+/obj/item/grenade/syndieminibomb{
+	pixel_x = 6;
+	pixel_y = 4
+	},
+/obj/item/grenade/syndieminibomb{
+	pixel_x = -4;
+	pixel_y = 4
+	},
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"RX" = (
+/obj/structure/flora/rock/pile/largejungle{
+	pixel_x = -26;
+	pixel_y = 16
+	},
+/turf/open/water/jungle,
+/area/centcom/evac)
+"SH" = (
+/obj/machinery/porta_turret/syndicate/pod{
+	dir = 4
+	},
+/turf/closed/wall/r_wall/syndicate,
+/area/centcom/evac)
+"SO" = (
+/obj/structure/chair{
+	dir = 2
+	},
+/turf/open/floor/plasteel,
+/area/centcom/evac)
+"SX" = (
+/obj/item/trash/cheesie,
+/obj/item/trash/can{
+	pixel_x = 8;
+	pixel_y = 7
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/chem_pile,
+/turf/open/floor/plating/dirt/jungle/wasteland,
+/area/centcom/evac)
+"Th" = (
+/turf/closed/wall/r_wall,
+/area/centcom/evac)
+"Tk" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel/techmaint{
+	icon_state = "techfloor_gray"
+	},
+/area/centcom/evac)
+"TH" = (
+/obj/structure/flora/ausbushes/reedbush{
+	pixel_x = -3;
+	pixel_y = 11
+	},
+/turf/open/water/jungle,
+/area/centcom/evac)
+"TK" = (
+/obj/structure/mirror{
+	pixel_y = 28
+	},
+/turf/open/floor/plasteel/showroomfloor,
+/area/centcom/evac)
+"TU" = (
+/obj/item/trash/cheesie{
+	pixel_y = 5;
+	pixel_x = 2
+	},
+/obj/item/trash/candy,
+/turf/open/floor/plating/dirt/jungle/wasteland,
+/area/centcom/evac)
+"Vk" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"Vo" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/greenglow,
+/obj/item/trash/boritos,
+/turf/open/floor/plating/dirt/jungle/wasteland,
+/area/centcom/evac)
+"Vu" = (
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/bot,
+/obj/structure/rack,
+/obj/item/gun/ballistic/automatic/l6_saw,
+/obj/item/gun/ballistic/automatic/sniper_rifle,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"VF" = (
+/obj/structure/flora/rock/pile/largejungle,
+/turf/open/water/jungle,
+/area/centcom/evac)
+"We" = (
+/obj/structure/barricade/sandbags,
+/obj/structure/barricade/sandbags,
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"Ww" = (
+/obj/effect/turf_decal/bot,
+/obj/structure/table/reinforced,
+/obj/item/dualsaber{
+	pixel_x = -6;
+	pixel_y = 4
+	},
+/obj/item/gun/ballistic/automatic/pistol,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"WD" = (
+/obj/structure/table/wood,
+/obj/item/flashlight/lamp{
+	pixel_x = -1;
+	pixel_y = 6
+	},
+/obj/effect/decal/cleanable/ash{
+	pixel_x = 15;
+	pixel_y = 12
+	},
+/turf/open/floor/plasteel/dark,
+/area/centcom/evac)
+"WL" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/plasteel/stairs,
+/area/centcom/evac)
+"WO" = (
+/obj/machinery/door/airlock/hatch,
+/obj/machinery/door/firedoor,
+/obj/effect/turf_decal/stripes/closeup,
+/turf/open/floor/mineral/plastitanium/red,
+/area/centcom/evac)
+"WQ" = (
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/structure/table/reinforced,
+/obj/item/mecha_parts/mecha_equipment/weapon/ballistic/carbine{
+	pixel_x = 7;
+	pixel_y = -2
+	},
+/obj/item/mecha_parts/mecha_equipment/drill,
+/obj/item/mecha_parts/mecha_equipment/repair_droid,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"WU" = (
+/obj/structure/flora/junglebush/large{
+	pixel_x = -22;
+	pixel_y = -8
+	},
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"Xb" = (
+/obj/item/trash/tray,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/insectguts,
+/turf/open/floor/plating/dirt/jungle/wasteland,
+/area/centcom/evac)
+"Xf" = (
+/obj/structure/table/reinforced,
+/obj/item/toy/figure/syndie{
+	pixel_x = -8;
+	pixel_y = -7
+	},
+/obj/item/paper_bin{
+	pixel_x = 5;
+	pixel_y = 4
+	},
+/obj/item/pen{
+	pixel_x = 5;
+	pixel_y = 6
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"Xi" = (
+/turf/open/floor/plasteel,
+/area/centcom/evac)
+"Xr" = (
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+	},
+/area/centcom/evac)
+"Xs" = (
+/obj/effect/turf_decal/trimline/blue/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+"Yf" = (
+/obj/structure/chair{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/white,
+/turf/open/floor/plasteel,
+/area/centcom/evac)
+"Yl" = (
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"YC" = (
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"YE" = (
+/obj/effect/turf_decal/stripes/closeup,
+/turf/open/floor/mineral/plastitanium/red,
+/area/centcom/evac)
+"YL" = (
+/obj/structure/railing/corner{
+	dir = 2;
+	color = "#A47449"
+	},
+/turf/open/water/jungle,
+/area/centcom/evac)
+"YS" = (
+/obj/machinery/door/airlock/hatch,
+/turf/open/floor/plasteel/showroomfloor,
+/area/centcom/evac)
+"YU" = (
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"Zo" = (
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/machinery/suit_storage_unit/syndicate{
+	name = "captain's suit storage unit";
+	suit_type = /obj/item/clothing/suit/space/hardsuit/syndi/elite
+	},
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/box,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"Zv" = (
+/obj/structure/railing/corner{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 4;
+	pixel_x = 4
+	},
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"Zw" = (
+/obj/structure/railing{
+	color = "#A47449";
+	dir = 2
+	},
+/turf/open/water/jungle,
+/area/centcom/evac)
+"Zz" = (
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/machinery/button/door{
+	id = "syndiecargo_entranceshutters";
+	name = "cargohold shutters";
+	pixel_x = -28
+	},
+/obj/structure/railing,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"ZF" = (
+/obj/effect/turf_decal/trimline/blue/line,
+/obj/machinery/sleeper{
+	dir = 1
+	},
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+"ZN" = (
+/obj/structure/flora/ausbushes/stalkybush{
+	pixel_x = -3;
+	pixel_y = 27
+	},
+/turf/open/water/jungle,
+/area/centcom/evac)
+"ZR" = (
+/obj/structure/railing/corner{
+	dir = 2;
+	color = "#A47449"
+	},
+/obj/structure/railing/corner{
+	dir = 8;
+	color = "#A47449"
+	},
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"ZZ" = (
+/obj/effect/turf_decal/trimline/blue/line{
+	dir = 6
+	},
+/obj/effect/turf_decal/trimline/blue/filled/corner{
+	dir = 1
+	},
+/obj/machinery/smartfridge/organ,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+
+(1,1,1) = {"
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+"}
+(2,1,1) = {"
+Ny
+Xi
+Lt
+IG
+dp
+Yf
+CC
+Xi
+Th
+Pv
+Pv
+Id
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+RC
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+cv
+cv
+cv
+cv
+cv
+cv
+Ny
+"}
+(3,1,1) = {"
+Ny
+Xi
+KO
+GK
+dp
+Yf
+CC
+Xi
+Th
+Dg
+Dg
+Dg
+Nz
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+RS
+RS
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+bU
+bU
+bU
+bU
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+cv
+cv
+cv
+cv
+cv
+Ny
+"}
+(4,1,1) = {"
+Ny
+SO
+OA
+GK
+Xi
+pi
+Xi
+Xi
+Xi
+Dg
+Dg
+Dg
+Dg
+gL
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+RS
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+bU
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+cv
+cv
+cv
+cv
+Ny
+"}
+(5,1,1) = {"
+Ny
+Xi
+hd
+GK
+dp
+Yf
+CC
+Xi
+Th
+Dg
+Dg
+Dg
+Dg
+Aj
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+vi
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+bU
+bU
+Cv
+bU
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+cv
+cv
+cv
+cv
+Ny
+"}
+(6,1,1) = {"
+Ny
+Xi
+FN
+LO
+dp
+Yf
+CC
+Xi
+Xi
+Dg
+Dg
+Dg
+Dg
+kl
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+bU
+bU
+Cv
+bU
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+cv
+cv
+cv
+cv
+Ny
+"}
+(7,1,1) = {"
+Ny
+Th
+Th
+Th
+Th
+Th
+LO
+Xi
+Th
+Dg
+Dg
+Dg
+Th
+Th
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+vi
+Cv
+Cv
+Cv
+bU
+bU
+Cv
+Cv
+bU
+bU
+bU
+bU
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+cv
+cv
+cv
+cv
+Ny
+"}
+(8,1,1) = {"
+Ny
+Ku
+zb
+rt
+NN
+Th
+Xi
+Xi
+Th
+Cv
+Cv
+Cv
+Hx
+Cv
+Pe
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+Cv
+Cv
+Cv
+bU
+Cv
+Cv
+Cv
+bU
+Cv
+Cv
+bU
+Cv
+Cv
+Cv
+cv
+cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+cv
+cv
+cv
+cv
+Ny
+"}
+(9,1,1) = {"
+Ny
+nT
+Tk
+Tk
+Tk
+Ma
+Xi
+Xi
+Th
+Cv
+Cv
+Cv
+Hx
+Hx
+Hx
+Hx
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+Cv
+Cv
+Cv
+bU
+Cv
+bU
+bU
+Cv
+Cv
+Cv
+Cv
+bU
+Cv
+Cv
+cv
+cv
+cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+cv
+cv
+cv
+cv
+Ny
+"}
+(10,1,1) = {"
+Ny
+FR
+lv
+Bi
+cv
+cv
+cv
+cv
+cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+cv
+cv
+cv
+cv
+cv
+cv
+CJ
+Cv
+Cv
+Cv
+Cv
+bU
+bU
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+cv
+cv
+cv
+cv
+cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+cv
+cv
+cv
+cv
+Ny
+"}
+(11,1,1) = {"
+Ny
+Qf
+Qf
+Qf
+Rs
+cv
+cv
+cv
+cv
+cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+fK
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+cv
+cv
+cv
+cv
+cv
+cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+cv
+cv
+cv
+Ny
+"}
+(12,1,1) = {"
+Ny
+Cm
+Qf
+Qf
+QY
+cv
+cv
+cv
+cv
+cv
+cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+CJ
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+RS
+cv
+cv
+cv
+cv
+cv
+cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+cv
+cv
+cv
+Ny
+"}
+(13,1,1) = {"
+Ny
+hj
+Qf
+Qf
+IU
+cv
+cv
+cv
+cv
+cv
+cv
+Cv
+Cv
+bU
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+fK
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+bU
+Cv
+Cv
+RS
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+Cv
+Cv
+Cv
+Cv
+Cv
+bU
+Cv
+cv
+cv
+Ny
+"}
+(14,1,1) = {"
+Ny
+OI
+Qf
+Qf
+OI
+cv
+cv
+cv
+cv
+cv
+cv
+Cv
+Cv
+bU
+Cv
+bU
+Cv
+Cv
+Cv
+Cv
+Cv
+CJ
+cv
+cv
+cv
+Cv
+Cv
+bU
+bU
+Cv
+Cv
+bU
+Cv
+Cv
+Cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+bU
+cv
+cv
+Ny
+"}
+(15,1,1) = {"
+Ny
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+Hx
+Hx
+Cv
+bU
+Cv
+Cv
+Cv
+Cv
+Cv
+cv
+cv
+cv
+cv
+cv
+Cv
+Cv
+Cv
+bU
+Cv
+Cv
+bU
+Cv
+Cv
+RS
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+bU
+Cv
+Cv
+Ny
+"}
+(16,1,1) = {"
+Ny
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+Pe
+Hx
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+Cv
+Cv
+bU
+bU
+Cv
+Cv
+Cv
+Cv
+Cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+RS
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Ny
+"}
+(17,1,1) = {"
+Ny
+cv
+cv
+cv
+vi
+cv
+cv
+cv
+cv
+cv
+cv
+Hx
+Hx
+Cv
+Cv
+Cv
+Cv
+Cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Ny
+"}
+(18,1,1) = {"
+Ny
+cv
+cv
+vi
+RS
+vi
+cv
+cv
+cv
+cv
+cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+RS
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Ny
+"}
+(19,1,1) = {"
+Ny
+cv
+vi
+Ry
+bE
+vi
+cv
+cv
+cv
+cv
+cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Ny
+"}
+(20,1,1) = {"
+Ny
+cv
+DQ
+SX
+Vo
+cv
+cv
+cv
+cv
+cv
+cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+RS
+cv
+cv
+cv
+cv
+cv
+cv
+vi
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Ny
+"}
+(21,1,1) = {"
+Ny
+FF
+qT
+Xb
+Gi
+vi
+cv
+cv
+cv
+cv
+cv
+Cv
+Cv
+Cv
+Cv
+Cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+vi
+RS
+Cv
+Cv
+Cv
+Cv
+bU
+Cv
+Cv
+Cv
+RS
+vi
+cv
+cv
+cv
+cv
+cv
+cv
+Gq
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Ny
+"}
+(22,1,1) = {"
+Ny
+vn
+xM
+sE
+Cv
+km
+vi
+cv
+cv
+cv
+cv
+Cv
+Cv
+Cv
+Cv
+Cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+Cv
+Cv
+Cv
+Cv
+bU
+bU
+Cv
+Cv
+Cv
+RS
+cv
+cv
+cv
+cv
+cv
+cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Ny
+"}
+(23,1,1) = {"
+Ny
+As
+wB
+jO
+KD
+lT
+cv
+cv
+cv
+cv
+cv
+cv
+CJ
+fK
+CJ
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+RS
+cv
+cv
+cv
+cv
+cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Ny
+"}
+(24,1,1) = {"
+Ny
+rI
+At
+WU
+sz
+CJ
+vi
+cv
+cv
+cv
+cv
+cv
+Cv
+Cv
+Cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+cv
+cv
+cv
+cv
+cv
+cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Ny
+"}
+(25,1,1) = {"
+Ny
+JM
+nM
+bZ
+KD
+RE
+NR
+cv
+cv
+cv
+Cv
+Cv
+Cv
+Cv
+Cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+cv
+cv
+cv
+cv
+cv
+cv
+Cv
+bU
+Cv
+Cv
+Cv
+Cv
+Ny
+"}
+(26,1,1) = {"
+Ny
+Ae
+dC
+JP
+KD
+KD
+Cv
+cv
+cv
+cv
+Cv
+Cv
+Cv
+Cv
+Cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+RS
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+cv
+Cv
+cv
+cv
+Cv
+bU
+Cv
+Cv
+Cv
+Cv
+Ny
+"}
+(27,1,1) = {"
+Ny
+TU
+oq
+bZ
+KD
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+RS
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+bU
+Cv
+Cv
+Cv
+Cv
+Cv
+Ny
+"}
+(28,1,1) = {"
+Ny
+NR
+ek
+bZ
+KD
+Cv
+NR
+Cv
+Cv
+Cv
+Cv
+bU
+Cv
+Cv
+Cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+RS
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Ny
+"}
+(29,1,1) = {"
+Ny
+LB
+ek
+bZ
+OQ
+Cv
+CJ
+Cv
+Cv
+Cv
+bU
+bU
+Cv
+Cv
+Cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+cv
+cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+cv
+cv
+Cv
+Cv
+Cv
+Ny
+"}
+(30,1,1) = {"
+Ny
+Pc
+AN
+bZ
+Gi
+Cv
+Cv
+Cv
+Cv
+Cv
+bU
+Cv
+Cv
+Cv
+Cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+RS
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+cv
+cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Hx
+Hx
+Hx
+cv
+cv
+cv
+cv
+Cv
+Cv
+Ny
+"}
+(31,1,1) = {"
+Ny
+GP
+rN
+bZ
+Cv
+Cv
+bU
+bU
+bU
+Cv
+bU
+Cv
+Cv
+Cv
+Cv
+Cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+RS
+Cv
+RS
+Cv
+Cv
+Cv
+Cv
+cv
+cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Hx
+Bg
+Cv
+cv
+cv
+cv
+cv
+cv
+cv
+Ny
+"}
+(32,1,1) = {"
+cv
+CJ
+rN
+ek
+CJ
+bU
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+Cv
+RS
+Cv
+Cv
+Cv
+Cv
+Cv
+cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+bU
+Hx
+Hx
+We
+cv
+cv
+cv
+cv
+cv
+cv
+Ny
+"}
+(33,1,1) = {"
+cv
+VF
+ql
+Mz
+Mz
+Cv
+bU
+bU
+bU
+Cv
+Cv
+Cv
+Cv
+bU
+Cv
+Cv
+RS
+Cv
+Cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+RS
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+bU
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+cv
+cv
+cv
+cv
+Ny
+"}
+(34,1,1) = {"
+cv
+VF
+Mz
+kJ
+Mz
+Mz
+Mz
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+bU
+Cv
+Cv
+Cv
+RS
+Cv
+Cv
+cv
+cv
+cv
+cv
+cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+bU
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+cv
+cv
+cv
+Ny
+"}
+(35,1,1) = {"
+cv
+VF
+RX
+jM
+MR
+Mz
+Mz
+YL
+xO
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+bU
+Cv
+Cv
+Cv
+RS
+Cv
+Cv
+cv
+cv
+cv
+cv
+Cv
+Cv
+Cv
+Cv
+Cv
+bU
+Cv
+Cv
+Cv
+Cv
+Cv
+Hx
+Ap
+Hx
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+cv
+cv
+cv
+Ny
+"}
+(36,1,1) = {"
+cv
+VF
+JT
+qA
+ZN
+Mz
+Mz
+Zw
+gN
+Cv
+cv
+cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+cv
+cv
+Cv
+Cv
+Cv
+Cv
+Cv
+bU
+bU
+Cv
+Cv
+Cv
+Cv
+bU
+Ap
+pP
+Hx
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+cv
+cv
+cv
+cv
+Ny
+"}
+(37,1,1) = {"
+cv
+cv
+vi
+fh
+Mz
+Mz
+Mz
+Zw
+gN
+Mz
+cv
+cv
+cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+cv
+cv
+Cv
+Cv
+cv
+cv
+cv
+Cv
+Hx
+Cv
+Hx
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+cv
+cv
+cv
+cv
+cv
+Ny
+"}
+(38,1,1) = {"
+Ny
+cv
+cv
+cv
+vi
+lw
+Mz
+Zw
+gN
+Mz
+dJ
+cv
+cv
+cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+cv
+cv
+mi
+JF
+JF
+mi
+cv
+cv
+cv
+mi
+mi
+mi
+IM
+IM
+IM
+mi
+mi
+mi
+mi
+mi
+mi
+cv
+cv
+cv
+Ny
+"}
+(39,1,1) = {"
+Ny
+cv
+cv
+cv
+cv
+tr
+Mz
+Jr
+gN
+Mz
+Mz
+Mz
+vi
+cv
+cv
+Cv
+Cv
+Cv
+Cv
+bU
+bU
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+cv
+gC
+ue
+yB
+Fc
+ue
+mi
+JF
+mi
+ue
+ts
+Zz
+xf
+xf
+IQ
+WQ
+gL
+mi
+QL
+Bz
+ue
+mi
+cv
+cv
+Ny
+"}
+(40,1,1) = {"
+Ny
+cv
+cv
+cv
+cv
+cv
+cv
+Zw
+gN
+Mz
+Mz
+Mz
+Mz
+vi
+cv
+cv
+Cv
+Cv
+Cv
+Cv
+bU
+bU
+Cv
+Cv
+Cv
+Cv
+Cv
+bU
+cv
+JF
+rG
+vQ
+Xf
+ue
+OW
+WD
+ue
+jr
+vN
+KI
+Qf
+Qf
+Qf
+Qf
+yj
+mi
+Qf
+Qf
+Kb
+mi
+mi
+oJ
+Ny
+"}
+(41,1,1) = {"
+Ny
+cv
+rO
+rO
+cv
+cv
+cv
+uh
+gN
+Mz
+Mz
+Mz
+Mz
+Mz
+cv
+cv
+cv
+Cv
+Cv
+Cv
+Cv
+bU
+Cv
+Cv
+Cv
+bU
+Cv
+Cv
+cv
+JF
+bj
+aM
+YU
+ue
+Nk
+Cr
+ue
+Zo
+Ly
+KI
+Qf
+Qf
+Qf
+du
+FL
+mi
+Qf
+Qf
+rq
+EZ
+Ih
+wH
+Ny
+"}
+(42,1,1) = {"
+Ny
+He
+Xs
+Xs
+NE
+cv
+cv
+cv
+gN
+Mz
+Mz
+Mz
+kJ
+Mz
+vi
+cv
+cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+bU
+bU
+bU
+bU
+cv
+mi
+ue
+ue
+WO
+ue
+ue
+AT
+ue
+cQ
+du
+Qf
+Qf
+Qf
+Qf
+Qf
+MM
+mi
+Qf
+gR
+aC
+EZ
+Ih
+Ih
+Ny
+"}
+(43,1,1) = {"
+Ny
+OT
+yQ
+yQ
+ZF
+Th
+Th
+Th
+sx
+Mz
+Mz
+Mz
+um
+Mz
+Mz
+cv
+cv
+cv
+Cv
+Cv
+Cv
+Cv
+Cv
+bU
+Cv
+Cv
+Cv
+cv
+cv
+mi
+TK
+YS
+pq
+aB
+aB
+pq
+yS
+PJ
+Vk
+Qf
+Qf
+Qf
+Qf
+Qf
+Ac
+nX
+Qf
+Qf
+xd
+EZ
+FG
+cK
+Ny
+"}
+(44,1,1) = {"
+Ny
+OT
+yQ
+yQ
+bP
+Br
+Kk
+Yl
+Cv
+Mz
+Mz
+Mz
+Mz
+pF
+Mz
+cv
+cv
+cv
+cv
+Cv
+Cv
+Cv
+bU
+Cv
+Cv
+Cv
+Cv
+cv
+cv
+mi
+KT
+ue
+YE
+ue
+ue
+kK
+ue
+YC
+Qf
+ak
+Ww
+Qf
+Qf
+ch
+hE
+mi
+Jc
+wA
+ks
+EZ
+Ih
+wH
+Ny
+"}
+(45,1,1) = {"
+Ny
+OT
+yQ
+yQ
+bP
+WL
+Pu
+Pu
+Zv
+ZR
+cI
+cI
+cI
+cI
+cI
+cI
+cI
+cI
+ap
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+cv
+cv
+mi
+ue
+ue
+WO
+ue
+sT
+YU
+ue
+dq
+Xr
+xK
+Qf
+Qf
+Qf
+IP
+Ht
+mi
+jN
+uq
+bm
+EZ
+Ih
+Ih
+Ny
+"}
+(46,1,1) = {"
+Ny
+Qa
+Qa
+Qa
+ZZ
+Th
+Th
+Th
+Th
+cv
+Mz
+Mz
+Mz
+TH
+Mz
+Mz
+Mz
+lc
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+cv
+cv
+mi
+Cj
+JY
+qe
+ue
+RT
+wE
+cp
+fN
+uq
+EU
+Qf
+Qf
+Qf
+Qf
+NL
+mi
+LI
+uq
+cp
+Xr
+mi
+pD
+Ny
+"}
+(47,1,1) = {"
+Ny
+Bn
+qN
+fY
+cv
+cv
+cv
+cv
+cv
+sQ
+Mz
+Mz
+TH
+Cy
+Mz
+Mz
+Mz
+Mz
+Mz
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+cv
+cv
+cv
+us
+mi
+oT
+qe
+mi
+mi
+mi
+cv
+cv
+jg
+vJ
+nz
+Ew
+Vu
+xx
+hC
+mi
+yw
+cp
+jg
+cv
+cv
+cv
+Ny
+"}
+(48,1,1) = {"
+Ny
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+cv
+Mz
+Oy
+Mz
+Mz
+Mz
+Mz
+Oy
+Mz
+Mz
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+Cv
+cv
+cv
+cv
+cv
+mi
+mi
+mi
+mi
+cv
+cv
+cv
+cv
+mi
+mi
+mi
+mi
+mi
+mi
+mi
+SH
+mi
+cv
+cv
+cv
+cv
+cv
+Ny
+"}
+(49,1,1) = {"
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+"}

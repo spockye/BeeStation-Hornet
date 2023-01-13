@@ -1,0 +1,390 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/effect/turf_decal/stripes/closeup,
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"b" = (
+/obj/effect/turf_decal/tile/neutral/tile_full,
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"c" = (
+/obj/effect/turf_decal/stripes/openup{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"d" = (
+/turf/open/floor/wood,
+/area/centcom/evac)
+"e" = (
+/obj/structure/table/reinforced,
+/obj/item/paper_bin{
+	pixel_x = 5;
+	pixel_y = 4
+	},
+/obj/item/pen{
+	pixel_x = 5;
+	pixel_y = 6
+	},
+/obj/item/stamp{
+	pixel_x = -7;
+	pixel_y = 4
+	},
+/obj/item/stamp/denied{
+	pixel_x = -7;
+	pixel_y = -4
+	},
+/obj/effect/turf_decal/tile/neutral/tile_full,
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"f" = (
+/obj/machinery/computer/crew/syndie{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral/tile_full,
+/obj/effect/turf_decal/bot,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"g" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 5
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"h" = (
+/turf/open/floor/wax,
+/area/centcom/evac)
+"i" = (
+/obj/structure/chair/office{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral/tile_full,
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"j" = (
+/obj/item/soap/syndie,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/shower{
+	dir = 1;
+	pixel_y = -1
+	},
+/obj/structure/curtain/bounty,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/showroomfloor,
+/area/centcom/evac)
+"l" = (
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"n" = (
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/tile/neutral/tile_full,
+/obj/structure/chair/fancy/corp{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"o" = (
+/obj/structure/bed,
+/obj/item/bedsheet/black,
+/obj/item/toy/plush/crossed,
+/turf/open/floor/wood,
+/area/centcom/evac)
+"p" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/generic,
+/turf/open/floor/plasteel/showroomfloor,
+/area/centcom/evac)
+"q" = (
+/obj/effect/turf_decal/stripes/closeup,
+/obj/machinery/door/airlock/hatch,
+/turf/open/floor/mineral/plastitanium/red,
+/area/centcom/evac)
+"u" = (
+/obj/effect/turf_decal/stripes/closeup,
+/turf/open/floor/mineral/plastitanium/red,
+/area/centcom/evac)
+"v" = (
+/obj/structure/table/reinforced,
+/obj/machinery/computer/secure_data/laptop{
+	pixel_x = -14
+	},
+/obj/effect/turf_decal/tile/neutral/tile_full,
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"z" = (
+/obj/item/kirbyplants/random,
+/turf/open/floor/mineral/plastitanium/red,
+/area/centcom/evac)
+"A" = (
+/obj/effect/turf_decal/tile/neutral/tile_full,
+/obj/structure/chair/fancy/corp{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"C" = (
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/obj/machinery/door/airlock/hatch,
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"E" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/toilet{
+	dir = 8;
+	icon_state = "toilet00"
+	},
+/turf/open/floor/plasteel/showroomfloor,
+/area/centcom/evac)
+"F" = (
+/obj/effect/turf_decal/bot,
+/obj/machinery/vending/cigarette/syndicate,
+/obj/effect/turf_decal/tile/neutral/tile_full,
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"G" = (
+/obj/effect/turf_decal/tile/neutral/tile_full,
+/obj/machinery/jukebox,
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"I" = (
+/obj/machinery/light,
+/turf/open/floor/wood{
+	icon_state = "wood-broken4"
+	},
+/area/centcom/evac)
+"J" = (
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/centcom/evac)
+"L" = (
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/obj/machinery/door/airlock/hatch,
+/turf/open/floor/mineral/plastitanium/red,
+/area/centcom/evac)
+"M" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = 11;
+	pixel_y = -2
+	},
+/obj/structure/mirror{
+	pixel_x = 28
+	},
+/turf/open/floor/plasteel/showroomfloor,
+/area/centcom/evac)
+"N" = (
+/obj/effect/turf_decal/tile/neutral/tile_full,
+/obj/item/kirbyplants/random,
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"O" = (
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/centcom/evac)
+"P" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/food/drinks/coffee{
+	pixel_x = 8
+	},
+/obj/effect/turf_decal/tile/neutral/tile_full,
+/obj/item/gamer_pamphlet{
+	pixel_x = -5;
+	pixel_y = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"Q" = (
+/obj/structure/table/wood,
+/obj/item/flashlight/lamp/green{
+	pixel_x = -5;
+	pixel_y = 7
+	},
+/obj/item/newspaper{
+	pixel_x = 5;
+	pixel_y = 4
+	},
+/obj/item/folder/syndicate{
+	pixel_x = 4
+	},
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/turf/open/floor/wood,
+/area/centcom/evac)
+"R" = (
+/turf/open/floor/mineral/plastitanium/red,
+/area/centcom/evac)
+"T" = (
+/obj/effect/decal/cleanable/blood/old{
+	pixel_x = -1;
+	pixel_y = -13
+	},
+/obj/effect/turf_decal/tile/neutral/tile_full,
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/structure/chair/fancy/corp{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"U" = (
+/obj/structure/table/reinforced,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/machinery/computer/med_data/laptop,
+/obj/effect/turf_decal/tile/neutral/tile_full,
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"V" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/food/drinks/mug/tea{
+	pixel_x = -2;
+	pixel_y = 7
+	},
+/obj/effect/turf_decal/tile/neutral/tile_full,
+/obj/item/newspaper{
+	pixel_x = 5;
+	pixel_y = -3
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"W" = (
+/obj/structure/dresser,
+/obj/item/gun/ballistic/automatic/pistol{
+	pixel_y = 9
+	},
+/turf/open/floor/wood,
+/area/centcom/evac)
+"X" = (
+/obj/item/toy/plush/beeplushie{
+	pixel_x = -17;
+	pixel_y = 18
+	},
+/turf/open/floor/wax,
+/area/centcom/evac)
+"Y" = (
+/obj/structure/table/reinforced,
+/obj/item/folder/red{
+	pixel_x = 6;
+	pixel_y = 4
+	},
+/obj/item/radio/intercom{
+	freerange = 1;
+	name = "Syndicate Radio Intercom";
+	pixel_y = 13
+	},
+/obj/effect/turf_decal/tile/neutral/tile_full,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"Z" = (
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/centcom/evac)
+
+(1,1,1) = {"
+h
+h
+J
+O
+Z
+Z
+Z
+Z
+L
+d
+d
+"}
+(2,1,1) = {"
+h
+X
+J
+u
+J
+G
+b
+N
+J
+W
+I
+"}
+(3,1,1) = {"
+J
+J
+J
+q
+J
+U
+i
+f
+J
+Q
+o
+"}
+(4,1,1) = {"
+T
+P
+A
+u
+J
+v
+Y
+e
+J
+J
+J
+"}
+(5,1,1) = {"
+l
+l
+l
+c
+l
+g
+l
+l
+C
+p
+j
+"}
+(6,1,1) = {"
+F
+n
+V
+n
+J
+a
+R
+z
+J
+M
+E
+"}

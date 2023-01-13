@@ -1,0 +1,566 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/open/water/jungle,
+/area/centcom/evac)
+"b" = (
+/obj/structure/flora/rock{
+	pixel_x = 16
+	},
+/obj/structure/spacevine{
+	icon_state = "Light3"
+	},
+/turf/open/floor/plating/asteroid{
+	heat_capacity = 1e+006;
+	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
+	initial_temperature = 363.9;
+	name = "Cave Floor"
+	},
+/area/centcom/evac)
+"d" = (
+/obj/structure/flora/rock/pile/largejungle{
+	pixel_y = -4;
+	pixel_x = 7
+	},
+/turf/closed/mineral/random/labormineral,
+/area/centcom/evac)
+"e" = (
+/obj/structure/flora/junglebush/large{
+	pixel_x = -38;
+	pixel_y = -29
+	},
+/turf/open/floor/plating/asteroid{
+	heat_capacity = 1e+006;
+	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
+	initial_temperature = 363.9;
+	name = "Cave Floor"
+	},
+/area/centcom/evac)
+"f" = (
+/obj/structure/flora/rock/pile/largejungle{
+	pixel_x = 3;
+	pixel_y = -11
+	},
+/obj/structure/flora/rock/pile/largejungle,
+/obj/structure/healingfountain,
+/turf/open/water/jungle,
+/area/centcom/evac)
+"g" = (
+/obj/structure/flora/rock/pile,
+/turf/open/floor/plating/asteroid{
+	heat_capacity = 1e+006;
+	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
+	initial_temperature = 363.9;
+	name = "Cave Floor"
+	},
+/area/centcom/evac)
+"h" = (
+/obj/structure/glowshroom/single,
+/turf/open/floor/plating/asteroid{
+	heat_capacity = 1e+006;
+	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
+	initial_temperature = 363.9;
+	name = "Cave Floor"
+	},
+/area/centcom/evac)
+"i" = (
+/obj/structure/flora/rock/pile/largejungle,
+/obj/item/flashlight/flare/culttorch{
+	pixel_y = 9;
+	pixel_x = -12
+	},
+/turf/open/water/jungle,
+/area/centcom/evac)
+"m" = (
+/obj/structure/flora/ausbushes/sparsegrass,
+/turf/open/floor/plating/asteroid{
+	heat_capacity = 1e+006;
+	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
+	initial_temperature = 363.9;
+	name = "Cave Floor"
+	},
+/area/centcom/evac)
+"o" = (
+/obj/structure/stone_tile/surrounding_tile/cracked{
+	pixel_x = -2
+	},
+/turf/open/floor/plating/asteroid{
+	heat_capacity = 1e+006;
+	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
+	initial_temperature = 363.9;
+	name = "Cave Floor"
+	},
+/area/centcom/evac)
+"p" = (
+/obj/structure/flora/rock/pile,
+/obj/structure/flora/ausbushes{
+	pixel_x = 3;
+	pixel_y = 5
+	},
+/turf/open/floor/plating/asteroid{
+	heat_capacity = 1e+006;
+	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
+	initial_temperature = 363.9;
+	name = "Cave Floor"
+	},
+/area/centcom/evac)
+"q" = (
+/obj/structure/flora/junglebush/large{
+	pixel_x = -32;
+	pixel_y = -7
+	},
+/obj/structure/spacevine{
+	icon_state = "Light3"
+	},
+/turf/open/floor/plating/asteroid{
+	heat_capacity = 1e+006;
+	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
+	initial_temperature = 363.9;
+	name = "Cave Floor"
+	},
+/area/centcom/evac)
+"r" = (
+/obj/structure/flora/rock/pile/largejungle{
+	pixel_x = -55;
+	pixel_y = -11
+	},
+/obj/structure/flora/rock/pile/largejungle,
+/turf/open/water/jungle,
+/area/centcom/evac)
+"s" = (
+/obj/structure/flora/rock/pile/largejungle{
+	pixel_y = -4;
+	pixel_x = -22
+	},
+/turf/open/floor/plating/dirt/jungle/dark,
+/area/centcom/evac)
+"t" = (
+/obj/structure/stone_tile/block/cracked{
+	dir = 6;
+	pixel_y = 2;
+	pixel_x = -4
+	},
+/turf/open/floor/plating/asteroid{
+	heat_capacity = 1e+006;
+	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
+	initial_temperature = 363.9;
+	name = "Cave Floor"
+	},
+/area/centcom/evac)
+"v" = (
+/obj/structure/glowshroom/single,
+/obj/structure/spacevine{
+	icon_state = "Hvy3"
+	},
+/turf/open/floor/plating/asteroid{
+	heat_capacity = 1e+006;
+	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
+	initial_temperature = 363.9;
+	name = "Cave Floor"
+	},
+/area/centcom/evac)
+"y" = (
+/obj/structure/flora/junglebush/c,
+/obj/structure/flora/tree/jungle/small{
+	pixel_x = -41;
+	pixel_y = -3
+	},
+/turf/open/floor/plating/dirt/jungle/dark,
+/area/centcom/evac)
+"z" = (
+/obj/structure/flora/rock/pile/largejungle,
+/turf/closed/mineral/random/labormineral,
+/area/centcom/evac)
+"A" = (
+/obj/structure/flora/junglebush/large{
+	pixel_x = -22;
+	pixel_y = -8
+	},
+/turf/open/floor/plating/asteroid{
+	heat_capacity = 1e+006;
+	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
+	initial_temperature = 363.9;
+	name = "Cave Floor"
+	},
+/area/centcom/evac)
+"B" = (
+/obj/structure/spacevine{
+	icon_state = "Light3"
+	},
+/turf/open/floor/plating/asteroid{
+	heat_capacity = 1e+006;
+	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
+	initial_temperature = 363.9;
+	name = "Cave Floor"
+	},
+/area/centcom/evac)
+"D" = (
+/obj/structure/flora/rock/jungle{
+	pixel_x = -18;
+	pixel_y = 5
+	},
+/turf/open/floor/plating/dirt/jungle/dark,
+/area/centcom/evac)
+"E" = (
+/turf/closed/mineral/random/labormineral,
+/area/centcom/evac)
+"H" = (
+/obj/structure/stone_tile/block{
+	pixel_x = -1;
+	pixel_y = 2
+	},
+/obj/item/flashlight/flare/culttorch{
+	pixel_y = 9;
+	pixel_x = -12
+	},
+/turf/open/floor/plating/asteroid{
+	heat_capacity = 1e+006;
+	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
+	initial_temperature = 363.9;
+	name = "Cave Floor"
+	},
+/area/centcom/evac)
+"I" = (
+/obj/structure/flora/rock/pile/largejungle{
+	pixel_y = -4;
+	pixel_x = 7
+	},
+/turf/open/water/jungle,
+/area/centcom/evac)
+"J" = (
+/obj/structure/geyser,
+/turf/open/floor/plating/asteroid{
+	heat_capacity = 1e+006;
+	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
+	initial_temperature = 363.9;
+	name = "Cave Floor"
+	},
+/area/centcom/evac)
+"N" = (
+/obj/structure/flora/ash/cacti,
+/turf/open/floor/plating/asteroid{
+	heat_capacity = 1e+006;
+	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
+	initial_temperature = 363.9;
+	name = "Cave Floor"
+	},
+/area/centcom/evac)
+"P" = (
+/turf/open/floor/plating/asteroid{
+	heat_capacity = 1e+006;
+	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
+	initial_temperature = 363.9;
+	name = "Cave Floor"
+	},
+/area/centcom/evac)
+"Q" = (
+/obj/structure/glowshroom/single,
+/obj/structure/spacevine{
+	icon_state = "Hvy2"
+	},
+/turf/open/floor/plating/asteroid{
+	heat_capacity = 1e+006;
+	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
+	initial_temperature = 363.9;
+	name = "Cave Floor"
+	},
+/area/centcom/evac)
+"R" = (
+/obj/structure/flora/rock/jungle{
+	pixel_x = -11;
+	pixel_y = -6
+	},
+/obj/structure/flora/rock/jungle{
+	pixel_y = 15;
+	pixel_x = 4
+	},
+/turf/open/floor/plating/dirt/jungle/dark,
+/area/centcom/evac)
+"S" = (
+/obj/structure/stone_tile/block/cracked{
+	pixel_x = -3;
+	pixel_y = 2
+	},
+/turf/open/floor/plating/asteroid{
+	heat_capacity = 1e+006;
+	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
+	initial_temperature = 363.9;
+	name = "Cave Floor"
+	},
+/area/centcom/evac)
+"U" = (
+/obj/structure/spacevine{
+	icon_state = "Hvy2"
+	},
+/turf/open/floor/plating/asteroid{
+	heat_capacity = 1e+006;
+	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
+	initial_temperature = 363.9;
+	name = "Cave Floor"
+	},
+/area/centcom/evac)
+"V" = (
+/obj/structure/flora/rock/jungle,
+/obj/structure/flora/junglebush,
+/turf/open/floor/plating/dirt/jungle/dark,
+/area/centcom/evac)
+"W" = (
+/obj/structure/flora/rock/pile/largejungle{
+	pixel_x = -31;
+	pixel_y = 2
+	},
+/obj/structure/stone_tile/slab,
+/turf/open/floor/plating/asteroid{
+	heat_capacity = 1e+006;
+	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
+	initial_temperature = 363.9;
+	name = "Cave Floor"
+	},
+/area/centcom/evac)
+"Z" = (
+/obj/structure/flora/rock/pile/largejungle{
+	pixel_y = 4;
+	pixel_x = -22
+	},
+/turf/closed/mineral/random/labormineral,
+/area/centcom/evac)
+
+(1,1,1) = {"
+E
+E
+d
+E
+E
+E
+E
+E
+P
+P
+P
+P
+P
+"}
+(2,1,1) = {"
+E
+I
+i
+E
+E
+E
+E
+E
+P
+P
+P
+P
+P
+"}
+(3,1,1) = {"
+E
+r
+a
+a
+Z
+E
+E
+Q
+P
+p
+P
+P
+P
+"}
+(4,1,1) = {"
+E
+f
+a
+a
+V
+H
+P
+U
+P
+P
+P
+P
+h
+"}
+(5,1,1) = {"
+E
+E
+a
+R
+D
+S
+q
+U
+B
+P
+P
+P
+E
+"}
+(6,1,1) = {"
+E
+z
+s
+y
+W
+t
+b
+E
+B
+P
+P
+E
+E
+"}
+(7,1,1) = {"
+E
+E
+E
+E
+o
+P
+E
+E
+E
+P
+P
+E
+E
+"}
+(8,1,1) = {"
+E
+E
+E
+E
+e
+P
+E
+E
+P
+P
+P
+E
+E
+"}
+(9,1,1) = {"
+E
+E
+E
+E
+A
+B
+E
+E
+P
+P
+E
+E
+E
+"}
+(10,1,1) = {"
+E
+E
+E
+E
+v
+U
+E
+E
+P
+m
+E
+E
+E
+"}
+(11,1,1) = {"
+E
+E
+E
+E
+U
+B
+E
+N
+P
+E
+E
+E
+E
+"}
+(12,1,1) = {"
+E
+E
+E
+E
+B
+P
+P
+P
+P
+E
+E
+E
+E
+"}
+(13,1,1) = {"
+E
+E
+E
+P
+P
+J
+P
+P
+P
+E
+E
+E
+E
+"}
+(14,1,1) = {"
+E
+E
+E
+P
+P
+P
+P
+g
+P
+E
+E
+E
+E
+"}
+(15,1,1) = {"
+E
+E
+P
+P
+g
+P
+P
+P
+P
+P
+E
+E
+E
+"}
+(16,1,1) = {"
+E
+E
+h
+P
+P
+P
+P
+P
+P
+P
+P
+P
+E
+"}

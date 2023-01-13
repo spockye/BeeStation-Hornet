@@ -1,0 +1,8505 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ak" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 5
+	},
+/obj/structure/sign/warning/securearea{
+	pixel_y = 30
+	},
+/turf/open/floor/grass/snow/safe{
+	icon_state = "snow_dug"
+	},
+/area/centcom/evac)
+"ao" = (
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 4
+	},
+/obj/machinery/door/airlock/highsecurity,
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/centcom/evac)
+"ap" = (
+/obj/machinery/door/airlock/maintenance_hatch,
+/turf/open/floor/plating,
+/area/centcom/evac)
+"av" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"aw" = (
+/obj/structure/closet/secure_closet/security/sec{
+	req_access = null
+	},
+/obj/effect/turf_decal/bot,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/bot/left,
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"ax" = (
+/obj/effect/turf_decal/bot_white,
+/obj/structure/closet/syndicate/nuclear,
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"aC" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/structure/flora/grass/both,
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"aE" = (
+/obj/structure/closet/syndicate,
+/obj/item/ammo_box/magazine/m10mm,
+/obj/item/ammo_box/magazine/m10mm,
+/obj/item/ammo_box/magazine/m10mm,
+/obj/item/ammo_box/magazine/m10mm/ap{
+	pixel_x = 5
+	},
+/obj/item/ammo_box/magazine/m10mm,
+/obj/effect/turf_decal/stripes/red/full,
+/turf/open/floor/plasteel/rockvault,
+/area/centcom/evac)
+"aJ" = (
+/obj/effect/turf_decal/trimline/brown/filled/warning{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/brown/filled/warning{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/brown/filled/warning{
+	dir = 4
+	},
+/obj/effect/turf_decal/loading_area{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/tile/neutral/half/contrasted{
+	dir = 1
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"aL" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 5
+	},
+/obj/structure/table/wood,
+/obj/item/trash/candy{
+	pixel_x = 3;
+	pixel_y = -7
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/item/storage/wallet/random{
+	pixel_y = 5;
+	pixel_x = -2
+	},
+/turf/open/floor/wood,
+/area/centcom/evac)
+"aP" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/closed/wall/r_wall,
+/area/centcom/evac)
+"aS" = (
+/obj/structure/bed/pod,
+/obj/item/bedsheet/black,
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/structure/sign/poster/contraband/random{
+	pixel_y = 32
+	},
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/dark,
+/area/centcom/evac)
+"aZ" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 5
+	},
+/turf/open/floor/grass/snow/safe{
+	icon_state = "snow_dug"
+	},
+/area/centcom/evac)
+"bf" = (
+/obj/structure/railing{
+	dir = 1;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 9
+	},
+/turf/open/floor/plasteel/stairs{
+	icon = 'icons/obj/stairs.dmi';
+	dir = 4
+	},
+/area/centcom/evac)
+"bi" = (
+/obj/machinery/jukebox,
+/turf/open/floor/carpet/grimy,
+/area/centcom/evac)
+"bp" = (
+/obj/structure/rack,
+/obj/item/storage/toolbox/electrical{
+	pixel_x = -1;
+	pixel_y = 4
+	},
+/obj/item/storage/toolbox/mechanical{
+	pixel_x = 2;
+	pixel_y = -1
+	},
+/obj/item/clothing/head/welding{
+	pixel_x = -3;
+	pixel_y = 5
+	},
+/obj/item/clothing/glasses/welding,
+/obj/item/multitool{
+	pixel_x = 3
+	},
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 5
+	},
+/obj/item/wallframe/button{
+	pixel_x = -10;
+	pixel_y = 2
+	},
+/turf/open/floor/plating/snowed,
+/area/centcom/evac)
+"bz" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/blood/old,
+/obj/effect/decal/cleanable/blood/old{
+	pixel_x = -3;
+	pixel_y = -6;
+	icon_state = "gib1-old"
+	},
+/turf/open/floor/plating/rust,
+/area/centcom/evac)
+"bC" = (
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"bF" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 6
+	},
+/turf/open/floor/grass/snow/safe{
+	icon_state = "snow_dug"
+	},
+/area/centcom/evac)
+"bK" = (
+/obj/machinery/advanced_airlock_controller{
+	pixel_x = -25
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/bot,
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/machinery/suit_storage_unit/standard_unit{
+	desc = "An industrial suit storage device carrying retro space suits. Neat!";
+	helmet_type = /obj/item/clothing/head/helmet/space;
+	suit_type = /obj/item/clothing/suit/space
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/centcom/evac)
+"bN" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/sign/poster/contraband/random{
+	pixel_x = 32;
+	pixel_y = -32
+	},
+/turf/open/floor/wood{
+	icon_state = "wood-broken4"
+	},
+/area/centcom/evac)
+"bO" = (
+/obj/structure/bookcase/random,
+/turf/open/floor/plasteel/dark,
+/area/centcom/evac)
+"bQ" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 6
+	},
+/turf/open/floor/plating/snowed,
+/area/centcom/evac)
+"bX" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/oil/streak,
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+"bZ" = (
+/obj/structure/chair/fancy/comfy{
+	color = "#596479";
+	dir = 8
+	},
+/obj/item/instrument/guitar,
+/turf/open/floor/carpet/red,
+/area/centcom/evac)
+"ca" = (
+/obj/effect/turf_decal/box,
+/obj/effect/turf_decal/arrows{
+	dir = 4;
+	icon_state = "arrows"
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/closet/crate,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"cf" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light/small/broken{
+	dir = 1
+	},
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+/area/centcom/evac)
+"cg" = (
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"co" = (
+/obj/effect/turf_decal/trimline/brown/filled/warning{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/brown/filled/warning{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/brown/filled/warning{
+	dir = 8
+	},
+/obj/effect/turf_decal/loading_area{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/tile/neutral/half/contrasted,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"cp" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/structure/railing{
+	dir = 8;
+	layer = 4.1
+	},
+/obj/structure/sign/warning/securearea{
+	pixel_y = 32
+	},
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"cx" = (
+/obj/structure/railing{
+	dir = 2;
+	layer = 3.1
+	},
+/turf/open/floor/plasteel/stairs{
+	icon = 'icons/obj/stairs.dmi';
+	dir = 4
+	},
+/area/centcom/evac)
+"cI" = (
+/obj/structure/railing{
+	dir = 4;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/light/floor,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"cN" = (
+/obj/machinery/porta_turret/syndicate/pod{
+	dir = 6
+	},
+/turf/closed/wall/r_wall/syndicate,
+/area/centcom/evac)
+"cT" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 10
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/centcom/evac)
+"di" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/structure/table/reinforced,
+/obj/item/stack/sheet/mineral/plastitanium{
+	amount = 30
+	},
+/obj/item/stack/cable_coil/red,
+/obj/item/assembly/prox_sensor{
+	desc = "Used for scanning and alerting when someone enters a certain proximity. This one is slightly shifted to the left.";
+	pixel_x = -6;
+	pixel_y = 6
+	},
+/obj/item/assembly/flash/handheld,
+/obj/item/storage/belt/utility{
+	pixel_y = -3
+	},
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"do" = (
+/obj/structure/fireplace,
+/turf/open/floor/stone,
+/area/centcom/evac)
+"dv" = (
+/obj/structure/filingcabinet,
+/obj/structure/filingcabinet{
+	pixel_x = 11
+	},
+/obj/structure/filingcabinet{
+	pixel_x = -11
+	},
+/obj/structure/noticeboard{
+	pixel_y = 31
+	},
+/obj/effect/turf_decal/siding/wood/end{
+	dir = 1
+	},
+/turf/open/floor/carpet/red,
+/area/centcom/evac)
+"dx" = (
+/obj/structure/bed/double,
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/sign/poster/official/random{
+	pixel_x = 32
+	},
+/obj/item/bedsheet/double/syndie,
+/turf/open/floor/wood,
+/area/centcom/evac)
+"dy" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/trimline/brown/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+"dJ" = (
+/obj/effect/turf_decal/box,
+/obj/effect/turf_decal/arrows{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/closet/crate,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"dK" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/plating/ice/smooth,
+/area/centcom/evac)
+"dO" = (
+/obj/machinery/atmospherics/components/unary/thermomachine/heater,
+/obj/structure/railing{
+	dir = 4;
+	layer = 3.1
+	},
+/turf/open/floor/plasteel/dark,
+/area/centcom/evac)
+"dS" = (
+/obj/machinery/light,
+/obj/effect/turf_decal/weather/snow/corner,
+/turf/open/floor/grass/snow/safe{
+	icon_state = "snow_dug"
+	},
+/area/centcom/evac)
+"dU" = (
+/obj/structure/railing{
+	dir = 8;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/light/floor,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"ec" = (
+/obj/machinery/door/airlock/hatch,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/dark,
+/area/centcom/evac)
+"ed" = (
+/obj/structure/reagent_dispensers/watertank,
+/obj/item/reagent_containers/glass/bucket,
+/obj/structure/railing{
+	dir = 4;
+	layer = 4.1
+	},
+/turf/open/floor/plating,
+/area/centcom/evac)
+"ee" = (
+/obj/structure/flora/tree/pine,
+/obj/structure/flora/rock/pile/icy,
+/obj/machinery/light/floor,
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"em" = (
+/obj/effect/turf_decal/box,
+/obj/effect/turf_decal/arrows{
+	dir = 4;
+	icon_state = "arrows"
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/closet/crate,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"eo" = (
+/obj/machinery/power/solar_control,
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"eC" = (
+/obj/machinery/door/airlock/maintenance_hatch,
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+/area/centcom/evac)
+"eE" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/bot,
+/obj/structure/sign/warning/vacuum/external{
+	pixel_x = 30
+	},
+/obj/structure/tank_dispenser,
+/obj/structure/sign/warning/docking{
+	desc = "A warning sign which reads 'MONKEY AREA '.";
+	name = "\improper KEEP CLEAR:  MONKEY AREA";
+	pixel_y = 29
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/centcom/evac)
+"eF" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/closet/crate/trashcart,
+/obj/item/trash/syndi_cakes{
+	pixel_x = -4;
+	pixel_y = 3
+	},
+/obj/item/trash/energybar,
+/obj/item/trash/candy,
+/obj/item/trash/sosjerky,
+/turf/open/floor/plating,
+/area/centcom/evac)
+"eG" = (
+/obj/structure/table/wood,
+/obj/item/phone{
+	pixel_x = 8;
+	pixel_y = 7
+	},
+/obj/item/flashlight/lamp/green{
+	pixel_y = 8;
+	pixel_x = -5
+	},
+/obj/item/reagent_containers/food/drinks/mug{
+	pixel_x = 7;
+	pixel_y = -3
+	},
+/obj/item/toy/figure/syndie{
+	pixel_x = -8;
+	pixel_y = -7
+	},
+/turf/open/floor/carpet/grimy,
+/area/centcom/evac)
+"eH" = (
+/obj/machinery/door/airlock/maintenance_hatch,
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 4
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"eR" = (
+/obj/machinery/shower{
+	pixel_y = 15
+	},
+/obj/structure/curtain,
+/turf/open/floor/plasteel/showroomfloor,
+/area/centcom/evac)
+"eX" = (
+/obj/structure/shuttle/engine/propulsion,
+/turf/open/floor/plating,
+/area/centcom/evac)
+"fc" = (
+/obj/machinery/porta_turret/syndicate/pod{
+	dir = 9
+	},
+/turf/closed/wall/r_wall/syndicate,
+/area/centcom/evac)
+"ff" = (
+/obj/machinery/door/airlock/hatch,
+/turf/open/floor/plasteel/showroomfloor,
+/area/centcom/evac)
+"fj" = (
+/obj/machinery/chem_master,
+/turf/open/floor/plating/foam,
+/area/centcom/evac)
+"fk" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/cafeteria_red,
+/area/centcom/evac)
+"ft" = (
+/obj/effect/turf_decal/trimline/neutral/filled/warning{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark,
+/area/centcom/evac)
+"fz" = (
+/obj/effect/turf_decal/weather/snow/corner,
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 9
+	},
+/turf/open/floor/grass/snow/safe{
+	icon_state = "snow_dug"
+	},
+/area/centcom/evac)
+"fA" = (
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/obj/item/wrench{
+	pixel_x = 2;
+	pixel_y = -6
+	},
+/obj/effect/turf_decal/tile/yellow/fourcorners/contrasted,
+/turf/open/floor/plasteel/dark,
+/area/centcom/evac)
+"fN" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 4
+	},
+/turf/open/floor/grass/snow/safe{
+	icon_state = "snow_dug"
+	},
+/area/centcom/evac)
+"fS" = (
+/obj/structure/table/wood,
+/obj/item/storage/fancy/cigarettes/cigpack_uplift{
+	pixel_x = 6;
+	pixel_y = 7
+	},
+/obj/item/lighter/greyscale{
+	pixel_x = 8;
+	pixel_y = 1
+	},
+/obj/item/toy/figure/roboticist{
+	pixel_x = -8;
+	pixel_y = 5
+	},
+/obj/item/trash/syndi_cakes,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/cobweb,
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+/area/centcom/evac)
+"fY" = (
+/obj/structure/flora/grass/both,
+/obj/structure/railing{
+	dir = 2;
+	layer = 3.1
+	},
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"fZ" = (
+/obj/structure/grille,
+/obj/structure/window/plastitanium,
+/turf/open/floor/plating,
+/area/centcom/evac)
+"ge" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/obj/structure/frame/machine,
+/obj/item/circuitboard/machine/chem_dispenser,
+/obj/machinery/light/small,
+/turf/open/floor/plating/foam,
+/area/centcom/evac)
+"gh" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/structure/sign/poster/contraband/random{
+	pixel_x = -32
+	},
+/turf/open/floor/wood,
+/area/centcom/evac)
+"gn" = (
+/obj/structure/flora/tree/pine,
+/obj/machinery/light/floor,
+/obj/structure/flora/grass/both,
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"go" = (
+/obj/structure/table/wood,
+/obj/item/phone{
+	desc = "Supposedly a direct line to Nanotrasen Central Command. It's not even plugged in.";
+	pixel_x = -4;
+	pixel_y = 7
+	},
+/obj/item/cigbutt/cigarbutt{
+	pixel_x = -4;
+	pixel_y = -1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/newscaster{
+	dir = 4;
+	pixel_x = -31
+	},
+/turf/open/floor/carpet/red,
+/area/centcom/evac)
+"gp" = (
+/obj/effect/turf_decal/trimline/brown/filled/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/brown/filled/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/brown/filled/corner{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/generic,
+/obj/effect/turf_decal/tile/neutral/half/contrasted{
+	dir = 8
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"gr" = (
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/centcom/evac)
+"gt" = (
+/obj/effect/turf_decal/box,
+/obj/effect/turf_decal/arrows{
+	dir = 8
+	},
+/obj/structure/closet/crate/large,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"gu" = (
+/obj/structure/flora/stump,
+/obj/machinery/light/floor{
+	pixel_y = -5
+	},
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"gv" = (
+/obj/effect/turf_decal/box,
+/obj/effect/turf_decal/arrows,
+/obj/structure/closet/crate/medical,
+/obj/item/autosurgeon/syndicate/esaw_arm,
+/obj/item/autosurgeon/syndicate/reviver,
+/obj/effect/turf_decal/tile/yellow/fourcorners/contrasted,
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+"gE" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/power/port_gen/pacman{
+	anchored = 1
+	},
+/obj/effect/turf_decal/bot,
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"gQ" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/showroomfloor,
+/area/centcom/evac)
+"gZ" = (
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"he" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 8
+	},
+/obj/machinery/power/solar,
+/obj/structure/cable{
+	icon_state = "0-6"
+	},
+/turf/open/floor/plasteel/solarpanel,
+/area/centcom/evac)
+"hj" = (
+/obj/machinery/door/airlock/maintenance_hatch,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating{
+	icon_state = "platingdmg1"
+	},
+/area/centcom/evac)
+"hk" = (
+/obj/structure/cable{
+	icon_state = "2-5"
+	},
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"hu" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/oil,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"hy" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/centcom/evac)
+"hF" = (
+/obj/effect/decal/cleanable/molten_object{
+	pixel_x = 20;
+	pixel_y = -11
+	},
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+/area/centcom/evac)
+"hG" = (
+/obj/structure/flora/tree/pine/xmas,
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"hI" = (
+/obj/structure/railing{
+	dir = 2;
+	layer = 3.1
+	},
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"hO" = (
+/obj/structure/rack,
+/obj/item/storage/toolbox/electrical{
+	pixel_y = 5;
+	pixel_x = -4
+	},
+/obj/item/storage/toolbox/mechanical{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/storage/belt/utility/full/engi,
+/obj/item/clothing/glasses/welding{
+	pixel_y = 5
+	},
+/obj/item/multitool{
+	pixel_x = 9
+	},
+/obj/effect/turf_decal/delivery,
+/obj/machinery/light/small/broken{
+	dir = 8
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"hS" = (
+/obj/effect/turf_decal/trimline/brown/filled/warning{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/brown/filled/warning{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/brown/filled/warning{
+	dir = 8
+	},
+/obj/effect/turf_decal/loading_area{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral/half/contrasted,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"hW" = (
+/obj/item/flashlight/lantern{
+	pixel_x = -8;
+	pixel_y = 8
+	},
+/obj/structure/railing{
+	dir = 8;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating{
+	icon_state = "platingdmg1"
+	},
+/area/centcom/evac)
+"ib" = (
+/obj/item/stack/package_wrap{
+	pixel_x = -3;
+	pixel_y = 6
+	},
+/obj/structure/railing{
+	dir = 8;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/rust,
+/area/centcom/evac)
+"iq" = (
+/turf/open/floor/plating/snowed,
+/area/centcom/evac)
+"is" = (
+/obj/structure/flora/tree/pine,
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"iE" = (
+/obj/item/solar_assembly,
+/turf/open/floor/plasteel/solarpanel,
+/area/centcom/evac)
+"iH" = (
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/centcom/evac)
+"iI" = (
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/corner,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"iL" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/tank_dispenser/oxygen,
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"iT" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 6
+	},
+/obj/structure/fluff/bus/dense,
+/turf/open/floor/grass/snow/safe{
+	icon_state = "snow_dug"
+	},
+/area/centcom/evac)
+"iU" = (
+/turf/closed/mineral/snowmountain/cavern,
+/area/centcom/evac)
+"iX" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"jf" = (
+/obj/structure/table/reinforced{
+	color = "#c1b6a5"
+	},
+/obj/item/clothing/gloves/color/yellow{
+	pixel_y = -15
+	},
+/obj/item/modular_computer/laptop/preset/civillian{
+	pixel_y = 3
+	},
+/obj/item/storage/box/lights/bulbs{
+	pixel_x = 5
+	},
+/obj/item/radio{
+	desc = "An old handheld radio. You could use it, if you really wanted to.";
+	icon_state = "radio";
+	name = "old radio";
+	pixel_x = -5;
+	pixel_y = 8
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"jp" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"jt" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/structure/sign/poster/official/random{
+	pixel_x = -32
+	},
+/turf/open/floor/wood,
+/area/centcom/evac)
+"jv" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"jB" = (
+/obj/structure/flora/rock/pile/icy,
+/obj/structure/railing{
+	dir = 1;
+	layer = 4.1
+	},
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"jG" = (
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"jI" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 4
+	},
+/obj/structure/barricade/wooden/crude/snow,
+/turf/open/floor/plating/snowed,
+/area/centcom/evac)
+"jP" = (
+/obj/machinery/door/window/brigdoor,
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 4
+	},
+/turf/open/floor/engine,
+/area/centcom/evac)
+"kb" = (
+/obj/effect/turf_decal/trimline/neutral/filled/line{
+	dir = 1
+	},
+/obj/machinery/shower{
+	desc = "The HS-452. Installed recently by the DonkCo Hygiene Division.";
+	dir = 4;
+	name = "emergency shower"
+	},
+/turf/open/floor/pod/light,
+/area/centcom/evac)
+"kc" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/item/chair/wood,
+/turf/open/floor/wood{
+	icon_state = "wood-broken7"
+	},
+/area/centcom/evac)
+"kd" = (
+/obj/machinery/vending/tool,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"ki" = (
+/obj/structure/mirror{
+	pixel_y = 28
+	},
+/turf/open/floor/plasteel/showroomfloor,
+/area/centcom/evac)
+"kk" = (
+/obj/structure/railing{
+	dir = 5
+	},
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"kq" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"ky" = (
+/obj/machinery/suit_storage_unit/mining/eva,
+/obj/effect/turf_decal/delivery/white,
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 6
+	},
+/turf/open/floor/plating/snowed,
+/area/centcom/evac)
+"kE" = (
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/centcom/evac)
+"kK" = (
+/obj/item/gps/computer,
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 8
+	},
+/turf/open/floor/engine,
+/area/centcom/evac)
+"kL" = (
+/obj/machinery/door/airlock/maintenance_hatch,
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"kQ" = (
+/obj/structure/toilet{
+	dir = 8;
+	icon_state = "toilet00"
+	},
+/obj/structure/sink{
+	pixel_y = 24
+	},
+/obj/machinery/light/small,
+/turf/open/floor/plasteel/showroomfloor,
+/area/centcom/evac)
+"la" = (
+/obj/structure/table_frame/wood,
+/obj/effect/decal/cleanable/crayon,
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+/area/centcom/evac)
+"lf" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 9
+	},
+/turf/open/floor/plasteel/solarpanel,
+/area/centcom/evac)
+"lm" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/structure/fluff/fokoff_sign,
+/obj/structure/railing/corner{
+	dir = 4
+	},
+/obj/structure/sign/warning/securearea{
+	pixel_y = 32
+	},
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"lo" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
+/turf/open/floor/wood,
+/area/centcom/evac)
+"lp" = (
+/obj/effect/turf_decal/tile/neutral/half/contrasted{
+	dir = 8
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"lu" = (
+/turf/open/floor/plasteel/solarpanel,
+/area/centcom/evac)
+"lE" = (
+/obj/structure/flora/grass/both,
+/obj/machinery/light/floor,
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"lG" = (
+/obj/structure/railing{
+	dir = 2;
+	layer = 3.1
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"lM" = (
+/obj/structure/table/wood,
+/obj/item/trash/tray,
+/obj/item/trash/waffles,
+/obj/item/trash/energybar,
+/turf/open/floor/plating,
+/area/centcom/evac)
+"lP" = (
+/obj/machinery/door/poddoor{
+	id = "syndiecargo_entranceshutters";
+	name = "Cargo hold"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/plasteel/tech/grid,
+/area/centcom/evac)
+"lQ" = (
+/obj/structure/cable{
+	icon_state = "5-9"
+	},
+/obj/structure/cable{
+	icon_state = "1-9"
+	},
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"lR" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating{
+	icon_state = "platingdmg1"
+	},
+/area/centcom/evac)
+"lV" = (
+/obj/machinery/computer/mech_bay_power_console{
+	dir = 4
+	},
+/obj/structure/railing{
+	dir = 8;
+	layer = 4.1
+	},
+/turf/open/floor/plating/snowed,
+/area/centcom/evac)
+"lW" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/structure/table/reinforced,
+/obj/item/stock_parts/cell/high/plus,
+/obj/machinery/cell_charger,
+/obj/item/stock_parts/cell/high/plus{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/item/multitool,
+/obj/machinery/light,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"lX" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood,
+/area/centcom/evac)
+"lY" = (
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"ma" = (
+/obj/machinery/door/airlock/maintenance_hatch,
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+/area/centcom/evac)
+"mk" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/blood/tracks,
+/turf/open/floor/plating,
+/area/centcom/evac)
+"mn" = (
+/obj/machinery/door/airlock/maintenance_hatch,
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/centcom/evac)
+"mo" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/item/kirbyplants{
+	icon_state = "plant-02";
+	pixel_y = 3
+	},
+/turf/open/floor/wood,
+/area/centcom/evac)
+"mp" = (
+/obj/effect/turf_decal/siding/wood/end{
+	dir = 4
+	},
+/obj/machinery/airalarm/directional/south,
+/obj/structure/bed/pod,
+/obj/item/bedsheet/syndie,
+/turf/open/floor/wood,
+/area/centcom/evac)
+"mq" = (
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/machinery/button/door{
+	id = "syndiecargo_entranceshutters";
+	name = "cargohold shutters";
+	pixel_x = 28
+	},
+/obj/effect/turf_decal/tile/neutral/half/contrasted{
+	dir = 1
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"mF" = (
+/obj/machinery/porta_turret/syndicate/pod{
+	dir = 10
+	},
+/turf/closed/wall/r_wall/syndicate,
+/area/centcom/evac)
+"mK" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/centcom/evac)
+"mM" = (
+/obj/structure/railing{
+	dir = 8;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/centcom/evac)
+"mR" = (
+/obj/effect/turf_decal/box,
+/obj/effect/turf_decal/arrows,
+/obj/structure/closet/crate/secure/weapon,
+/obj/item/documents/nanotrasen,
+/obj/effect/turf_decal/tile/yellow/fourcorners/contrasted,
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+"nb" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 9
+	},
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 5
+	},
+/turf/open/floor/grass/snow/safe{
+	icon_state = "snow_dug"
+	},
+/area/centcom/evac)
+"nh" = (
+/obj/structure/grille,
+/obj/structure/window/plastitanium,
+/obj/machinery/door/poddoor/shutters,
+/turf/open/floor/plating,
+/area/centcom/evac)
+"nm" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"nx" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"nI" = (
+/obj/effect/turf_decal/bot,
+/obj/structure/closet/secure_closet/security/sec{
+	req_access = null
+	},
+/obj/machinery/light,
+/obj/effect/turf_decal/bot/left,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"nM" = (
+/obj/structure/shuttle/engine/large,
+/turf/open/floor/plating,
+/area/centcom/evac)
+"nN" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 5
+	},
+/turf/open/floor/plating/snowed,
+/area/centcom/evac)
+"nP" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/kirbyplants{
+	icon_state = "plant-17";
+	pixel_x = 8;
+	pixel_y = 3
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
+	},
+/turf/open/floor/wood,
+/area/centcom/evac)
+"nT" = (
+/obj/structure/closet/crate/freezer/blood,
+/obj/effect/decal/cleanable/greenglow,
+/obj/effect/turf_decal/bot/right,
+/turf/open/floor/plasteel/white,
+/area/centcom/evac)
+"nW" = (
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+"nX" = (
+/obj/structure/flora/grass/both,
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"op" = (
+/obj/effect/turf_decal/box,
+/obj/effect/turf_decal/arrows,
+/obj/effect/turf_decal/tile/yellow/fourcorners/contrasted,
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+"os" = (
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/banner/cargo,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"ou" = (
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/oil,
+/turf/open/floor/plating/rust,
+/area/centcom/evac)
+"ox" = (
+/obj/structure/railing{
+	dir = 4;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"oE" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/closed/wall/r_wall,
+/area/centcom/evac)
+"oG" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 8
+	},
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/turf/open/floor/grass/snow/safe{
+	icon_state = "snow_dug"
+	},
+/area/centcom/evac)
+"oR" = (
+/obj/machinery/power/smes/engineering,
+/obj/effect/turf_decal/bot_white,
+/turf/open/floor/plasteel/tech/grid,
+/area/centcom/evac)
+"pe" = (
+/obj/structure/table/wood,
+/obj/item/modular_computer/laptop/preset/civillian{
+	pixel_y = 8
+	},
+/turf/open/floor/carpet/grimy,
+/area/centcom/evac)
+"pf" = (
+/obj/structure/sign/plaques/kiddie{
+	pixel_x = -32
+	},
+/turf/open/floor/carpet/grimy,
+/area/centcom/evac)
+"pi" = (
+/turf/closed/wall/r_wall/syndicate,
+/area/centcom/evac)
+"pk" = (
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/plastitanium/red,
+/area/centcom/evac)
+"pl" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 10
+	},
+/turf/open/floor/grass/snow/safe{
+	icon_state = "snow_dug"
+	},
+/area/centcom/evac)
+"pm" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
+/obj/effect/decal/cleanable/generic,
+/turf/open/floor/wood{
+	icon_state = "wood-broken5"
+	},
+/area/centcom/evac)
+"pD" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 9
+	},
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 10
+	},
+/turf/open/floor/grass/snow/safe{
+	icon_state = "snow_dug"
+	},
+/area/centcom/evac)
+"pI" = (
+/obj/machinery/door/airlock/hatch,
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 8
+	},
+/turf/open/floor/engine{
+	initial_gas_mix = "n2=100;TEMP=80";
+	name = "mainframe floor"
+	},
+/area/centcom/evac)
+"pJ" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/bot,
+/obj/structure/sign/warning/vacuum/external{
+	pixel_x = 30
+	},
+/obj/structure/tank_dispenser,
+/obj/structure/sign/warning/docking{
+	desc = "A warning sign which reads 'MONKEY AREA '.";
+	name = "\improper KEEP CLEAR:  MONKEY AREA";
+	pixel_y = 29
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/centcom/evac)
+"pL" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 1
+	},
+/turf/open/floor/grass/snow/safe{
+	icon_state = "snow_dug"
+	},
+/area/centcom/evac)
+"pM" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/machinery/suit_storage_unit/syndicate,
+/obj/effect/turf_decal/bot,
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"pN" = (
+/obj/effect/turf_decal/box,
+/obj/effect/turf_decal/arrows{
+	dir = 4;
+	icon_state = "arrows"
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/yellow/fourcorners/contrasted,
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+"qe" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	icon_state = "5-8"
+	},
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"qf" = (
+/obj/structure/reagent_dispensers/watertank,
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/tile/purple{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/centcom/evac)
+"qj" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"qm" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/blood/tracks{
+	dir = 10
+	},
+/turf/open/floor/plating,
+/area/centcom/evac)
+"qu" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/obj/machinery/computer/monitor/secret{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"qw" = (
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/red/warning{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/engine,
+/area/centcom/evac)
+"qA" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 8
+	},
+/turf/open/floor/plating/snowed,
+/area/centcom/evac)
+"qE" = (
+/obj/machinery/power/solar,
+/obj/structure/cable{
+	icon_state = "0-10"
+	},
+/turf/open/floor/plasteel/solarpanel,
+/area/centcom/evac)
+"qP" = (
+/obj/structure/janitorialcart,
+/obj/item/mop,
+/obj/item/reagent_containers/glass/bucket,
+/obj/item/reagent_containers/spray/cleaner{
+	pixel_x = -4;
+	pixel_y = 4
+	},
+/obj/machinery/door/window/southleft{
+	dir = 1
+	},
+/obj/item/storage/box/mousetraps{
+	pixel_x = 7;
+	pixel_y = -3
+	},
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/tile/purple{
+	dir = 4
+	},
+/obj/item/soap/syndie,
+/turf/open/floor/plating/rust,
+/area/centcom/evac)
+"qR" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/turf/open/floor/pod/dark,
+/area/centcom/evac)
+"qS" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/sign/poster/contraband/random{
+	pixel_x = 32
+	},
+/turf/open/floor/wood,
+/area/centcom/evac)
+"ra" = (
+/obj/structure/window/reinforced/spawner,
+/obj/machinery/computer/camera_advanced{
+	dir = 8
+	},
+/obj/effect/turf_decal/bot,
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/engine,
+/area/centcom/evac)
+"rc" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/centcom/evac)
+"rm" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 10
+	},
+/obj/structure/fluff/bus/dense,
+/turf/open/floor/grass/snow/safe{
+	icon_state = "snow_dug"
+	},
+/area/centcom/evac)
+"rp" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 6
+	},
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 10
+	},
+/obj/item/flashlight/lantern/syndicate,
+/turf/open/floor/grass/snow/safe{
+	icon_state = "snow_dug"
+	},
+/area/centcom/evac)
+"rA" = (
+/obj/structure/table/glass,
+/obj/item/reagent_containers/glass/beaker/large{
+	pixel_x = 8;
+	pixel_y = 3
+	},
+/obj/item/reagent_containers/glass/beaker/large,
+/obj/item/stack/sheet/mineral/plasma,
+/obj/machinery/reagentgrinder{
+	pixel_y = 5
+	},
+/obj/item/reagent_containers/syringe/piercing{
+	pixel_x = -6;
+	pixel_y = 12
+	},
+/turf/open/floor/plating{
+	icon_state = "platingdmg2"
+	},
+/area/centcom/evac)
+"rQ" = (
+/obj/structure/railing/corner,
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/obj/machinery/light/floor,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"rT" = (
+/obj/machinery/door/airlock/maintenance_hatch,
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/centcom/evac)
+"rW" = (
+/obj/structure/railing{
+	dir = 8;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"sk" = (
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"sm" = (
+/obj/structure/table/reinforced,
+/obj/item/reagent_containers/food/snacks/grown/corn{
+	pixel_y = 6
+	},
+/obj/item/reagent_containers/food/snacks/grown/pumpkin{
+	pixel_y = 6
+	},
+/obj/item/reagent_containers/food/snacks/grown/carrot,
+/obj/item/reagent_containers/food/snacks/grown/tomato,
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/item/reagent_containers/food/snacks/grown/grapes{
+	pixel_x = 8;
+	pixel_y = 7
+	},
+/obj/machinery/light/small/built{
+	dir = 4
+	},
+/turf/open/floor/wood{
+	icon_state = "wood-broken7"
+	},
+/area/centcom/evac)
+"st" = (
+/obj/machinery/door/airlock/medical{
+	name = "medbay"
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/plasteel,
+/area/centcom/evac)
+"sx" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/glass,
+/obj/structure/chair/fancy/bench/bamboo/left,
+/obj/effect/decal/cleanable/greenglow/filled,
+/turf/open/floor/plating/rust,
+/area/centcom/evac)
+"sA" = (
+/obj/structure/dresser,
+/obj/effect/turf_decal/siding/wood{
+	dir = 5
+	},
+/turf/open/floor/wood,
+/area/centcom/evac)
+"sE" = (
+/obj/structure/table/wood,
+/obj/item/toy/cards/deck/syndicate{
+	pixel_x = -4;
+	pixel_y = 1
+	},
+/obj/item/toy/figure{
+	pixel_x = -3;
+	pixel_y = 8
+	},
+/obj/effect/decal/cleanable/cobweb,
+/mob/living/simple_animal/cockroach,
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/plating{
+	icon_state = "platingdmg1"
+	},
+/area/centcom/evac)
+"sH" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = -12;
+	pixel_y = 2
+	},
+/obj/structure/mirror{
+	pixel_y = -4;
+	pixel_x = -28
+	},
+/obj/machinery/light/small,
+/turf/open/floor/plasteel/showroomfloor,
+/area/centcom/evac)
+"sM" = (
+/obj/effect/turf_decal/box,
+/obj/effect/turf_decal/arrows{
+	dir = 4;
+	icon_state = "arrows"
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"sS" = (
+/obj/machinery/vending/hydroseeds{
+	scan_id = 0;
+	default_price = 0;
+	extra_price = 0
+	},
+/obj/structure/railing{
+	dir = 4;
+	layer = 4.1
+	},
+/turf/open/floor/plating,
+/area/centcom/evac)
+"td" = (
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"te" = (
+/obj/effect/turf_decal/box,
+/obj/effect/turf_decal/arrows{
+	dir = 4;
+	icon_state = "arrows"
+	},
+/obj/structure/closet/crate/secure/gear,
+/obj/item/clothing/suit/space/syndicate/black/orange,
+/obj/item/clothing/suit/space/syndicate/black/red,
+/obj/item/clothing/suit/space/syndicate/contract,
+/obj/item/clothing/head/helmet/space/syndicate/black/orange,
+/obj/item/clothing/head/helmet/space/syndicate/black/red,
+/obj/item/clothing/head/helmet/space/syndicate/contract,
+/obj/effect/turf_decal/tile/yellow/fourcorners/contrasted,
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+"tf" = (
+/obj/structure/rack{
+	dir = 8
+	},
+/obj/item/storage/toolbox/mechanical,
+/obj/item/multitool,
+/obj/machinery/firealarm{
+	dir = 1;
+	pixel_y = -26
+	},
+/obj/item/radio{
+	pixel_x = 9
+	},
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+"tg" = (
+/obj/structure/chair/fancy/bench{
+	pixel_y = 17
+	},
+/obj/effect/decal/cleanable/vomit/old,
+/turf/open/floor/plating/rust,
+/area/centcom/evac)
+"th" = (
+/obj/structure/railing{
+	dir = 1;
+	layer = 4.1
+	},
+/turf/open/floor/plating/ice/smooth,
+/area/centcom/evac)
+"tj" = (
+/obj/structure/chair/office{
+	dir = 1;
+	name = "tactical swivel chair"
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/centcom/evac)
+"tq" = (
+/obj/machinery/space_heater,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/centcom/evac)
+"tt" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/centcom/evac)
+"tI" = (
+/obj/machinery/mech_bay_recharge_port{
+	dir = 2
+	},
+/obj/structure/railing{
+	dir = 8;
+	layer = 4.1
+	},
+/turf/open/floor/plating/snowed,
+/area/centcom/evac)
+"tP" = (
+/obj/machinery/vending/security{
+	req_access = null;
+	default_price = 0;
+	extra_price = 0;
+	scan_id = 0
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"ua" = (
+/obj/structure/chair/stool/bar{
+	pixel_x = -6
+	},
+/obj/effect/decal/cleanable/vomit/old{
+	pixel_x = -14;
+	pixel_y = 18
+	},
+/turf/open/floor/wood{
+	icon_state = "wood-broken7"
+	},
+/area/centcom/evac)
+"uc" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/structure/reagent_dispensers/watertank,
+/obj/effect/turf_decal/delivery,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"ud" = (
+/obj/structure/railing{
+	dir = 8;
+	layer = 3.1
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+/area/centcom/evac)
+"ui" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/mob/living/simple_animal/cockroach,
+/turf/open/floor/plating/rust,
+/area/centcom/evac)
+"uk" = (
+/obj/structure/flora/grass/both,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"ul" = (
+/obj/structure/filingcabinet/medical,
+/obj/structure/filingcabinet/security{
+	pixel_x = 11
+	},
+/obj/structure/filingcabinet/employment{
+	pixel_x = -11
+	},
+/obj/structure/extinguisher_cabinet{
+	pixel_x = -26
+	},
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+"un" = (
+/obj/effect/turf_decal/tile/yellow{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"us" = (
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 9
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 9
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 9
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/closet/crate/bin{
+	pixel_y = 10
+	},
+/obj/item/trash/pistachios,
+/obj/item/trash/syndi_cakes,
+/obj/item/trash/waffles,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"uw" = (
+/obj/structure/reagent_dispensers/fueltank,
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 5
+	},
+/turf/open/floor/plating/snowed,
+/area/centcom/evac)
+"ux" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/curtain/bounty,
+/obj/item/trash/chips,
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+/area/centcom/evac)
+"uE" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/obj/structure/bookcase/random/nonfiction,
+/obj/item/storage/book/bible/syndicate,
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+/area/centcom/evac)
+"uI" = (
+/obj/structure/sign/poster/contraband/random{
+	pixel_x = 32
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/structure/chair/fancy/comfy{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/centcom/evac)
+"uM" = (
+/obj/effect/turf_decal/stripes/closeup,
+/turf/open/floor/mineral/plastitanium/red,
+/area/centcom/evac)
+"uQ" = (
+/obj/effect/turf_decal/weather/snow/corner,
+/turf/open/floor/grass/snow/safe{
+	icon_state = "snow_dug"
+	},
+/area/centcom/evac)
+"uR" = (
+/obj/effect/turf_decal/trimline/brown/filled/warning{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/brown/filled/warning{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/brown/filled/warning{
+	dir = 4
+	},
+/obj/effect/turf_decal/loading_area{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/tile/neutral/half/contrasted{
+	dir = 1
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"uS" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 6
+	},
+/obj/machinery/power/solar,
+/obj/structure/cable{
+	icon_state = "0-10"
+	},
+/obj/structure/cable{
+	icon_state = "2-6"
+	},
+/turf/open/floor/plasteel/solarpanel,
+/area/centcom/evac)
+"uV" = (
+/obj/structure/flora/tree/pine,
+/obj/machinery/light/floor,
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"uW" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/plasteel/white/side{
+	dir = 1
+	},
+/area/centcom/evac)
+"va" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/machinery/vending/cigarette/syndicate,
+/obj/effect/turf_decal/bot_white,
+/turf/open/floor/wood,
+/area/centcom/evac)
+"ve" = (
+/obj/structure/table,
+/obj/item/clipboard{
+	pixel_y = 4;
+	pixel_x = 5
+	},
+/obj/item/pen{
+	pixel_y = 4;
+	pixel_x = 6
+	},
+/obj/item/paper_bin{
+	pixel_x = -7;
+	pixel_y = 5
+	},
+/obj/machinery/light/small,
+/obj/machinery/airalarm{
+	dir = 1;
+	pixel_y = -22
+	},
+/obj/item/paper/fluff/ruins/syndicomms,
+/obj/item/paper/monitorkey{
+	pixel_x = -10;
+	pixel_y = 6
+	},
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+"vi" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 5
+	},
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"vl" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/carpet/grimy,
+/area/centcom/evac)
+"vq" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table_frame/wood,
+/obj/item/clothing/gloves/botanic_leather{
+	pixel_x = 4
+	},
+/obj/item/reagent_containers/glass/bucket,
+/obj/item/cultivator,
+/obj/item/shovel/spade,
+/obj/item/plant_analyzer,
+/obj/effect/decal/cleanable/food/tomato_smudge,
+/obj/item/seeds/potato{
+	pixel_x = 6
+	},
+/turf/open/floor/plating/foam,
+/area/centcom/evac)
+"vu" = (
+/obj/effect/decal/cleanable/robot_debris/old,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/sign/poster/contraband/random{
+	pixel_x = 32
+	},
+/turf/open/floor/plating/rust,
+/area/centcom/evac)
+"vB" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 9
+	},
+/obj/structure/railing{
+	dir = 1;
+	layer = 4.1
+	},
+/turf/open/floor/grass/snow/safe{
+	icon_state = "snow_dug"
+	},
+/area/centcom/evac)
+"vE" = (
+/obj/effect/turf_decal/trimline/brown/filled/warning{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/brown/filled/warning{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/brown/filled/warning{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"vG" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 10
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/red/corner,
+/obj/effect/turf_decal/trimline/red/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/engine,
+/area/centcom/evac)
+"vZ" = (
+/obj/effect/turf_decal/bot,
+/obj/machinery/hydroponics/constructable,
+/obj/item/book/manual/hydroponics_pod_people{
+	pixel_y = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+"wh" = (
+/obj/machinery/suit_storage_unit/mining/eva,
+/obj/effect/turf_decal/delivery/white,
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 4
+	},
+/turf/open/floor/plating/snowed,
+/area/centcom/evac)
+"wj" = (
+/obj/machinery/vending/boozeomat/syndicate_access,
+/turf/closed/wall/r_wall,
+/area/centcom/evac)
+"wp" = (
+/obj/structure/chair/fancy/comfy{
+	buildstackamount = 0;
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/carpet/grimy,
+/area/centcom/evac)
+"wy" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood,
+/area/centcom/evac)
+"wI" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
+	},
+/obj/machinery/button/door{
+	id = "syndiesnowarmo";
+	name = "Armoury Shutters";
+	pixel_x = -24
+	},
+/turf/open/floor/wood,
+/area/centcom/evac)
+"wJ" = (
+/obj/machinery/porta_turret/syndicate/pod{
+	dir = 5
+	},
+/turf/closed/wall/r_wall/syndicate,
+/area/centcom/evac)
+"wK" = (
+/obj/structure/flora/rock/pile/icy,
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"wL" = (
+/obj/structure/railing{
+	dir = 1;
+	layer = 4.1
+	},
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"wQ" = (
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/dark,
+/area/centcom/evac)
+"wS" = (
+/obj/effect/turf_decal/bot,
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/closet/syndicate,
+/obj/item/clothing/under/syndicate/tacticool,
+/obj/item/clothing/suit/armor/bulletproof,
+/obj/item/clothing/head/helmet/swat,
+/obj/item/clothing/mask/gas/syndicate,
+/obj/item/clothing/shoes/jackboots,
+/obj/item/shield/riot/tele,
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"xa" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+/area/centcom/evac)
+"xj" = (
+/obj/structure/railing/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"xk" = (
+/mob/living/simple_animal/cockroach,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating{
+	icon_state = "platingdmg2"
+	},
+/area/centcom/evac)
+"xq" = (
+/obj/structure/toilet{
+	dir = 8;
+	icon_state = "toilet00"
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/showroomfloor,
+/area/centcom/evac)
+"xr" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/oil,
+/obj/machinery/power/floodlight,
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/plating/foam,
+/area/centcom/evac)
+"xs" = (
+/obj/effect/turf_decal/caution{
+	dir = 4
+	},
+/obj/effect/turf_decal/arrows{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 10
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"xt" = (
+/turf/open/floor/dock/drydock,
+/area/centcom/evac)
+"xw" = (
+/obj/effect/turf_decal/box,
+/obj/effect/turf_decal/arrows{
+	dir = 8
+	},
+/obj/structure/closet/crate/medical,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"xx" = (
+/obj/structure/table,
+/obj/item/storage/box/ingredients/vegetarian{
+	pixel_x = 5;
+	pixel_y = 14
+	},
+/obj/item/storage/box/ingredients/vegetarian{
+	pixel_x = 5;
+	pixel_y = 4
+	},
+/obj/item/storage/box/ingredients/fruity{
+	pixel_x = 5;
+	pixel_y = -8
+	},
+/turf/open/floor/plasteel/cafeteria_red,
+/area/centcom/evac)
+"xH" = (
+/obj/machinery/door/airlock/wood,
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+"xI" = (
+/obj/structure/table,
+/obj/item/newspaper{
+	pixel_y = 1;
+	pixel_x = 10
+	},
+/obj/item/reagent_containers/food/drinks/mug{
+	pixel_x = -5;
+	pixel_y = 4
+	},
+/obj/item/book/manual/wiki/tcomms,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/radio/intercom{
+	freerange = 1;
+	name = "Syndicate Radio Intercom";
+	pixel_y = -28
+	},
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+"xN" = (
+/obj/structure/railing{
+	dir = 10;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/delivery,
+/obj/machinery/power/port_gen/pacman/mrs,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"xQ" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/effect/turf_decal/bot,
+/obj/structure/closet/secure_closet/freezer/meat{
+	locked = 0
+	},
+/obj/item/storage/box/ingredients/wildcard,
+/obj/item/storage/box/ingredients/wildcard{
+	pixel_y = 9;
+	pixel_x = 8
+	},
+/obj/item/storage/box/ingredients/wildcard{
+	pixel_y = 9;
+	pixel_x = -7
+	},
+/turf/open/floor/plasteel/cafeteria_red,
+/area/centcom/evac)
+"xT" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/stairs,
+/area/centcom/evac)
+"xY" = (
+/obj/structure/reagent_dispensers/watertank,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plating/snowed,
+/area/centcom/evac)
+"yh" = (
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/red/warning{
+	dir = 8
+	},
+/turf/open/floor/engine,
+/area/centcom/evac)
+"yi" = (
+/obj/structure/barricade/wooden/snowed,
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 4
+	},
+/obj/structure/grille/broken,
+/turf/open/floor/grass/snow/safe{
+	icon_state = "snow_dug"
+	},
+/area/centcom/evac)
+"yk" = (
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 9
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 9
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 9
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/structure/sign/poster/contraband/random{
+	pixel_x = -32
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"yl" = (
+/obj/structure/cable{
+	icon_state = "2-5"
+	},
+/obj/structure/cable{
+	icon_state = "1-5"
+	},
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"yn" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/centcom/evac)
+"ys" = (
+/obj/structure/reagent_dispensers/beerkeg{
+	pixel_y = 5
+	},
+/obj/effect/turf_decal/tile/neutral/half/contrasted,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 6
+	},
+/obj/structure/railing{
+	dir = 4;
+	layer = 4.1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small,
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/plasteel/dark,
+/area/centcom/evac)
+"yx" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/structure/table/wood,
+/obj/machinery/computer/security/telescreen/entertainment{
+	pixel_x = 31
+	},
+/obj/item/toy/cards/deck/syndicate{
+	pixel_x = -6;
+	pixel_y = 6
+	},
+/turf/open/floor/wood,
+/area/centcom/evac)
+"yz" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/obj/item/reagent_containers/food/drinks/syndicatebeer{
+	pixel_x = -8;
+	pixel_y = 2
+	},
+/obj/item/toy/cards/deck/syndicate{
+	pixel_x = -4
+	},
+/obj/item/storage/fancy/cigarettes/cigpack_syndicate{
+	pixel_x = 11;
+	pixel_y = 6
+	},
+/obj/item/lighter/greyscale{
+	pixel_x = 11;
+	pixel_y = -2
+	},
+/obj/machinery/computer/security/telescreen/entertainment{
+	pixel_y = 28
+	},
+/obj/structure/table/reinforced,
+/turf/open/floor/pod/dark,
+/area/centcom/evac)
+"yA" = (
+/obj/structure/railing{
+	dir = 8;
+	layer = 3.1
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+/area/centcom/evac)
+"yH" = (
+/obj/structure/flora/rock/pile/icy,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"yO" = (
+/turf/open/floor/pod,
+/area/centcom/evac)
+"yP" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/kirbyplants{
+	icon_state = "plant-22"
+	},
+/turf/open/floor/wood,
+/area/centcom/evac)
+"yZ" = (
+/obj/structure/flora/rock/icy,
+/obj/machinery/light/floor,
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"zb" = (
+/obj/machinery/light{
+	dir = 8;
+	light_color = "#e8eaff"
+	},
+/obj/mecha/working/ripley/mkii,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/railing{
+	dir = 8;
+	layer = 4.1
+	},
+/turf/open/floor/plasteel/recharge_floor/asteroid,
+/area/centcom/evac)
+"zc" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 10
+	},
+/turf/open/floor/plating/snowed,
+/area/centcom/evac)
+"ze" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/robot_debris,
+/obj/structure/table/reinforced,
+/obj/item/storage/toolbox/syndicate{
+	pixel_y = 8
+	},
+/obj/item/assembly/voice,
+/obj/item/assembly/signaler{
+	desc = "Used to remotely activate devices. Allows for syncing when using a secure signaler on another. Slightly scooted.";
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/item/assembly/igniter,
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"zi" = (
+/obj/structure/window/reinforced/spawner/west,
+/obj/structure/window/reinforced/spawner/east,
+/obj/structure/grille,
+/turf/open/floor/plating,
+/area/centcom/evac)
+"zk" = (
+/obj/machinery/computer/message_monitor{
+	dir = 8
+	},
+/obj/effect/turf_decal/bot,
+/turf/open/floor/engine,
+/area/centcom/evac)
+"zn" = (
+/obj/effect/turf_decal/bot,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/closet/syndicate,
+/obj/item/clothing/under/syndicate/tacticool,
+/obj/item/clothing/suit/armor/bulletproof,
+/obj/item/clothing/head/helmet/swat,
+/obj/item/clothing/mask/gas/syndicate,
+/obj/item/clothing/shoes/jackboots,
+/obj/item/shield/riot/tele,
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"zp" = (
+/obj/structure/table/wood,
+/obj/item/book/manual/wiki/security_space_law{
+	pixel_x = 12;
+	pixel_y = 2
+	},
+/obj/item/flashlight/lamp{
+	pixel_y = 4
+	},
+/obj/machinery/keycard_auth{
+	pixel_x = -26;
+	pixel_y = 23
+	},
+/obj/item/radio/intercom{
+	pixel_x = -25;
+	pixel_y = 1;
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/carpet/red,
+/area/centcom/evac)
+"zA" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/centcom/evac)
+"zB" = (
+/obj/structure/railing{
+	dir = 6;
+	layer = 4.1
+	},
+/obj/machinery/power/port_gen/pacman,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"zH" = (
+/obj/machinery/porta_turret/syndicate/pod{
+	dir = 10
+	},
+/turf/closed/wall/r_wall,
+/area/centcom/evac)
+"zL" = (
+/obj/machinery/porta_turret/syndicate/pod{
+	dir = 8
+	},
+/turf/closed/wall/r_wall/syndicate,
+/area/centcom/evac)
+"zO" = (
+/obj/structure/chair/stool/bar{
+	pixel_x = -3
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+	},
+/area/centcom/evac)
+"zR" = (
+/obj/structure/floodlight_frame,
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"zU" = (
+/obj/structure/cable{
+	icon_state = "4-10"
+	},
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"zX" = (
+/obj/structure/frame/machine,
+/obj/effect/decal/cleanable/greenglow,
+/turf/open/floor/circuit/red/anim,
+/area/centcom/evac)
+"zY" = (
+/obj/machinery/space_heater,
+/turf/open/floor/plating,
+/area/centcom/evac)
+"Am" = (
+/obj/machinery/advanced_airlock_controller{
+	pixel_x = -25
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/bot,
+/obj/machinery/suit_storage_unit/standard_unit{
+	desc = "An industrial suit storage device carrying retro space suits. Neat!";
+	helmet_type = /obj/item/clothing/head/helmet/space;
+	suit_type = /obj/item/clothing/suit/space
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/centcom/evac)
+"Aq" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 8
+	},
+/obj/structure/barricade/wooden/crude/snow,
+/turf/open/floor/plating/snowed,
+/area/centcom/evac)
+"Ay" = (
+/turf/open/floor/plasteel,
+/area/centcom/evac)
+"AJ" = (
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/engine,
+/area/centcom/evac)
+"AM" = (
+/obj/machinery/telecomms/allinone{
+	intercept = 1
+	},
+/obj/effect/turf_decal/bot/left,
+/obj/structure/sign/warning/electricshock{
+	pixel_y = 32
+	},
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/circuit/red/anim,
+/area/centcom/evac)
+"AP" = (
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"AS" = (
+/obj/effect/turf_decal/bot,
+/obj/structure/closet/secure_closet/freezer/fridge{
+	req_access = null;
+	locked = 0
+	},
+/turf/open/floor/plasteel/cafeteria_red,
+/area/centcom/evac)
+"Bj" = (
+/obj/structure/firelock_frame/border,
+/turf/open/floor/plating/foam,
+/area/centcom/evac)
+"Bq" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/greenglow/ecto,
+/obj/structure/curtain/bounty,
+/turf/open/floor/plating,
+/area/centcom/evac)
+"Br" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/siding/wood/end{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/centcom/evac)
+"Bw" = (
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+	},
+/area/centcom/evac)
+"BP" = (
+/obj/structure/flora/stump,
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"BR" = (
+/obj/machinery/telecomms/relay/preset/ruskie{
+	use_power = 0
+	},
+/obj/effect/turf_decal/bot/right,
+/obj/effect/decal/cleanable/cobweb,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/bot/left,
+/obj/effect/turf_decal/bot/right,
+/turf/open/floor/circuit/red/anim,
+/area/centcom/evac)
+"BS" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+	},
+/area/centcom/evac)
+"BT" = (
+/obj/structure/table,
+/obj/item/kitchen/knife{
+	pixel_y = 6
+	},
+/obj/item/kitchen/rollingpin,
+/obj/item/circuitboard/machine/processor,
+/turf/open/floor/plasteel/cafeteria_red,
+/area/centcom/evac)
+"BU" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/bed/dogbed,
+/mob/living/simple_animal/pet/hamster{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/centcom/evac)
+"BV" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/mob/living/simple_animal/hostile/syndicate/melee,
+/obj/machinery/button/door{
+	id = "syndieshutters_small_cargo";
+	name = "Window shutters";
+	pixel_x = 28
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"BW" = (
+/obj/structure/flora/tree/dead,
+/obj/machinery/light/floor,
+/obj/structure/railing{
+	dir = 1;
+	layer = 4.1
+	},
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"Cb" = (
+/obj/structure/rack,
+/obj/item/stack/sheet/iron/fifty,
+/obj/item/stack/sheet/glass/fifty,
+/obj/item/wrench,
+/obj/item/crowbar/red,
+/obj/item/stack/cable_coil,
+/obj/effect/turf_decal/tile/neutral/half/contrasted,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/structure/railing{
+	dir = 4;
+	layer = 4.1
+	},
+/turf/open/floor/plasteel/dark,
+/area/centcom/evac)
+"Ck" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/vomit/old,
+/turf/open/floor/plating,
+/area/centcom/evac)
+"Cl" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 9
+	},
+/turf/open/floor/wood,
+/area/centcom/evac)
+"Cn" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/oil,
+/obj/structure/table_frame/wood,
+/obj/machinery/light/small/broken{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/centcom/evac)
+"Co" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 4
+	},
+/turf/open/floor/grass/snow/safe{
+	icon_state = "snow_dug"
+	},
+/area/centcom/evac)
+"Cy" = (
+/obj/structure/flora/tree/pine,
+/obj/structure/flora/grass/both,
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"CH" = (
+/obj/effect/turf_decal/tile/yellow{
+	dir = 1
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"CI" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/structure/rack,
+/obj/item/pickaxe/mini,
+/obj/item/flashlight/seclite,
+/obj/item/extinguisher/mini,
+/obj/effect/turf_decal/bot,
+/obj/item/tank/internals/oxygen/yellow,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"CM" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/food/drinks/syndicatebeer{
+	pixel_x = -8;
+	pixel_y = 2
+	},
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+/area/centcom/evac)
+"CN" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small/broken{
+	dir = 8
+	},
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+/area/centcom/evac)
+"CV" = (
+/obj/effect/turf_decal/caution{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/closeup,
+/obj/effect/turf_decal/arrows{
+	dir = 4
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"CW" = (
+/obj/structure/tubes{
+	icon_state = "fans"
+	},
+/turf/closed/wall/r_wall,
+/area/centcom/evac)
+"CX" = (
+/obj/structure/railing{
+	dir = 1;
+	layer = 4.1
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"De" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/trimline/brown/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/arrows{
+	dir = 1
+	},
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+"Dl" = (
+/obj/structure/table/wood,
+/obj/machinery/chem_dispenser/drinks/fullupgrade{
+	dir = 1
+	},
+/turf/open/floor/plating/rust,
+/area/centcom/evac)
+"Dm" = (
+/obj/machinery/newscaster{
+	dir = 1;
+	pixel_y = -30
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/carpet/red,
+/area/centcom/evac)
+"Do" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/trimline/brown/line{
+	dir = 9
+	},
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+"Dp" = (
+/obj/structure/railing{
+	dir = 8;
+	layer = 4.1
+	},
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"Ds" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/centcom/evac)
+"Du" = (
+/obj/structure/toilet{
+	dir = 8;
+	icon_state = "toilet00"
+	},
+/turf/open/floor/plasteel/showroomfloor,
+/area/centcom/evac)
+"Dz" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/centcom/evac)
+"DD" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/pod/dark,
+/area/centcom/evac)
+"DF" = (
+/turf/open/floor/plating,
+/area/centcom/evac)
+"DL" = (
+/obj/structure/railing{
+	dir = 4;
+	layer = 3.1
+	},
+/obj/structure/closet/crate/freezer/surplus_limbs,
+/obj/machinery/light/small,
+/obj/effect/decal/cleanable/robot_debris,
+/turf/open/floor/plasteel/dark,
+/area/centcom/evac)
+"DU" = (
+/obj/machinery/light,
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 6
+	},
+/turf/open/floor/grass/snow/safe{
+	icon_state = "snow_dug"
+	},
+/area/centcom/evac)
+"Eb" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 10
+	},
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 9
+	},
+/turf/open/floor/grass/snow/safe{
+	icon_state = "snow_dug"
+	},
+/area/centcom/evac)
+"Ec" = (
+/obj/machinery/door/airlock/external/glass,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"Ef" = (
+/obj/item/kirbyplants/dead{
+	pixel_x = -8
+	},
+/obj/structure/railing/corner{
+	dir = 1;
+	pixel_x = 1;
+	pixel_y = -1
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/robot_debris,
+/turf/open/floor/plating,
+/area/centcom/evac)
+"Ej" = (
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/turf/open/floor/plating/rust,
+/area/centcom/evac)
+"Ew" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/carpet/red,
+/area/centcom/evac)
+"EB" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 5
+	},
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 6
+	},
+/obj/structure/railing{
+	dir = 1;
+	layer = 4.1
+	},
+/turf/open/floor/grass/snow/safe{
+	icon_state = "snow_dug"
+	},
+/area/centcom/evac)
+"EC" = (
+/obj/machinery/vending/donksofttoyvendor,
+/obj/structure/sign/barsign{
+	pixel_y = 32;
+	req_access = null;
+	req_access_txt = "25"
+	},
+/turf/open/floor/plating,
+/area/centcom/evac)
+"EE" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/lootdrop/grille_or_trash,
+/turf/open/floor/plating{
+	icon_state = "platingdmg1"
+	},
+/area/centcom/evac)
+"EM" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/cobweb,
+/obj/structure/table/survival_pod,
+/obj/item/toy/plush/lisa{
+	pixel_x = -3;
+	pixel_y = 8
+	},
+/obj/item/toy/snappop,
+/obj/item/reagent_containers/food/drinks/syndicatebeer{
+	pixel_x = -7;
+	pixel_y = 2
+	},
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+/area/centcom/evac)
+"EO" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating/snowed,
+/area/centcom/evac)
+"ES" = (
+/turf/closed/wall/r_wall,
+/area/centcom/evac)
+"EV" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/bed/dogbed,
+/mob/living/simple_animal/pet/cat/kitten,
+/turf/open/floor/carpet/grimy,
+/area/centcom/evac)
+"EW" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+"EX" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 1
+	},
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/turf/open/floor/grass/snow/safe{
+	icon_state = "snow_dug"
+	},
+/area/centcom/evac)
+"EY" = (
+/obj/effect/turf_decal/trimline/brown/filled/line,
+/obj/effect/turf_decal/trimline/brown/filled/line,
+/obj/effect/turf_decal/trimline/brown/filled/line,
+/obj/machinery/light,
+/obj/effect/turf_decal/tile/neutral/half/contrasted{
+	dir = 4
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"Fh" = (
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 1
+	},
+/obj/item/banner/cargo,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"Fi" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/trimline/brown/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/arrows{
+	dir = 1
+	},
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+"Fm" = (
+/obj/structure/flora/tree/pine,
+/obj/structure/flora/grass/both,
+/obj/machinery/light/floor,
+/obj/structure/railing{
+	dir = 1;
+	layer = 4.1
+	},
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"Fp" = (
+/obj/structure/flora/grass/both,
+/obj/structure/railing{
+	dir = 1;
+	layer = 4.1
+	},
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"Fv" = (
+/obj/effect/turf_decal/box,
+/obj/effect/turf_decal/arrows{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"FJ" = (
+/obj/machinery/door/poddoor{
+	id = "syndiecargo_entranceshutters";
+	name = "Cargo hold"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/plasteel/tech/grid,
+/area/centcom/evac)
+"FN" = (
+/obj/machinery/door/airlock/maintenance_hatch,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"FP" = (
+/obj/structure/chair/fancy/comfy{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/centcom/evac)
+"FQ" = (
+/obj/structure/closet/crate/solarpanel_small,
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"FS" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"FY" = (
+/obj/effect/turf_decal/stripes/closeup,
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/red/warning,
+/turf/open/floor/engine,
+/area/centcom/evac)
+"Gb" = (
+/obj/effect/turf_decal/stripes/closeup,
+/obj/effect/turf_decal/trimline/red/line,
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/plastitanium/red,
+/area/centcom/evac)
+"Gd" = (
+/obj/structure/closet/secure_closet/personal/cabinet,
+/obj/effect/turf_decal/siding/wood/end{
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/centcom/evac)
+"Gf" = (
+/obj/structure/bed/maint,
+/obj/item/trash/candy,
+/obj/item/trash/popcorn{
+	pixel_y = 4;
+	pixel_x = -16
+	},
+/turf/open/floor/plating,
+/area/centcom/evac)
+"Gg" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/power/apc/auto_name/north,
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"Gl" = (
+/obj/structure/sign/poster/official/moth7{
+	pixel_y = 32
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/rust,
+/area/centcom/evac)
+"Gq" = (
+/obj/effect/turf_decal/stripes/end{
+	dir = 1
+	},
+/obj/structure/table,
+/obj/machinery/microwave{
+	pixel_y = 5
+	},
+/obj/item/storage/box/donkpockets/donkpocketteriyaki{
+	pixel_x = 4;
+	pixel_y = 5
+	},
+/obj/item/storage/box/donkpockets/donkpocketteriyaki,
+/obj/effect/decal/cleanable/food/flour{
+	pixel_y = -7
+	},
+/turf/open/floor/pod,
+/area/centcom/evac)
+"Gt" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/rust,
+/area/centcom/evac)
+"Gu" = (
+/obj/machinery/vending/medical/syndicate_access,
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/centcom/evac)
+"GA" = (
+/obj/structure/table,
+/obj/machinery/microwave{
+	pixel_x = -1;
+	pixel_y = 6
+	},
+/obj/item/storage/box/donkpockets/donkpocketteriyaki{
+	pixel_x = 4;
+	pixel_y = 5
+	},
+/obj/item/storage/box/donkpockets/donkpocketteriyaki{
+	pixel_x = 4;
+	pixel_y = 5
+	},
+/obj/item/storage/box/donkpockets,
+/turf/open/floor/plasteel/cafeteria_red,
+/area/centcom/evac)
+"GB" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 4
+	},
+/obj/machinery/power/solar,
+/obj/structure/cable{
+	icon_state = "0-10"
+	},
+/turf/open/floor/plasteel/solarpanel,
+/area/centcom/evac)
+"GO" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/power/smes{
+	charge = 5e+006
+	},
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"GP" = (
+/obj/machinery/light,
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 10
+	},
+/turf/open/floor/grass/snow/safe{
+	icon_state = "snow_dug"
+	},
+/area/centcom/evac)
+"GR" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Preparation Room";
+	req_access_txt = "150"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"GS" = (
+/obj/structure/table/wood,
+/obj/item/newspaper{
+	pixel_x = -8;
+	pixel_y = 2
+	},
+/obj/item/clipboard{
+	pixel_x = 6;
+	pixel_y = 4
+	},
+/obj/item/pen{
+	pixel_y = 4;
+	pixel_x = 6
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/carpet/grimy,
+/area/centcom/evac)
+"GY" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/item/reagent_containers/spray/plantbgone{
+	pixel_x = 6;
+	pixel_y = 6
+	},
+/turf/open/floor/wood{
+	icon_state = "wood-broken"
+	},
+/area/centcom/evac)
+"Hf" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 5
+	},
+/obj/machinery/power/solar,
+/obj/structure/cable{
+	icon_state = "0-10"
+	},
+/turf/open/floor/plasteel/solarpanel,
+/area/centcom/evac)
+"Hi" = (
+/obj/structure/sink/kitchen{
+	desc = "A sink used for washing one's hands and face. It looks rusty and home-made";
+	name = "old sink";
+	pixel_y = 28
+	},
+/turf/open/floor/plating/foam,
+/area/centcom/evac)
+"Hm" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/oil/streak,
+/obj/structure/grille/broken,
+/turf/open/floor/plating,
+/area/centcom/evac)
+"Hs" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/plasma,
+/turf/open/floor/plating/rust,
+/area/centcom/evac)
+"Hv" = (
+/obj/structure/closet/crate/internals,
+/obj/item/tank/internals/oxygen/yellow,
+/obj/item/tank/internals/oxygen/yellow,
+/obj/item/tank/internals/oxygen/yellow,
+/obj/item/tank/internals/emergency_oxygen/double,
+/obj/item/tank/internals/emergency_oxygen/double,
+/obj/item/tank/internals/emergency_oxygen/double,
+/obj/item/clothing/mask/gas,
+/obj/item/clothing/mask/gas,
+/obj/item/clothing/mask/gas,
+/obj/effect/turf_decal/tile/yellow/fourcorners/contrasted,
+/obj/effect/turf_decal/box,
+/obj/effect/turf_decal/arrows{
+	dir = 4;
+	icon_state = "arrows"
+	},
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+"Hz" = (
+/obj/structure/cable{
+	icon_state = "5-6"
+	},
+/obj/structure/cable{
+	icon_state = "9-10"
+	},
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"HF" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/closed/indestructible/rock/snow,
+/area/centcom/evac)
+"HG" = (
+/obj/machinery/porta_turret/syndicate/pod{
+	dir = 4
+	},
+/turf/closed/wall/r_wall/syndicate,
+/area/centcom/evac)
+"HI" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light/small,
+/turf/open/floor/plasteel,
+/area/centcom/evac)
+"HK" = (
+/obj/effect/decal/cleanable/oil,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"HN" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 8
+	},
+/turf/open/floor/grass/snow/safe{
+	icon_state = "snow_dug"
+	},
+/area/centcom/evac)
+"HQ" = (
+/obj/machinery/door/window/southleft{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/centcom/evac)
+"HY" = (
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/obj/machinery/light/floor,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"Ii" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair{
+	dir = 8;
+	pixel_x = 6
+	},
+/turf/open/floor/plating/rust,
+/area/centcom/evac)
+"Ip" = (
+/obj/structure/railing{
+	dir = 8;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/button/door{
+	id = "syndiecargo_entranceshutters";
+	name = "cargohold shutters";
+	pixel_x = 23
+	},
+/obj/machinery/light/floor,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"Is" = (
+/obj/machinery/computer/telecomms/monitor{
+	dir = 8
+	},
+/obj/effect/turf_decal/bot,
+/obj/item/radio/intercom{
+	freerange = 1;
+	name = "Syndicate Radio Intercom";
+	pixel_x = 28
+	},
+/turf/open/floor/engine,
+/area/centcom/evac)
+"It" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 8
+	},
+/obj/structure/ore_box,
+/turf/open/floor/plating/snowed,
+/area/centcom/evac)
+"Iu" = (
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 4
+	},
+/obj/machinery/door/airlock/highsecurity,
+/obj/structure/fans/tiny,
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/centcom/evac)
+"IF" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 4
+	},
+/obj/machinery/light,
+/turf/open/floor/wood,
+/area/centcom/evac)
+"IO" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 9
+	},
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"IP" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table_frame,
+/obj/item/gun/syringe/syndicate{
+	pixel_x = -5;
+	pixel_y = 2
+	},
+/turf/open/floor/plating,
+/area/centcom/evac)
+"IS" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/plating,
+/area/centcom/evac)
+"IZ" = (
+/obj/structure/closet/crate,
+/obj/item/stack/sheet/iron/twenty,
+/obj/item/stack/sheet/glass{
+	amount = 10
+	},
+/obj/item/stack/sheet/mineral/plastitanium{
+	amount = 20
+	},
+/obj/item/storage/box/lights/bulbs,
+/obj/item/storage/toolbox/mechanical,
+/obj/item/stack/sheet/mineral/plasma{
+	amount = 20
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/machinery/light,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"Jd" = (
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/yellow/fourcorners/contrasted,
+/obj/machinery/light/small,
+/turf/open/floor/plasteel/dark,
+/area/centcom/evac)
+"Je" = (
+/obj/structure/railing{
+	dir = 8;
+	layer = 3.1
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/centcom/evac)
+"Jj" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/engine,
+/area/centcom/evac)
+"Jk" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 4
+	},
+/turf/open/floor/plating/snowed,
+/area/centcom/evac)
+"Jm" = (
+/obj/structure/closet/l3closet/scientist{
+	pixel_x = -13
+	},
+/turf/open/floor/plating/rust,
+/area/centcom/evac)
+"Jr" = (
+/obj/structure/railing{
+	dir = 4;
+	layer = 4.1
+	},
+/obj/structure/bookcase/random,
+/turf/open/floor/plasteel/dark,
+/area/centcom/evac)
+"Jt" = (
+/obj/effect/turf_decal/trimline/brown/filled/warning,
+/obj/effect/turf_decal/trimline/brown/filled/warning,
+/obj/effect/turf_decal/trimline/brown/filled/warning,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/tile/neutral/half/contrasted{
+	dir = 4
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"Jz" = (
+/turf/open/floor/plating/ice/smooth,
+/area/centcom/evac)
+"JH" = (
+/obj/effect/turf_decal/box/corners{
+	dir = 4
+	},
+/obj/machinery/computer/cargo/express{
+	dir = 8
+	},
+/turf/open/floor/plating/snowed,
+/area/centcom/evac)
+"JV" = (
+/obj/structure/barricade/wooden/crude/snow,
+/turf/closed/wall/ice,
+/area/centcom/evac)
+"Kc" = (
+/obj/effect/turf_decal/stripes/closeup,
+/obj/machinery/door/airlock/hatch,
+/obj/machinery/door/firedoor,
+/turf/open/floor/mineral/plastitanium/red,
+/area/centcom/evac)
+"Ke" = (
+/obj/effect/turf_decal/delivery,
+/obj/structure/closet/secure_closet/miner/unlocked,
+/obj/item/pickaxe{
+	pixel_x = 5
+	},
+/obj/item/pickaxe/drill,
+/obj/effect/turf_decal/weather/snow/corner,
+/turf/open/floor/plating/snowed,
+/area/centcom/evac)
+"Ki" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/door/airlock/hatch,
+/obj/machinery/door/firedoor,
+/turf/open/floor/mineral/plastitanium/red,
+/area/centcom/evac)
+"Kk" = (
+/obj/effect/turf_decal/trimline/neutral/filled/line,
+/obj/structure/bed/pod,
+/turf/open/floor/pod/dark,
+/area/centcom/evac)
+"Kq" = (
+/obj/effect/turf_decal/trimline/brown/filled/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/brown/filled/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/brown/filled/corner{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/tile/neutral/half/contrasted{
+	dir = 8
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"Kx" = (
+/obj/machinery/door/poddoor{
+	id = "syndiecargo_entranceshutters";
+	name = "Cargo hold"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/structure/fans/tiny,
+/obj/docking_port/mobile{
+	dir = 8;
+	dwidth = 10;
+	height = 11;
+	id = "exploration";
+	name = "Exploration Shuttle";
+	port_direction = 3;
+	shuttle_object_type = /datum/orbital_object/shuttle/custom_shuttle;
+	width = 23
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/centcom/evac)
+"KB" = (
+/obj/structure/table_frame/wood,
+/obj/item/toy/figure/botanist{
+	pixel_x = -9;
+	pixel_y = 7
+	},
+/obj/item/circuitboard/machine/seed_extractor,
+/obj/machinery/newscaster{
+	dir = 4;
+	pixel_x = -31
+	},
+/obj/item/circuitboard/machine/chem_dispenser/botany{
+	pixel_y = 9;
+	pixel_x = 5
+	},
+/turf/open/floor/plating,
+/area/centcom/evac)
+"KF" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/trimline/brown/line{
+	dir = 5
+	},
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+"KH" = (
+/obj/item/trash/can{
+	pixel_y = -12;
+	pixel_x = 6
+	},
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+	},
+/area/centcom/evac)
+"KS" = (
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 8
+	},
+/turf/open/floor/engine{
+	initial_gas_mix = "n2=100;TEMP=80";
+	name = "mainframe floor"
+	},
+/area/centcom/evac)
+"KW" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/machinery/computer/shuttle_flight/custom_shuttle/bluespace_pod/traitor,
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"Lc" = (
+/obj/structure/table/wood,
+/obj/item/flashlight/lamp{
+	pixel_x = -1;
+	pixel_y = 6
+	},
+/obj/item/paper/fluff/cargo{
+	pixel_x = 6;
+	pixel_y = -3
+	},
+/obj/effect/decal/cleanable/ash{
+	pixel_x = 15;
+	pixel_y = 12
+	},
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/dark,
+/area/centcom/evac)
+"Le" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"Lh" = (
+/obj/effect/turf_decal/trimline/brown/filled/line,
+/obj/effect/turf_decal/trimline/brown/filled/line,
+/obj/effect/turf_decal/trimline/brown/filled/line,
+/obj/effect/turf_decal/tile/neutral/half/contrasted{
+	dir = 4
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"Li" = (
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = -12;
+	pixel_y = 2
+	},
+/obj/structure/mirror{
+	pixel_y = -4;
+	pixel_x = -28
+	},
+/obj/machinery/light/small,
+/turf/open/floor/plasteel/showroomfloor,
+/area/centcom/evac)
+"Ln" = (
+/obj/machinery/door/airlock/maintenance_hatch,
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/centcom/evac)
+"Lr" = (
+/obj/machinery/status_display/evac{
+	pixel_y = 32
+	},
+/obj/machinery/suit_storage_unit/syndicate,
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/floor/pod,
+/area/centcom/evac)
+"Lu" = (
+/obj/structure/table/reinforced,
+/obj/item/healthanalyzer{
+	pixel_y = 12;
+	pixel_x = -3
+	},
+/obj/item/storage/backpack/duffelbag/syndie/surgery{
+	pixel_y = 4;
+	pixel_x = 3
+	},
+/obj/item/clothing/mask/surgical,
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/turf/open/floor/plasteel/white/side{
+	dir = 1
+	},
+/area/centcom/evac)
+"Lv" = (
+/obj/structure/railing{
+	dir = 6
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"Lw" = (
+/obj/structure/table/wood,
+/obj/machinery/chem_dispenser/drinks/beer/fullupgrade{
+	dir = 1
+	},
+/turf/open/floor/plating/rust,
+/area/centcom/evac)
+"Lx" = (
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 8;
+	icon_state = "warningline_red"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"LH" = (
+/obj/structure/closet/crate/hydroponics,
+/obj/item/shovel/spade,
+/obj/item/wrench,
+/obj/item/crowbar/red,
+/obj/item/cultivator,
+/obj/item/wirecutters,
+/obj/item/reagent_containers/glass/bucket,
+/obj/item/circuitboard/machine/biogenerator,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/railing{
+	dir = 4;
+	layer = 4.1
+	},
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+	},
+/area/centcom/evac)
+"LQ" = (
+/obj/structure/table/wood,
+/obj/item/paper_bin{
+	pixel_x = -4;
+	pixel_y = 4
+	},
+/obj/item/taperecorder{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/turf/open/floor/carpet/green,
+/area/centcom/evac)
+"LR" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 9
+	},
+/obj/structure/bookcase/random/fiction,
+/obj/structure/noticeboard{
+	pixel_y = 28
+	},
+/turf/open/floor/wood,
+/area/centcom/evac)
+"LW" = (
+/obj/structure/closet/crate/large,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/storage/fancy/candle_box{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/item/flashlight/lantern{
+	pixel_x = 4
+	},
+/obj/item/flashlight/lantern{
+	pixel_x = 4
+	},
+/obj/item/stack/sheet/iron/fifty,
+/obj/item/stack/sheet/glass/fifty,
+/obj/item/stack/sheet/mineral/wood/fifty,
+/obj/item/stack/sheet/cardboard/twenty,
+/obj/item/poster/random_contraband,
+/obj/item/poster/random_contraband,
+/obj/item/poster/random_official,
+/obj/item/poster/random_official,
+/obj/item/paicard,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"Ma" = (
+/obj/structure/table,
+/obj/machinery/reagentgrinder{
+	pixel_y = 7;
+	pixel_x = -7
+	},
+/obj/item/reagent_containers/food/condiment/enzyme{
+	pixel_x = 8;
+	pixel_y = 6
+	},
+/obj/item/reagent_containers/glass/beaker{
+	pixel_x = 9
+	},
+/turf/open/floor/plasteel/cafeteria_red,
+/area/centcom/evac)
+"Mb" = (
+/obj/structure/table/wood,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/carpet/green,
+/area/centcom/evac)
+"Md" = (
+/obj/structure/flora/tree/pine,
+/obj/structure/flora/rock/pile/icy,
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"Mi" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"Ml" = (
+/obj/structure/sign/poster/contraband/random{
+	pixel_y = -32
+	},
+/obj/effect/decal/cleanable/oil,
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+/area/centcom/evac)
+"Mm" = (
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 5
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 5
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 5
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"Mt" = (
+/obj/item/storage/box/handcuffs{
+	pixel_x = 5;
+	pixel_y = -5
+	},
+/obj/structure/table/reinforced,
+/obj/item/storage/box/flashes{
+	pixel_y = 1;
+	pixel_x = -5
+	},
+/obj/item/folder/red{
+	pixel_x = 6;
+	pixel_y = 7
+	},
+/turf/open/floor/engine,
+/area/centcom/evac)
+"Mu" = (
+/obj/structure/bed/pod,
+/obj/item/bedsheet/black,
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/dark,
+/area/centcom/evac)
+"MD" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 9
+	},
+/turf/open/floor/grass/snow/safe{
+	icon_state = "snow_dug"
+	},
+/area/centcom/evac)
+"MH" = (
+/obj/structure/dresser,
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
+/turf/open/floor/wood,
+/area/centcom/evac)
+"MM" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/glass,
+/obj/structure/frame/machine,
+/obj/effect/decal/cleanable/xenoblood,
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/obj/structure/railing{
+	dir = 4;
+	layer = 4.1
+	},
+/obj/item/circuitboard/machine/hydroponics,
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+"MZ" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/pod,
+/area/centcom/evac)
+"Nd" = (
+/obj/machinery/porta_turret/syndicate/pod{
+	dir = 6
+	},
+/turf/closed/wall/ice,
+/area/centcom/evac)
+"Nh" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 5
+	},
+/obj/structure/closet/crate/bin,
+/turf/open/floor/wood,
+/area/centcom/evac)
+"Nj" = (
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 5
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 5
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 5
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/structure/closet/cardboard,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"Nm" = (
+/obj/machinery/door/airlock/external/glass,
+/obj/structure/fans/tiny,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"Nw" = (
+/obj/structure/railing/corner,
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"Nx" = (
+/obj/effect/turf_decal/trimline/neutral/filled/warning{
+	dir = 1
+	},
+/obj/structure/railing{
+	dir = 4;
+	layer = 4.1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small,
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+/area/centcom/evac)
+"NE" = (
+/obj/structure/dresser,
+/obj/effect/decal/cleanable/cobweb,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/dark,
+/area/centcom/evac)
+"NN" = (
+/obj/machinery/light/floor,
+/obj/structure/flora/tree/pine,
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"Og" = (
+/obj/effect/turf_decal/box,
+/obj/effect/turf_decal/arrows{
+	dir = 4;
+	icon_state = "arrows"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"Oh" = (
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/obj/machinery/door/airlock/hatch,
+/obj/machinery/door/firedoor,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"Ok" = (
+/obj/machinery/door/poddoor/shutters{
+	id = "syndieshutters_small_cargo";
+	name = "blast shutters"
+	},
+/obj/structure/grille,
+/obj/structure/window/plastitanium,
+/turf/open/floor/plating,
+/area/centcom/evac)
+"Ov" = (
+/obj/effect/turf_decal/box,
+/obj/effect/turf_decal/arrows{
+	dir = 8
+	},
+/obj/structure/closet/crate/large,
+/obj/item/stack/sheet/mineral/wood/fifty,
+/obj/effect/turf_decal/tile/yellow/fourcorners/contrasted,
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+"Ow" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 9
+	},
+/obj/structure/railing{
+	dir = 8;
+	layer = 4.1
+	},
+/turf/open/floor/grass/snow/safe{
+	icon_state = "snow_dug"
+	},
+/area/centcom/evac)
+"OC" = (
+/obj/structure/shuttle/engine/heater,
+/obj/structure/window/reinforced/survival_pod{
+	dir = 1
+	},
+/obj/structure/window/plastitanium,
+/turf/open/floor/plating,
+/area/centcom/evac)
+"OL" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/chair/fancy/comfy{
+	dir = 1
+	},
+/turf/open/floor/carpet/red,
+/area/centcom/evac)
+"OM" = (
+/obj/effect/turf_decal/delivery,
+/obj/structure/closet/secure_closet/miner/unlocked,
+/obj/item/pickaxe{
+	pixel_x = 5
+	},
+/obj/item/pickaxe/drill,
+/turf/open/floor/plating/snowed,
+/area/centcom/evac)
+"ON" = (
+/obj/effect/turf_decal/trimline/brown/filled/line,
+/obj/effect/turf_decal/trimline/brown/filled/line,
+/obj/effect/turf_decal/trimline/brown/filled/line,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/tile/neutral/half/contrasted{
+	dir = 4
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"OR" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/kirbyplants{
+	icon_state = "plant-10"
+	},
+/turf/open/floor/carpet/grimy,
+/area/centcom/evac)
+"OV" = (
+/obj/structure/chair/fancy/corp,
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+"OY" = (
+/obj/effect/turf_decal/box,
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 10
+	},
+/turf/open/floor/plating/snowed,
+/area/centcom/evac)
+"Pb" = (
+/obj/effect/turf_decal/box,
+/obj/effect/turf_decal/arrows{
+	dir = 4;
+	icon_state = "arrows"
+	},
+/obj/structure/closet/crate/freezer,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"Pd" = (
+/turf/open/floor/carpet/red,
+/area/centcom/evac)
+"Pe" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/food/drinks/syndicatebeer{
+	pixel_x = 10;
+	pixel_y = -5
+	},
+/obj/item/trash/syndi_cakes{
+	pixel_x = -4;
+	pixel_y = 9
+	},
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+/area/centcom/evac)
+"Pj" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+"Pl" = (
+/obj/structure/bed/pod,
+/obj/item/bedsheet/black,
+/obj/structure/sign/poster/contraband/random{
+	pixel_y = 32
+	},
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/obj/effect/decal/cleanable/vomit/old,
+/turf/open/floor/plasteel/dark,
+/area/centcom/evac)
+"Pr" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/closet/toolcloset,
+/obj/effect/turf_decal/box,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"Pt" = (
+/obj/effect/turf_decal/box,
+/obj/effect/turf_decal/arrows{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"PA" = (
+/obj/structure/flora/tree/dead,
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"PE" = (
+/obj/effect/turf_decal/box,
+/obj/effect/turf_decal/arrows{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/yellow/fourcorners/contrasted,
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+"PK" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/structure/table/reinforced,
+/obj/item/paper_bin{
+	pixel_x = -4;
+	pixel_y = 4
+	},
+/obj/item/pen,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"PR" = (
+/obj/structure/bookcase/random,
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+"PT" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 9
+	},
+/obj/machinery/power/solar,
+/obj/structure/cable{
+	icon_state = "0-6"
+	},
+/turf/open/floor/plasteel/solarpanel,
+/area/centcom/evac)
+"PV" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 10
+	},
+/obj/structure/sign/warning/electricshock{
+	pixel_x = -32
+	},
+/turf/open/floor/grass/snow/safe{
+	icon_state = "snow_dug"
+	},
+/area/centcom/evac)
+"PY" = (
+/obj/structure/table/wood,
+/obj/item/flashlight/lamp{
+	pixel_x = -1;
+	pixel_y = 6
+	},
+/turf/open/floor/wood,
+/area/centcom/evac)
+"Ql" = (
+/obj/effect/turf_decal/box,
+/obj/effect/turf_decal/arrows{
+	dir = 4;
+	icon_state = "arrows"
+	},
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"Qn" = (
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/dark,
+/area/centcom/evac)
+"Qv" = (
+/obj/effect/decal/cleanable/cobweb,
+/obj/structure/chair/fancy/bench/bamboo/right,
+/obj/item/toy/figure/clown{
+	pixel_x = 3
+	},
+/obj/item/toy/figure/botanist{
+	pixel_x = -7
+	},
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+/area/centcom/evac)
+"QF" = (
+/obj/structure/extinguisher_cabinet{
+	pixel_x = -26
+	},
+/turf/open/floor/circuit/red/anim,
+/area/centcom/evac)
+"QI" = (
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 10
+	},
+/obj/effect/turf_decal/trimline/red/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 6
+	},
+/turf/open/floor/engine,
+/area/centcom/evac)
+"QX" = (
+/obj/machinery/plantgenes{
+	pixel_y = 6
+	},
+/obj/structure/table/wood,
+/obj/item/storage/box/disks_plantgene{
+	pixel_x = -14;
+	pixel_y = 7
+	},
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+/area/centcom/evac)
+"QZ" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/centcom/evac)
+"Rb" = (
+/obj/effect/turf_decal/stripes/closeup,
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 1;
+	icon_state = "warningline_red"
+	},
+/obj/effect/turf_decal/stripes/red/line,
+/obj/effect/turf_decal/trimline/red/line,
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/centcom/evac)
+"Re" = (
+/obj/structure/railing/corner{
+	dir = 4
+	},
+/turf/open/floor/plating/ice/smooth,
+/area/centcom/evac)
+"Rg" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/sign/poster/contraband/random{
+	pixel_y = 32
+	},
+/obj/machinery/vending/coffee,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+	},
+/area/centcom/evac)
+"Rh" = (
+/obj/structure/railing/corner{
+	dir = 4
+	},
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"Rr" = (
+/turf/open/floor/plasteel/stairs{
+	icon = 'icons/obj/stairs.dmi';
+	dir = 4
+	},
+/area/centcom/evac)
+"Ru" = (
+/obj/machinery/computer/secure_data/syndie,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/engine,
+/area/centcom/evac)
+"Rw" = (
+/obj/machinery/space_heater,
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/obj/structure/tubes,
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+	},
+/area/centcom/evac)
+"RA" = (
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 10
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 10
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 10
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"RB" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/tile/neutral/half/contrasted{
+	dir = 8
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"RC" = (
+/obj/machinery/iv_drip,
+/obj/structure/bed/roller,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/blood/old{
+	icon_state = "gib5-old"
+	},
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel/white/side{
+	dir = 1
+	},
+/area/centcom/evac)
+"RD" = (
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 6
+	},
+/obj/effect/turf_decal/trimline/red/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/red/warning{
+	dir = 10
+	},
+/turf/open/floor/engine,
+/area/centcom/evac)
+"RE" = (
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/obj/structure/fans/tiny,
+/obj/machinery/door/airlock/highsecurity,
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 8
+	},
+/turf/open/floor/engine,
+/area/centcom/evac)
+"RH" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"RQ" = (
+/obj/structure/railing{
+	dir = 2;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/light/floor,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"RU" = (
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 6
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 6
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 6
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"RV" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/structure/reagent_dispensers/fueltank,
+/obj/effect/turf_decal/delivery,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"Sb" = (
+/obj/structure/table/wood,
+/obj/item/flashlight/lamp/green{
+	pixel_x = -3;
+	pixel_y = 7
+	},
+/obj/item/pen{
+	pixel_x = 8;
+	pixel_y = 5
+	},
+/obj/item/pen/red{
+	pixel_x = 5;
+	pixel_y = 1
+	},
+/obj/item/toy/figure/curator,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/carpet/green,
+/area/centcom/evac)
+"Si" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/blood/tracks,
+/turf/open/floor/plating/rust,
+/area/centcom/evac)
+"Sy" = (
+/obj/structure/bed/pod,
+/obj/item/bedsheet/black,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/dark,
+/area/centcom/evac)
+"Sz" = (
+/obj/effect/turf_decal/weather/snow/corner,
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 1
+	},
+/turf/open/floor/grass/snow/safe{
+	icon_state = "snow_dug"
+	},
+/area/centcom/evac)
+"SA" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 4
+	},
+/turf/open/floor/plasteel/solarpanel,
+/area/centcom/evac)
+"SC" = (
+/obj/structure/table/wood,
+/obj/item/paper_bin{
+	pixel_x = -7;
+	pixel_y = 5
+	},
+/obj/item/folder/blue{
+	pixel_x = 6;
+	pixel_y = 1
+	},
+/obj/machinery/requests_console{
+	pixel_x = -32
+	},
+/obj/item/stamp{
+	pixel_x = -7;
+	pixel_y = 9
+	},
+/obj/item/stamp/denied{
+	pixel_x = -7;
+	pixel_y = 4
+	},
+/turf/open/floor/carpet/grimy,
+/area/centcom/evac)
+"SF" = (
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/engine{
+	initial_gas_mix = "n2=100;TEMP=80";
+	name = "mainframe floor"
+	},
+/area/centcom/evac)
+"SH" = (
+/turf/open/floor/grass/snow/safe{
+	icon_state = "snow_dug"
+	},
+/area/centcom/evac)
+"SK" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/box/corners{
+	dir = 1
+	},
+/turf/open/floor/plating/snowed,
+/area/centcom/evac)
+"SY" = (
+/obj/item/toy/plush/moth/snow,
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 9
+	},
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 5
+	},
+/turf/open/floor/grass/snow/safe{
+	icon_state = "snow_dug"
+	},
+/area/centcom/evac)
+"SZ" = (
+/obj/item/hand_labeler{
+	pixel_y = -9;
+	pixel_x = 4
+	},
+/obj/structure/railing{
+	dir = 8;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/turf/open/floor/plating/rust,
+/area/centcom/evac)
+"Tc" = (
+/obj/effect/turf_decal/delivery,
+/obj/effect/turf_decal/trimline/neutral/filled/line{
+	dir = 1
+	},
+/obj/structure/toilet{
+	pixel_y = 13
+	},
+/turf/open/floor/pod,
+/area/centcom/evac)
+"Th" = (
+/obj/machinery/atmospherics/components/binary/dp_vent_pump/layer2{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/closeup,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"Tm" = (
+/obj/effect/turf_decal/trimline/brown/filled/line,
+/obj/effect/turf_decal/trimline/brown/filled/line,
+/obj/effect/turf_decal/trimline/brown/filled/line,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light,
+/obj/effect/turf_decal/tile/neutral/half/contrasted{
+	dir = 4
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"To" = (
+/turf/open/floor/plasteel/cafeteria_red,
+/area/centcom/evac)
+"Tr" = (
+/obj/structure/guncase,
+/obj/item/gun/ballistic/automatic/pistol,
+/obj/item/gun/ballistic/automatic/pistol,
+/obj/effect/turf_decal/stripes/red/full,
+/turf/open/floor/plasteel/rockvault,
+/area/centcom/evac)
+"Tt" = (
+/obj/machinery/light,
+/turf/open/floor/grass/snow/safe{
+	icon_state = "snow_dug"
+	},
+/area/centcom/evac)
+"TC" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 4
+	},
+/obj/machinery/portable_atmospherics/scrubber,
+/turf/open/floor/plating/rust,
+/area/centcom/evac)
+"TP" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 8
+	},
+/turf/open/floor/grass/snow/safe{
+	icon_state = "snow_dug"
+	},
+/area/centcom/evac)
+"TV" = (
+/obj/structure/bookcase/random,
+/turf/open/floor/carpet/red,
+/area/centcom/evac)
+"TY" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/centcom/evac)
+"Ub" = (
+/obj/structure/railing{
+	dir = 5
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"Uc" = (
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small{
+	dir = 8
+	},
+/obj/structure/chair{
+	dir = 8;
+	pixel_x = 6
+	},
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+/area/centcom/evac)
+"Ui" = (
+/obj/effect/turf_decal/bot,
+/obj/structure/closet/secure_closet/freezer/kitchen{
+	locked = 0
+	},
+/turf/open/floor/plasteel/cafeteria_red,
+/area/centcom/evac)
+"Ul" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/bot_white,
+/obj/item/gun/ballistic/automatic/pistol{
+	pixel_y = -1
+	},
+/obj/item/melee/transforming/energy/sword{
+	pixel_y = 14
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"UA" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/centcom/evac)
+"UG" = (
+/obj/structure/railing{
+	dir = 9
+	},
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"UN" = (
+/obj/structure/table/reinforced{
+	color = "#c1b6a5"
+	},
+/obj/machinery/cell_charger,
+/obj/item/stock_parts/cell/high{
+	pixel_x = -6;
+	pixel_y = 4
+	},
+/obj/item/stock_parts/cell/high,
+/obj/item/stack/sheet/plasteel/twenty{
+	pixel_x = 5;
+	pixel_y = 14
+	},
+/obj/item/storage/box/stockparts/basic{
+	pixel_x = 5;
+	pixel_y = 5
+	},
+/obj/item/storage/box/stockparts/basic{
+	pixel_x = 5
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"UP" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/structure/table/reinforced,
+/obj/item/toy/figure/syndie{
+	pixel_x = -8;
+	pixel_y = -7
+	},
+/obj/item/paper_bin{
+	pixel_x = 5;
+	pixel_y = 4
+	},
+/obj/item/pen{
+	pixel_x = 5;
+	pixel_y = 6
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"UX" = (
+/obj/item/clipboard,
+/obj/item/reagent_containers/hypospray/medipen,
+/obj/item/reagent_containers/hypospray/medipen{
+	pixel_y = 6
+	},
+/obj/item/reagent_containers/hypospray/medipen{
+	pixel_y = -6
+	},
+/obj/item/reagent_containers/glass/bottle/charcoal,
+/obj/structure/table/reinforced,
+/obj/item/reagent_containers/hypospray/medipen/pumpup{
+	pixel_x = -1;
+	pixel_y = -12
+	},
+/obj/item/reagent_containers/hypospray/medipen/pumpup{
+	pixel_x = 3;
+	pixel_y = -10
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/item/reagent_containers/pill/insulin{
+	pixel_x = 8;
+	pixel_y = -2
+	},
+/obj/item/reagent_containers/pill/insulin{
+	pixel_x = 8;
+	pixel_y = -8
+	},
+/obj/item/reagent_containers/hypospray/medipen/morphine,
+/obj/item/reagent_containers/hypospray/medipen/morphine,
+/obj/item/reagent_containers/hypospray/medipen/morphine,
+/turf/open/floor/plasteel/white,
+/area/centcom/evac)
+"UY" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/centcom/evac)
+"Vc" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 5
+	},
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 6
+	},
+/turf/open/floor/grass/snow/safe{
+	icon_state = "snow_dug"
+	},
+/area/centcom/evac)
+"Ve" = (
+/turf/closed/wall/ice,
+/area/centcom/evac)
+"Vi" = (
+/obj/effect/turf_decal/box,
+/obj/effect/turf_decal/arrows{
+	dir = 4;
+	icon_state = "arrows"
+	},
+/obj/structure/closet/crate/engineering,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"Vu" = (
+/obj/structure/sign/poster/contraband/random{
+	pixel_y = 32
+	},
+/turf/open/floor/wood{
+	icon_state = "wood-broken5"
+	},
+/area/centcom/evac)
+"Vv" = (
+/obj/effect/turf_decal/stripes/red/line,
+/obj/effect/turf_decal/arrows/red{
+	dir = 1
+	},
+/obj/machinery/door/poddoor/shutters{
+	id = "syndiesnowarmo";
+	name = "Armoury Shutters"
+	},
+/turf/open/floor/plasteel/rockvault,
+/area/centcom/evac)
+"Vz" = (
+/obj/effect/turf_decal/stripes/closeup,
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 1;
+	icon_state = "warningline_red"
+	},
+/obj/effect/turf_decal/stripes/red/line,
+/obj/effect/turf_decal/trimline/red/line,
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/plastitanium/red,
+/area/centcom/evac)
+"VB" = (
+/obj/structure/chair/office{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/carpet/green,
+/area/centcom/evac)
+"VE" = (
+/obj/effect/turf_decal/tile/neutral/half/contrasted,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/structure/rack,
+/obj/item/storage/box/drinkingglasses{
+	pixel_y = 5
+	},
+/obj/item/clothing/suit/apron/purple_bartender,
+/obj/structure/railing{
+	dir = 4;
+	layer = 4.1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark,
+/area/centcom/evac)
+"VL" = (
+/obj/effect/turf_decal/stripes/closeup,
+/obj/machinery/door/airlock/security/glass,
+/turf/open/floor/mineral/plastitanium/red,
+/area/centcom/evac)
+"VN" = (
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral/half/contrasted,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"VO" = (
+/turf/closed/indestructible/rock/snow,
+/area/centcom/evac)
+"VQ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/brown/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/arrows{
+	dir = 1
+	},
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+"VR" = (
+/obj/structure/bed/roller,
+/obj/machinery/iv_drip,
+/obj/effect/decal/cleanable/blood/old{
+	icon_state = "gib4-old"
+	},
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel,
+/area/centcom/evac)
+"VT" = (
+/obj/effect/turf_decal/box,
+/obj/effect/turf_decal/arrows{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"VW" = (
+/turf/open/floor/wood,
+/area/centcom/evac)
+"Wc" = (
+/obj/structure/flora/tree/dead,
+/obj/machinery/light/floor{
+	pixel_x = 2;
+	pixel_y = -7
+	},
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"Wd" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/centcom/evac)
+"Wf" = (
+/obj/structure/railing{
+	dir = 10
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"Wl" = (
+/obj/structure/railing{
+	dir = 1;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"Wm" = (
+/obj/structure/flora/rock/icy,
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"Wn" = (
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"Wx" = (
+/obj/effect/turf_decal/box,
+/obj/effect/turf_decal/arrows{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/structure/closet/crate/medical,
+/obj/item/storage/firstaid/brute,
+/obj/item/storage/firstaid/fire,
+/obj/item/storage/firstaid/medical,
+/obj/item/storage/firstaid/tactical,
+/obj/effect/turf_decal/tile/yellow/fourcorners/contrasted,
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+"Wz" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/obj/machinery/computer/secure_data/syndie,
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"WA" = (
+/turf/open/floor/wood{
+	icon_state = "wood-broken"
+	},
+/area/centcom/evac)
+"WC" = (
+/obj/structure/falsewall/reinforced,
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+/area/centcom/evac)
+"WD" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/machinery/computer/camera_advanced/syndie{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"WE" = (
+/obj/structure/table,
+/obj/item/flashlight/lamp/green{
+	pixel_y = 8;
+	pixel_x = -5
+	},
+/obj/item/phone{
+	pixel_x = 8;
+	pixel_y = 7
+	},
+/obj/item/folder/documents,
+/obj/machinery/light_switch{
+	pixel_x = -24
+	},
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+"WF" = (
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral/half/contrasted{
+	dir = 1
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"WK" = (
+/obj/structure/bed/pod,
+/obj/item/bedsheet/black,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/dark,
+/area/centcom/evac)
+"WU" = (
+/obj/machinery/light/floor,
+/obj/structure/flora/grass/both,
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"WV" = (
+/obj/structure/table_frame/wood,
+/obj/effect/decal/cleanable/chem_pile,
+/obj/effect/decal/cleanable/blood/old,
+/obj/item/toy/toy_dagger,
+/mob/living/simple_animal/cockroach,
+/turf/open/floor/plating,
+/area/centcom/evac)
+"Xc" = (
+/obj/structure/railing{
+	dir = 2;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"Xd" = (
+/obj/effect/turf_decal/box,
+/obj/effect/turf_decal/arrows{
+	dir = 4;
+	icon_state = "arrows"
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/closet/crate/freezer,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"Xm" = (
+/obj/structure/closet/crate/bin,
+/obj/effect/decal/cleanable/molten_object/large{
+	pixel_y = 15;
+	pixel_x = -9
+	},
+/obj/item/toy/foamblade,
+/obj/item/trash/pistachios{
+	pixel_x = -3
+	},
+/turf/open/floor/plating{
+	icon_state = "platingdmg2"
+	},
+/area/centcom/evac)
+"Xs" = (
+/obj/effect/turf_decal/siding/wood/end{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/centcom/evac)
+"Xv" = (
+/obj/effect/turf_decal/trimline/neutral/filled/line,
+/obj/structure/bed/pod,
+/obj/item/toy/plush/moth,
+/obj/machinery/light,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/pod/dark,
+/area/centcom/evac)
+"Xz" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/bot_white,
+/obj/item/grenade/syndieminibomb{
+	pixel_x = 6;
+	pixel_y = 4
+	},
+/obj/item/grenade/syndieminibomb{
+	pixel_x = -4;
+	pixel_y = 4
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"XC" = (
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"XG" = (
+/obj/structure/flora/tree/pine,
+/obj/machinery/light/floor,
+/obj/machinery/light/floor,
+/obj/structure/flora/grass/both,
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"XI" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/centcom/evac)
+"XN" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+/area/centcom/evac)
+"XS" = (
+/obj/structure/railing{
+	dir = 9
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"XV" = (
+/obj/machinery/door/airlock/external/glass,
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 4
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"XW" = (
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 5
+	},
+/obj/effect/turf_decal/stripes/red/corner,
+/obj/effect/turf_decal/stripes/red/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/red/corner,
+/obj/effect/turf_decal/trimline/red/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/red/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/red/corner{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/plastitanium/red,
+/area/centcom/evac)
+"XX" = (
+/obj/structure/table_frame/wood,
+/mob/living/simple_animal/cockroach,
+/obj/effect/decal/cleanable/cobweb,
+/obj/machinery/reagentgrinder{
+	pixel_y = 5;
+	pixel_x = -7
+	},
+/obj/item/storage/box/syringes,
+/obj/item/storage/box/beakers{
+	pixel_x = 2;
+	pixel_y = 2
+	},
+/turf/open/floor/plating,
+/area/centcom/evac)
+"Yc" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/tile/neutral/half/contrasted{
+	dir = 8
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"Ye" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"Yf" = (
+/obj/machinery/porta_turret/syndicate/pod{
+	dir = 6
+	},
+/turf/closed/wall/r_wall,
+/area/centcom/evac)
+"Yi" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"Yl" = (
+/obj/effect/turf_decal/trimline/brown/filled/line,
+/obj/effect/turf_decal/trimline/brown/filled/line,
+/obj/effect/turf_decal/trimline/brown/filled/line,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/tile/neutral/half/contrasted{
+	dir = 4
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"Yn" = (
+/obj/structure/flora/tree/pine,
+/obj/machinery/light/floor,
+/obj/machinery/light/floor,
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"Yq" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/structure/sign/poster/contraband/random{
+	pixel_y = 32
+	},
+/obj/machinery/chem_heater,
+/obj/machinery/light/small/broken{
+	dir = 8
+	},
+/turf/open/floor/plating/foam,
+/area/centcom/evac)
+"Yr" = (
+/obj/structure/cable{
+	icon_state = "5-8"
+	},
+/turf/open/floor/grass/snow,
+/area/centcom/evac)
+"Yt" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4;
+	layer = 2.0
+	},
+/obj/effect/turf_decal/weather/snow/corner,
+/obj/effect/turf_decal/trimline/brown/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/arrows{
+	dir = 1
+	},
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+"Yz" = (
+/obj/item/grown/log{
+	pixel_y = 4;
+	pixel_x = -5
+	},
+/obj/item/grown/log{
+	pixel_y = -2;
+	pixel_x = -1
+	},
+/obj/item/grown/log{
+	pixel_y = 6;
+	pixel_x = 2
+	},
+/obj/structure/rack,
+/obj/structure/sign/plaques/golden{
+	pixel_y = 32
+	},
+/turf/open/floor/stone,
+/area/centcom/evac)
+"YK" = (
+/obj/structure/flora/rock/pile/icy,
+/turf/open/floor/grass/snow/safe{
+	icon_state = "snow_dug"
+	},
+/area/centcom/evac)
+"YL" = (
+/obj/effect/decal/cleanable/plasma,
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+/area/centcom/evac)
+"YN" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 1
+	},
+/turf/open/floor/grass/snow/safe{
+	icon_state = "snow_dug"
+	},
+/area/centcom/evac)
+"YR" = (
+/obj/structure/table/wood,
+/obj/item/paper_bin{
+	pixel_y = 3;
+	pixel_x = -9
+	},
+/obj/item/stamp/hos{
+	pixel_y = 9;
+	pixel_x = -9
+	},
+/obj/item/pen{
+	pixel_x = -9;
+	pixel_y = 1
+	},
+/obj/machinery/computer/med_data/laptop{
+	pixel_x = 5;
+	pixel_y = 4;
+	req_one_access = "0"
+	},
+/turf/open/floor/carpet/red,
+/area/centcom/evac)
+"YT" = (
+/obj/item/storage/box/minertracker{
+	pixel_x = -8;
+	pixel_y = -1
+	},
+/obj/item/storage/box/prisoner{
+	pixel_x = 4;
+	pixel_y = -5
+	},
+/obj/structure/table/reinforced,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/item/radio{
+	desc = "An old handheld radio. You could use it, if you really wanted to.";
+	icon_state = "radio";
+	name = "old radio";
+	pixel_x = 2;
+	pixel_y = 9
+	},
+/turf/open/floor/engine,
+/area/centcom/evac)
+"YY" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/hydroponics/constructable,
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/obj/item/seeds/bamboo{
+	pixel_x = 7
+	},
+/obj/structure/railing{
+	dir = 4;
+	layer = 4.1
+	},
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+"YZ" = (
+/obj/effect/turf_decal/stripes/corner,
+/obj/structure/chair/office{
+	dir = 4;
+	name = "tactical swivel chair"
+	},
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"Zb" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small/broken{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/centcom/evac)
+"Zc" = (
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 4
+	},
+/turf/open/floor/engine,
+/area/centcom/evac)
+"Zh" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/pod/dark,
+/area/centcom/evac)
+"Zp" = (
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/machinery/button/door{
+	id = "syndiecargo_entranceshutters";
+	name = "cargohold shutters";
+	pixel_x = -24
+	},
+/obj/effect/turf_decal/tile/neutral/half/contrasted,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"Zq" = (
+/obj/effect/turf_decal/box,
+/obj/effect/turf_decal/arrows{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"Zs" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/brown/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/arrows{
+	dir = 1
+	},
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+"Zw" = (
+/obj/structure/railing{
+	dir = 1;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/light/floor,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"ZL" = (
+/obj/item/solar_assembly,
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 6
+	},
+/turf/open/floor/plasteel/solarpanel,
+/area/centcom/evac)
+"ZQ" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/grass/snow/safe{
+	icon_state = "snow_dug"
+	},
+/area/centcom/evac)
+"ZS" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood{
+	icon_state = "wood-broken3"
+	},
+/area/centcom/evac)
+"ZW" = (
+/obj/effect/turf_decal/trimline/brown/filled/warning{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/brown/filled/warning{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/brown/filled/warning{
+	dir = 4
+	},
+/obj/effect/turf_decal/loading_area{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral/half/contrasted{
+	dir = 1
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+
+(1,1,1) = {"
+ES
+ES
+ES
+ES
+ES
+VO
+VO
+VO
+ES
+ES
+ES
+ES
+ES
+VO
+VO
+VO
+ES
+ES
+ES
+ES
+ES
+ES
+ES
+ES
+ES
+ES
+VO
+VO
+ES
+ES
+ES
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+"}
+(2,1,1) = {"
+ES
+XX
+KB
+vq
+ES
+ES
+ES
+aP
+ES
+tg
+mn
+Hs
+ou
+Je
+ud
+yA
+Uc
+Ii
+rT
+bz
+Si
+mk
+qm
+ma
+Ej
+hW
+mM
+SZ
+ib
+Ef
+ES
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+"}
+(3,1,1) = {"
+ES
+QX
+kc
+lX
+ZS
+wy
+Hm
+CN
+hF
+YL
+ES
+dO
+DL
+ES
+ES
+ap
+ES
+ES
+ES
+bp
+TC
+BS
+zY
+ES
+VE
+Cb
+ys
+ES
+wj
+hj
+aP
+ES
+ES
+ES
+ES
+ES
+ES
+ES
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+"}
+(4,1,1) = {"
+ES
+tq
+xk
+GY
+sm
+pm
+ES
+ed
+sS
+LH
+ES
+iU
+iU
+ES
+nT
+RC
+VR
+Gu
+ES
+ES
+ES
+ap
+ES
+ES
+ES
+ES
+ES
+ES
+Vu
+Gt
+Lw
+ES
+EM
+WV
+fS
+ES
+eR
+ES
+ES
+jG
+nX
+Wc
+jG
+jG
+uV
+nX
+wK
+jG
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+"}
+(5,1,1) = {"
+ES
+Hi
+DF
+vZ
+ES
+ap
+ES
+ES
+ES
+oE
+ES
+ES
+ES
+ES
+UX
+uW
+HI
+ES
+ES
+kd
+hO
+CH
+zB
+oR
+oR
+ES
+ES
+sE
+IS
+WA
+Dl
+ES
+Gl
+Ck
+la
+WC
+xq
+sH
+ES
+ES
+nx
+nx
+Rh
+jG
+jG
+jG
+jG
+is
+jG
+jG
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+"}
+(6,1,1) = {"
+ES
+MM
+YY
+ES
+ES
+IP
+fj
+ES
+BR
+QF
+ES
+ul
+WE
+ES
+ES
+Lu
+Ay
+FN
+td
+hu
+FS
+iX
+xT
+fA
+Jd
+ES
+EC
+Pe
+CM
+HQ
+lM
+ES
+Bj
+ES
+ES
+ES
+ES
+ff
+ES
+ES
+fZ
+fZ
+ES
+nX
+jG
+SY
+rp
+jG
+jG
+jG
+jG
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+"}
+(7,1,1) = {"
+ES
+zi
+zi
+ES
+Yq
+Wd
+XN
+Ln
+SF
+KS
+pI
+RD
+OV
+xI
+ES
+ES
+st
+ES
+jf
+UN
+LW
+un
+xN
+oR
+oR
+ES
+uE
+zO
+ua
+bN
+ES
+ES
+cf
+qP
+qf
+ES
+Gd
+TY
+jt
+tt
+UA
+nP
+ES
+Jz
+Jz
+nX
+jG
+wK
+nX
+ee
+jG
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+"}
+(8,1,1) = {"
+ES
+Sb
+LQ
+ES
+rA
+tj
+ge
+ES
+AM
+zX
+fZ
+FY
+bX
+ve
+ES
+VO
+fz
+ES
+ES
+ES
+ES
+eH
+ES
+ES
+ES
+ES
+ES
+ES
+Ec
+ES
+ES
+Qv
+Ml
+ES
+zi
+ES
+dv
+Ew
+Pd
+sA
+dx
+MH
+ES
+ES
+dK
+dK
+Re
+jG
+jG
+jG
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+"}
+(9,1,1) = {"
+ES
+Mb
+VB
+ES
+ES
+ap
+ES
+ES
+fZ
+fZ
+fZ
+vG
+qw
+yh
+RE
+MD
+uQ
+jG
+jG
+jG
+uV
+MD
+PV
+hI
+uw
+xY
+ES
+bK
+Th
+ES
+Xm
+sx
+lR
+ux
+BU
+ES
+do
+Ew
+Dm
+ES
+ES
+ES
+ES
+ES
+fZ
+fZ
+ES
+ES
+ES
+ES
+ES
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+"}
+(10,1,1) = {"
+ES
+bO
+ft
+Bw
+eC
+Bw
+ES
+kK
+Zc
+AJ
+jP
+QI
+PR
+PR
+ES
+ak
+SH
+TP
+TP
+TP
+TP
+SH
+SH
+pl
+jG
+nN
+ES
+pJ
+xs
+kL
+ui
+vu
+KH
+Bq
+Gf
+ES
+Yz
+bZ
+Pd
+xH
+Cl
+XI
+zA
+yP
+XI
+UY
+gh
+wI
+Vv
+aE
+ES
+wL
+jG
+jG
+VO
+VO
+VO
+VO
+VO
+"}
+(11,1,1) = {"
+ES
+Jr
+Nx
+ES
+ES
+Zb
+ES
+CW
+zk
+Is
+ra
+tf
+ES
+ES
+ES
+zR
+pL
+Co
+Co
+Co
+fN
+Co
+Co
+SH
+pl
+nX
+ES
+ES
+Nm
+ES
+Rw
+ES
+eC
+ES
+ES
+ES
+ES
+ES
+TV
+ES
+Nh
+mo
+Dz
+qS
+Ds
+Ds
+Dz
+lo
+Vv
+Tr
+ES
+wL
+wK
+jG
+jG
+jG
+VO
+VO
+VO
+"}
+(12,1,1) = {"
+ES
+ES
+VO
+ES
+Rg
+yn
+ES
+ES
+ES
+ES
+ES
+ES
+ES
+VO
+wL
+nX
+Sz
+WU
+ES
+ES
+ES
+ES
+ES
+YN
+uQ
+jG
+jG
+MD
+TP
+ES
+ES
+ES
+Mu
+wQ
+WK
+ES
+Li
+ES
+ES
+ES
+ES
+ES
+Ec
+ES
+ES
+ES
+ES
+xH
+ES
+ES
+ES
+wL
+jG
+Yn
+jG
+jG
+VO
+VO
+VO
+"}
+(13,1,1) = {"
+VO
+ES
+ES
+ES
+Jm
+xa
+xr
+ES
+kb
+MZ
+Kk
+ES
+VO
+VO
+BW
+MD
+uQ
+ES
+ES
+pN
+Hv
+te
+ES
+pL
+uQ
+gu
+MD
+SH
+bF
+nX
+hI
+ES
+Pl
+wQ
+Sy
+ES
+gQ
+Du
+ES
+jG
+ES
+Am
+Th
+ES
+eG
+SC
+pf
+vl
+ES
+UG
+Dp
+lY
+jG
+jG
+jG
+nX
+jG
+VO
+VO
+"}
+(14,1,1) = {"
+VO
+VO
+VO
+ES
+eF
+EE
+Cn
+ES
+Tc
+yO
+Xv
+ES
+VO
+VO
+vB
+SH
+bF
+ES
+op
+Do
+Fi
+VQ
+VQ
+SH
+SH
+TP
+SH
+bF
+jG
+jG
+hI
+ES
+ES
+ec
+ES
+ES
+ff
+ES
+ES
+ES
+ES
+eE
+CV
+ES
+pe
+wp
+vl
+EV
+ES
+qj
+jG
+jG
+jG
+jG
+jG
+jG
+jG
+jG
+VO
+"}
+(15,1,1) = {"
+VO
+VO
+ES
+ES
+ES
+ap
+ES
+ES
+fZ
+VL
+fZ
+ES
+VO
+UG
+EX
+uQ
+jG
+ES
+gv
+dy
+EW
+Pj
+nW
+Co
+SH
+SH
+uQ
+jG
+nX
+uV
+fY
+ES
+LR
+UY
+XI
+QZ
+XI
+Ui
+AS
+xQ
+ES
+ES
+Nm
+ES
+GS
+OR
+bi
+ES
+ES
+qj
+jG
+nX
+jG
+jG
+jG
+jG
+jG
+uV
+VO
+"}
+(16,1,1) = {"
+VO
+VO
+ES
+zp
+go
+Br
+ES
+wS
+zn
+Gb
+tP
+ES
+Ow
+oG
+SH
+uQ
+nX
+ES
+mR
+KF
+Zs
+De
+Yt
+vi
+aZ
+SH
+uQ
+aC
+jG
+nX
+hI
+ES
+PY
+FP
+mK
+mK
+VW
+To
+fk
+Ma
+nh
+nX
+pD
+ES
+nh
+nh
+ES
+ES
+cp
+lY
+jG
+jG
+jG
+jG
+is
+jG
+jG
+jG
+VO
+"}
+(17,1,1) = {"
+VO
+VO
+ES
+YR
+OL
+hy
+ao
+kE
+pk
+XW
+iH
+Iu
+aZ
+Co
+Co
+Co
+pl
+ES
+ES
+Wx
+PE
+Ov
+ES
+jG
+nX
+pL
+dS
+Nd
+jG
+jG
+hI
+ES
+aL
+yx
+uI
+va
+Dz
+GA
+xx
+BT
+nh
+jG
+pL
+TP
+TP
+TP
+TP
+rm
+jG
+jG
+jG
+jG
+jG
+jG
+jG
+jG
+nX
+jG
+VO
+"}
+(18,1,1) = {"
+VO
+VO
+ES
+ES
+Xs
+IF
+ES
+Ru
+Jj
+Rb
+aw
+ES
+jG
+jG
+nX
+NN
+aZ
+pl
+ES
+ES
+ES
+ES
+ES
+av
+MD
+SH
+SH
+HN
+pl
+wK
+ES
+ES
+ES
+ES
+ES
+ES
+Ec
+ES
+ES
+ES
+ES
+JV
+YN
+SH
+SH
+fN
+Co
+iT
+jG
+jG
+jG
+Yn
+jG
+jG
+jG
+jG
+jG
+jG
+VO
+"}
+(19,1,1) = {"
+VO
+VO
+VO
+ES
+Lr
+mp
+ES
+Mt
+YT
+Vz
+nI
+ES
+yZ
+jG
+nX
+jG
+PA
+aZ
+pl
+nX
+jG
+jG
+MD
+TP
+SH
+SH
+SH
+SH
+uQ
+jG
+ES
+tI
+zb
+lV
+ES
+Am
+Th
+ES
+lE
+jG
+MD
+HN
+SH
+Co
+bF
+Ve
+jG
+ES
+lm
+jG
+jG
+jG
+jG
+jG
+jG
+jG
+jG
+jG
+VO
+"}
+(20,1,1) = {"
+VO
+VO
+VO
+ES
+ES
+ES
+ES
+ES
+ES
+ES
+ES
+ES
+ES
+ES
+zH
+jG
+jG
+jG
+aZ
+TP
+TP
+TP
+SH
+SH
+SH
+Co
+Co
+Co
+SH
+GP
+ES
+EO
+EO
+jG
+ES
+eE
+CV
+ES
+av
+MD
+SH
+SH
+bF
+jG
+jG
+kq
+jG
+ES
+jB
+jG
+jG
+jG
+nX
+jG
+jG
+nX
+jG
+jG
+VO
+"}
+(21,1,1) = {"
+VO
+VO
+VO
+VO
+VO
+MD
+TP
+It
+OY
+VO
+ES
+OM
+Ke
+jG
+ES
+av
+jG
+uV
+jG
+pL
+SH
+SH
+SH
+ZQ
+bF
+jG
+jG
+zR
+aZ
+SH
+HN
+TP
+pl
+jG
+ES
+ES
+XV
+Yf
+MD
+SH
+SH
+bF
+jG
+jG
+jG
+BP
+jG
+ES
+wL
+jG
+jG
+jG
+jG
+jG
+jG
+jG
+jG
+jG
+VO
+"}
+(22,1,1) = {"
+VO
+VO
+VO
+VO
+TP
+SH
+SH
+iq
+iq
+qA
+Aq
+iq
+SH
+qA
+TP
+TP
+TP
+TP
+TP
+SH
+SH
+Co
+DU
+Ve
+av
+jG
+hG
+BP
+jG
+aZ
+SH
+SH
+SH
+pl
+lE
+jG
+MD
+TP
+SH
+fN
+bF
+jG
+nX
+jG
+jG
+jG
+uV
+ES
+kk
+Rh
+jG
+is
+jG
+jG
+jG
+uV
+jG
+jG
+VO
+"}
+(23,1,1) = {"
+VO
+VO
+VO
+SH
+SH
+SH
+SH
+SH
+iq
+Jk
+jI
+iq
+SH
+Co
+Co
+Co
+Co
+fN
+Co
+Co
+bF
+jG
+jG
+kq
+jG
+jG
+jG
+jG
+nX
+Md
+aZ
+Co
+SH
+SH
+TP
+TP
+SH
+Co
+DU
+Ve
+jG
+jG
+jG
+PA
+jG
+jG
+jG
+ES
+ES
+wL
+jG
+jG
+jG
+PA
+jG
+jG
+jG
+jG
+VO
+"}
+(24,1,1) = {"
+VO
+VO
+VO
+SH
+SH
+SH
+SH
+SH
+bQ
+HF
+ES
+wh
+ky
+jG
+ES
+av
+jG
+JV
+av
+jG
+jG
+jG
+jG
+jG
+is
+nX
+wK
+jG
+jG
+jG
+jG
+jG
+aZ
+Co
+SH
+SH
+bF
+jG
+jG
+kq
+jG
+jG
+jG
+jG
+wK
+nX
+jG
+jG
+ES
+wL
+jG
+jG
+nX
+jG
+jG
+jG
+jG
+jG
+VO
+"}
+(25,1,1) = {"
+VO
+VO
+SH
+SH
+SH
+SH
+SH
+bF
+VO
+ES
+ES
+ES
+ES
+ES
+ES
+eo
+jG
+kq
+jG
+jG
+jG
+XG
+jG
+Jz
+Jz
+Jz
+jG
+jG
+gn
+jG
+jG
+is
+jG
+bf
+Rr
+cx
+SK
+qA
+zc
+BP
+nX
+jG
+uV
+jG
+jG
+nX
+jG
+jG
+ES
+wL
+wK
+jG
+jG
+jG
+uV
+nX
+jG
+VO
+VO
+"}
+(26,1,1) = {"
+VO
+VO
+SH
+SH
+SH
+SH
+ZQ
+VO
+VO
+VO
+VO
+VO
+jG
+jG
+jG
+uk
+jG
+FQ
+jG
+jG
+jG
+jG
+nX
+jG
+nX
+Jz
+Jz
+jG
+jG
+jG
+jG
+jG
+wK
+CX
+XC
+lG
+JH
+iq
+bQ
+jG
+jG
+jG
+jG
+jG
+jG
+jG
+jG
+gn
+ES
+kk
+Rh
+gn
+jG
+jG
+jG
+jG
+VO
+VO
+VO
+"}
+(27,1,1) = {"
+VO
+VO
+SH
+SH
+SH
+Tt
+ES
+VO
+VO
+VO
+VO
+jG
+jG
+nX
+jG
+Yr
+lf
+iE
+lu
+jG
+PA
+jG
+XS
+rW
+dU
+rW
+rW
+rW
+dU
+rW
+rW
+rW
+Ip
+gZ
+XC
+iI
+dU
+rW
+rW
+rW
+rW
+rW
+dU
+rW
+Wf
+jG
+jG
+nX
+ES
+ES
+wL
+jG
+jG
+VO
+jG
+jG
+VO
+VO
+VO
+"}
+(28,1,1) = {"
+VO
+VO
+SH
+SH
+SH
+SH
+VO
+VO
+VO
+VO
+VO
+jG
+nX
+jG
+zU
+jG
+jG
+jG
+jG
+jG
+jG
+XS
+Wn
+pi
+Ok
+Ok
+pi
+xt
+xt
+xt
+fc
+pi
+pi
+lP
+lP
+lP
+pi
+pi
+zL
+pi
+pi
+pi
+xt
+xt
+cg
+Wf
+jG
+nb
+TP
+yi
+pl
+jG
+VO
+VO
+VO
+Eb
+VO
+VO
+VO
+"}
+(29,1,1) = {"
+VO
+VO
+SH
+SH
+SH
+SH
+VO
+VO
+VO
+VO
+VO
+jG
+jG
+jG
+yH
+jG
+lu
+SA
+ZL
+jG
+jG
+Zw
+fc
+gr
+WD
+qu
+pi
+pi
+Ok
+pi
+gr
+yk
+Zp
+hS
+hS
+co
+VN
+RA
+pi
+pM
+CI
+gr
+pi
+xt
+xt
+HY
+Wf
+jG
+Vc
+ES
+EB
+jG
+VO
+VO
+VO
+uQ
+VO
+VO
+VO
+"}
+(30,1,1) = {"
+VO
+VO
+VO
+SH
+SH
+SH
+VO
+VO
+VO
+VO
+jG
+jG
+uV
+jG
+Yi
+jG
+jG
+jG
+jG
+jG
+nX
+Wl
+Ok
+KW
+jv
+UP
+pi
+NE
+Lc
+pi
+us
+gp
+Xd
+sM
+Og
+sM
+em
+Yl
+pi
+jp
+Le
+IZ
+pi
+pi
+mF
+xt
+Xc
+jG
+gn
+ES
+wL
+VO
+VO
+VO
+YK
+SH
+SH
+VO
+VO
+"}
+(31,1,1) = {"
+VO
+VO
+VO
+VO
+SH
+SH
+VO
+VO
+VO
+VO
+jG
+jG
+jG
+jG
+Yi
+uV
+jG
+jG
+nX
+jG
+jG
+Wl
+Ok
+Wz
+BV
+Mi
+pi
+aS
+Qn
+pi
+sk
+RB
+nm
+Ye
+Ye
+td
+FS
+EY
+pi
+jp
+td
+uc
+OC
+DF
+nM
+xt
+Xc
+jG
+jG
+ES
+Fp
+VO
+VO
+VO
+SH
+SH
+SH
+VO
+VO
+"}
+(32,1,1) = {"
+VO
+VO
+VO
+VO
+VO
+SH
+VO
+VO
+VO
+VO
+nX
+PT
+he
+he
+qe
+jG
+nX
+jG
+jG
+uV
+jG
+Wl
+pi
+pi
+gr
+Kc
+gr
+gr
+ec
+gr
+Fh
+lp
+Ql
+Pb
+ca
+Ql
+Vi
+ON
+pi
+jp
+HK
+RV
+OC
+DF
+DF
+xt
+Xc
+jG
+ES
+ES
+wL
+VO
+VO
+SH
+SH
+SH
+SH
+SH
+VO
+"}
+(33,1,1) = {"
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+jG
+jG
+Hz
+Hz
+qe
+jG
+Jz
+Jz
+Jz
+jG
+jG
+Zw
+pi
+ki
+ff
+cT
+rc
+rc
+rc
+Ki
+vE
+Yc
+td
+td
+nm
+td
+FS
+Jt
+Oh
+IO
+td
+GO
+OC
+eX
+xt
+xt
+RQ
+jG
+ES
+UG
+lY
+VO
+VO
+SH
+SH
+SH
+SH
+YK
+VO
+"}
+(34,1,1) = {"
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+jG
+qE
+qE
+uS
+bC
+Jz
+Jz
+Jz
+Jz
+jG
+jG
+Wl
+pi
+kQ
+pi
+uM
+gr
+gr
+GR
+gr
+os
+lp
+VT
+gt
+VT
+Pt
+dJ
+Lh
+pi
+Gg
+RH
+gE
+OC
+DF
+nM
+xt
+Xc
+jG
+ES
+wL
+jG
+VO
+VO
+SH
+SH
+SH
+SH
+SH
+VO
+"}
+(35,1,1) = {"
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+jG
+nX
+hk
+yl
+lQ
+jG
+Jz
+Jz
+nX
+jG
+jG
+Wl
+pi
+pi
+gr
+Kc
+pi
+ax
+Lx
+pi
+AP
+Yc
+td
+FS
+td
+td
+Ye
+Tm
+pi
+iL
+td
+di
+OC
+DF
+DF
+xt
+Xc
+jG
+ES
+Fm
+jG
+VO
+VO
+SH
+SH
+SH
+SH
+SH
+VO
+"}
+(36,1,1) = {"
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+jG
+Hf
+GB
+GB
+jG
+jG
+jG
+jG
+uV
+jG
+jG
+Wl
+pi
+Gq
+Zh
+qR
+pi
+Xz
+Ul
+pi
+Nj
+Kq
+Zq
+Fv
+VT
+xw
+VT
+ON
+pi
+Pr
+YZ
+lW
+pi
+pi
+cN
+xt
+Xc
+nX
+ES
+wL
+jG
+VO
+VO
+SH
+YK
+SH
+SH
+SH
+VO
+"}
+(37,1,1) = {"
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+jG
+jG
+jG
+jG
+jG
+nX
+jG
+jG
+jG
+nX
+jG
+Zw
+wJ
+gr
+yz
+DD
+pi
+pi
+pi
+pi
+gr
+Mm
+mq
+ZW
+uR
+aJ
+WF
+RU
+pi
+ze
+PK
+gr
+pi
+xt
+xt
+rQ
+Lv
+jG
+ES
+th
+nX
+VO
+VO
+SH
+SH
+SH
+SH
+SH
+VO
+"}
+(38,1,1) = {"
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+lE
+jG
+jG
+jG
+uV
+jG
+nX
+Wm
+jG
+jG
+jG
+Ub
+xj
+pi
+pi
+pi
+pi
+xt
+xt
+xt
+wJ
+pi
+pi
+FJ
+Kx
+FJ
+pi
+pi
+HG
+pi
+pi
+pi
+xt
+xt
+Nw
+Lv
+jG
+jG
+ES
+th
+jG
+VO
+VO
+VO
+SH
+SH
+SH
+VO
+VO
+"}
+(39,1,1) = {"
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+jG
+jG
+jG
+jG
+jG
+is
+jG
+jG
+jG
+jG
+jG
+Ub
+ox
+cI
+ox
+ox
+ox
+cI
+ox
+ox
+ox
+cI
+ox
+ox
+ox
+cI
+ox
+ox
+ox
+ox
+ox
+cI
+ox
+Lv
+jG
+is
+ES
+ES
+th
+jG
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+"}
+(40,1,1) = {"
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+jG
+jG
+jG
+jG
+jG
+jG
+jG
+jG
+Cy
+jG
+jG
+nX
+jG
+jG
+jG
+jG
+nX
+jG
+jG
+jG
+jG
+jG
+jG
+jG
+jG
+nX
+nX
+jG
+jG
+jG
+nX
+jG
+ES
+ES
+ES
+UG
+lY
+uV
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+"}
+(41,1,1) = {"
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+ES
+ES
+jG
+jG
+jG
+jG
+jG
+jG
+jG
+uV
+jG
+jG
+jG
+jG
+jG
+jG
+nX
+uV
+nX
+jG
+jG
+jG
+ES
+ES
+ES
+ES
+ES
+VO
+VO
+lY
+jG
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+"}
+(42,1,1) = {"
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+ES
+ES
+ES
+ES
+ES
+ES
+jG
+nX
+jG
+jG
+ES
+ES
+ES
+ES
+ES
+ES
+ES
+ES
+ES
+ES
+ES
+ES
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+"}
+(43,1,1) = {"
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+ES
+ES
+ES
+ES
+ES
+ES
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+VO
+"}

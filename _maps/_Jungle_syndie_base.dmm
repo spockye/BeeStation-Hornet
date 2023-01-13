@@ -1,0 +1,876 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ab" = (
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/obj/structure/railing{
+	dir = 8;
+	layer = 4.1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"aN" = (
+/obj/effect/turf_decal/arrows,
+/turf/open/floor/plasteel,
+/area/centcom/evac)
+"cT" = (
+/obj/structure/table/reinforced,
+/obj/item/powertool/jaws_of_life,
+/obj/item/pickaxe/drill,
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"dX" = (
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+"eR" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+"fO" = (
+/turf/open/floor/plasteel/stairs{
+	dir = 8
+	},
+/area/centcom/evac)
+"fQ" = (
+/turf/open/floor/mineral/plastitanium/red,
+/area/centcom/evac)
+"gr" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/arrows{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/centcom/evac)
+"gU" = (
+/obj/effect/turf_decal/siding/white,
+/obj/structure/railing,
+/turf/open/floor/plasteel/stairs{
+	dir = 8
+	},
+/area/centcom/evac)
+"gY" = (
+/obj/structure/table/reinforced,
+/obj/item/mecha_parts/mecha_equipment/weapon/ballistic/missile_rack,
+/obj/item/mecha_parts/mecha_equipment/weapon/ballistic/lmg{
+	pixel_y = -6
+	},
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/centcom/evac)
+"hk" = (
+/obj/structure/table/reinforced,
+/obj/item/paper_bin{
+	pixel_x = 5;
+	pixel_y = 4
+	},
+/obj/item/pen{
+	pixel_x = 5;
+	pixel_y = 6
+	},
+/obj/item/stamp{
+	pixel_x = -7;
+	pixel_y = 4
+	},
+/obj/item/stamp/denied{
+	pixel_x = -7;
+	pixel_y = -4
+	},
+/obj/effect/turf_decal/tile/neutral/tile_full,
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"hx" = (
+/obj/structure/table/reinforced,
+/obj/machinery/computer/secure_data/laptop{
+	pixel_x = -14
+	},
+/obj/effect/turf_decal/tile/neutral/tile_full,
+/obj/item/phone{
+	pixel_x = 5;
+	pixel_y = -2
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"ip" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 9
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/centcom/evac)
+"jM" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/centcom/evac)
+"jO" = (
+/obj/structure/chair{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/white{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/centcom/evac)
+"kp" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/mineral/plastitanium/red,
+/area/centcom/evac)
+"ky" = (
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 1
+	},
+/obj/structure/rack,
+/obj/item/gun/ballistic/automatic/sniper_rifle,
+/obj/item/gun/ballistic/automatic/l6_saw,
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"lf" = (
+/obj/effect/turf_decal/siding/white,
+/obj/structure/railing,
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"lT" = (
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/centcom/evac)
+"lU" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/siding/wideplating/dark/corner{
+	dir = 8
+	},
+/obj/item/toy/figure/syndie{
+	pixel_x = -8;
+	pixel_y = -7
+	},
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+"ms" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/mineral/plastitanium/red,
+/area/centcom/evac)
+"nc" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/stairs{
+	dir = 8
+	},
+/area/centcom/evac)
+"ne" = (
+/obj/effect/turf_decal/bot,
+/obj/structure/chair/fancy/shuttle,
+/mob/living/simple_animal/hostile/syndicate/ranged/infiltrator,
+/turf/open/floor/mineral/plastitanium/red,
+/area/centcom/evac)
+"nk" = (
+/obj/effect/turf_decal/siding/wideplating/dark/corner{
+	dir = 1
+	},
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+"nU" = (
+/obj/structure/barricade/sandbags,
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+"oR" = (
+/obj/machinery/computer/crew/syndie{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral/tile_full,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"pe" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/centcom/evac)
+"pr" = (
+/obj/structure/table/reinforced,
+/obj/machinery/computer/med_data/laptop,
+/obj/effect/turf_decal/tile/neutral/tile_full,
+/obj/effect/decal/cleanable/cobweb,
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"qv" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/tech/grid,
+/area/centcom/evac)
+"sG" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/caution,
+/turf/open/floor/mineral/plastitanium/red,
+/area/centcom/evac)
+"tF" = (
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"ug" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/centcom/evac)
+"uh" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 1
+	},
+/obj/structure/railing{
+	dir = 1;
+	layer = 4.1
+	},
+/turf/open/floor/plasteel/stairs{
+	dir = 8
+	},
+/area/centcom/evac)
+"uz" = (
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 1
+	},
+/obj/structure/rack,
+/obj/item/gun/ballistic/automatic/c20r{
+	pixel_x = 6;
+	pixel_y = -6
+	},
+/obj/item/gun/ballistic/automatic/c20r{
+	pixel_x = 5;
+	pixel_y = 3
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"vW" = (
+/obj/structure/closet/syndicate,
+/obj/item/ammo_box/magazine/m556,
+/obj/item/ammo_box/magazine/m556,
+/obj/item/ammo_box/magazine/mm712x82,
+/obj/item/ammo_box/magazine/sniper_rounds,
+/obj/item/ammo_box/magazine/smgm45,
+/obj/item/ammo_box/magazine/smgm45,
+/obj/item/ammo_box/magazine/smgm45,
+/obj/item/ammo_box/magazine/smgm45,
+/obj/effect/turf_decal/delivery,
+/obj/item/ammo_box/magazine/m10mm,
+/obj/item/ammo_box/magazine/m10mm,
+/obj/item/ammo_box/magazine/m10mm,
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"vY" = (
+/obj/machinery/suit_storage_unit/syndicate,
+/obj/effect/turf_decal/bot_white,
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"wu" = (
+/obj/structure/flora/rock/jungle,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"wy" = (
+/turf/open/floor/plasteel/stairs{
+	dir = 1
+	},
+/area/centcom/evac)
+"yk" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 1
+	},
+/obj/structure/railing{
+	dir = 1;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/centcom/evac)
+"yB" = (
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"yK" = (
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/obj/machinery/door/airlock/hatch,
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"yM" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+"zB" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/mineral/plastitanium/red,
+/area/centcom/evac)
+"zS" = (
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"Av" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 9
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"AJ" = (
+/obj/structure/table/reinforced,
+/obj/item/gun/ballistic/automatic/pistol{
+	pixel_y = 5
+	},
+/obj/item/gun/ballistic/automatic/pistol,
+/obj/item/gun/ballistic/automatic/pistol{
+	pixel_y = 10
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"Dw" = (
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"ES" = (
+/turf/open/floor/plasteel/tech/grid,
+/area/centcom/evac)
+"Fy" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/arrows,
+/turf/open/floor/plasteel,
+/area/centcom/evac)
+"FX" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/arrows{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/centcom/evac)
+"Gh" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"GG" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating/dirt/jungle/dark,
+/area/centcom/evac)
+"Hg" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 10
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"HD" = (
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 1
+	},
+/obj/structure/rack,
+/obj/item/gun/energy/ionrifle{
+	pixel_y = 2
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"HF" = (
+/obj/effect/turf_decal/arrows{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/centcom/evac)
+"HT" = (
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 9
+	},
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+"IK" = (
+/obj/structure/chair{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/centcom/evac)
+"Jd" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/centcom/evac)
+"Jj" = (
+/obj/machinery/mech_bay_recharge_port,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plating,
+/area/centcom/evac)
+"JF" = (
+/obj/effect/turf_decal/tile/neutral/tile_full,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"Ka" = (
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/centcom/evac)
+"Kp" = (
+/obj/mecha/combat/marauder/mauler/loaded,
+/turf/open/floor/mech_bay_recharge_floor,
+/area/centcom/evac)
+"KO" = (
+/turf/open/floor/plasteel/stairs,
+/area/centcom/evac)
+"Mc" = (
+/obj/structure/flora/rock/pile/largejungle,
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"MD" = (
+/obj/structure/flora/junglebush/large,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"ML" = (
+/obj/structure/flora/rock/jungle{
+	pixel_x = -13;
+	pixel_y = 20
+	},
+/turf/open/floor/plating/dirt/jungle/dark,
+/area/centcom/evac)
+"Nf" = (
+/obj/structure/chair/office{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral/tile_full,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"Ni" = (
+/obj/structure/flora/junglebush/large,
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"Nt" = (
+/obj/structure/flora/rock/pile/largejungle,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"NQ" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 1
+	},
+/obj/structure/railing{
+	dir = 1;
+	layer = 4.1
+	},
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"NV" = (
+/obj/effect/turf_decal/stripes/closeup,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"Op" = (
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/obj/machinery/door/airlock/hatch,
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"Pg" = (
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 10
+	},
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+"PF" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/centcom/evac)
+"Ql" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 8
+	},
+/obj/effect/turf_decal/arrows,
+/turf/open/floor/plasteel,
+/area/centcom/evac)
+"Qp" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/toolbox/mechanical{
+	pixel_x = 3;
+	pixel_y = 7
+	},
+/obj/item/mecha_parts/mecha_equipment/weapon/energy/taser,
+/obj/item/mecha_parts/mecha_equipment/weapon/ballistic/carbine{
+	pixel_x = 8;
+	pixel_y = -2
+	},
+/obj/item/mecha_parts/mecha_equipment/repair_droid,
+/turf/open/floor/mineral/plastitanium/red,
+/area/centcom/evac)
+"QQ" = (
+/obj/effect/turf_decal/stripes/closeup,
+/obj/machinery/door/airlock/hatch,
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"Th" = (
+/obj/structure/flora/rock/pile/largejungle,
+/turf/open/floor/plating/dirt/jungle/dark,
+/area/centcom/evac)
+"TU" = (
+/obj/structure/table/reinforced,
+/obj/item/gun/energy/chrono_gun{
+	pixel_y = 5
+	},
+/obj/item/storage/firstaid/tactical{
+	pixel_y = -4;
+	pixel_x = -5
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"UL" = (
+/obj/effect/turf_decal/siding/wideplating/dark/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wideplating/dark/corner{
+	dir = 8
+	},
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+"US" = (
+/obj/structure/barricade/sandbags,
+/obj/effect/turf_decal/siding/white{
+	dir = 8
+	},
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+"Xa" = (
+/obj/effect/turf_decal/stripes/closeup,
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"Xg" = (
+/obj/effect/turf_decal/siding/white,
+/obj/structure/railing,
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/centcom/evac)
+"Xx" = (
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"XU" = (
+/obj/structure/flora/rock/jungle{
+	pixel_x = -17;
+	pixel_y = -3
+	},
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"Ya" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 8
+	},
+/obj/structure/railing{
+	dir = 8;
+	layer = 4.1
+	},
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"Zg" = (
+/obj/structure/table/reinforced,
+/obj/item/grenade/plastic/c4{
+	pixel_x = 6
+	},
+/obj/item/grenade/frag{
+	pixel_x = -5;
+	pixel_y = -7
+	},
+/obj/item/grenade/frag{
+	pixel_x = 6;
+	pixel_y = -3
+	},
+/obj/item/dualsaber{
+	pixel_x = -6;
+	pixel_y = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"Zr" = (
+/obj/machinery/computer/mech_bay_power_console{
+	dir = 1
+	},
+/obj/effect/turf_decal/bot,
+/turf/open/floor/pod/light,
+/area/centcom/evac)
+"ZD" = (
+/obj/structure/table/reinforced,
+/obj/item/folder/red{
+	pixel_x = 6;
+	pixel_y = 4
+	},
+/obj/effect/turf_decal/tile/neutral/tile_full,
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+
+(1,1,1) = {"
+pr
+JF
+Nf
+oR
+lT
+Qp
+Xa
+Jj
+lT
+TU
+Zg
+cT
+HD
+"}
+(2,1,1) = {"
+hx
+nc
+ZD
+hk
+lT
+gY
+NV
+Kp
+lT
+AJ
+ug
+pe
+uz
+"}
+(3,1,1) = {"
+ab
+yB
+ab
+ab
+Op
+zS
+Av
+Zr
+lT
+vW
+sG
+kp
+ky
+"}
+(4,1,1) = {"
+jO
+FX
+Ql
+jO
+lT
+ne
+Hg
+zS
+yK
+zS
+ip
+zB
+vY
+"}
+(5,1,1) = {"
+IK
+gr
+aN
+IK
+lT
+ne
+Xa
+fQ
+lT
+vY
+PF
+ms
+vY
+"}
+(6,1,1) = {"
+IK
+HF
+Fy
+IK
+lT
+lT
+QQ
+lT
+lT
+vY
+PF
+zB
+vY
+"}
+(7,1,1) = {"
+IK
+HF
+aN
+IK
+lT
+HT
+UL
+Pg
+lT
+vY
+jM
+Jd
+vY
+"}
+(8,1,1) = {"
+lT
+lT
+lT
+lT
+lT
+nk
+yM
+lU
+lT
+lT
+lT
+lT
+lT
+"}
+(9,1,1) = {"
+ES
+ES
+ES
+wy
+dX
+dX
+dX
+yM
+dX
+KO
+ES
+qv
+qv
+"}
+(10,1,1) = {"
+Ka
+Ka
+Xg
+US
+dX
+dX
+yM
+eR
+dX
+US
+yk
+Ka
+Ka
+"}
+(11,1,1) = {"
+fO
+fO
+gU
+nU
+dX
+yM
+yM
+yM
+yM
+nU
+uh
+fO
+fO
+"}
+(12,1,1) = {"
+Dw
+Dw
+lf
+nU
+nU
+nU
+nU
+nU
+nU
+nU
+NQ
+Dw
+Dw
+"}
+(13,1,1) = {"
+Dw
+Gh
+Xx
+Ya
+Ya
+Ya
+Ya
+Ya
+Ya
+Ya
+tF
+Gh
+Dw
+"}
+(14,1,1) = {"
+Dw
+Gh
+GG
+Mc
+Gh
+Gh
+Gh
+Dw
+Dw
+XU
+Nt
+GG
+Dw
+"}
+(15,1,1) = {"
+Dw
+Dw
+wu
+GG
+GG
+ML
+GG
+Gh
+MD
+GG
+Gh
+Th
+Dw
+"}
+(16,1,1) = {"
+Dw
+Ni
+Dw
+Dw
+Dw
+Dw
+Dw
+Dw
+Dw
+Dw
+Dw
+Dw
+Dw
+"}

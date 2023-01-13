@@ -1,0 +1,548 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/machinery/computer/mech_bay_power_console{
+	dir = 4
+	},
+/turf/open/floor/pod/light,
+/area/centcom/evac)
+"b" = (
+/obj/structure/filingcabinet/chestdrawer,
+/obj/item/paper/crumpled/awaymissions/research,
+/obj/item/paper/fluff/awaymissions/moonoutpost19/research/evacuation,
+/obj/item/paper/crumpled/awaymissions/research/sensitive_info,
+/obj/item/paper/fluff/awaymissions/moonoutpost19/research/xeno_queen,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/engine,
+/area/centcom/evac)
+"c" = (
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/centcom/evac)
+"d" = (
+/obj/structure/chair/fancy/shuttle{
+	dir = 8
+	},
+/obj/effect/turf_decal/bot,
+/turf/open/floor/mineral/plastitanium/red,
+/area/centcom/evac)
+"e" = (
+/obj/structure/table/reinforced,
+/obj/item/slimecross/gentle/red{
+	pixel_x = -4;
+	pixel_y = 8
+	},
+/obj/item/slimecross/industrial/yellow{
+	pixel_x = 7;
+	pixel_y = 8
+	},
+/obj/item/slime_extract/grey{
+	pixel_x = -4;
+	pixel_y = -1
+	},
+/obj/item/slime_extract/grey{
+	pixel_x = 8
+	},
+/obj/item/slime_extract/grey,
+/obj/item/slime_extract/grey,
+/obj/item/slime_extract/green{
+	pixel_x = 4;
+	pixel_y = -6
+	},
+/obj/structure/window/reinforced,
+/turf/open/floor/engine,
+/area/centcom/evac)
+"f" = (
+/obj/effect/turf_decal/siding/wideplating/terracotta{
+	dir = 6
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"g" = (
+/obj/effect/turf_decal/siding/wideplating/terracotta/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wideplating/terracotta/corner{
+	dir = 4
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"i" = (
+/obj/structure/chair/fancy/shuttle{
+	dir = 8
+	},
+/obj/effect/turf_decal/bot,
+/obj/item/toy/plush/nukeplushie,
+/turf/open/floor/mineral/plastitanium/red,
+/area/centcom/evac)
+"j" = (
+/obj/machinery/door/airlock/hatch,
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"k" = (
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/engine,
+/area/centcom/evac)
+"l" = (
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"m" = (
+/obj/structure/table/reinforced,
+/obj/item/mecha_parts/mecha_equipment/weapon/ballistic/missile_rack,
+/obj/item/mecha_parts/mecha_equipment/weapon/ballistic/lmg{
+	pixel_y = -6
+	},
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/pod/light,
+/area/centcom/evac)
+"n" = (
+/turf/open/floor/plasteel/stairs{
+	dir = 8
+	},
+/area/centcom/evac)
+"o" = (
+/turf/open/floor/plasteel/stairs{
+	dir = 4
+	},
+/area/centcom/evac)
+"p" = (
+/obj/effect/turf_decal/bot_white,
+/obj/machinery/suit_storage_unit/syndicate,
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"q" = (
+/obj/machinery/mech_bay_recharge_port{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/centcom/evac)
+"r" = (
+/obj/structure/table/wood,
+/obj/item/storage/box/donkpockets/donkpocketteriyaki{
+	pixel_x = 4;
+	pixel_y = 5
+	},
+/obj/machinery/microwave{
+	pixel_y = 5
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/centcom/evac)
+"s" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 4
+	},
+/obj/item/dualsaber{
+	pixel_x = -6;
+	pixel_y = 4
+	},
+/obj/item/gun/ballistic/automatic/pistol,
+/obj/item/gun/ballistic/automatic/pistol{
+	pixel_y = 3
+	},
+/obj/item/gun/ballistic/automatic/l6_saw{
+	pixel_x = 2;
+	pixel_y = -5
+	},
+/obj/item/gun/ballistic/revolver/grenadelauncher,
+/turf/open/floor/pod/dark,
+/area/centcom/evac)
+"t" = (
+/obj/effect/turf_decal/siding/wideplating/terracotta/corner,
+/obj/effect/turf_decal/siding/wideplating/terracotta/corner{
+	dir = 4
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"u" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 4
+	},
+/obj/item/doorCharge{
+	pixel_x = -4;
+	pixel_y = 3
+	},
+/obj/item/doorCharge{
+	pixel_x = 4
+	},
+/obj/item/doorCharge{
+	pixel_x = -9
+	},
+/obj/item/grenade/frag{
+	pixel_x = 6;
+	pixel_y = -3
+	},
+/obj/item/grenade/frag{
+	pixel_x = 6;
+	pixel_y = -3
+	},
+/obj/item/grenade/frag{
+	pixel_x = 6;
+	pixel_y = -3
+	},
+/obj/item/grenade/frag{
+	pixel_x = 6;
+	pixel_y = -3
+	},
+/turf/open/floor/pod/dark,
+/area/centcom/evac)
+"v" = (
+/obj/effect/turf_decal/siding/wideplating/terracotta/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wideplating/terracotta/corner{
+	dir = 8
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"w" = (
+/obj/machinery/computer/arcade/orion_trail{
+	dir = 4;
+	pixel_x = -5
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/centcom/evac)
+"y" = (
+/turf/open/floor/plasteel/tech/grid,
+/area/centcom/evac)
+"z" = (
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 1
+	},
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+"A" = (
+/obj/structure/barricade/sandbags,
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/centcom/evac)
+"B" = (
+/obj/effect/turf_decal/siding/wideplating/dark,
+/turf/open/floor/plasteel/grid/steel,
+/area/centcom/evac)
+"C" = (
+/obj/machinery/mech_bay_recharge_port{
+	dir = 2
+	},
+/turf/open/floor/plating,
+/area/centcom/evac)
+"D" = (
+/obj/item/grenade/syndieminibomb{
+	pixel_x = 6;
+	pixel_y = 4
+	},
+/obj/item/grenade/syndieminibomb{
+	pixel_x = -4;
+	pixel_y = 4
+	},
+/obj/structure/table/reinforced,
+/obj/item/grenade/plastic/c4,
+/obj/item/grenade/plastic/c4,
+/obj/item/grenade/plastic/c4,
+/obj/item/grenade/plastic/c4,
+/obj/item/grenade/plastic/c4,
+/obj/item/grenade/plastic/x4{
+	pixel_x = 6
+	},
+/obj/item/grenade/plastic/x4{
+	pixel_x = 6
+	},
+/obj/item/grenade/plastic/x4{
+	pixel_x = 6
+	},
+/obj/item/syndicatedetonator,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/pod/dark,
+/area/centcom/evac)
+"E" = (
+/obj/effect/turf_decal/siding/wideplating/terracotta{
+	dir = 9
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"F" = (
+/turf/open/floor/plasteel/dark,
+/area/centcom/evac)
+"G" = (
+/obj/effect/turf_decal/siding/wideplating/terracotta{
+	dir = 10
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"H" = (
+/obj/machinery/porta_turret/syndicate/pod{
+	dir = 6
+	},
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/centcom/evac)
+"I" = (
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/turf/open/floor/engine,
+/area/centcom/evac)
+"J" = (
+/obj/effect/turf_decal/stripes/openup{
+	dir = 10
+	},
+/obj/effect/turf_decal/stripes/corner,
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"K" = (
+/obj/effect/turf_decal/stripes/closeup,
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"L" = (
+/obj/item/sbeacondrop/bomb{
+	pixel_x = -4;
+	pixel_y = 8
+	},
+/obj/item/sbeacondrop/bomb{
+	pixel_x = -4
+	},
+/obj/structure/table/reinforced,
+/obj/item/radio/headset/syndicate/alt{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/item/gun/grenadelauncher{
+	pixel_x = -2;
+	pixel_y = -9
+	},
+/turf/open/floor/pod/dark,
+/area/centcom/evac)
+"M" = (
+/obj/machinery/vending/sovietsoda,
+/turf/open/floor/mineral/plastitanium/red,
+/area/centcom/evac)
+"N" = (
+/obj/machinery/door/airlock/vault,
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/turf/open/floor/engine,
+/area/centcom/evac)
+"O" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/toolbox/mechanical{
+	pixel_x = 3;
+	pixel_y = 7
+	},
+/obj/item/mecha_parts/mecha_equipment/weapon/energy/taser,
+/obj/item/mecha_parts/mecha_equipment/weapon/ballistic/carbine{
+	pixel_x = 8;
+	pixel_y = -2
+	},
+/obj/item/mecha_parts/mecha_equipment/repair_droid,
+/turf/open/floor/pod/light,
+/area/centcom/evac)
+"P" = (
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/obj/machinery/door/airlock/hatch,
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"Q" = (
+/obj/structure/table/reinforced,
+/obj/item/disk/tech_disk/research/exotic_ammo{
+	pixel_x = -6;
+	pixel_y = 6
+	},
+/obj/item/disk/tech_disk/research/phazon{
+	pixel_x = 2;
+	pixel_y = 6
+	},
+/obj/item/research_disk_pinpointer{
+	pixel_x = -2;
+	pixel_y = -3
+	},
+/turf/open/floor/engine,
+/area/centcom/evac)
+"R" = (
+/obj/effect/turf_decal/siding/wideplating/terracotta{
+	dir = 5
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+"S" = (
+/obj/effect/turf_decal/stripes/closeup,
+/obj/machinery/door/airlock/hatch,
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"T" = (
+/obj/structure/table/reinforced,
+/obj/item/aicard{
+	pixel_x = 5
+	},
+/obj/item/aicard,
+/turf/open/floor/engine,
+/area/centcom/evac)
+"U" = (
+/obj/machinery/porta_turret/syndicate/pod{
+	dir = 5
+	},
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/centcom/evac)
+"W" = (
+/obj/mecha/combat/marauder/mauler/loaded,
+/turf/open/floor/mech_bay_recharge_floor,
+/area/centcom/evac)
+"X" = (
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/evac)
+"Y" = (
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/centcom/evac)
+"Z" = (
+/obj/effect/turf_decal/siding/wideplating/terracotta/corner,
+/obj/effect/turf_decal/siding/wideplating/terracotta/corner{
+	dir = 8
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/centcom/evac)
+
+(1,1,1) = {"
+u
+L
+D
+s
+Y
+M
+w
+r
+Y
+b
+Q
+"}
+(2,1,1) = {"
+c
+c
+c
+c
+P
+J
+X
+X
+N
+k
+I
+"}
+(3,1,1) = {"
+p
+p
+p
+p
+Y
+K
+i
+d
+Y
+e
+T
+"}
+(4,1,1) = {"
+Y
+Y
+Y
+Y
+Y
+S
+Y
+Y
+Y
+Y
+Y
+"}
+(5,1,1) = {"
+a
+W
+q
+Y
+E
+v
+G
+Y
+C
+W
+a
+"}
+(6,1,1) = {"
+O
+z
+B
+j
+g
+l
+Z
+j
+z
+B
+O
+"}
+(7,1,1) = {"
+m
+z
+B
+Y
+R
+t
+f
+Y
+z
+B
+m
+"}
+(8,1,1) = {"
+F
+z
+B
+Y
+Y
+o
+Y
+Y
+z
+B
+F
+"}
+(9,1,1) = {"
+F
+z
+B
+Y
+y
+y
+y
+Y
+z
+B
+F
+"}
+(10,1,1) = {"
+Y
+n
+n
+U
+A
+A
+A
+H
+n
+n
+Y
+"}

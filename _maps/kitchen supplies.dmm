@@ -1,0 +1,35 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/bot,
+/obj/structure/closet/secure_closet/freezer/kitchen,
+/turf/open/floor/plasteel/ameridiner,
+/area/space)
+"I" = (
+/obj/structure/closet/secure_closet/freezer/fridge/open,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/ameridiner,
+/area/space)
+"W" = (
+/obj/structure/closet/secure_closet/freezer/meat/open,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/ameridiner,
+/area/space)
+
+(1,1,1) = {"
+W
+"}
+(2,1,1) = {"
+I
+"}
+(3,1,1) = {"
+a
+"}

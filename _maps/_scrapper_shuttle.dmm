@@ -1,0 +1,524 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/structure/closet/secure_closet/miner,
+/obj/effect/turf_decal/box,
+/obj/item/storage/toolbox/mechanical{
+	pixel_x = -3;
+	pixel_y = 6
+	},
+/obj/item/storage/toolbox/electrical,
+/obj/structure/sign/poster/contraband/random{
+	pixel_y = 32
+	},
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/shuttle/abandoned)
+"b" = (
+/obj/structure/tank_dispenser,
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/shuttle/abandoned)
+"c" = (
+/obj/structure/fans/tiny,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/sand,
+/obj/machinery/door/poddoor/shutters{
+	id = "aaapa"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/shuttle/abandoned)
+"d" = (
+/obj/structure/chair/office{
+	dir = 1
+	},
+/obj/machinery/light,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/abandoned)
+"e" = (
+/obj/structure/table/reinforced,
+/obj/item/stack/sheet/mineral/plastitanium{
+	amount = 30
+	},
+/obj/item/stack/cable_coil/red,
+/obj/item/assembly/prox_sensor{
+	desc = "Used for scanning and alerting when someone enters a certain proximity. This one is slightly shifted to the left.";
+	pixel_x = -6;
+	pixel_y = 6
+	},
+/obj/item/assembly/flash/handheld,
+/obj/item/storage/belt/utility{
+	pixel_y = -3
+	},
+/obj/structure/extinguisher_cabinet{
+	pixel_x = 26
+	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plasteel/techmaint,
+/area/shuttle/abandoned)
+"f" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/closet/crate,
+/obj/item/stack/sheet/titaniumglass{
+	amount = 50
+	},
+/obj/item/stack/sheet/mineral/titanium/fifty,
+/obj/item/stack/sheet/mineral/titanium/fifty,
+/turf/open/floor/plating/airless,
+/area/space/nearstation)
+"g" = (
+/obj/effect/turf_decal/delivery,
+/obj/structure/window/reinforced{
+	dir = 1;
+	pixel_y = 5
+	},
+/obj/machinery/suit_storage_unit/ert/engineer,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/abandoned)
+"i" = (
+/obj/structure/reagent_dispensers/fueltank,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel/techmaint,
+/area/shuttle/abandoned)
+"j" = (
+/turf/closed/wall/mineral/titanium,
+/area/shuttle/abandoned)
+"k" = (
+/obj/effect/turf_decal/delivery,
+/obj/structure/sign/poster/contraband/random{
+	pixel_x = 32
+	},
+/obj/machinery/power/apc/auto_name/north,
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/machinery/suit_storage_unit/engine,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/abandoned)
+"n" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/mineral/ore_redemption{
+	input_dir = 2;
+	output_dir = 1
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/shuttle/abandoned)
+"o" = (
+/obj/structure/table/reinforced,
+/obj/machinery/computer/med_data/laptop{
+	pixel_x = -3;
+	pixel_y = 3
+	},
+/obj/effect/turf_decal/tile/neutral/tile_full,
+/obj/machinery/computer/secure_data/laptop{
+	pixel_y = 3;
+	pixel_x = 14
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/abandoned)
+"p" = (
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/shuttle/abandoned)
+"r" = (
+/obj/structure/table/reinforced,
+/obj/item/radio{
+	desc = "An old handheld radio. You could use it, if you really wanted to.";
+	icon_state = "radio";
+	name = "old radio";
+	pixel_x = 2;
+	pixel_y = 9
+	},
+/obj/item/reagent_containers/spray/cleaner{
+	pixel_x = 8;
+	pixel_y = -6
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/abandoned)
+"s" = (
+/obj/machinery/light,
+/obj/structure/table/reinforced,
+/obj/item/newspaper{
+	pixel_x = 5
+	},
+/obj/item/flashlight/lantern{
+	pixel_x = -6;
+	pixel_y = 2
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/abandoned)
+"u" = (
+/obj/structure/window/reinforced/survival_pod{
+	dir = 1
+	},
+/obj/machinery/atmospherics/components/unary/shuttle/heater{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/shuttle/abandoned)
+"v" = (
+/obj/structure/rack,
+/obj/item/flashlight/seclite,
+/obj/item/flashlight/seclite,
+/obj/item/extinguisher/mini,
+/obj/item/extinguisher/mini,
+/obj/item/tank/internals/oxygen/yellow,
+/obj/item/tank/internals/oxygen/yellow,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/shuttle/abandoned)
+"w" = (
+/obj/structure/fans/tiny,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/sand,
+/obj/machinery/door/poddoor/shutters{
+	id = "exploration"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/shuttle/abandoned)
+"x" = (
+/obj/machinery/atmospherics/pipe/simple/purple/visible{
+	dir = 6
+	},
+/obj/machinery/recharge_station,
+/turf/open/floor/plasteel/grid/steel,
+/area/shuttle/abandoned)
+"z" = (
+/obj/machinery/shuttle/engine/plasma{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/shuttle/abandoned)
+"B" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/button/door/indestructible{
+	id = "aaapa";
+	name = "shutters";
+	pixel_x = 8;
+	pixel_y = 24
+	},
+/turf/open/floor/plasteel/grid/steel,
+/area/shuttle/abandoned)
+"C" = (
+/obj/machinery/atmospherics/pipe/manifold/purple/visible{
+	dir = 8
+	},
+/turf/open/floor/plasteel/grid/steel,
+/area/shuttle/abandoned)
+"D" = (
+/obj/structure/reagent_dispensers/watertank,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel/techmaint,
+/area/shuttle/abandoned)
+"E" = (
+/obj/structure/table/reinforced,
+/obj/item/flashlight/lamp{
+	pixel_x = -3;
+	pixel_y = 12
+	},
+/obj/effect/turf_decal/tile/neutral/tile_full,
+/obj/item/discovery_scanner{
+	pixel_x = -5;
+	pixel_y = -10
+	},
+/obj/item/gun/ballistic/revolver/nagant,
+/obj/item/ammo_casing/n762,
+/obj/item/ammo_casing/n762,
+/obj/item/ammo_casing/n762,
+/obj/item/ammo_casing/n762,
+/obj/item/ammo_casing/n762,
+/obj/item/ammo_casing/n762,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/abandoned)
+"F" = (
+/obj/effect/spawner/structure/window/shuttle,
+/turf/open/floor/plating,
+/area/shuttle/abandoned)
+"G" = (
+/obj/structure/closet/secure_closet/miner,
+/obj/effect/turf_decal/box,
+/obj/item/storage/toolbox/mechanical{
+	pixel_x = -3;
+	pixel_y = 6
+	},
+/obj/item/storage/toolbox/electrical,
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/machinery/light,
+/turf/open/floor/plasteel/techmaint,
+/area/shuttle/abandoned)
+"H" = (
+/turf/template_noop,
+/area/template_noop)
+"J" = (
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/abandoned)
+"K" = (
+/obj/machinery/computer/shuttle_flight/custom_shuttle/bluespace_pod,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/abandoned)
+"L" = (
+/turf/open/floor/plasteel/grid/steel,
+/area/shuttle/abandoned)
+"M" = (
+/obj/effect/turf_decal/delivery,
+/obj/structure/window/reinforced{
+	dir = 1;
+	pixel_y = 5
+	},
+/obj/machinery/suit_storage_unit/engine,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/abandoned)
+"N" = (
+/turf/open/floor/plasteel/techmaint,
+/area/shuttle/abandoned)
+"O" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/obj/structure/closet/crate,
+/obj/item/stack/sheet/iron/fifty,
+/obj/item/stack/sheet/iron/fifty,
+/turf/open/floor/plating/airless,
+/area/space/nearstation)
+"P" = (
+/obj/machinery/atmospherics/pipe/simple/purple/visible{
+	dir = 10
+	},
+/turf/open/floor/plasteel/grid/steel,
+/area/shuttle/abandoned)
+"Q" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/closet/crate,
+/obj/item/stack/sheet/glass/fifty,
+/obj/item/stack/sheet/glass/fifty,
+/turf/open/floor/plating/airless,
+/area/space/nearstation)
+"R" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plasteel/techmaint,
+/area/shuttle/abandoned)
+"S" = (
+/obj/machinery/light,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plasteel/grid/steel,
+/area/shuttle/abandoned)
+"T" = (
+/obj/machinery/atmospherics/pipe/manifold/purple/visible{
+	dir = 1
+	},
+/turf/open/floor/plasteel/grid/steel,
+/area/shuttle/abandoned)
+"U" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/closet/crate,
+/obj/item/stack/sheet/mineral/plasma/fifty{
+	pixel_x = 3;
+	pixel_y = -3
+	},
+/obj/item/gps/mining,
+/obj/item/gps/mining,
+/obj/item/mining_scanner{
+	pixel_x = -6
+	},
+/obj/item/mining_scanner{
+	pixel_x = -9
+	},
+/turf/open/floor/plating/airless,
+/area/space/nearstation)
+"V" = (
+/obj/machinery/atmospherics/components/unary/portables_connector/visible{
+	dir = 1
+	},
+/obj/machinery/portable_atmospherics/canister/toxins,
+/obj/effect/turf_decal/bot,
+/obj/machinery/light,
+/turf/open/floor/plasteel/grid/steel,
+/area/shuttle/abandoned)
+"X" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/toolbox/mechanical{
+	pixel_x = -3;
+	pixel_y = 6
+	},
+/obj/item/stack/sheet/mineral/plasma/fifty{
+	pixel_x = 3;
+	pixel_y = -3
+	},
+/obj/item/stack/medical/bruise_pack{
+	pixel_x = -2;
+	pixel_y = 6
+	},
+/obj/item/healthanalyzer,
+/obj/item/stack/medical/ointment,
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/machinery/light,
+/turf/open/floor/plasteel/techmaint,
+/area/shuttle/abandoned)
+"Y" = (
+/obj/structure/chair/office{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/abandoned)
+
+(1,1,1) = {"
+H
+H
+H
+H
+H
+H
+H
+H
+H
+H
+j
+p
+p
+j
+H
+"}
+(2,1,1) = {"
+j
+p
+p
+p
+p
+p
+p
+F
+F
+F
+p
+x
+V
+p
+j
+"}
+(3,1,1) = {"
+F
+K
+d
+p
+b
+X
+p
+v
+i
+D
+n
+P
+C
+u
+z
+"}
+(4,1,1) = {"
+F
+E
+J
+J
+N
+N
+N
+N
+N
+N
+R
+L
+T
+u
+z
+"}
+(5,1,1) = {"
+F
+o
+Y
+J
+N
+N
+N
+N
+N
+N
+R
+L
+T
+u
+z
+"}
+(6,1,1) = {"
+F
+r
+s
+p
+a
+G
+p
+k
+g
+M
+e
+L
+P
+u
+z
+"}
+(7,1,1) = {"
+j
+p
+p
+p
+p
+p
+p
+p
+p
+p
+p
+B
+S
+p
+j
+"}
+(8,1,1) = {"
+H
+H
+H
+H
+H
+H
+O
+Q
+f
+U
+p
+c
+w
+p
+H
+"}

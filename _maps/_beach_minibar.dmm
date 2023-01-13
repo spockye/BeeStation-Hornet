@@ -1,0 +1,459 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/effect/turf_decal/sand,
+/obj/effect/turf_decal/sand/plating,
+/turf/open/floor/plating/beach/sand,
+/area/centcom/evac)
+"b" = (
+/turf/open/floor/plating/beach/coastline_t/sandwater_inner{
+	dir = 4
+	},
+/area/centcom/evac)
+"e" = (
+/obj/effect/turf_decal/sand,
+/obj/structure/chair/stool/bamboo,
+/turf/open/floor/wood,
+/area/centcom/evac)
+"g" = (
+/turf/open/floor/plating/beach/water,
+/area/centcom/evac)
+"h" = (
+/obj/structure/table/wood,
+/obj/effect/turf_decal/sand,
+/obj/item/reagent_containers/food/drinks/shaker,
+/obj/effect/turf_decal/sand/plating,
+/turf/open/floor/plating/beach/sand,
+/area/centcom/evac)
+"i" = (
+/obj/structure/flora/ausbushes/stalkybush{
+	desc = "It can't be smoked.";
+	name = "sea weed";
+	pixel_x = 11;
+	pixel_y = 14
+	},
+/turf/open/floor/plating/beach/water,
+/area/centcom/evac)
+"l" = (
+/obj/structure/table/wood,
+/obj/effect/turf_decal/sand,
+/obj/item/reagent_containers/food/drinks/soda_cans/pwr_game{
+	pixel_x = -7;
+	pixel_y = 7
+	},
+/obj/effect/turf_decal/sand/plating,
+/turf/open/floor/plating/beach/sand,
+/area/centcom/evac)
+"n" = (
+/obj/effect/turf_decal/sand,
+/obj/structure/table/wood,
+/obj/effect/turf_decal/sand/plating,
+/turf/open/floor/plating/beach/sand,
+/area/centcom/evac)
+"o" = (
+/turf/open/floor/wood,
+/area/centcom/evac)
+"p" = (
+/obj/structure/table/wood,
+/obj/effect/turf_decal/sand,
+/obj/item/reagent_containers/food/drinks/soda_cans/dr_gibb{
+	pixel_x = -8;
+	pixel_y = 11
+	},
+/obj/effect/turf_decal/sand/plating,
+/turf/open/floor/plating/beach/sand,
+/area/centcom/evac)
+"q" = (
+/obj/structure/bonfire/prelit,
+/turf/open/floor/plating/beach/sand,
+/area/centcom/evac)
+"r" = (
+/turf/open/floor/plating/beach/coastline_t{
+	dir = 9
+	},
+/area/centcom/evac)
+"s" = (
+/obj/effect/overlay/coconut,
+/turf/open/floor/plating/beach/sand,
+/area/centcom/evac)
+"v" = (
+/obj/structure/chair/stool/bamboo,
+/turf/open/floor/wood,
+/area/centcom/evac)
+"x" = (
+/obj/structure/chair/stool/bar{
+	dir = 4
+	},
+/obj/effect/turf_decal/sand,
+/turf/open/floor/wood,
+/area/centcom/evac)
+"y" = (
+/obj/effect/turf_decal/sand,
+/turf/open/floor/plating/beach/sand,
+/area/centcom/evac)
+"z" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 6;
+	color = "#C2B280"
+	},
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 5;
+	color = "#C2B280"
+	},
+/obj/item/clothing/glasses/heat{
+	pixel_x = 7;
+	pixel_y = 8
+	},
+/turf/open/floor/carpet,
+/area/centcom/evac)
+"A" = (
+/turf/open/floor/plating/beach/coastline_b{
+	dir = 8
+	},
+/area/centcom/evac)
+"B" = (
+/obj/item/reagent_containers/food/drinks/soda_cans/space_mountain_wind{
+	pixel_y = -4;
+	pixel_x = 5
+	},
+/turf/open/floor/plating/beach/sand,
+/area/centcom/evac)
+"C" = (
+/obj/structure/chair/stool/bar{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/centcom/evac)
+"D" = (
+/obj/structure/table/wood,
+/obj/effect/turf_decal/sand,
+/obj/effect/turf_decal/sand/plating,
+/turf/open/floor/plating/beach/sand,
+/area/centcom/evac)
+"F" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 9;
+	color = "#C2B280"
+	},
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 10;
+	color = "#C2B280"
+	},
+/turf/open/floor/carpet,
+/area/centcom/evac)
+"G" = (
+/turf/open/floor/plating/beach/coastline_t{
+	dir = 8
+	},
+/area/centcom/evac)
+"J" = (
+/obj/structure/chair/stool/bar{
+	dir = 8
+	},
+/obj/effect/turf_decal/sand,
+/turf/open/floor/wood,
+/area/centcom/evac)
+"K" = (
+/obj/effect/turf_decal/sand,
+/turf/open/floor/wood,
+/area/centcom/evac)
+"L" = (
+/turf/open/floor/plating/beach/coastline_b{
+	dir = 6
+	},
+/area/centcom/evac)
+"M" = (
+/obj/effect/overlay/palmtree_l,
+/turf/open/floor/plating/beach/sand,
+/area/centcom/evac)
+"N" = (
+/obj/structure/flora/ausbushes/stalkybush{
+	desc = "It can't be smoked.";
+	name = "sea weed"
+	},
+/turf/open/floor/plating/beach/water,
+/area/centcom/evac)
+"O" = (
+/obj/structure/flora/rock{
+	desc = "A volcanic rock.";
+	name = "coastal rock"
+	},
+/obj/structure/flora/ausbushes/stalkybush{
+	desc = "It can't be smoked.";
+	name = "sea weed"
+	},
+/turf/open/floor/plating/beach/water,
+/area/centcom/evac)
+"P" = (
+/mob/living/simple_animal/crab,
+/turf/open/floor/plating/beach/sand,
+/area/centcom/evac)
+"T" = (
+/turf/open/floor/plating/beach/sand,
+/area/centcom/evac)
+"U" = (
+/obj/effect/turf_decal/sand,
+/obj/structure/table/wood,
+/obj/item/reagent_containers/food/drinks/soda_cans/dr_gibb{
+	pixel_y = 5;
+	pixel_x = 3
+	},
+/obj/effect/turf_decal/sand/plating,
+/turf/open/floor/plating/beach/sand,
+/area/centcom/evac)
+"V" = (
+/obj/effect/turf_decal/sand,
+/obj/structure/table/wood,
+/obj/effect/turf_decal/sand,
+/obj/effect/turf_decal/sand/plating,
+/turf/open/floor/plating/beach/sand,
+/area/centcom/evac)
+"Y" = (
+/obj/structure/flora/ausbushes/stalkybush{
+	desc = "It can't be smoked.";
+	name = "sea weed";
+	pixel_x = -28;
+	pixel_y = -6
+	},
+/turf/open/floor/plating/beach/water,
+/area/centcom/evac)
+
+(1,1,1) = {"
+g
+g
+g
+g
+i
+g
+g
+g
+g
+g
+g
+g
+g
+"}
+(2,1,1) = {"
+g
+g
+g
+g
+N
+g
+g
+g
+g
+g
+O
+g
+g
+"}
+(3,1,1) = {"
+g
+O
+g
+Y
+g
+g
+g
+g
+g
+g
+A
+A
+A
+"}
+(4,1,1) = {"
+g
+g
+g
+g
+g
+g
+g
+g
+g
+L
+r
+G
+G
+"}
+(5,1,1) = {"
+g
+g
+g
+g
+g
+g
+g
+A
+A
+r
+b
+T
+T
+"}
+(6,1,1) = {"
+g
+g
+g
+g
+g
+g
+L
+r
+G
+b
+T
+s
+T
+"}
+(7,1,1) = {"
+g
+g
+g
+g
+g
+L
+r
+b
+T
+y
+T
+M
+T
+"}
+(8,1,1) = {"
+g
+g
+g
+L
+r
+G
+b
+T
+y
+T
+o
+x
+C
+"}
+(9,1,1) = {"
+g
+g
+L
+r
+b
+T
+T
+T
+M
+o
+o
+D
+l
+"}
+(10,1,1) = {"
+A
+A
+r
+b
+T
+T
+T
+T
+T
+v
+D
+p
+a
+"}
+(11,1,1) = {"
+G
+G
+b
+T
+T
+T
+T
+T
+T
+v
+V
+a
+a
+"}
+(12,1,1) = {"
+P
+T
+T
+F
+T
+q
+T
+T
+T
+e
+n
+a
+a
+"}
+(13,1,1) = {"
+T
+M
+B
+z
+T
+T
+T
+M
+y
+K
+U
+h
+a
+"}
+(14,1,1) = {"
+T
+s
+T
+T
+T
+T
+T
+y
+y
+K
+o
+D
+D
+"}
+(15,1,1) = {"
+T
+T
+T
+T
+T
+T
+y
+y
+y
+T
+o
+J
+J
+"}
+(16,1,1) = {"
+T
+T
+T
+T
+T
+T
+y
+y
+T
+T
+T
+T
+T
+"}

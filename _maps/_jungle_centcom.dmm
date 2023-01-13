@@ -1,0 +1,887 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aB" = (
+/obj/structure/railing/corner{
+	dir = 8;
+	color = "#A47449"
+	},
+/obj/structure/flora/grass/jungle/b{
+	pixel_x = -7;
+	pixel_y = -1
+	},
+/obj/structure/flora/ausbushes/fullgrass{
+	pixel_x = 14;
+	pixel_y = 5
+	},
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"aP" = (
+/obj/item/flashlight/lantern,
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"aZ" = (
+/obj/item/flashlight/lantern,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"bC" = (
+/obj/structure/flora/rock/pile/largejungle{
+	pixel_x = -10
+	},
+/obj/structure/flora/rock/pile/largejungle{
+	pixel_x = -30;
+	pixel_y = -39
+	},
+/turf/open/water/jungle,
+/area/centcom/evac)
+"bN" = (
+/obj/structure/flora/rock/pile/largejungle{
+	pixel_x = -34;
+	pixel_y = -22
+	},
+/turf/open/floor/plating/dirt/jungle/dark,
+/area/centcom/evac)
+"cv" = (
+/obj/structure/railing{
+	color = "#A47449";
+	dir = 2
+	},
+/turf/open/floor/wood{
+	icon_state = "wood-broken4"
+	},
+/area/centcom/evac)
+"cK" = (
+/obj/structure/flora/rock/jungle{
+	pixel_x = -15;
+	pixel_y = 14
+	},
+/turf/closed/mineral/random/jungle,
+/area/centcom/evac)
+"cM" = (
+/obj/structure/flora/ausbushes/stalkybush{
+	pixel_x = 1;
+	pixel_y = 12
+	},
+/turf/open/water/jungle,
+/area/centcom/evac)
+"cO" = (
+/turf/open/water/jungle,
+/area/centcom/evac)
+"ew" = (
+/obj/structure/flora/rock/pile/largejungle{
+	pixel_x = -10
+	},
+/obj/structure/flora/tree/jungle,
+/turf/open/water/jungle,
+/area/centcom/evac)
+"fc" = (
+/obj/structure/flora/grass/jungle/b{
+	pixel_x = 15;
+	pixel_y = -16
+	},
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"fN" = (
+/obj/structure/flora/rock/pile/largejungle{
+	pixel_x = -30;
+	pixel_y = -39
+	},
+/turf/closed/mineral/random/jungle,
+/area/centcom/evac)
+"gj" = (
+/obj/structure/flora/rock/pile/largejungle{
+	pixel_x = -27;
+	pixel_y = -10
+	},
+/obj/structure/flora/tree/jungle/small,
+/turf/open/water/jungle,
+/area/centcom/evac)
+"gW" = (
+/obj/structure/flora/tree/jungle,
+/obj/structure/flora/rock/jungle{
+	icon_state = "busha2"
+	},
+/turf/open/floor/plating/grass/jungle,
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"hp" = (
+/obj/structure/flora/tree/jungle,
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"hA" = (
+/obj/structure/flora/ausbushes/fullgrass{
+	pixel_y = 13
+	},
+/obj/structure/flora/junglebush/b,
+/obj/structure/flora/grass/jungle{
+	pixel_x = -28
+	},
+/turf/open/floor/plating/dirt/jungle/wasteland,
+/area/centcom/evac)
+"iA" = (
+/obj/structure/flora/grass/jungle{
+	pixel_x = 4;
+	pixel_y = -9
+	},
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"iL" = (
+/obj/structure/flora/rock/jungle{
+	pixel_x = -10;
+	pixel_y = 13
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"jw" = (
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"ki" = (
+/obj/structure/flora/grass/jungle/b{
+	pixel_x = -22;
+	pixel_y = 14
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"kF" = (
+/obj/structure/flora/rock/pile/largejungle{
+	pixel_x = 2;
+	pixel_y = -3
+	},
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"lF" = (
+/obj/structure/flora/rock/jungle{
+	pixel_x = -10;
+	pixel_y = 13
+	},
+/obj/structure/flora/grass/jungle{
+	pixel_x = -24
+	},
+/turf/open/floor/plating/dirt/jungle/wasteland,
+/area/centcom/evac)
+"me" = (
+/obj/structure/flora/ausbushes/reedbush{
+	pixel_x = -12
+	},
+/turf/open/water/jungle,
+/area/centcom/evac)
+"np" = (
+/turf/open/floor/wood{
+	icon_state = "wood-broken"
+	},
+/area/centcom/evac)
+"nu" = (
+/obj/structure/flora/rock/pile/largejungle{
+	pixel_x = -10
+	},
+/turf/open/water/jungle,
+/area/centcom/evac)
+"pL" = (
+/obj/structure/flora/rock/pile/largejungle{
+	pixel_x = -33;
+	pixel_y = -3
+	},
+/obj/structure/flora/rock/pile/largejungle{
+	pixel_x = -39;
+	pixel_y = 15
+	},
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"pR" = (
+/obj/structure/flora/rock/jungle{
+	pixel_x = -19;
+	pixel_y = 6
+	},
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"rf" = (
+/obj/structure/railing{
+	color = "#A47449";
+	dir = 2
+	},
+/turf/open/floor/wood{
+	icon_state = "wood-broken7"
+	},
+/area/centcom/evac)
+"rK" = (
+/turf/open/floor/wood,
+/area/centcom/evac)
+"sY" = (
+/obj/structure/flora/rock/pile/largejungle,
+/turf/closed/mineral/random/jungle,
+/area/centcom/evac)
+"vK" = (
+/turf/open/floor/plating/dirt/jungle/wasteland,
+/area/centcom/evac)
+"wt" = (
+/obj/structure/flora/ausbushes/stalkybush{
+	pixel_y = 23;
+	pixel_x = -3
+	},
+/turf/open/water/jungle,
+/area/centcom/evac)
+"wL" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/flora/grass/jungle/b{
+	pixel_x = -22;
+	pixel_y = 14
+	},
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"xp" = (
+/obj/structure/flora/tree/jungle/small,
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"xA" = (
+/obj/structure/flora/grass/jungle{
+	pixel_x = 12;
+	pixel_y = 4
+	},
+/obj/structure/flora/grass/jungle/b{
+	pixel_x = -9;
+	pixel_y = 8
+	},
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"xH" = (
+/obj/structure/railing{
+	color = "#A47449";
+	dir = 2
+	},
+/turf/open/water/jungle,
+/area/centcom/evac)
+"xY" = (
+/obj/structure/flora/rock/jungle{
+	icon_state = "grassa2";
+	pixel_x = -20;
+	pixel_y = 1
+	},
+/obj/structure/flora/ausbushes/sparsegrass,
+/obj/structure/flora/ausbushes/fernybush,
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"zS" = (
+/obj/structure/flora/rock/pile/largejungle{
+	pixel_x = -43;
+	pixel_y = -39
+	},
+/turf/closed/mineral/random/jungle,
+/area/centcom/evac)
+"Ay" = (
+/obj/structure/flora/junglebush{
+	pixel_x = -6;
+	pixel_y = -11
+	},
+/obj/structure/flora/rock/jungle{
+	pixel_x = 15;
+	pixel_y = 10
+	},
+/obj/structure/flora/rock/jungle{
+	icon_state = "busha2";
+	pixel_y = 1;
+	pixel_x = -2
+	},
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"AH" = (
+/obj/structure/flora/rock/pile{
+	pixel_y = -13
+	},
+/turf/open/water/jungle,
+/area/centcom/evac)
+"Bb" = (
+/obj/structure/flora/junglebush,
+/turf/open/floor/plating/dirt/jungle/dark,
+/area/centcom/evac)
+"Bp" = (
+/obj/structure/flora/rock{
+	pixel_x = 15
+	},
+/turf/open/water/jungle,
+/area/centcom/evac)
+"Br" = (
+/obj/structure/flora/rock/jungle{
+	pixel_x = -28;
+	pixel_y = 8
+	},
+/obj/structure/flora/grass/jungle/b{
+	pixel_x = -6;
+	pixel_y = 15
+	},
+/turf/closed/mineral/random/jungle,
+/area/centcom/evac)
+"BB" = (
+/turf/open/floor/plating/dirt/jungle/dark,
+/area/centcom/evac)
+"BY" = (
+/obj/structure/flora/ausbushes/reedbush,
+/turf/open/water/jungle,
+/area/centcom/evac)
+"BZ" = (
+/obj/structure/flora/grass/jungle{
+	pixel_x = -4;
+	pixel_y = -8
+	},
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"CH" = (
+/obj/structure/flora/ausbushes/sparsegrass,
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"Dd" = (
+/obj/structure/railing/corner{
+	dir = 8;
+	color = "#A47449"
+	},
+/turf/open/floor/plating/dirt/jungle/dark,
+/area/centcom/evac)
+"Dx" = (
+/obj/structure/flora/rock/pile/largejungle{
+	pixel_x = -43;
+	pixel_y = -14
+	},
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"DK" = (
+/obj/effect/decal/cleanable/greenglow,
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"Ea" = (
+/obj/structure/railing{
+	color = "#A47449";
+	dir = 2
+	},
+/obj/structure/flora/ausbushes/stalkybush{
+	pixel_y = 23;
+	pixel_x = -3
+	},
+/turf/open/water/jungle,
+/area/centcom/evac)
+"EG" = (
+/obj/structure/flora/ausbushes/stalkybush{
+	pixel_x = 13;
+	pixel_y = 7
+	},
+/turf/open/water/jungle,
+/area/centcom/evac)
+"GI" = (
+/obj/structure/flora/junglebush/large,
+/obj/structure/flora/rock/pile/largejungle,
+/turf/open/floor/plating/dirt/jungle/wasteland,
+/area/centcom/evac)
+"GO" = (
+/turf/closed/indestructible/riveted,
+/area/centcom/evac)
+"Hi" = (
+/obj/structure/flora/rock/pile/largejungle,
+/obj/structure/flora/rock/pile/largejungle{
+	pixel_x = -25;
+	pixel_y = 6
+	},
+/obj/structure/flora/grass/jungle{
+	pixel_x = -10;
+	pixel_y = -2
+	},
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"HS" = (
+/obj/structure/flora/rock/jungle{
+	pixel_x = -10;
+	pixel_y = 13
+	},
+/obj/structure/flora/tree/jungle,
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"IX" = (
+/turf/closed/mineral/random/jungle,
+/area/centcom/evac)
+"Jj" = (
+/obj/structure/flora/junglebush/large,
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"Kk" = (
+/obj/structure/flora/rock/pile/largejungle,
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"LO" = (
+/obj/structure/flora/rock/pile/largejungle{
+	pixel_x = -10
+	},
+/turf/closed/mineral/random/jungle,
+/area/centcom/evac)
+"LU" = (
+/obj/structure/railing{
+	color = "#A47449";
+	dir = 2
+	},
+/obj/structure/flora/ausbushes/reedbush{
+	pixel_x = -8;
+	pixel_y = 19
+	},
+/turf/open/water/jungle,
+/area/centcom/evac)
+"MB" = (
+/obj/structure/flora/rock/pile,
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"ML" = (
+/obj/machinery/door/poddoor/shuttledock,
+/obj/effect/turf_decal/delivery,
+/obj/structure/fans/tiny,
+/turf/open/floor/plasteel,
+/area/centcom/evac)
+"Nl" = (
+/obj/structure/railing{
+	color = "#A47449";
+	dir = 2
+	},
+/turf/open/floor/wood,
+/area/centcom/evac)
+"Ns" = (
+/obj/structure/railing/corner{
+	dir = 2;
+	color = "#A47449"
+	},
+/obj/structure/flora/grass/jungle/b{
+	pixel_y = 8;
+	pixel_x = -5
+	},
+/obj/structure/flora/grass/jungle{
+	pixel_x = -1;
+	pixel_y = 6
+	},
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"Oq" = (
+/obj/structure/flora/rock/pile/largejungle{
+	pixel_x = -43;
+	pixel_y = -14
+	},
+/turf/open/water/jungle,
+/area/centcom/evac)
+"OY" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/centcom{
+	name = "CentCom"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/centcom/evac)
+"Pu" = (
+/obj/structure/flora/rock/pile/largejungle{
+	pixel_x = 6;
+	pixel_y = -26
+	},
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/grass/jungle{
+	pixel_x = 4;
+	pixel_y = -9
+	},
+/turf/open/floor/plating/dirt/jungle/dark,
+/area/centcom/evac)
+"Py" = (
+/obj/structure/flora/rock/jungle{
+	pixel_y = 9;
+	pixel_x = -4
+	},
+/obj/structure/flora/grass/jungle/b{
+	pixel_x = -21;
+	pixel_y = 9
+	},
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"PD" = (
+/obj/structure/flora/rock/jungle{
+	pixel_y = -5;
+	icon_state = "grassb4";
+	pixel_x = 3
+	},
+/obj/structure/flora/rock/jungle,
+/obj/structure/flora/rock/jungle{
+	icon_state = "busha2";
+	pixel_y = 12;
+	pixel_x = -6
+	},
+/obj/structure/flora/tree/jungle,
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"Ri" = (
+/obj/structure/flora/grass/jungle/b{
+	pixel_y = 10;
+	pixel_x = -8
+	},
+/obj/structure/flora/rock/pile/largejungle{
+	pixel_y = 0
+	},
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"Sp" = (
+/obj/structure/flora/rock/pile{
+	pixel_x = 12
+	},
+/turf/open/water/jungle,
+/area/centcom/evac)
+"Tr" = (
+/obj/structure/flora/rock/pile/largejungle{
+	pixel_x = -3;
+	pixel_y = -4
+	},
+/obj/structure/flora/rock/pile/largejungle{
+	pixel_x = -7;
+	pixel_y = 2
+	},
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"UK" = (
+/obj/structure/flora/tree/jungle{
+	pixel_x = -49
+	},
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"UV" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"VJ" = (
+/obj/structure/flora/rock/pile/largejungle{
+	pixel_x = -33;
+	pixel_y = 0
+	},
+/turf/closed/mineral/random/jungle,
+/area/centcom/evac)
+"Xf" = (
+/obj/structure/flora/tree/jungle,
+/obj/structure/flora/rock/pile/largejungle{
+	pixel_x = -25;
+	pixel_y = 6
+	},
+/obj/structure/flora/rock/jungle{
+	pixel_x = -10;
+	pixel_y = 13
+	},
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"Xn" = (
+/obj/structure/railing/corner{
+	dir = 2;
+	color = "#A47449"
+	},
+/turf/open/floor/plating/dirt/jungle,
+/area/centcom/evac)
+"YG" = (
+/obj/structure/flora/ausbushes/stalkybush{
+	pixel_x = 14;
+	pixel_y = 1
+	},
+/turf/open/water/jungle,
+/area/centcom/evac)
+
+(1,1,1) = {"
+IX
+IX
+IX
+IX
+IX
+OY
+GO
+GO
+OY
+IX
+IX
+IX
+IX
+IX
+IX
+"}
+(2,1,1) = {"
+IX
+IX
+IX
+IX
+IX
+jw
+aZ
+jw
+jw
+IX
+IX
+IX
+IX
+IX
+IX
+"}
+(3,1,1) = {"
+IX
+IX
+IX
+IX
+sY
+jw
+jw
+wL
+jw
+IX
+IX
+IX
+IX
+IX
+IX
+"}
+(4,1,1) = {"
+IX
+IX
+IX
+IX
+IX
+iL
+UV
+jw
+UV
+cK
+IX
+IX
+IX
+IX
+IX
+"}
+(5,1,1) = {"
+IX
+IX
+IX
+IX
+lF
+ki
+jw
+UV
+UV
+Br
+IX
+IX
+Ri
+cO
+IX
+"}
+(6,1,1) = {"
+IX
+IX
+LO
+GI
+vK
+jw
+UV
+jw
+jw
+IX
+IX
+sY
+DK
+cO
+IX
+"}
+(7,1,1) = {"
+IX
+bC
+ew
+iA
+aP
+jw
+UV
+jw
+fc
+IX
+sY
+Sp
+cO
+cO
+IX
+"}
+(8,1,1) = {"
+IX
+nu
+cO
+cO
+xA
+UV
+jw
+jw
+Jj
+IX
+IX
+cO
+cO
+cO
+IX
+"}
+(9,1,1) = {"
+IX
+cO
+cO
+YG
+Ns
+UV
+Xn
+aP
+hA
+cO
+cO
+cO
+cO
+cO
+IX
+"}
+(10,1,1) = {"
+IX
+Pu
+cO
+cO
+Ea
+rK
+rf
+xY
+cM
+wt
+IX
+sY
+cO
+Bp
+IX
+"}
+(11,1,1) = {"
+IX
+gW
+Bb
+cO
+xH
+rK
+Nl
+me
+cO
+cO
+IX
+IX
+IX
+IX
+IX
+"}
+(12,1,1) = {"
+IX
+bN
+cO
+BY
+xH
+np
+Nl
+cO
+cO
+AH
+IX
+IX
+IX
+IX
+IX
+"}
+(13,1,1) = {"
+IX
+Oq
+cO
+cO
+LU
+rK
+cv
+MB
+BZ
+CH
+IX
+IX
+IX
+IX
+IX
+"}
+(14,1,1) = {"
+fN
+Oq
+EG
+cO
+aB
+jw
+Dd
+jw
+jw
+pR
+hp
+IX
+IX
+IX
+IX
+"}
+(15,1,1) = {"
+zS
+gj
+cO
+Ay
+aP
+BB
+UV
+Kk
+jw
+jw
+Xf
+IX
+IX
+IX
+IX
+"}
+(16,1,1) = {"
+GO
+Dx
+PD
+jw
+Tr
+kF
+jw
+UV
+BB
+jw
+Hi
+xp
+IX
+VJ
+IX
+"}
+(17,1,1) = {"
+GO
+jw
+jw
+jw
+UK
+Py
+jw
+BB
+aZ
+jw
+pR
+jw
+HS
+pL
+IX
+"}
+(18,1,1) = {"
+GO
+ML
+ML
+ML
+ML
+ML
+ML
+ML
+ML
+ML
+ML
+ML
+ML
+ML
+IX
+"}
