@@ -284,3 +284,7 @@
 /turf/open/floor/plasteel/smart_checker
 	icon_state = "smart_checker"
 	base_icon_state = "smart_checker"
+
+/turf/open/floor/plasteel/tech/telecomms_floor
+	icon_state = "tcomms"
+	base_icon_state = "tcomms"
