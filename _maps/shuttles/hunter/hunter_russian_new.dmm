@@ -2488,7 +2488,7 @@
 /obj/machinery/computer/shuttle_flight/hunter{
 	dir = 8
 	},
-/turf/open/space/basic,
+/turf/open/floor/plasteel/tech,
 /area/space)
 "nT" = (
 /obj/item/storage/belt/utility/full/engi,
@@ -2510,7 +2510,7 @@
 /obj/structure/chair/fancy/shuttle{
 	dir = 4
 	},
-/turf/open/space/basic,
+/turf/open/floor/plasteel/tech,
 /area/space)
 "nX" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
@@ -3603,7 +3603,7 @@
 /obj/machinery/computer/camera_advanced{
 	dir = 8
 	},
-/turf/open/space/basic,
+/turf/open/floor/plasteel/tech,
 /area/space)
 "sQ" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -4186,6 +4186,12 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/orange/visible,
 /turf/open/floor/plasteel/tech/grid,
+/area/space)
+"vx" = (
+/obj/structure/chair/fancy/shuttle{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
 /area/space)
 "vy" = (
 /obj/structure/table/reinforced,
@@ -5446,7 +5452,7 @@
 /obj/machinery/computer/crew{
 	dir = 8
 	},
-/turf/open/space/basic,
+/turf/open/floor/plasteel/tech,
 /area/space)
 "Bb" = (
 /obj/effect/turf_decal/siding/wood/corner{
@@ -6003,7 +6009,11 @@
 /obj/structure/table/reinforced{
 	color = "#c1b6a5"
 	},
-/turf/open/space/basic,
+/obj/structure/railing{
+	dir = 8;
+	layer = 4.1
+	},
+/turf/open/floor/plasteel/tech,
 /area/space)
 "En" = (
 /obj/effect/turf_decal/siding/wood{
@@ -7799,7 +7809,7 @@
 /obj/structure/table/reinforced{
 	color = "#c1b6a5"
 	},
-/turf/open/space/basic,
+/turf/open/floor/plasteel/tech,
 /area/space)
 "OF" = (
 /obj/machinery/gulag_teleporter,
@@ -8813,6 +8823,10 @@
 	pixel_y = 17
 	},
 /turf/open/floor/plating/foam,
+/area/space)
+"Tw" = (
+/obj/effect/turf_decal/siding/thinplating/dark,
+/turf/open/space/basic,
 /area/space)
 "Ty" = (
 /obj/structure/table/reinforced{
@@ -14819,7 +14833,7 @@ Pq
 Pq
 Pq
 Pq
-Pq
+Tw
 Pq
 wM
 Lt
@@ -15698,10 +15712,10 @@ Pq
 Pq
 Pq
 pg
-Pq
-Pq
-Pq
-Pq
+ja
+ja
+ja
+ja
 nU
 pg
 Pq
@@ -15780,10 +15794,10 @@ Pq
 Pq
 Pq
 pg
-Pq
-Pq
-Pq
-nU
+ja
+ja
+ja
+vx
 AZ
 pg
 Pq
@@ -15864,7 +15878,7 @@ Pq
 pg
 pg
 Eh
-Pq
+Wq
 sO
 pg
 pg
@@ -15945,7 +15959,7 @@ Pq
 Pq
 AT
 xE
-Eh
+KH
 nU
 OE
 xE
