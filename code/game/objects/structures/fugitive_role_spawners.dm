@@ -44,6 +44,17 @@
 	icon = 'icons/obj/machines/sleeper.dmi'
 	icon_state = "sleeper"
 
+/obj/effect/mob_spawn/human/fugitive/russian/captain
+	name = "russian captain pod"
+	short_desc = "You are a fugitive!"
+	flavour_text = "Ay blyat. I am a space-russian smuggler! We were mid-flight when our cargo was beamed off our ship!"
+	back_story = "russian"
+	desc = "A small sleeper typically used to make long distance travel a bit more bearable."
+	mob_name = "russian"
+	outfit = /datum/outfit/russiancorpse/hunter/captain
+	icon = 'icons/obj/machines/sleeper.dmi'
+	icon_state = "sleeper"
+
 /obj/effect/mob_spawn/human/fugitive/bounty
 	name = "bounty hunter pod"
 	short_desc = "You are a bounty hunter!"

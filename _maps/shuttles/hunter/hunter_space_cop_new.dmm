@@ -1,0 +1,1678 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ae" = (
+/obj/effect/turf_decal/siding/white,
+/obj/effect/turf_decal/siding/white{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/door/airlock/maintenance_hatch,
+/turf/open/floor/plasteel,
+/area/shuttle/hunter)
+"bK" = (
+/obj/machinery/computer/camera_advanced{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/delivery/white,
+/obj/machinery/button/door{
+	id = "hunter_police_windows";
+	name = "window lockdown";
+	pixel_y = 32;
+	pixel_x = -10
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/shuttle/hunter)
+"bQ" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/shuttle/hunter)
+"bR" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 8
+	},
+/obj/structure/extinguisher_cabinet{
+	pixel_x = -24
+	},
+/turf/open/floor/plasteel,
+/area/shuttle/hunter)
+"bY" = (
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/shuttle/hunter)
+"db" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 8
+	},
+/obj/structure/sign/departments/engineering{
+	pixel_x = -32
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+/area/shuttle/hunter)
+"dG" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/bot/right,
+/obj/effect/turf_decal/bot/left,
+/obj/effect/mob_spawn/human/fugitive/spacepol{
+	dir = 1
+	},
+/obj/structure/railing{
+	color = "#A47449";
+	dir = 8;
+	layer = 3.1
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/shuttle/hunter)
+"dK" = (
+/obj/effect/turf_decal/caution{
+	dir = 8;
+	pixel_x = 7
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/hunter)
+"ec" = (
+/obj/structure/lattice/catwalk,
+/obj/effect/turf_decal/arrows{
+	pixel_y = 15;
+	pixel_x = -10
+	},
+/obj/effect/decal/cleanable/oil/slippery,
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating,
+/area/shuttle/hunter)
+"ep" = (
+/obj/structure/bed,
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/item/bedsheet/dorms,
+/obj/item/paicard{
+	pixel_x = 1;
+	pixel_y = -2
+	},
+/turf/open/floor/wood,
+/area/shuttle/hunter)
+"eE" = (
+/obj/structure/guncase,
+/obj/item/gun/ballistic/automatic/wt550,
+/obj/item/gun/ballistic/automatic/pistol/m1911{
+	pixel_y = 4
+	},
+/obj/effect/turf_decal/bot_red,
+/obj/structure/sign/poster/official/twelve_gauge{
+	pixel_x = 32
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/shuttle/hunter)
+"eR" = (
+/turf/open/floor/plasteel/stairs,
+/area/shuttle/hunter)
+"fA" = (
+/obj/machinery/portable_atmospherics/canister/toxins,
+/obj/effect/turf_decal/bot/left,
+/obj/effect/turf_decal/bot/right,
+/obj/machinery/atmospherics/components/unary/portables_connector/visible{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/light/small,
+/turf/open/floor/plasteel/ridged/steel,
+/area/shuttle/hunter)
+"gb" = (
+/obj/effect/turf_decal/siding/white/corner,
+/obj/effect/turf_decal/siding/white/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/white/corner{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+/area/shuttle/hunter)
+"gG" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/closet/secure_closet{
+	icon_state = "sec";
+	name = "equipment locker";
+	req_access_txt = "1"
+	},
+/obj/item/storage/belt/military,
+/obj/item/storage/belt/military,
+/obj/item/storage/belt/military,
+/obj/item/storage/belt/military,
+/obj/item/clothing/gloves/combat,
+/obj/item/clothing/gloves/combat,
+/obj/item/clothing/gloves/combat,
+/obj/item/clothing/gloves/combat,
+/obj/item/clothing/suit/armor/vest/blueshirt,
+/obj/item/clothing/suit/armor/vest/blueshirt,
+/obj/item/clothing/suit/armor/bulletproof,
+/obj/item/clothing/suit/armor/vest/leather,
+/obj/item/clothing/head/helmet/alt,
+/obj/item/clothing/head/helmet/alt,
+/obj/item/clothing/head/helmet/riot,
+/obj/item/clothing/glasses/hud/security/sunglasses,
+/obj/item/clothing/glasses/hud/security/sunglasses,
+/obj/effect/turf_decal/bot_red,
+/obj/item/clothing/glasses/hud/security,
+/obj/item/clothing/glasses/hud/security,
+/obj/item/clothing/glasses/hud/security,
+/turf/open/floor/plasteel/tech/grid,
+/area/shuttle/hunter)
+"gN" = (
+/turf/open/floor/plasteel/yellowsiding{
+	dir = 6
+	},
+/area/shuttle/hunter)
+"hl" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 5
+	},
+/obj/effect/turf_decal/delivery,
+/obj/machinery/computer/shuttle_flight/labor/one_way{
+	dir = 1
+	},
+/obj/structure/extinguisher_cabinet{
+	pixel_x = 26
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/shuttle/hunter)
+"hY" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/caution/stand_clear,
+/turf/open/floor/plasteel,
+/area/shuttle/hunter)
+"jo" = (
+/obj/effect/decal/cleanable/oil{
+	pixel_y = 11
+	},
+/obj/item/reagent_containers/glass/bucket{
+	pixel_x = -8;
+	pixel_y = 2
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/greenglow,
+/obj/machinery/atmospherics/pipe/manifold4w/supplymain/hidden,
+/turf/open/floor/engine,
+/area/shuttle/hunter)
+"jR" = (
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/bot/right,
+/obj/effect/turf_decal/bot/left,
+/obj/effect/mob_spawn/human/fugitive/spacepol{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/robot_debris,
+/obj/machinery/light,
+/turf/open/floor/plasteel/tech/grid,
+/area/shuttle/hunter)
+"lv" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/yellowsiding{
+	dir = 8
+	},
+/area/shuttle/hunter)
+"nf" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/door/airlock{
+	name = "Toilet Unit"
+	},
+/turf/open/floor/plasteel/showroomfloor,
+/area/shuttle/hunter)
+"nY" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/structure/chair,
+/obj/structure/extinguisher_cabinet{
+	pixel_x = -24
+	},
+/turf/open/floor/wood{
+	icon_state = "wood-broken"
+	},
+/area/shuttle/hunter)
+"oo" = (
+/obj/machinery/door/airlock/highsecurity{
+	name = "Bridge"
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/hunter)
+"ot" = (
+/obj/effect/spawner/structure/window/shuttle,
+/obj/machinery/door/poddoor/preopen{
+	id = "hunter_police_windows"
+	},
+/turf/open/floor/plating,
+/area/shuttle/hunter)
+"oB" = (
+/obj/effect/decal/cleanable/glass{
+	pixel_y = -9
+	},
+/turf/open/floor/carpet/red,
+/area/shuttle/hunter)
+"oG" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/hunter)
+"pA" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+/area/shuttle/hunter)
+"pC" = (
+/obj/effect/turf_decal/siding/white/corner,
+/obj/effect/turf_decal/siding/white/corner{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+/area/shuttle/hunter)
+"pQ" = (
+/obj/structure/lattice/catwalk,
+/obj/effect/turf_decal/arrows{
+	pixel_y = 15;
+	pixel_x = 10
+	},
+/obj/structure/reagent_dispensers/fueltank,
+/obj/item/weldingtool/largetank,
+/obj/structure/sign/warning/nosmoking{
+	pixel_x = 32
+	},
+/turf/open/floor/plating,
+/area/shuttle/hunter)
+"pS" = (
+/obj/machinery/gulag_teleporter,
+/obj/effect/turf_decal/delivery,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/machinery/light,
+/turf/open/floor/plasteel/tech/grid,
+/area/shuttle/hunter)
+"pX" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/sign/poster/official/space_cops{
+	pixel_y = -32
+	},
+/turf/open/floor/plasteel,
+/area/shuttle/hunter)
+"qb" = (
+/obj/structure/table/reinforced{
+	color = "#c1b6a5"
+	},
+/obj/machinery/cell_charger,
+/obj/item/stock_parts/cell/crap{
+	pixel_x = -7;
+	pixel_y = 2
+	},
+/obj/item/stock_parts/cell/high/empty,
+/obj/item/clothing/glasses/welding{
+	pixel_y = 5
+	},
+/obj/structure/sign/poster/official/safety_eye_protection{
+	pixel_y = -32
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/shuttle/hunter)
+"qD" = (
+/obj/effect/turf_decal/delivery,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/tank_dispenser,
+/obj/effect/turf_decal/stripes/corner,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/ridged/steel,
+/area/shuttle/hunter)
+"qL" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/structure/closet{
+	name = "mastercraft traditional russian clothes"
+	},
+/turf/open/floor/wood,
+/area/shuttle/hunter)
+"qZ" = (
+/obj/machinery/shuttle/engine/plasma{
+	dir = 4
+	},
+/turf/open/floor/plating/airless,
+/area/shuttle/hunter)
+"ra" = (
+/obj/structure/bed,
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
+/obj/item/bedsheet/dorms,
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
+/obj/structure/sign/poster/contraband/fun_police{
+	pixel_x = 32
+	},
+/turf/open/floor/wood,
+/area/shuttle/hunter)
+"rj" = (
+/obj/structure/closet/crate/internals,
+/obj/item/clothing/suit/space/eva,
+/obj/item/clothing/suit/space/eva,
+/obj/item/clothing/suit/space/eva,
+/obj/item/clothing/suit/space/eva,
+/obj/item/clothing/suit/space/eva,
+/obj/item/clothing/head/helmet/space/eva,
+/obj/item/clothing/head/helmet/space/eva,
+/obj/item/clothing/head/helmet/space/eva,
+/obj/item/clothing/head/helmet/space/eva,
+/obj/item/clothing/head/helmet/space/eva,
+/obj/item/tank/internals/emergency_oxygen/engi{
+	pixel_y = -4;
+	pixel_x = -4
+	},
+/obj/item/tank/internals/emergency_oxygen/engi{
+	pixel_y = -4;
+	pixel_x = -4
+	},
+/obj/item/tank/internals/emergency_oxygen/engi{
+	pixel_y = -4;
+	pixel_x = -4
+	},
+/obj/item/tank/internals/emergency_oxygen/engi{
+	pixel_y = -4;
+	pixel_x = -4
+	},
+/obj/item/tank/internals/emergency_oxygen/engi{
+	pixel_y = -4;
+	pixel_x = -4
+	},
+/obj/structure/sign/poster/official/safety_internals{
+	pixel_x = -32
+	},
+/turf/open/floor/plasteel/yellowsiding{
+	dir = 8
+	},
+/area/shuttle/hunter)
+"rt" = (
+/obj/effect/turf_decal/siding/white,
+/obj/effect/turf_decal/siding/white{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/door/airlock/hatch,
+/turf/open/floor/plasteel,
+/area/shuttle/hunter)
+"rQ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/item/mop{
+	pixel_x = -8;
+	pixel_y = 6
+	},
+/obj/machinery/atmospherics/pipe/manifold/supplymain/hidden{
+	dir = 1
+	},
+/turf/open/floor/engine,
+/area/shuttle/hunter)
+"su" = (
+/obj/machinery/atmospherics/components/unary/plasma_refiner,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/cobweb,
+/obj/structure/sign/poster/official/moth3{
+	pixel_x = -32
+	},
+/turf/open/floor/plasteel/grid/steel,
+/area/shuttle/hunter)
+"sP" = (
+/obj/structure/table/reinforced,
+/obj/item/paper_bin{
+	pixel_x = -8;
+	pixel_y = 4
+	},
+/obj/item/pen/fountain/captain{
+	pixel_x = -6;
+	pixel_y = 5
+	},
+/obj/item/folder/blue{
+	pixel_x = 6;
+	pixel_y = 6
+	},
+/obj/item/newspaper,
+/obj/structure/railing{
+	dir = 4;
+	layer = 3.1
+	},
+/obj/item/stamp{
+	pixel_x = -8;
+	pixel_y = 12
+	},
+/obj/item/stamp/denied{
+	pixel_x = -10;
+	pixel_y = 7
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/obj/structure/sign/poster/official/fruit_bowl{
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/hunter)
+"tH" = (
+/obj/structure/chair/fancy/shuttle{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/machinery/button/door{
+	id = "hunter_police_cargo";
+	name = "cargo shutters";
+	pixel_x = 22;
+	pixel_y = 23
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/shuttle/hunter)
+"uq" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 10
+	},
+/obj/item/kirbyplants{
+	icon_state = "plant-03";
+	pixel_x = -5
+	},
+/obj/structure/sign/poster/contraband/the_griffin{
+	pixel_x = -32
+	},
+/turf/open/floor/plasteel,
+/area/shuttle/hunter)
+"uL" = (
+/obj/structure/fans/tiny,
+/obj/machinery/door/poddoor/shutters{
+	id = "hunter_police_cargo";
+	name = "Cargo Shutter"
+	},
+/turf/open/floor/plating,
+/area/shuttle/hunter)
+"uT" = (
+/obj/machinery/portable_atmospherics/canister/toxins,
+/obj/effect/turf_decal/bot/left,
+/obj/effect/turf_decal/bot/right,
+/obj/machinery/atmospherics/components/unary/portables_connector/visible{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/obj/structure/extinguisher_cabinet{
+	pixel_y = -30
+	},
+/turf/open/floor/plasteel/ridged/steel,
+/area/shuttle/hunter)
+"vP" = (
+/obj/effect/turf_decal/loading_area{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 9
+	},
+/obj/structure/window/reinforced{
+	dir = 8;
+	pixel_x = -2
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/shuttle/hunter)
+"vZ" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel,
+/area/shuttle/hunter)
+"xB" = (
+/obj/structure/lattice/catwalk,
+/obj/item/trash/raisins{
+	pixel_y = 6;
+	pixel_x = -6
+	},
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
+	dir = 9
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating/rust,
+/area/shuttle/hunter)
+"xT" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = 12;
+	pixel_y = 2
+	},
+/obj/structure/mirror{
+	pixel_x = 27
+	},
+/obj/structure/sign/poster/official/the_owl{
+	pixel_y = 32
+	},
+/obj/effect/spawner/lootdrop/glowstick/lit,
+/turf/open/floor/plasteel/showroomfloor,
+/area/shuttle/hunter)
+"xZ" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/white,
+/obj/machinery/door/airlock/hatch,
+/turf/open/floor/plasteel,
+/area/shuttle/hunter)
+"yd" = (
+/obj/item/ammo_box/magazine/m45{
+	pixel_x = 6;
+	pixel_y = 3
+	},
+/obj/item/ammo_box/magazine/m45{
+	pixel_x = 3;
+	pixel_y = 4
+	},
+/obj/machinery/recharger{
+	pixel_x = -5
+	},
+/obj/structure/table/reinforced,
+/turf/open/floor/plasteel/tech/grid,
+/area/shuttle/hunter)
+"yf" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/toilet{
+	pixel_y = 13
+	},
+/obj/effect/decal/cleanable/generic,
+/obj/effect/decal/cleanable/vomit/old{
+	pixel_x = 5
+	},
+/obj/machinery/light/small,
+/turf/open/floor/plasteel/showroomfloor,
+/area/shuttle/hunter)
+"yk" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 4
+	},
+/obj/structure/closet/crate/bin,
+/obj/item/trash/candy,
+/obj/item/trash/plate,
+/obj/item/trash/cheesie{
+	pixel_x = 4;
+	pixel_y = -4
+	},
+/obj/item/trash/sosjerky{
+	pixel_x = -3;
+	pixel_y = -3
+	},
+/obj/effect/decal/cleanable/shreds{
+	pixel_x = -5;
+	pixel_y = -11
+	},
+/obj/item/cigbutt,
+/obj/item/cigbutt{
+	pixel_y = -6
+	},
+/obj/item/cigbutt{
+	pixel_y = 1;
+	pixel_x = -4
+	},
+/obj/item/cigbutt{
+	pixel_y = -3;
+	pixel_x = -4
+	},
+/obj/item/cigbutt{
+	pixel_x = -9;
+	pixel_y = -2
+	},
+/obj/item/cigbutt{
+	pixel_y = 4;
+	pixel_x = -4
+	},
+/turf/open/floor/plasteel,
+/area/shuttle/hunter)
+"yE" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/chair/office{
+	dir = 4;
+	name = "tactical swivel chair"
+	},
+/obj/effect/decal/cleanable/shreds{
+	pixel_y = -12;
+	pixel_x = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/shuttle/hunter)
+"zh" = (
+/obj/structure/lattice/catwalk,
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
+	dir = 10
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating,
+/area/shuttle/hunter)
+"zR" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plasteel/stairs,
+/area/shuttle/hunter)
+"AH" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 9
+	},
+/obj/structure/table,
+/obj/machinery/microwave{
+	pixel_y = 4
+	},
+/obj/effect/spawner/lootdrop/donkpockets,
+/obj/structure/noticeboard{
+	pixel_y = 30
+	},
+/obj/effect/turf_decal/siding/wood/corner,
+/turf/open/floor/wood,
+/area/shuttle/hunter)
+"Ba" = (
+/turf/closed/wall/mineral/titanium,
+/area/shuttle/hunter)
+"Bc" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/yellowsiding{
+	dir = 10
+	},
+/area/shuttle/hunter)
+"BO" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
+	},
+/obj/structure/table,
+/obj/item/newspaper{
+	pixel_x = -5;
+	pixel_y = -1
+	},
+/obj/item/newspaper{
+	pixel_x = -5;
+	pixel_y = 2
+	},
+/obj/item/newspaper{
+	pixel_x = -5;
+	pixel_y = 5
+	},
+/obj/item/toy/cards/deck{
+	pixel_x = 8;
+	pixel_y = 8
+	},
+/obj/item/reagent_containers/food/drinks/mug{
+	pixel_x = 9;
+	pixel_y = -2
+	},
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/shuttle/hunter)
+"Cr" = (
+/turf/open/floor/carpet/red,
+/area/shuttle/hunter)
+"Cz" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/techmaint,
+/area/shuttle/hunter)
+"CC" = (
+/obj/structure/extinguisher_cabinet{
+	pixel_x = -24
+	},
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/stairs,
+/area/shuttle/hunter)
+"CW" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/siding/dark,
+/obj/machinery/door/window/brigdoor/southleft{
+	dir = 1;
+	req_access_txt = "1"
+	},
+/obj/machinery/light/small,
+/obj/structure/chair/fancy/bench{
+	dir = 8;
+	pixel_x = -13
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/hunter)
+"Ek" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/item/kirbyplants{
+	icon_state = "plant-10";
+	pixel_x = 6
+	},
+/turf/open/floor/plasteel,
+/area/shuttle/hunter)
+"EE" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 4
+	},
+/obj/structure/chair/fancy/sofa/corp/right{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/generic,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/sign/departments/cargo{
+	pixel_x = 32
+	},
+/turf/open/floor/plasteel,
+/area/shuttle/hunter)
+"EQ" = (
+/obj/effect/turf_decal/siding/white/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/white/corner{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+/area/shuttle/hunter)
+"Ff" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
+	dir = 4
+	},
+/obj/effect/spawner/lootdrop/maintenance/two{
+	pixel_x = -7;
+	pixel_y = 3
+	},
+/turf/open/floor/engine,
+/area/shuttle/hunter)
+"FK" = (
+/obj/structure/table/reinforced{
+	color = "#c1b6a5"
+	},
+/obj/machinery/recharger{
+	pixel_x = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/cobweb,
+/obj/item/flashlight/lamp{
+	pixel_y = 9;
+	pixel_x = -3
+	},
+/obj/item/clipboard{
+	pixel_x = -1;
+	pixel_y = -1
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/hunter)
+"FT" = (
+/obj/machinery/door/window/brigdoor/southright{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/hunter)
+"Gm" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/structure/railing{
+	color = "#A47449";
+	dir = 8;
+	layer = 3.1
+	},
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/bot/left,
+/obj/effect/turf_decal/bot/right,
+/obj/effect/mob_spawn/human/fugitive/spacepol,
+/obj/structure/sign/directions/command{
+	pixel_y = 22;
+	dir = 4
+	},
+/obj/structure/sign/directions/engineering{
+	pixel_y = 34;
+	dir = 8
+	},
+/obj/structure/sign/directions/supply{
+	pixel_y = 40;
+	dir = 1
+	},
+/obj/structure/sign/directions/security{
+	pixel_y = 28;
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/shuttle/hunter)
+"Hd" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 4
+	},
+/obj/structure/chair/fancy/sofa/corp/left{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/vomit/old{
+	pixel_x = -5
+	},
+/obj/effect/decal/cleanable/ash/large{
+	pixel_y = -10;
+	pixel_x = -7
+	},
+/obj/item/cigbutt/cigarbutt{
+	pixel_y = 3
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/shuttle/hunter)
+"HK" = (
+/obj/effect/turf_decal/box/corners,
+/obj/structure/railing{
+	dir = 2;
+	layer = 4.1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/crate,
+/obj/item/storage/firstaid/brute{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/storage/firstaid/medical/doctorbag,
+/turf/open/floor/plasteel/grid/steel,
+/area/shuttle/hunter)
+"Iv" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 9
+	},
+/obj/effect/decal/cleanable/cobweb,
+/obj/structure/sign/poster/contraband/smoke{
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel,
+/area/shuttle/hunter)
+"IE" = (
+/obj/effect/decal/cleanable/oil,
+/obj/machinery/button/door{
+	id = "hunter_police_cargo";
+	name = "cargo shutters";
+	pixel_x = 22
+	},
+/turf/open/floor/plasteel/yellowsiding{
+	dir = 4
+	},
+/area/shuttle/hunter)
+"IQ" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/tech/grid,
+/area/shuttle/hunter)
+"Jd" = (
+/obj/structure/chair/fancy/shuttle{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/hunter)
+"Kh" = (
+/obj/effect/turf_decal/box/corners{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/obj/structure/sign/poster/official/obey{
+	pixel_x = 32
+	},
+/turf/open/floor/plasteel/grid/steel,
+/area/shuttle/hunter)
+"Kx" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plasteel/techmaint,
+/area/shuttle/hunter)
+"KI" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 6
+	},
+/obj/machinery/vending/sustenance,
+/obj/machinery/light,
+/turf/open/floor/plasteel,
+/area/shuttle/hunter)
+"KJ" = (
+/obj/machinery/computer/shuttle_flight/hunter{
+	dir = 8
+	},
+/obj/structure/railing{
+	dir = 2;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/siding/dark,
+/obj/effect/turf_decal/delivery/white,
+/turf/open/floor/plasteel/tech/grid,
+/area/shuttle/hunter)
+"LK" = (
+/obj/structure/railing{
+	dir = 2;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/siding/dark,
+/turf/open/floor/plasteel/tech/grid,
+/area/shuttle/hunter)
+"LW" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/reagent_dispensers/watertank,
+/obj/structure/grille/broken,
+/turf/open/floor/plating/rust,
+/area/shuttle/hunter)
+"LY" = (
+/obj/effect/turf_decal/caution{
+	dir = 4;
+	pixel_x = -6
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/hunter)
+"Ma" = (
+/obj/structure/rack,
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/item/gun/energy/disabler{
+	pixel_y = 5
+	},
+/obj/item/gun/energy/disabler{
+	pixel_y = 3
+	},
+/obj/item/gun/energy/disabler{
+	pixel_y = 1
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/shuttle/hunter)
+"Mk" = (
+/turf/open/floor/plasteel/yellowsiding,
+/area/shuttle/hunter)
+"Nt" = (
+/obj/structure/lattice/catwalk,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating,
+/area/shuttle/hunter)
+"Nx" = (
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/bot/left,
+/obj/effect/turf_decal/bot/right,
+/obj/effect/mob_spawn/human/fugitive/spacepol,
+/turf/open/floor/plasteel/tech/grid,
+/area/shuttle/hunter)
+"NG" = (
+/obj/structure/table/reinforced{
+	color = "#c1b6a5"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/item/phone{
+	pixel_x = 7;
+	pixel_y = 10
+	},
+/obj/item/clothing/head/hardhat/weldhat/orange{
+	pixel_x = -7;
+	pixel_y = -7
+	},
+/obj/item/reagent_containers/food/drinks/mug{
+	pixel_x = -7;
+	pixel_y = 4
+	},
+/obj/item/stack/sticky_tape{
+	pixel_x = 7;
+	pixel_y = -11
+	},
+/obj/item/stock_parts/capacitor/adv{
+	pixel_x = 8;
+	pixel_y = -3
+	},
+/obj/machinery/power/apc/auto_name/east,
+/obj/structure/cable/yellow{
+	icon_state = "0-8"
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/shuttle/hunter)
+"OJ" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/shuttle/hunter)
+"Pi" = (
+/obj/structure/sign/departments/security,
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/shuttle/hunter)
+"PR" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood,
+/obj/structure/chair{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/vomit/old,
+/turf/open/floor/wood,
+/area/shuttle/hunter)
+"Ra" = (
+/obj/effect/turf_decal/box/corners{
+	dir = 8
+	},
+/obj/structure/railing{
+	dir = 2;
+	layer = 4.1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/grid/steel,
+/area/shuttle/hunter)
+"RU" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 5
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/hunter)
+"Sa" = (
+/obj/effect/spawner/structure/window/shuttle,
+/obj/machinery/door/poddoor/preopen{
+	id = "hunter_police_bridge";
+	name = "Bridge View Blast door"
+	},
+/turf/open/floor/plating,
+/area/shuttle/hunter)
+"Sf" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+/area/shuttle/hunter)
+"Tg" = (
+/obj/machinery/power/port_gen/pacman,
+/obj/effect/turf_decal/box,
+/obj/effect/turf_decal/delivery,
+/obj/item/stack/sheet/mineral/plasma/twenty,
+/obj/machinery/light/small{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/obj/structure/sign/poster/contraband/missing_gloves{
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/shuttle/hunter)
+"Tq" = (
+/obj/structure/table/reinforced{
+	color = "#c1b6a5"
+	},
+/obj/item/paper_bin{
+	pixel_x = -6;
+	pixel_y = 3
+	},
+/obj/item/book/manual/wiki/engineering_hacking{
+	pixel_x = 10
+	},
+/obj/item/clipboard{
+	pixel_x = -4;
+	pixel_y = 1
+	},
+/obj/item/pen{
+	pixel_x = -6;
+	pixel_y = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
+	dir = 9
+	},
+/turf/open/floor/plasteel/techmaint,
+/area/shuttle/hunter)
+"TI" = (
+/obj/structure/rack,
+/obj/structure/lattice/catwalk,
+/obj/item/storage/toolbox/electrical{
+	pixel_y = 6
+	},
+/obj/item/storage/toolbox/mechanical{
+	pixel_y = 1;
+	pixel_x = 3
+	},
+/obj/item/storage/belt/utility/full/engi,
+/obj/item/multitool{
+	pixel_x = 9
+	},
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/open/space/basic,
+/area/shuttle/hunter)
+"TJ" = (
+/obj/structure/railing{
+	dir = 4;
+	layer = 3.1
+	},
+/obj/machinery/computer/crew{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/delivery/white,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/hunter)
+"TS" = (
+/obj/structure/bed,
+/obj/effect/turf_decal/siding/dark,
+/obj/machinery/door/window/brigdoor/southright{
+	dir = 1;
+	req_access_txt = "1"
+	},
+/obj/structure/sign/poster/official/cleanliness{
+	pixel_y = -32
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/hunter)
+"Uc" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 5
+	},
+/obj/machinery/jukebox,
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/obj/structure/sign/poster/contraband/punch_shit{
+	pixel_y = 32
+	},
+/turf/open/floor/wood,
+/area/shuttle/hunter)
+"UZ" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/oil/streak{
+	pixel_y = 11
+	},
+/obj/effect/turf_decal/caution,
+/obj/item/kirbyplants{
+	icon_state = "plant-21";
+	pixel_x = -8;
+	pixel_y = 17
+	},
+/obj/machinery/atmospherics/pipe/manifold4w/supplymain/hidden,
+/turf/open/floor/engine,
+/area/shuttle/hunter)
+"Va" = (
+/obj/effect/turf_decal/box/corners{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/grid/steel,
+/area/shuttle/hunter)
+"VK" = (
+/obj/machinery/power/port_gen/pacman,
+/obj/effect/turf_decal/box,
+/obj/effect/turf_decal/delivery,
+/obj/item/stack/sheet/mineral/plasma/twenty,
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
+	dir = 10
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/shuttle/hunter)
+"WY" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/wood{
+	icon_state = "wood-broken5"
+	},
+/area/shuttle/hunter)
+"XE" = (
+/obj/structure/lattice/catwalk,
+/obj/effect/decal/cleanable/glass{
+	pixel_x = -7;
+	pixel_y = -16
+	},
+/turf/open/floor/plating,
+/area/shuttle/hunter)
+"XT" = (
+/obj/effect/spawner/lootdrop/maintenance/two,
+/turf/open/floor/plasteel/yellowsiding{
+	dir = 4
+	},
+/area/shuttle/hunter)
+"XX" = (
+/turf/template_noop,
+/area/template_noop)
+"Yk" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/machinery/atmospherics/components/unary/shuttle/heater{
+	dir = 4
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "hunter_police_windows"
+	},
+/turf/open/floor/plating/airless,
+/area/shuttle/hunter)
+"Yo" = (
+/obj/structure/rack,
+/obj/item/melee/baton/loaded{
+	pixel_x = -3
+	},
+/obj/item/melee/baton/loaded{
+	pixel_x = -1
+	},
+/obj/item/melee/baton/loaded{
+	pixel_x = 1
+	},
+/obj/item/reagent_containers/spray/pepper{
+	pixel_x = 3;
+	pixel_y = -4
+	},
+/obj/item/reagent_containers/spray/pepper{
+	pixel_x = 8;
+	pixel_y = -4
+	},
+/obj/structure/reagent_dispensers/peppertank{
+	pixel_x = 31
+	},
+/obj/item/storage/box/handcuffs{
+	pixel_x = -5;
+	pixel_y = 3
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/shuttle/hunter)
+
+(1,1,1) = {"
+XX
+XX
+XX
+XX
+Ba
+qZ
+qZ
+Ba
+XX
+XX
+XX
+XX
+"}
+(2,1,1) = {"
+XX
+XX
+XX
+Ba
+bY
+Yk
+Yk
+bY
+Ba
+XX
+XX
+XX
+"}
+(3,1,1) = {"
+XX
+bY
+qZ
+bY
+su
+UZ
+jo
+fA
+bY
+qZ
+bY
+XX
+"}
+(4,1,1) = {"
+XX
+bY
+Yk
+bY
+qD
+Ff
+rQ
+uT
+bY
+Yk
+bY
+XX
+"}
+(5,1,1) = {"
+XX
+bY
+VK
+CC
+ec
+xB
+zh
+Nt
+yE
+Tq
+ot
+XX
+"}
+(6,1,1) = {"
+XX
+bY
+Tg
+zR
+pQ
+LW
+XE
+TI
+NG
+qb
+bY
+XX
+"}
+(7,1,1) = {"
+XX
+bY
+bY
+bY
+bY
+bY
+ae
+bY
+bY
+bY
+bY
+XX
+"}
+(8,1,1) = {"
+XX
+bY
+yf
+bY
+Iv
+db
+EQ
+pA
+bR
+uq
+ot
+XX
+"}
+(9,1,1) = {"
+Ba
+bY
+xT
+nf
+gb
+EE
+Hd
+yk
+pC
+KI
+bY
+Ba
+"}
+(10,1,1) = {"
+Pi
+bY
+bY
+bY
+rt
+bY
+bY
+bY
+xZ
+bY
+bY
+bY
+"}
+(11,1,1) = {"
+uL
+rj
+lv
+Bc
+Cz
+CW
+bY
+AH
+bQ
+nY
+BO
+bY
+"}
+(12,1,1) = {"
+uL
+hY
+Sf
+Mk
+Cz
+TS
+bY
+qL
+oB
+Cr
+PR
+ot
+"}
+(13,1,1) = {"
+uL
+IE
+XT
+gN
+Cz
+vP
+bY
+Uc
+WY
+ep
+ra
+bY
+"}
+(14,1,1) = {"
+Pi
+bY
+Va
+Ra
+Kx
+pS
+bY
+Gm
+LY
+dG
+bY
+Ba
+"}
+(15,1,1) = {"
+XX
+bY
+Kh
+HK
+Kx
+hl
+bY
+Nx
+dK
+jR
+bY
+XX
+"}
+(16,1,1) = {"
+XX
+Ba
+bY
+gG
+FT
+bY
+bY
+bY
+oo
+bY
+Ba
+XX
+"}
+(17,1,1) = {"
+XX
+XX
+bY
+yd
+oG
+bY
+FK
+Jd
+vZ
+bY
+XX
+XX
+"}
+(18,1,1) = {"
+XX
+XX
+bY
+Ma
+oG
+bY
+sP
+TJ
+pX
+bY
+XX
+XX
+"}
+(19,1,1) = {"
+XX
+XX
+bY
+Yo
+RU
+oo
+IQ
+eR
+OJ
+bY
+XX
+XX
+"}
+(20,1,1) = {"
+XX
+XX
+Ba
+bY
+eE
+bY
+tH
+LK
+Ek
+Sa
+XX
+XX
+"}
+(21,1,1) = {"
+XX
+XX
+XX
+Ba
+bY
+bY
+bK
+KJ
+Sa
+Sa
+XX
+XX
+"}
+(22,1,1) = {"
+XX
+XX
+XX
+XX
+Ba
+bY
+Sa
+Sa
+Sa
+XX
+XX
+XX
+"}

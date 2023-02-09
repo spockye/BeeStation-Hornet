@@ -86,12 +86,18 @@
 
 /datum/outfit/russiancorpse/hunter
 	ears = /obj/item/radio/headset
-	r_hand = /obj/item/gun/ballistic/rifle/boltaction
 	id = /obj/item/card/id/space_russian
 
 /datum/outfit/russiancorpse/hunter/pre_equip(mob/living/carbon/human/H)
 	if(prob(50))
 		head = /obj/item/clothing/head/ushanka
+
+/datum/outfit/russiancorpse/hunter/captain
+	ears = /obj/item/radio/headset
+	id = /obj/item/card/id/space_russian
+	shoes = /obj/item/clothing/shoes/russian
+	head = /obj/item/clothing/head/helmet/rus_ushanka
+	uniform = /obj/item/clothing/under/costume/russian_officer
 
 /datum/outfit/bountyarmor
 	name = "Bounty Hunter - Armored"

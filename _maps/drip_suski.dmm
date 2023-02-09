@@ -1,0 +1,99 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/item/clothing/head/ushanka,
+/turf/open/floor/black,
+/area/space)
+"i" = (
+/obj/item/clothing/under/costume/soviet{
+	pixel_x = 2
+	},
+/turf/open/floor/black,
+/area/space)
+"k" = (
+/obj/item/clothing/under/pants/track,
+/turf/open/floor/black,
+/area/space)
+"l" = (
+/obj/item/clothing/gloves/fingerless,
+/turf/open/floor/black,
+/area/space)
+"t" = (
+/obj/item/clothing/shoes/russian,
+/turf/open/floor/black,
+/area/space)
+"w" = (
+/obj/item/clothing/under/syndicate/rus_army,
+/turf/open/floor/black,
+/area/space)
+"y" = (
+/turf/open/floor/black,
+/area/space)
+"A" = (
+/obj/item/clothing/head/helmet/rus_helmet,
+/turf/open/floor/black,
+/area/space)
+"B" = (
+/obj/item/clothing/gloves/color/black,
+/turf/open/floor/black,
+/area/space)
+"C" = (
+/obj/item/clothing/head/helmet/rus_ushanka,
+/turf/open/floor/black,
+/area/space)
+"N" = (
+/obj/item/clothing/gloves/combat,
+/turf/open/floor/black,
+/area/space)
+"V" = (
+/obj/item/clothing/mask/russian_balaclava,
+/turf/open/floor/black,
+/area/space)
+
+(1,1,1) = {"
+a
+a
+i
+i
+t
+y
+"}
+(2,1,1) = {"
+C
+C
+k
+k
+t
+y
+"}
+(3,1,1) = {"
+A
+A
+V
+V
+y
+y
+"}
+(4,1,1) = {"
+y
+y
+w
+w
+y
+y
+"}
+(5,1,1) = {"
+y
+y
+B
+l
+N
+y
+"}
+(6,1,1) = {"
+y
+y
+y
+y
+y
+y
+"}
