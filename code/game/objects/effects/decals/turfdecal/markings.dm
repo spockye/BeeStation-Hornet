@@ -467,8 +467,5 @@
 /obj/effect/turf_decal/techfloor
 	icon_state = "techfloor_edges"
 
-
 /obj/effect/turf_decal/techfloor/corners
 	icon_state = "techfloor_corners"
-
-
