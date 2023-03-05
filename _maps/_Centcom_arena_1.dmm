@@ -23,6 +23,10 @@
 	},
 /turf/open/floor/plating/dirt/jungle,
 /area/centcom/evac)
+"av" = (
+/obj/effect/turf_decal/siding/wood/corner,
+/turf/open/water/jungle,
+/area/centcom/evac)
 "aB" = (
 /obj/effect/turf_decal/stripes/closeup{
 	dir = 1
@@ -207,6 +211,12 @@
 	},
 /turf/open/floor/plasteel/grid,
 /area/centcom/evac)
+"gi" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/water/jungle,
+/area/centcom/evac)
 "gC" = (
 /obj/machinery/porta_turret/syndicate/pod{
 	dir = 9
@@ -224,6 +234,7 @@
 	color = "#A47449";
 	dir = 2
 	},
+/obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
 /area/centcom/evac)
 "gR" = (
@@ -234,6 +245,12 @@
 /obj/structure/table/reinforced,
 /obj/item/megaphone/command,
 /turf/open/floor/plasteel,
+/area/centcom/evac)
+"he" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/water/jungle,
 /area/centcom/evac)
 "hj" = (
 /obj/structure/table/reinforced,
@@ -374,6 +391,9 @@
 	pixel_x = 13;
 	pixel_y = 7
 	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
 /turf/open/water/jungle,
 /area/centcom/evac)
 "lv" = (
@@ -442,9 +462,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/turf/open/floor/plasteel/techmaint{
-	icon_state = "techfloor_gray"
-	},
+/turf/open/floor/plasteel/tech,
 /area/centcom/evac)
 "nX" = (
 /obj/machinery/door/airlock/hatch,
@@ -501,6 +519,9 @@
 	pixel_x = 1;
 	pixel_y = 15
 	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
 /turf/open/water/jungle,
 /area/centcom/evac)
 "pP" = (
@@ -544,9 +565,7 @@
 /area/centcom/evac)
 "rt" = (
 /obj/machinery/vending/security,
-/turf/open/floor/plasteel/techmaint{
-	icon_state = "techfloor_gray"
-	},
+/turf/open/floor/plasteel/tech,
 /area/centcom/evac)
 "rG" = (
 /obj/machinery/light{
@@ -825,6 +844,7 @@
 	dir = 2;
 	color = "#A47449"
 	},
+/obj/effect/turf_decal/siding/wood/corner,
 /turf/open/floor/plating/dirt/jungle,
 /area/centcom/evac)
 "yj" = (
@@ -873,9 +893,7 @@
 "zb" = (
 /obj/structure/table/reinforced,
 /obj/item/gun/ballistic/automatic/ar,
-/turf/open/floor/plasteel/techmaint{
-	icon_state = "techfloor_gray"
-	},
+/turf/open/floor/plasteel/tech,
 /area/centcom/evac)
 "Ac" = (
 /obj/effect/turf_decal/trimline/brown/filled/warning,
@@ -1263,6 +1281,7 @@
 	color = "#A47449";
 	dir = 2
 	},
+/obj/effect/turf_decal/siding/wood,
 /turf/open/water/jungle,
 /area/centcom/evac)
 "JF" = (
@@ -1327,9 +1346,7 @@
 	},
 /obj/item/grenade/plastic/c4,
 /obj/item/clothing/ears/earmuffs,
-/turf/open/floor/plasteel/techmaint{
-	icon_state = "techfloor_gray"
-	},
+/turf/open/floor/plasteel/tech,
 /area/centcom/evac)
 "KD" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -1393,9 +1410,10 @@
 /turf/open/floor/plasteel,
 /area/centcom/evac)
 "Ma" = (
-/turf/open/floor/plasteel/techmaint{
-	icon_state = "techfloor_gray"
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
 	},
+/turf/open/floor/plasteel/tech,
 /area/centcom/evac)
 "Mz" = (
 /turf/open/water/jungle,
@@ -1471,9 +1489,7 @@
 	pixel_x = -3;
 	pixel_y = 3
 	},
-/turf/open/floor/plasteel/techmaint{
-	icon_state = "techfloor_gray"
-	},
+/turf/open/floor/plasteel/tech,
 /area/centcom/evac)
 "NR" = (
 /obj/structure/girder,
@@ -1651,9 +1667,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/turf/open/floor/plasteel/techmaint{
-	icon_state = "techfloor_gray"
-	},
+/turf/open/floor/plasteel/tech,
 /area/centcom/evac)
 "TH" = (
 /obj/structure/flora/ausbushes/reedbush{
@@ -1844,6 +1858,7 @@
 	dir = 2;
 	color = "#A47449"
 	},
+/obj/effect/turf_decal/siding/wood/corner,
 /turf/open/water/jungle,
 /area/centcom/evac)
 "YS" = (
@@ -1875,6 +1890,16 @@
 /obj/effect/turf_decal/box,
 /turf/open/floor/plasteel/techmaint,
 /area/centcom/evac)
+"Zs" = (
+/obj/structure/flora/ausbushes/reedbush{
+	pixel_x = -3;
+	pixel_y = 11
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/water/jungle,
+/area/centcom/evac)
 "Zv" = (
 /obj/structure/railing/corner{
 	dir = 4
@@ -1890,6 +1915,7 @@
 	color = "#A47449";
 	dir = 2
 	},
+/obj/effect/turf_decal/siding/wood,
 /turf/open/water/jungle,
 /area/centcom/evac)
 "Zz" = (
@@ -4328,12 +4354,12 @@ Br
 Kk
 Yl
 Cv
-Mz
-Mz
-Mz
-Mz
+av
+gi
+gi
+gi
 pF
-Mz
+gi
 cv
 cv
 cv
@@ -4439,13 +4465,13 @@ Th
 Th
 Th
 cv
-Mz
-Mz
-Mz
-TH
-Mz
-Mz
-Mz
+he
+he
+he
+Zs
+he
+he
+he
 lc
 Cv
 Cv

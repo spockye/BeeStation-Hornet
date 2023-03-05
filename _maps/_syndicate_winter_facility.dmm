@@ -47,8 +47,8 @@
 /area/centcom/evac)
 "ax" = (
 /obj/effect/turf_decal/bot_white,
-/obj/structure/closet/syndicate/nuclear,
 /obj/effect/turf_decal/stripes/line,
+/obj/structure/closet/syndicate,
 /turf/open/floor/mineral/plastitanium,
 /area/centcom/evac)
 "aC" = (
@@ -738,9 +738,8 @@
 /obj/effect/turf_decal/box,
 /obj/effect/turf_decal/arrows,
 /obj/structure/closet/crate/medical,
-/obj/item/autosurgeon/syndicate/esaw_arm,
-/obj/item/autosurgeon/syndicate/reviver,
 /obj/effect/turf_decal/tile/yellow/fourcorners/contrasted,
+/obj/item/autosurgeon/syndicate/reviver,
 /turf/open/floor/plasteel/grid/steel,
 /area/centcom/evac)
 "gE" = (
@@ -793,7 +792,7 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/oil,
 /obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
-/turf/open/floor/plasteel/techmaint,
+/turf/open/floor/plasteel/tech,
 /area/centcom/evac)
 "hy" = (
 /obj/effect/turf_decal/siding/wood,
@@ -843,7 +842,7 @@
 /obj/machinery/light/small/broken{
 	dir = 8
 	},
-/turf/open/floor/plasteel/techmaint,
+/turf/open/floor/plasteel/tech,
 /area/centcom/evac)
 "hS" = (
 /obj/effect/turf_decal/trimline/brown/filled/warning{
@@ -951,7 +950,7 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
-/turf/open/floor/plasteel/techmaint,
+/turf/open/floor/plasteel/tech,
 /area/centcom/evac)
 "jf" = (
 /obj/structure/table/reinforced{
@@ -973,7 +972,7 @@
 	pixel_x = -5;
 	pixel_y = 8
 	},
-/turf/open/floor/plasteel/techmaint,
+/turf/open/floor/plasteel/tech,
 /area/centcom/evac)
 "jp" = (
 /obj/effect/turf_decal/stripes/line{
@@ -1055,7 +1054,7 @@
 "kd" = (
 /obj/machinery/vending/tool,
 /obj/effect/turf_decal/bot,
-/turf/open/floor/plasteel/techmaint,
+/turf/open/floor/plasteel/tech,
 /area/centcom/evac)
 "ki" = (
 /obj/structure/mirror{
@@ -1595,12 +1594,12 @@
 	dir = 9
 	},
 /obj/effect/turf_decal/tile/neutral,
-/obj/machinery/suit_storage_unit/syndicate,
 /obj/effect/turf_decal/bot,
 /obj/machinery/light{
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/obj/machinery/suit_storage_unit/open,
 /turf/open/floor/plasteel/techmaint,
 /area/centcom/evac)
 "pN" = (
@@ -2075,7 +2074,7 @@
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/glass,
-/turf/open/floor/plasteel/techmaint,
+/turf/open/floor/plasteel/tech,
 /area/centcom/evac)
 "us" = (
 /obj/effect/turf_decal/trimline/brown/filled/line{
@@ -2764,6 +2763,11 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/carpet/red,
 /area/centcom/evac)
+"zx" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/tech,
+/area/centcom/evac)
 "zA" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -3034,7 +3038,7 @@
 /obj/effect/turf_decal/tile/yellow{
 	dir = 1
 	},
-/turf/open/floor/plasteel/techmaint,
+/turf/open/floor/plasteel/tech,
 /area/centcom/evac)
 "CI" = (
 /obj/effect/turf_decal/stripes/line{
@@ -3865,6 +3869,10 @@
 	},
 /turf/open/floor/plating/snowed,
 /area/centcom/evac)
+"JM" = (
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/plasteel/tech,
+/area/centcom/evac)
 "JV" = (
 /obj/structure/barricade/wooden/crude/snow,
 /turf/closed/wall/ice,
@@ -4160,7 +4168,6 @@
 	},
 /obj/item/stack/sheet/iron/fifty,
 /obj/item/stack/sheet/glass/fifty,
-/obj/item/stack/sheet/mineral/wood/fifty,
 /obj/item/stack/sheet/cardboard/twenty,
 /obj/item/poster/random_contraband,
 /obj/item/poster/random_contraband,
@@ -4168,7 +4175,7 @@
 /obj/item/poster/random_official,
 /obj/item/paicard,
 /obj/effect/turf_decal/delivery,
-/turf/open/floor/plasteel/techmaint,
+/turf/open/floor/plasteel/tech,
 /area/centcom/evac)
 "Ma" = (
 /obj/structure/table,
@@ -4386,7 +4393,6 @@
 	dir = 8
 	},
 /obj/structure/closet/crate/large,
-/obj/item/stack/sheet/mineral/wood/fifty,
 /obj/effect/turf_decal/tile/yellow/fourcorners/contrasted,
 /turf/open/floor/plasteel/grid/steel,
 /area/centcom/evac)
@@ -5037,12 +5043,6 @@
 "Ul" = (
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/bot_white,
-/obj/item/gun/ballistic/automatic/pistol{
-	pixel_y = -1
-	},
-/obj/item/melee/transforming/energy/sword{
-	pixel_y = 14
-	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
@@ -5085,7 +5085,7 @@
 /obj/item/storage/box/stockparts/basic{
 	pixel_x = 5
 	},
-/turf/open/floor/plasteel/techmaint,
+/turf/open/floor/plasteel/tech,
 /area/centcom/evac)
 "UP" = (
 /obj/effect/turf_decal/stripes/line,
@@ -5448,8 +5448,8 @@
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/closet/crate/freezer,
 /obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/obj/structure/closet/crate/freezer/blood,
 /turf/open/floor/plasteel/techmaint,
 /area/centcom/evac)
 "Xm" = (
@@ -5483,14 +5483,6 @@
 "Xz" = (
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/bot_white,
-/obj/item/grenade/syndieminibomb{
-	pixel_x = 6;
-	pixel_y = 4
-	},
-/obj/item/grenade/syndieminibomb{
-	pixel_x = -4;
-	pixel_y = 4
-	},
 /obj/effect/turf_decal/stripes/corner{
 	dir = 8
 	},
@@ -6204,9 +6196,9 @@ ES
 Lu
 Ay
 FN
-td
+JM
 hu
-FS
+zx
 iX
 xT
 fA

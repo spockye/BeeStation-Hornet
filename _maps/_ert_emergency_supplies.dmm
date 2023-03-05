@@ -1,0 +1,207 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/centcom/evac)
+"d" = (
+/obj/effect/turf_decal/techfloor{
+	dir = 8
+	},
+/obj/structure/closet/secure_closet{
+	icon_door = "tac";
+	icon_state = "tac";
+	name = "boarding tools locker"
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/machinery/door/window/eastright{
+	dir = 8
+	},
+/obj/item/grenade/frag,
+/obj/item/grenade/frag,
+/obj/item/grenade/frag,
+/obj/item/gun/ballistic/revolver/grenadelauncher/unrestricted,
+/turf/open/floor/plasteel/tech,
+/area/centcom/evac)
+"e" = (
+/obj/effect/turf_decal/techfloor{
+	dir = 8
+	},
+/obj/machinery/door/window/northleft,
+/turf/open/floor/plasteel/tech,
+/area/centcom/evac)
+"l" = (
+/obj/effect/turf_decal/techfloor{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech,
+/area/centcom/evac)
+"u" = (
+/obj/mecha/combat/gygax,
+/obj/effect/turf_decal/techfloor{
+	dir = 4
+	},
+/obj/machinery/door/window/eastright{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech,
+/area/centcom/evac)
+"C" = (
+/obj/effect/turf_decal/techfloor{
+	dir = 4
+	},
+/obj/structure/closet/crate/medical,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/machinery/door/window/northleft{
+	dir = 4
+	},
+/obj/effect/spawner/lootdrop/job_scale/medical/brute_kit,
+/obj/effect/spawner/lootdrop/job_scale/medical/brute_kit,
+/obj/effect/spawner/lootdrop/job_scale/medical/burn_kit,
+/obj/effect/spawner/lootdrop/job_scale/medical/burn_kit,
+/turf/open/floor/plasteel/tech,
+/area/centcom/evac)
+"E" = (
+/obj/effect/turf_decal/techfloor{
+	dir = 4
+	},
+/obj/structure/closet/crate/internals,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/machinery/door/window/eastright,
+/obj/item/tank/internals/emergency_oxygen/double,
+/obj/item/tank/internals/emergency_oxygen/double,
+/obj/item/tank/internals/emergency_oxygen/double,
+/obj/item/tank/internals/emergency_oxygen/double,
+/obj/item/tank/internals/emergency_oxygen/double,
+/obj/item/tank/internals/emergency_oxygen/double,
+/obj/item/tank/internals/emergency_oxygen/engi,
+/obj/item/tank/internals/emergency_oxygen/engi,
+/obj/item/tank/internals/emergency_oxygen/engi,
+/obj/item/tank/internals/emergency_oxygen/engi,
+/turf/open/floor/plasteel/tech,
+/area/centcom/evac)
+"G" = (
+/obj/effect/turf_decal/techfloor{
+	dir = 8
+	},
+/obj/structure/closet/secure_closet{
+	icon_state = "armory";
+	name = "Ammo Locker"
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/machinery/door/window/northleft{
+	dir = 8
+	},
+/obj/item/ammo_box/magazine/smgm9mm/ap{
+	pixel_x = 5
+	},
+/obj/item/ammo_box/magazine/smgm9mm/ap{
+	pixel_x = 5
+	},
+/obj/item/ammo_box/magazine/smgm9mm/ap{
+	pixel_x = 5
+	},
+/obj/item/ammo_box/magazine/smgm9mm/ap{
+	pixel_x = 5
+	},
+/obj/item/ammo_box/magazine/smgm9mm/ap{
+	pixel_x = 5
+	},
+/obj/item/ammo_box/magazine/wt550m9{
+	pixel_x = -4;
+	pixel_y = -2
+	},
+/obj/item/ammo_box/magazine/wt550m9{
+	pixel_x = -4;
+	pixel_y = -2
+	},
+/obj/item/ammo_box/magazine/wt550m9{
+	pixel_x = -4;
+	pixel_y = -2
+	},
+/obj/item/ammo_box/magazine/wt550m9{
+	pixel_x = -4;
+	pixel_y = -2
+	},
+/obj/item/ammo_box/magazine/wt550m9{
+	pixel_x = -4;
+	pixel_y = -2
+	},
+/turf/open/floor/plasteel/tech,
+/area/centcom/evac)
+"H" = (
+/obj/effect/turf_decal/techfloor,
+/obj/structure/rack,
+/obj/machinery/door/window/northleft{
+	dir = 2
+	},
+/obj/item/gun/ballistic/automatic/wt550,
+/obj/item/gun/ballistic/automatic/wt550{
+	pixel_y = 5
+	},
+/turf/open/floor/plasteel/tech,
+/area/centcom/evac)
+"M" = (
+/obj/machinery/mech_bay_recharge_port{
+	dir = 1
+	},
+/obj/effect/turf_decal/techfloor{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech,
+/area/centcom/evac)
+"R" = (
+/obj/effect/turf_decal/techfloor,
+/obj/structure/rack,
+/obj/machinery/door/window/eastright{
+	dir = 2
+	},
+/obj/item/gun/energy/beam_rifle,
+/obj/item/firing_pin,
+/obj/item/firing_pin,
+/turf/open/floor/plasteel/tech,
+/area/centcom/evac)
+"S" = (
+/obj/machinery/computer/mech_bay_power_console{
+	dir = 8
+	},
+/obj/effect/turf_decal/techfloor{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech,
+/area/centcom/evac)
+
+(1,1,1) = {"
+a
+d
+G
+a
+a
+"}
+(2,1,1) = {"
+e
+l
+l
+a
+H
+"}
+(3,1,1) = {"
+u
+M
+S
+a
+R
+"}
+(4,1,1) = {"
+a
+C
+E
+a
+a
+"}
