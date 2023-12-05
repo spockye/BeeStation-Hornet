@@ -469,3 +469,10 @@
 
 /obj/effect/turf_decal/techfloor/corners
 	icon_state = "techfloor_corners"
+
+/obj/effect/turf_decal/siding/dark_brick
+	icon_state = "siding_dark_brick"
+	layer = 2.038
+
+/obj/effect/turf_decal/siding/dark_brick/corner
+	icon_state = "siding_dark_brick_corner"

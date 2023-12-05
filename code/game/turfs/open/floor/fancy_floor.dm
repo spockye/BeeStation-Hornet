@@ -439,3 +439,8 @@
 
 /turf/open/floor/wax/airless
 	initial_gas_mix = AIRLESS_ATMOS
+
+/turf/open/floor/dark_brick
+	name = "Dark brick"
+	icon_state = "dark_brick"
+	desc = "A collection of dark bricks cover the flooring"
