@@ -2898,7 +2898,7 @@
 "iC" = (
 /obj/structure/fluff/paper/stack{
 	dir = 8;
-	pixel_x = -20
+	pixel_x = -16
 	},
 /turf/open/floor/dark_brick,
 /area/wizard_station)
@@ -3075,6 +3075,9 @@
 "jd" = (
 /obj/effect/turf_decal/siding/dark_brick{
 	dir = 4
+	},
+/obj/structure/fluff/vase/broken/blue{
+	dir = 6
 	},
 /turf/open/floor/dark_brick,
 /area/wizard_station)
@@ -4807,6 +4810,10 @@
 /obj/effect/turf_decal/siding/dark_brick{
 	dir = 8
 	},
+/obj/structure/fluff/vase/purple{
+	dir = 8;
+	pixel_x = -7
+	},
 /turf/open/floor/dark_brick{
 	icon_state = "dark_brick_damaged_7"
 	},
@@ -5137,6 +5144,10 @@
 	},
 /obj/structure/fluff/paper{
 	dir = 8
+	},
+/obj/structure/fluff/vase/broken{
+	pixel_x = -8;
+	pixel_y = -2
 	},
 /turf/open/floor/wood{
 	icon_state = "wood-broken"
@@ -6132,6 +6143,20 @@
 /turf/open/floor/plasteel/sepia,
 /area/wizard_station)
 "sf" = (
+/obj/structure/fluff/vase{
+	pixel_y = 19;
+	pixel_x = -8
+	},
+/obj/structure/fluff/vase/gold/purple{
+	pixel_x = 6;
+	pixel_y = 20;
+	dir = 4
+	},
+/obj/structure/fluff/vase/gold{
+	dir = 8;
+	pixel_y = 13;
+	pixel_x = -2
+	},
 /turf/open/floor/dark_brick{
 	icon_state = "dark_brick_damaged_2"
 	},
@@ -9641,7 +9666,15 @@
 /area/syndicate_mothership/control)
 "CU" = (
 /obj/effect/turf_decal/siding/wood,
-/obj/structure/fluff,
+/obj/structure/fluff/vase/gold{
+	dir = 4;
+	pixel_y = -1;
+	pixel_x = -9
+	},
+/obj/structure/fluff/vase/gold/purple{
+	pixel_x = 6;
+	pixel_y = -4
+	},
 /turf/open/floor/wood,
 /area/wizard_station)
 "CV" = (
@@ -11409,6 +11442,7 @@
 	pixel_x = -11;
 	light_range = 5
 	},
+/obj/structure/fluff/vase/broken,
 /turf/open/floor/dark_brick,
 /area/wizard_station)
 "If" = (
@@ -14666,9 +14700,6 @@
 	pixel_x = 6;
 	pixel_y = 11
 	},
-/obj/effect/turf_decal/siding{
-	icon_state = "1,4"
-	},
 /obj/effect/turf_decal/siding/dark_brick,
 /turf/open/floor/wood,
 /area/wizard_station)
@@ -15834,6 +15865,20 @@
 	icon_state = "dark_brick_whole_3"
 	},
 /area/wizard_station)
+"Vc" = (
+/obj/effect/turf_decal/weather/dirt{
+	dir = 4
+	},
+/obj/structure/fluff/vase/blue{
+	pixel_x = -7;
+	pixel_y = 7
+	},
+/obj/structure/fluff/vase/purple{
+	dir = 8;
+	pixel_x = -4
+	},
+/turf/open/floor/dark_brick,
+/area/wizard_station)
 "Ve" = (
 /obj/effect/turf_decal/tile/brown/anticorner/contrasted{
 	dir = 4
@@ -15923,6 +15968,16 @@
 /obj/item/candle/infinite{
 	pixel_y = 17;
 	pixel_x = -12
+	},
+/obj/structure/fluff/vase/gold{
+	dir = 1;
+	pixel_x = -2;
+	pixel_y = 21
+	},
+/obj/structure/fluff/vase/broken/blue{
+	dir = 9;
+	pixel_x = -6;
+	pixel_y = 12
 	},
 /turf/open/floor/dark_brick,
 /area/wizard_station)
@@ -46614,7 +46669,7 @@ fx
 pZ
 As
 Ys
-dt
+Vc
 oN
 Ad
 Ad

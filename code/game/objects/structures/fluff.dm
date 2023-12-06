@@ -183,3 +183,57 @@
 
 /obj/structure/fluff/hedge/opaque //useful for mazes and such
 	opacity = TRUE
+
+/obj/structure/fluff/vase
+	name = "Vase"
+	desc = "A old vase. There might be something shiny inside?"
+	icon = 'icons/obj/objects.dmi'
+	icon_state = "black_vase_normal"
+
+/obj/structure/fluff/vase/gold
+	name = "Vase"
+	desc = "A old vase. There might be something shiny inside?"
+	icon = 'icons/obj/objects.dmi'
+	icon_state = "black_vase_gold"
+
+/obj/structure/fluff/vase/gold/purple
+	name = "Vase"
+	desc = "A old vase. There might be something shiny inside?"
+	icon = 'icons/obj/objects.dmi'
+	icon_state = "purple_vase_gold"
+
+/obj/structure/fluff/vase/gold/blue
+	name = "Vase"
+	desc = "A old vase. There might be something shiny inside?"
+	icon = 'icons/obj/objects.dmi'
+	icon_state = "blue_vase_gold"
+
+/obj/structure/fluff/vase/broken
+	name = "Vase"
+	desc = "A old vase. There might be something shiny inside?"
+	icon = 'icons/obj/objects.dmi'
+	icon_state = "black_vase_broken"
+
+/obj/structure/fluff/vase/broken/purple
+	name = "Vase"
+	desc = "A old vase. There might be something shiny inside?"
+	icon = 'icons/obj/objects.dmi'
+	icon_state = "purple_vase_broken"
+
+/obj/structure/fluff/vase/broken/blue
+	name = "Vase"
+	desc = "A old vase. There might be something shiny inside?"
+	icon = 'icons/obj/objects.dmi'
+	icon_state = "blue_vase_broken"
+
+/obj/structure/fluff/vase/purple
+	name = "Vase"
+	desc = "A old vase. There might be something shiny inside?"
+	icon = 'icons/obj/objects.dmi'
+	icon_state = "purple_vase_normal"
+
+/obj/structure/fluff/vase/blue
+	name = "Vase"
+	desc = "A old vase. There might be something shiny inside?"
+	icon = 'icons/obj/objects.dmi'
+	icon_state = "blue_vase_normal"
