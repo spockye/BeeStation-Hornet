@@ -337,9 +337,6 @@
 /obj/effect/turf_decal/tile/green/fourcorners/contrasted,
 /turf/open/floor/plasteel/white,
 /area/centcom/holding)
-"aU" = (
-/turf/open/floor/plasteel/freezer,
-/area/space)
 "aV" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/bed/dogbed{
@@ -1174,12 +1171,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/centcom/control)
-"ds" = (
-/obj/structure/chair/fancy/bench/pew/left{
-	pixel_x = 8
-	},
-/turf/open/floor/wood,
-/area/space)
 "dt" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 4
@@ -2529,15 +2520,6 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
 /turf/open/floor/plasteel/dark,
 /area/tdome/tdomeobserve)
-"ho" = (
-/obj/structure/chair/fancy/bench/pew/left{
-	pixel_y = 6;
-	pixel_x = -3
-	},
-/turf/open/floor/wood{
-	icon_state = "wood-broken6"
-	},
-/area/space)
 "hp" = (
 /obj/structure/destructible/cult/tome,
 /obj/effect/decal/cleanable/dirt,
@@ -3476,16 +3458,6 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/grid/steel,
-/area/space)
-"kc" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 1
-	},
-/obj/structure/destructible/cult/talisman{
-	desc = "An altar dedicated to the Wizards' Federation"
-	},
-/obj/item/knife/ritual,
-/turf/open/floor/plasteel/dark,
 /area/space)
 "kd" = (
 /obj/structure/destructible/cult/forge{
@@ -4765,12 +4737,6 @@
 	},
 /turf/open/floor/carpet/red,
 /area/wizard_station)
-"od" = (
-/obj/machinery/light/small{
-	dir = 4
-	},
-/turf/open/floor/plasteel/freezer,
-/area/space)
 "oe" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -5490,11 +5456,6 @@
 	},
 /obj/effect/decal/cleanable/greenglow,
 /turf/open/floor/plasteel/cult,
-/area/space)
-"qj" = (
-/obj/structure/chair/fancy/bench/pew/left,
-/obj/effect/decal/cleanable/cobweb,
-/turf/open/floor/wood,
 /area/space)
 "ql" = (
 /obj/effect/turf_decal/siding/wood{
@@ -6984,10 +6945,6 @@
 /obj/structure/fluff/paper/stack,
 /turf/open/floor/dark_brick,
 /area/wizard_station)
-"uy" = (
-/obj/structure/chair/fancy/bench/pew/right,
-/turf/open/floor/wood,
-/area/space)
 "uz" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/ausbushes/sparsegrass,
@@ -7115,9 +7072,6 @@
 	},
 /turf/open/floor/plasteel/tech/grid,
 /area/wizard_station)
-"uM" = (
-/turf/open/floor/wood,
-/area/space)
 "uO" = (
 /obj/machinery/door/airlock/centcom{
 	name = "Shuttle Control Office";
@@ -7807,14 +7761,6 @@
 	icon_state = "dark_brick_whole_3"
 	},
 /area/wizard_station)
-"wE" = (
-/obj/structure/chair/fancy/bench/pew/right{
-	pixel_x = 8
-	},
-/turf/open/floor/wood{
-	icon_state = "wood-broken5"
-	},
-/area/space)
 "wF" = (
 /obj/effect/turf_decal/weather/dirt/corner,
 /obj/effect/turf_decal/weather/dirt/corner{
@@ -9591,12 +9537,6 @@
 	icon_state = "wood-broken7"
 	},
 /area/space)
-"CI" = (
-/obj/structure/toilet{
-	dir = 8
-	},
-/turf/open/floor/plasteel/freezer,
-/area/space)
 "CJ" = (
 /obj/structure/chair,
 /obj/effect/turf_decal/tile/green{
@@ -9668,12 +9608,12 @@
 /obj/effect/turf_decal/siding/wood,
 /obj/structure/fluff/vase/gold{
 	dir = 4;
-	pixel_y = -1;
-	pixel_x = -9
+	pixel_y = 2;
+	pixel_x = -8
 	},
 /obj/structure/fluff/vase/gold/purple{
-	pixel_x = 6;
-	pixel_y = -4
+	pixel_x = 1;
+	pixel_y = -2
 	},
 /turf/open/floor/wood,
 /area/wizard_station)
@@ -10018,14 +9958,6 @@
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
 /area/space)
-"Ec" = (
-/obj/effect/decal/cleanable/blood/old{
-	icon_state = "gib5-old";
-	pixel_x = 7;
-	pixel_y = 15
-	},
-/turf/open/floor/plasteel/dark,
-/area/space)
 "Ed" = (
 /obj/structure/table/wood,
 /obj/item/clothing/suit/wizrobe/marisa,
@@ -10175,9 +10107,6 @@
 	icon_state = "wood"
 	},
 /area/centcom/holding)
-"EF" = (
-/turf/open/floor/plasteel/dark,
-/area/space)
 "EG" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/flora/ausbushes/lavendergrass,
@@ -11489,11 +11418,6 @@
 "Il" = (
 /turf/closed/indestructible/fakeglass,
 /area/tdome/tdomeobserve)
-"Im" = (
-/turf/open/floor/wood{
-	icon_state = "wood-broken3"
-	},
-/area/space)
 "In" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
 /turf/open/floor/plasteel,
@@ -12927,13 +12851,6 @@
 	},
 /turf/open/floor/plating/asteroid/snow/airless,
 /area/syndicate_mothership)
-"ME" = (
-/obj/structure/chair/fancy/bench/pew/right{
-	pixel_x = -3;
-	pixel_y = 6
-	},
-/turf/open/floor/wood,
-/area/space)
 "MG" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -13615,16 +13532,6 @@
 /obj/structure/table/wood,
 /turf/open/floor/plasteel/dark,
 /area/centcom/supplypod)
-"OE" = (
-/obj/structure/sink{
-	dir = 8;
-	pixel_x = -12
-	},
-/obj/structure/mirror/magic{
-	pixel_x = -24
-	},
-/turf/open/floor/plasteel/freezer,
-/area/space)
 "OF" = (
 /obj/structure/table/reinforced,
 /obj/item/folder/red,
@@ -13962,12 +13869,6 @@
 	},
 /turf/open/floor/carpet/black,
 /area/centcom/holding)
-"PB" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 1
-	},
-/turf/open/floor/plasteel/dark,
-/area/space)
 "PC" = (
 /obj/effect/turf_decal/tile/green/half/contrasted,
 /turf/open/floor/plasteel,
@@ -14244,7 +14145,7 @@
 	},
 /mob/living/simple_animal/hostile/netherworld{
 	name = "Experiment 35b";
-	faction = list("nether, neutral")
+	faction = list("neutral")
 	},
 /turf/open/floor/dark_brick,
 /area/wizard_station)
@@ -15218,12 +15119,6 @@
 /obj/effect/turf_decal/tile/red/anticorner/contrasted,
 /turf/open/floor/plasteel,
 /area/tdome/tdomeobserve)
-"Ti" = (
-/obj/machinery/shower{
-	dir = 4
-	},
-/turf/open/floor/plasteel/grid,
-/area/space)
 "Tj" = (
 /obj/structure/table/reinforced,
 /obj/item/reagent_containers/food/drinks/bottle/whiskey{
@@ -16685,11 +16580,6 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
 /turf/open/floor/plasteel/dark,
 /area/centcom/control)
-"XF" = (
-/obj/structure/chair/fancy/bench/pew/left,
-/obj/item/clothing/neck/crucifix,
-/turf/open/floor/wood,
-/area/space)
 "XG" = (
 /obj/effect/turf_decal/tile/blue/anticorner/contrasted{
 	dir = 4
@@ -51834,7 +51724,7 @@ aa
 aa
 aa
 aa
-Hv
+aa
 aa
 aa
 aa
@@ -52090,10 +51980,10 @@ aa
 aa
 aa
 aa
-Ti
-aU
-OE
-en
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -52347,10 +52237,10 @@ aa
 aa
 aa
 aa
-od
-aU
-CI
-en
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -52603,11 +52493,11 @@ aa
 aa
 aa
 aa
-en
-en
-en
-en
-en
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -52859,14 +52749,14 @@ aa
 aa
 aa
 aa
-en
-qj
-ds
-uM
-PB
-EF
-en
-en
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -53116,14 +53006,14 @@ aa
 aa
 aa
 aa
-uM
-uy
-wE
-uM
-PB
-EF
-EF
-en
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -53373,14 +53263,14 @@ aa
 aa
 aa
 aa
-uM
-uM
-uM
-uM
-kc
-Ec
-EF
-en
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -53630,14 +53520,14 @@ aa
 aa
 aa
 aa
-uM
-ho
-XF
-uM
-PB
-EF
-EF
-en
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -53887,14 +53777,14 @@ aa
 aa
 aa
 aa
-en
-ME
-uy
-Im
-PB
-EF
-en
-en
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -54144,13 +54034,13 @@ aa
 aa
 aa
 aa
-en
-en
-en
-en
-en
-en
-en
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
