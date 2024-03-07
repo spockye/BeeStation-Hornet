@@ -58,6 +58,9 @@
 
 /obj/machinery/computer/camera_advanced/wizard
 	circuit = /obj/item/circuitboard/computer/advanced_camera/darkblue
+	icon_state = "pondering_orb"
+	icon = 'icons/obj/objects.dmi'
+	base_icon_state = "pondering_orb"
 	reveal_camera_mob = TRUE
 	camera_mob_icon_state = "darkblue"
 

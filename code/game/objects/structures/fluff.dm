@@ -237,3 +237,9 @@
 	desc = "A old vase. There might be something shiny inside?"
 	icon = 'icons/obj/objects.dmi'
 	icon_state = "blue_vase_normal"
+
+/obj/structure/fluff/wall_cloth
+	name = "Wall cloth"
+	desc = "a old ragged cloth, fastened to the wall with nails"
+	icon = 'icons/obj/objects.dmi'
+	icon_state = "drape_white"
