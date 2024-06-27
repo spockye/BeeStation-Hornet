@@ -168,7 +168,7 @@
 	pixel_x = -11;
 	pixel_y = -10
 	},
-/turf/open/floor/plating/dirt,
+/turf/open/floor/plating/dirt/jungle,
 /area/wizard_station)
 "az" = (
 /obj/effect/turf_decal/tile/green/anticorner/contrasted,
@@ -331,7 +331,7 @@
 	pixel_y = 6
 	},
 /obj/effect/decal/cleanable/cobweb,
-/turf/open/floor/plating/dirt,
+/turf/open/floor/plating/dirt/jungle,
 /area/space)
 "aX" = (
 /obj/effect/turf_decal/siding/wood{
@@ -729,7 +729,7 @@
 /area/centcom/evac)
 "ce" = (
 /obj/structure/fluff/hedge,
-/turf/open/floor/plating/dirt,
+/turf/open/floor/plating/dirt/jungle,
 /area/wizard_station)
 "cf" = (
 /obj/item/clipboard,
@@ -784,6 +784,9 @@
 	},
 /obj/effect/turf_decal/siding/dark_brick{
 	dir = 8
+	},
+/obj/structure/fluff/wall_cloth{
+	pixel_y = 32
 	},
 /turf/open/floor/dark_brick,
 /area/wizard_station)
@@ -2194,7 +2197,7 @@
 /turf/open/floor/plasteel/dark,
 /area/centcom/control)
 "gt" = (
-/turf/open/floor/plating/dirt/dark,
+/turf/open/floor/plating/dirt/jungle/dark,
 /area/wizard_station)
 "gu" = (
 /turf/closed/indestructible/splashscreen,
@@ -3472,6 +3475,10 @@
 /obj/effect/turf_decal/weather/dirt{
 	dir = 6
 	},
+/obj/structure/fluff/wall_cloth{
+	dir = 6;
+	pixel_y = 40
+	},
 /turf/open/floor/dark_brick,
 /area/wizard_station)
 "kg" = (
@@ -3835,7 +3842,7 @@
 /obj/structure/fluff/paper{
 	dir = 9
 	},
-/turf/open/floor/plating/dirt,
+/turf/open/floor/plating/dirt/jungle,
 /area/wizard_station)
 "lp" = (
 /obj/effect/decal/cleanable/dirt,
@@ -5073,6 +5080,15 @@
 /obj/structure/displaycase/trophy,
 /turf/open/floor/wood,
 /area/wizard_station)
+"po" = (
+/obj/structure/bookcase/random/religion,
+/obj/structure/fluff/wall_cloth{
+	dir = 1;
+	pixel_x = -12;
+	pixel_y = 2
+	},
+/turf/open/floor/clockwork/reebe,
+/area/wizard_station)
 "pp" = (
 /obj/effect/turf_decal/weather/dirt/corner{
 	dir = 4
@@ -5569,7 +5585,7 @@
 "qL" = (
 /obj/effect/turf_decal/weather/dirt,
 /obj/structure/fluff/hedge,
-/turf/open/floor/plating/dirt,
+/turf/open/floor/plating/dirt/jungle,
 /area/wizard_station)
 "qM" = (
 /obj/machinery/power/emitter/ctf{
@@ -6841,7 +6857,7 @@
 	pixel_x = 13;
 	pixel_y = 11
 	},
-/turf/open/floor/plating/dirt,
+/turf/open/floor/plating/dirt/jungle,
 /area/wizard_station)
 "uw" = (
 /obj/structure/fluff/paper/stack,
@@ -7188,6 +7204,10 @@
 "vr" = (
 /obj/structure/dresser,
 /obj/effect/decal/cleanable/cobweb,
+/obj/structure/fluff/wall_cloth{
+	dir = 8;
+	pixel_y = 32
+	},
 /turf/open/floor/wood,
 /area/wizard_station)
 "vs" = (
@@ -7307,6 +7327,13 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/control)
+"vI" = (
+/obj/structure/fluff/hedge,
+/obj/structure/fluff/wall_cloth{
+	pixel_y = 32
+	},
+/turf/open/floor/plating/dirt/jungle,
+/area/wizard_station)
 "vJ" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -7676,12 +7703,6 @@
 /obj/effect/turf_decal/loading_area,
 /turf/open/floor/plasteel,
 /area/centcom/control)
-"wI" = (
-/obj/machinery/computer/camera_advanced/wizard{
-	dir = 4
-	},
-/turf/open/floor/monotile/dark,
-/area/wizard_station)
 "wJ" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/centcom{
@@ -8121,7 +8142,7 @@
 	pixel_x = -11;
 	pixel_y = -10
 	},
-/turf/open/floor/plating/dirt,
+/turf/open/floor/plating/dirt/jungle,
 /area/space)
 "yh" = (
 /obj/structure/extinguisher_cabinet{
@@ -8243,6 +8264,10 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/evac)
+"yE" = (
+/obj/machinery/computer/camera_advanced/wizard,
+/turf/open/floor/monotile/dark,
+/area/wizard_station)
 "yF" = (
 /obj/effect/turf_decal/techfloor{
 	dir = 10
@@ -8859,6 +8884,18 @@
 	},
 /turf/open/floor/carpet/red,
 /area/space)
+"AA" = (
+/obj/structure/bookcase/random/religion,
+/obj/item/candle/infinite{
+	pixel_y = 19;
+	pixel_x = -13;
+	light_range = 5
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/clockwork/reebe,
+/area/wizard_station)
 "AB" = (
 /obj/item/reagent_containers/glass/bucket{
 	icon_state = "woodbucket";
@@ -8913,7 +8950,7 @@
 	pixel_y = 6
 	},
 /obj/effect/decal/cleanable/cobweb,
-/turf/open/floor/plating/dirt,
+/turf/open/floor/plating/dirt/jungle,
 /area/wizard_station)
 "AM" = (
 /obj/machinery/shuttle_manipulator,
@@ -10621,7 +10658,7 @@
 "Gr" = (
 /obj/structure/fluff/hedge,
 /obj/effect/decal/cleanable/cobweb/cobweb2,
-/turf/open/floor/plating/dirt,
+/turf/open/floor/plating/dirt/jungle,
 /area/wizard_station)
 "Gs" = (
 /obj/machinery/light{
@@ -10786,7 +10823,7 @@
 "GQ" = (
 /obj/structure/fluff/hedge,
 /obj/effect/decal/cleanable/cobweb,
-/turf/open/floor/plating/dirt,
+/turf/open/floor/plating/dirt/jungle,
 /area/wizard_station)
 "GR" = (
 /obj/effect/temp_visual/small_smoke,
@@ -13259,7 +13296,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/open/floor/plating/dirt,
+/turf/open/floor/plating/dirt/jungle,
 /area/space)
 "Og" = (
 /obj/machinery/power/emitter/ctf{
@@ -14688,7 +14725,7 @@
 /turf/open/floor/plasteel/dark,
 /area/centcom/ferry)
 "So" = (
-/turf/open/floor/plating/dirt,
+/turf/open/floor/plating/dirt/jungle,
 /area/wizard_station)
 "Sp" = (
 /obj/effect/turf_decal/tile/blue/anticorner/contrasted{
@@ -14857,7 +14894,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/open/floor/plating/dirt,
+/turf/open/floor/plating/dirt/jungle,
 /area/wizard_station)
 "SU" = (
 /obj/structure/table/wood,
@@ -47695,7 +47732,7 @@ Ad
 Ad
 Oo
 Oo
-og
+AA
 Oo
 Ad
 GQ
@@ -48462,7 +48499,7 @@ aa
 aa
 aa
 Ad
-Oo
+po
 cy
 XP
 Tp
@@ -48731,7 +48768,7 @@ NC
 RN
 gz
 qh
-wI
+yE
 Vo
 hN
 Ho
@@ -49497,7 +49534,7 @@ Pi
 RT
 bX
 Ad
-ce
+vI
 mp
 Ae
 TX
