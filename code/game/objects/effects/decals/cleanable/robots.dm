@@ -62,11 +62,11 @@
 	random_icon_states = list("gibarm", "gibleg")
 
 /obj/effect/decal/cleanable/robot_debris/up
-	icon_state = "gibup1"
+	icon_state = "gibup"
 	random_icon_states = list("gib1", "gib2", "gib3", "gib4", "gib5", "gib6", "gib7","gibup1","gibup1")
 
 /obj/effect/decal/cleanable/robot_debris/down
-	icon_state = "gibdown1"
+	icon_state = "gibdown"
 	random_icon_states = list("gib1", "gib2", "gib3", "gib4", "gib5", "gib6", "gib7","gibdown1","gibdown1")
 
 /obj/effect/decal/cleanable/oil
@@ -87,7 +87,7 @@
 	var/attacked_by_hot_thing = I.is_hot()
 	if(attacked_by_hot_thing)
 		visible_message("<span class='warning'>[user] tries to ignite [src] with [I]!</span>", "<span class='warning'>You try to ignite [src] with [I].</span>")
-		log_combat(user, src, (attacked_by_hot_thing < 480) ? "tried to ignite" : "ignited", I)
+		log_combat(user, src, (attacked_by_hot_thing < 480) ? "tried to ignite" : "ignited", I, important = FALSE)
 		fire_act(attacked_by_hot_thing)
 		return
 	return ..()

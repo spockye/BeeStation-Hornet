@@ -23,7 +23,7 @@
 		pipe_astar_cost = 1\
 	)
 
-/obj/structure/grille/take_damage(damage_amount, damage_type = BRUTE, damage_flag = 0, sound_effect = 1, attack_dir)
+/obj/structure/grille/take_damage(damage_amount, damage_type = BRUTE, damage_flag = 0, sound_effect = 1, attack_dir, armour_penetration = 0)
 	. = ..()
 	update_icon()
 
@@ -124,7 +124,7 @@
 	user.changeNext_move(CLICK_CD_MELEE)
 	user.do_attack_animation(src, ATTACK_EFFECT_KICK)
 	user.visible_message("<span class='warning'>[user] hits [src].</span>", null, null, COMBAT_MESSAGE_RANGE)
-	log_combat(user, src, "hit")
+	log_combat(user, src, "hit", important = FALSE)
 	if(!shock(user, 70))
 		take_damage(rand(5,10), BRUTE, MELEE, 1)
 
