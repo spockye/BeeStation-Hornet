@@ -3880,9 +3880,6 @@
 	dir = 8
 	},
 /obj/machinery/rnd/production/techfab/department/cargo,
-/obj/machinery/power/apc/auto_name/east{
-	pixel_x = 24
-	},
 /obj/structure/cable/yellow{
 	icon_state = "0-8"
 	},
@@ -15819,7 +15816,6 @@
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
-/obj/machinery/power/apc/auto_name/north,
 /turf/open/space/basic,
 /area/space)
 "OF" = (
@@ -18109,10 +18105,6 @@
 /area/space)
 "UD" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/power/apc/auto_name/south{
-	dir = 1;
-	pixel_y = 24
-	},
 /obj/structure/cable/yellow{
 	icon_state = "0-8"
 	},
@@ -37283,22 +37275,22 @@ Ze
 We
 BX
 qQ
-ut
-ut
-ut
-ut
-ut
-ut
-ut
-ut
-ut
-ut
-ut
-ut
-ut
-ut
-ut
-ut
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
+th
 ut
 zR
 zR
