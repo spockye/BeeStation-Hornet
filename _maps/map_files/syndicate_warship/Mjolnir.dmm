@@ -14640,6 +14640,19 @@
 /obj/effect/turf_decal/tile/purple/opposingcorners,
 /turf/open/floor/iron/techmaint,
 /area/space)
+"Eh" = (
+/obj/structure/table,
+/obj/item/stack/medical/gauze,
+/obj/item/stack/medical/bruise_pack{
+	pixel_x = 4
+	},
+/obj/item/stack/medical/ointment{
+	pixel_y = 4
+	},
+/obj/item/healthanalyzer,
+/obj/item/storage/firstaid/regular,
+/turf/open/floor/grass/no_border,
+/area/space)
 "Ei" = (
 /obj/effect/turf_decal/trimline/red/line{
 	dir = 1
@@ -14788,6 +14801,16 @@
 	icon_state = "warningline_white"
 	},
 /turf/open/floor/mineral/plastitanium,
+/area/space)
+"Ey" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/green/warning{
+	dir = 1
+	},
+/mob/living/simple_animal/bot/medbot,
+/turf/open/floor/iron/dark,
 /area/space)
 "EA" = (
 /obj/structure/cable/yellow{
@@ -18821,6 +18844,19 @@
 	},
 /turf/open/floor/iron/dark,
 /area/space)
+"MQ" = (
+/obj/structure/table,
+/obj/item/storage/box/bodybags{
+	pixel_x = 3;
+	pixel_y = 2
+	},
+/obj/item/pen,
+/obj/item/reagent_containers/glass/beaker{
+	pixel_x = -6;
+	pixel_y = 1
+	},
+/turf/open/floor/grass/no_border,
+/area/space)
 "MR" = (
 /obj/effect/turf_decal/sand/plating,
 /obj/effect/turf_decal/weather/dirt/corner{
@@ -19160,6 +19196,9 @@
 	},
 /obj/structure/window/reinforced{
 	dir = 1
+	},
+/obj/machinery/status_display/evac{
+	pixel_x = -32
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/space)
@@ -144726,7 +144765,7 @@ OS
 Dx
 MI
 FT
-rf
+Ey
 ID
 ID
 ID
@@ -145333,8 +145372,8 @@ ZV
 rf
 ID
 Ek
-ZV
-ZV
+Eh
+MQ
 OS
 ID
 ID
@@ -145938,8 +145977,8 @@ rf
 ID
 Ek
 xd
-ID
-ID
+jY
+jY
 ID
 ID
 OS
