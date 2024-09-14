@@ -209,12 +209,6 @@
 /obj/effect/turf_decal/tile/neutral/half/contrasted,
 /turf/open/floor/iron/dark,
 /area/space)
-"agV" = (
-/obj/machinery/atmospherics/components/trinary/filter/atmos/flipped/o2{
-	dir = 4
-	},
-/turf/open/floor/iron/tech,
-/area/space)
 "agX" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/flora/grass/jungle/b{
@@ -264,12 +258,6 @@
 /turf/open/floor/iron/grid/steel{
 	color = "#808080"
 	},
-/area/space)
-"ahA" = (
-/obj/machinery/atmospherics/components/trinary/filter/atmos/flipped/co2{
-	dir = 4
-	},
-/turf/open/floor/iron/tech,
 /area/space)
 "ahG" = (
 /obj/structure/lattice,
@@ -11542,18 +11530,6 @@
 	pixel_y = 9;
 	pixel_x = -7
 	},
-/obj/item/trash/plate{
-	pixel_x = 5;
-	pixel_y = 1
-	},
-/obj/item/trash/plate{
-	pixel_x = 5;
-	pixel_y = 4
-	},
-/obj/item/trash/plate{
-	pixel_x = 5;
-	pixel_y = 7
-	},
 /turf/open/floor/wood/big,
 /area/space)
 "hjz" = (
@@ -13336,12 +13312,6 @@
 /obj/effect/turf_decal/tile/blue/fourcorners/contrasted,
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/iron,
-/area/space)
-"ish" = (
-/obj/machinery/atmospherics/components/trinary/filter/atmos/flipped/n2{
-	dir = 4
-	},
-/turf/open/floor/iron/tech,
 /area/space)
 "isq" = (
 /obj/effect/turf_decal/box/corners{
@@ -17663,10 +17633,6 @@
 /area/space)
 "lep" = (
 /obj/structure/table/wood,
-/obj/item/trash/plate{
-	pixel_x = 1;
-	pixel_y = 1
-	},
 /obj/item/trash/candle{
 	pixel_x = -7;
 	pixel_y = 12
@@ -24476,9 +24442,6 @@
 /obj/machinery/keycard_auth{
 	pixel_y = 24
 	},
-/obj/structure/disposalpipe/trunk/multiz/down{
-	dir = 8
-	},
 /turf/open/floor/carpet/royalblack,
 /area/space)
 "ptd" = (
@@ -24489,9 +24452,6 @@
 /area/space)
 "ptj" = (
 /obj/structure/plasticflaps/opaque,
-/obj/structure/disposalpipe/trunk/multiz/down{
-	dir = 1
-	},
 /turf/open/floor/plating,
 /area/space)
 "ptK" = (
@@ -27975,12 +27935,6 @@
 /obj/effect/turf_decal/trimline/red/warning,
 /turf/open/space/basic,
 /area/space)
-"rvN" = (
-/obj/machinery/atmospherics/components/trinary/filter/atmos/flipped/plasma{
-	dir = 4
-	},
-/turf/open/floor/iron/tech,
-/area/space)
 "rwu" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 8
@@ -29260,12 +29214,6 @@
 	},
 /turf/open/floor/plating,
 /area/space)
-"sky" = (
-/obj/structure/disposalpipe/trunk/multiz{
-	dir = 4
-	},
-/turf/open/space/basic,
-/area/space)
 "skz" = (
 /obj/effect/turf_decal/arrows,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -30177,15 +30125,6 @@
 /area/space)
 "sHD" = (
 /turf/open/floor/plating/elevatorshaft,
-/area/space)
-"sHL" = (
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
-/obj/structure/disposalpipe/trunk/multiz/down{
-	dir = 4
-	},
-/turf/open/space/basic,
 /area/space)
 "sHS" = (
 /obj/machinery/atmospherics/pipe/simple/yellow/visible{
@@ -31638,9 +31577,6 @@
 	},
 /obj/effect/turf_decal/trimline/purple/line{
 	dir = 9
-	},
-/obj/structure/disposalpipe/trunk/multiz/down{
-	dir = 2
 	},
 /turf/open/space/basic,
 /area/space)
@@ -38922,10 +38858,6 @@
 	pixel_x = 14
 	},
 /turf/open/floor/wood/big,
-/area/space)
-"yla" = (
-/obj/machinery/atmospherics/components/trinary/filter/atmos/flipped/n2o,
-/turf/open/floor/iron/tech,
 /area/space)
 
 (1,1,1) = {"
@@ -56672,7 +56604,7 @@ xzr
 rxs
 rxs
 wxn
-yla
+izP
 dsR
 tov
 ctB
@@ -56976,7 +56908,7 @@ izP
 dJC
 izP
 izP
-rvN
+izP
 sHS
 bYS
 eSi
@@ -57580,7 +57512,7 @@ izP
 dJC
 izP
 izP
-ahA
+izP
 sJD
 nez
 ane
@@ -60190,7 +60122,7 @@ pYC
 pYC
 hcb
 cco
-sHL
+mvm
 mWh
 ksI
 ksI
@@ -61808,7 +61740,7 @@ izP
 dJC
 izP
 izP
-agV
+izP
 sJD
 nez
 fut
@@ -63016,7 +62948,7 @@ dsC
 vUe
 xWG
 izP
-ish
+izP
 agJ
 nez
 tLg
@@ -78014,7 +77946,7 @@ txD
 ksI
 ksI
 fzJ
-sky
+ksI
 urD
 ksI
 mwk
@@ -183244,19 +183176,19 @@ ggl
 gGR
 gGR
 dhf
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
+dhf
+dhf
+dhf
+dhf
+dhf
+dhf
+dhf
+dhf
+dhf
+dhf
+dhf
+dhf
+dhf
 xcs
 xcs
 xcs
@@ -183546,20 +183478,20 @@ dhf
 dhf
 dhf
 eZS
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
+dhf
+dhf
+dhf
+dhf
+dhf
+dhf
+dhf
+dhf
+dhf
+dhf
+dhf
+dhf
+dhf
+dhf
 xcs
 xcs
 eZS
@@ -183848,20 +183780,20 @@ pdo
 lQX
 lQX
 ieN
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
+dhf
+dhf
+dhf
+dhf
+dhf
+dhf
+dhf
+dhf
+dhf
+dhf
+dhf
+dhf
+dhf
+dhf
 xcs
 xcs
 eZS
@@ -184160,10 +184092,10 @@ xcs
 xcs
 xcs
 xcs
-xcs
-xcs
-xcs
-xcs
+dhf
+dhf
+dhf
+dhf
 xcs
 xcs
 eZS
@@ -184463,9 +184395,9 @@ xcs
 eZS
 eZS
 xcs
-xcs
-xcs
-xcs
+dhf
+dhf
+dhf
 xcs
 xcs
 eZS
@@ -184765,9 +184697,9 @@ xcs
 xcs
 eZS
 xcs
-xcs
-xcs
-xcs
+dhf
+dhf
+dhf
 xcs
 xcs
 eZS
@@ -185067,9 +184999,9 @@ xcs
 xcs
 eZS
 xcs
-xcs
-xcs
-xcs
+dhf
+dhf
+dhf
 xcs
 xcs
 eZS
@@ -185369,9 +185301,9 @@ xcs
 xcs
 eZS
 xcs
-xcs
-xcs
-xcs
+dhf
+dhf
+dhf
 xcs
 xcs
 eZS
@@ -185671,9 +185603,9 @@ xcs
 xcs
 eZS
 xcs
-xcs
-xcs
-xcs
+dhf
+dhf
+dhf
 xcs
 xcs
 eZS
@@ -185973,9 +185905,9 @@ eZS
 eZS
 eZS
 xcs
-xcs
-xcs
-xcs
+dhf
+dhf
+dhf
 xcs
 xcs
 eZS
@@ -186275,9 +186207,9 @@ eZS
 xcs
 xcs
 xcs
-xcs
-xcs
-xcs
+dhf
+dhf
+dhf
 xcs
 xcs
 eZS
@@ -186577,9 +186509,9 @@ eZS
 xcs
 xcs
 xcs
-xcs
-xcs
-xcs
+dhf
+dhf
+dhf
 xcs
 xcs
 eZS
@@ -186879,9 +186811,9 @@ eZS
 xcs
 xcs
 xcs
-xcs
-xcs
-xcs
+dhf
+dhf
+dhf
 eZS
 eZS
 eZS
@@ -187181,9 +187113,9 @@ eZS
 xcs
 xcs
 xcs
-xcs
-xcs
-xcs
+dhf
+dhf
+dhf
 uFq
 xcs
 xcs
@@ -187483,9 +187415,9 @@ eZS
 xcs
 xcs
 xcs
-xcs
-xcs
-xcs
+dhf
+dhf
+dhf
 eZS
 xcs
 xcs
@@ -187785,9 +187717,9 @@ eZS
 eZS
 xcs
 xcs
-xcs
-xcs
-xcs
+dhf
+dhf
+dhf
 eZS
 xcs
 xcs
