@@ -755,6 +755,10 @@
 /obj/effect/turf_decal/arrows/white,
 /turf/open/floor/iron,
 /area/space)
+"avc" = (
+/obj/structure/flora/rock/pile/icy,
+/turf/open/floor/plating/asteroid/snow,
+/area/space)
 "avO" = (
 /obj/structure/closet{
 	name = "beekeeping supplies"
@@ -1596,6 +1600,16 @@
 	light_color = "#1C748A"
 	},
 /turf/open/space/basic,
+/area/space)
+"aUu" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 10
+	},
+/obj/effect/turf_decal/weather/snow,
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 10
+	},
+/turf/open/floor/pod,
 /area/space)
 "aUF" = (
 /obj/structure/closet/crate/coffin,
@@ -5289,6 +5303,10 @@
 	},
 /turf/open/floor/wood/big,
 /area/space)
+"cPQ" = (
+/obj/effect/turf_decal/weather/snow,
+/turf/open/floor/pod/light,
+/area/space)
 "cPX" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -5437,6 +5455,12 @@
 	},
 /obj/item/toy/plush/beeplushie,
 /turf/open/floor/monotile/dark,
+/area/space)
+"cTM" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 6
+	},
+/turf/open/floor/pod/dark,
 /area/space)
 "cUc" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -6066,6 +6090,10 @@
 	dir = 4
 	},
 /turf/open/floor/noslip/dark,
+/area/space)
+"doC" = (
+/obj/effect/turf_decal/weather/snow/corner,
+/turf/open/space/basic,
 /area/space)
 "doO" = (
 /obj/machinery/anesthetic_machine,
@@ -8865,6 +8893,12 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/mineral/plastitanium/red,
 /area/space)
+"eXD" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 1
+	},
+/turf/open/floor/pod/dark,
+/area/space)
 "eYG" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 4
@@ -8991,6 +9025,12 @@
 	dir = 8
 	},
 /turf/open/space/basic,
+/area/space)
+"fcR" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 6
+	},
+/turf/open/floor/pod,
 /area/space)
 "fdB" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
@@ -11402,6 +11442,9 @@
 	},
 /turf/open/floor/iron/large,
 /area/space)
+"gCT" = (
+/turf/open/floor/pod/dark,
+/area/space)
 "gDd" = (
 /obj/structure/railing{
 	dir = 4
@@ -12420,6 +12463,12 @@
 	dir = 1
 	},
 /turf/open/space/basic,
+/area/space)
+"hgQ" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 9
+	},
+/turf/open/floor/pod/light,
 /area/space)
 "hhr" = (
 /obj/structure/window/reinforced{
@@ -16326,6 +16375,10 @@
 /obj/structure/rack,
 /turf/open/floor/iron/dark,
 /area/space)
+"jun" = (
+/obj/structure/flora/rock/icy,
+/turf/open/floor/plating/asteroid/snow,
+/area/space)
 "jva" = (
 /obj/structure/table/wood/fancy,
 /obj/item/storage/book/bible,
@@ -17239,6 +17292,9 @@
 	pixel_y = 1
 	},
 /turf/open/floor/iron/dark,
+/area/space)
+"jUJ" = (
+/turf/open/floor/pod,
 /area/space)
 "jUM" = (
 /obj/machinery/firealarm{
@@ -21641,6 +21697,10 @@
 	},
 /turf/open/space/basic,
 /area/space)
+"mHt" = (
+/obj/structure/flora/stump,
+/turf/open/floor/plating/asteroid/snow,
+/area/space)
 "mHv" = (
 /obj/effect/turf_decal/bot,
 /obj/effect/turf_decal/caution/stand_clear,
@@ -21838,6 +21898,10 @@
 /obj/machinery/light,
 /turf/open/floor/iron/dark,
 /area/space)
+"mMR" = (
+/obj/effect/turf_decal/weather/snow/corner,
+/turf/open/floor/pod/light,
+/area/space)
 "mNr" = (
 /obj/effect/turf_decal/box/corners{
 	dir = 1;
@@ -21867,6 +21931,9 @@
 	dir = 4
 	},
 /turf/open/floor/iron/dark,
+/area/space)
+"mOr" = (
+/turf/closed/indestructible/rock/snow,
 /area/space)
 "mOw" = (
 /obj/vehicle/ridden/wheelchair{
@@ -22268,6 +22335,16 @@
 	dir = 1
 	},
 /turf/open/floor/iron/dark/textured_large,
+/area/space)
+"ncN" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/weather/snow,
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 1
+	},
+/turf/open/floor/pod/light,
 /area/space)
 "ncU" = (
 /obj/effect/turf_decal/trimline/blue/filled/warning{
@@ -23701,6 +23778,10 @@
 /turf/open/floor/iron/stairs{
 	dir = 1
 	},
+/area/space)
+"nRV" = (
+/obj/structure/flora/grass/both,
+/turf/open/space/basic,
 /area/space)
 "nSt" = (
 /obj/effect/turf_decal/trimline/dark_blue/filled/line{
@@ -27140,6 +27221,16 @@
 	},
 /turf/open/floor/plating/asteroid/planetary,
 /area/space)
+"pTn" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/weather/snow,
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 1
+	},
+/turf/open/floor/pod,
+/area/space)
 "pUi" = (
 /obj/machinery/computer/secure_data{
 	dir = 4
@@ -29375,6 +29466,10 @@
 	pixel_y = 32
 	},
 /turf/open/floor/wood,
+/area/space)
+"rgj" = (
+/obj/structure/flora/grass/both,
+/turf/open/floor/plating/asteroid/snow,
 /area/space)
 "rgx" = (
 /obj/effect/turf_decal/trimline/blue/filled/corner{
@@ -35552,6 +35647,10 @@
 "uEy" = (
 /turf/open/floor/grass/no_border,
 /area/space)
+"uEA" = (
+/obj/effect/turf_decal/weather/snow/corner,
+/turf/open/floor/pod/dark,
+/area/space)
 "uEU" = (
 /obj/effect/turf_decal/trimline/yellow/filled/line,
 /turf/open/floor/iron/dark/side,
@@ -35604,6 +35703,12 @@
 	icon_state = "2-8"
 	},
 /turf/open/space/basic,
+/area/space)
+"uGo" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 1
+	},
+/turf/open/floor/pod,
 /area/space)
 "uGr" = (
 /obj/effect/turf_decal/trimline/purple/warning,
@@ -37949,6 +38054,12 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark/textured_large,
+/area/space)
+"vVn" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 5
+	},
+/turf/open/floor/pod/dark,
 /area/space)
 "vVG" = (
 /obj/structure/closet/crate/coffin,
@@ -78213,8 +78324,8 @@ ksI
 ksI
 ksI
 ksI
-ksI
-ksI
+mOr
+mOr
 ksI
 ksI
 ksI
@@ -78517,8 +78628,8 @@ ksI
 ksI
 ksI
 ksI
-ksI
-ksI
+xXV
+xXV
 ksI
 ksI
 ksI
@@ -78817,10 +78928,10 @@ ksI
 ksI
 ksI
 ksI
-ksI
-ksI
-ksI
-ksI
+gCT
+aeU
+doC
+doC
 ksI
 ksI
 ksI
@@ -79116,11 +79227,11 @@ ksI
 ksI
 ksI
 ksI
+nRV
 ksI
 ksI
 ksI
-ksI
-ksI
+jUJ
 ksI
 ksI
 ksI
@@ -80023,13 +80134,13 @@ ksI
 ksI
 ksI
 ksI
-ksI
-ksI
-ksI
-ksI
-ksI
-ksI
-ksI
+xXV
+xXV
+uGo
+jUJ
+fcR
+xXV
+xXV
 ksI
 ksI
 ksI
@@ -80325,13 +80436,13 @@ ksI
 ksI
 ksI
 ksI
-ksI
-ksI
-ksI
-ksI
-ksI
-ksI
-ksI
+xXV
+xXV
+vVn
+mMR
+xXV
+rgj
+xXV
 ksI
 ksI
 ksI
@@ -80627,13 +80738,13 @@ ksI
 ksI
 ksI
 ksI
-ksI
-ksI
-ksI
-ksI
-ksI
-ksI
-ksI
+rgj
+xXV
+xXV
+eXD
+aUu
+xXV
+xXV
 ksI
 ksI
 ksI
@@ -80929,13 +81040,13 @@ ksI
 ksI
 ksI
 ksI
-ksI
-ksI
-ksI
-ksI
-ksI
-ksI
-ksI
+xXV
+xXV
+hgQ
+jUJ
+uEA
+avc
+xXV
 ksI
 ksI
 ksI
@@ -81231,13 +81342,13 @@ ksI
 ksI
 ksI
 ksI
-ksI
-ksI
-ksI
-ksI
-ksI
-ksI
-ksI
+xXV
+xXV
+ncN
+cPQ
+cTM
+mHt
+xXV
 ksI
 ksI
 ksI
@@ -81533,13 +81644,13 @@ ksI
 ksI
 ksI
 ksI
-ksI
-ksI
-ksI
-ksI
-ksI
-ksI
-ksI
+xXV
+xXV
+uGo
+uEA
+xXV
+xXV
+xXV
 ksI
 ksI
 ksI
@@ -81835,13 +81946,13 @@ ksI
 ksI
 ksI
 ksI
-ksI
-ksI
-ksI
-ksI
-ksI
-ksI
-ksI
+xXV
+jun
+pTn
+mMR
+xXV
+xXV
+rgj
 ksI
 ksI
 ksI
