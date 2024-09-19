@@ -12189,6 +12189,10 @@
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner,
 /turf/open/floor/iron/dark,
 /area/space)
+"hwp" = (
+/obj/structure/stairs,
+/turf/open/floor/iron,
+/area/space)
 "hwu" = (
 /obj/structure/table,
 /obj/machinery/recharger,
@@ -33896,6 +33900,12 @@
 /obj/structure/bed/dogbed,
 /mob/living/simple_animal/sloth,
 /turf/open/floor/iron/dark/smooth_large,
+/area/space)
+"uCk" = (
+/obj/structure/stairs{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/textured_large,
 /area/space)
 "uCn" = (
 /obj/effect/turf_decal/stripes/closeup,
@@ -157304,7 +157314,7 @@ eZS
 eZS
 pYC
 pYC
-pYC
+hBw
 eZS
 eZS
 eZS
@@ -159108,7 +159118,7 @@ eZS
 gxZ
 gxZ
 gxZ
-gxZ
+hwp
 eZS
 hdO
 nBa
@@ -160009,7 +160019,7 @@ eZS
 pYC
 pYC
 pYC
-pYC
+hBw
 eZS
 gxZ
 gxZ
@@ -160311,7 +160321,7 @@ eZS
 eZS
 pYC
 pYC
-pYC
+hBw
 eZS
 gxZ
 gxZ
@@ -164845,9 +164855,9 @@ tZF
 lkP
 tGb
 sIS
-uqf
-nGa
-enx
+uCk
+uCk
+sIS
 uqf
 eZS
 wHk
@@ -248226,11 +248236,11 @@ xcs
 xcs
 xcs
 xcs
-xcs
-xcs
-xcs
-xcs
-xcs
+eZS
+eZS
+eZS
+eZS
+eZS
 xcs
 xcs
 xcs
@@ -248528,11 +248538,11 @@ xcs
 xcs
 xcs
 xcs
+eZS
 xcs
 xcs
 xcs
-xcs
-xcs
+eZS
 xcs
 xcs
 xcs
@@ -248830,11 +248840,11 @@ xcs
 xcs
 xcs
 xcs
+eZS
 xcs
 xcs
 xcs
-xcs
-xcs
+eZS
 xcs
 xcs
 xcs
