@@ -1098,7 +1098,6 @@
 /obj/item/radio/intercom{
 	pixel_x = 28
 	},
-/obj/machinery/space_heater,
 /turf/open/floor/iron/dark,
 /area/space)
 "aIv" = (
@@ -1939,12 +1938,6 @@
 /turf/open/floor/iron/dark/side{
 	dir = 4
 	},
-/area/space)
-"beA" = (
-/obj/machinery/space_heater{
-	on = 1
-	},
-/turf/open/floor/plating,
 /area/space)
 "beO" = (
 /obj/structure/railing{
@@ -3266,10 +3259,6 @@
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/space)
-"bUZ" = (
-/obj/machinery/camera/autoname/directional/west,
-/turf/open/floor/engine/airless,
-/area/space)
 "bVs" = (
 /obj/structure/chair/fancy/comfy{
 	dir = 8
@@ -3764,10 +3753,6 @@
 	dir = 10
 	},
 /turf/open/space/basic,
-/area/space)
-"ckt" = (
-/obj/machinery/camera/autoname/directional/south,
-/turf/open/floor/engine/n2,
 /area/space)
 "ckG" = (
 /obj/structure/lattice/catwalk,
@@ -4324,10 +4309,6 @@
 	},
 /obj/effect/turf_decal/tile/neutral/opposingcorners,
 /turf/open/floor/iron,
-/area/space)
-"cyC" = (
-/obj/machinery/camera/autoname/directional/south,
-/turf/open/floor/engine/o2,
 /area/space)
 "cyS" = (
 /obj/effect/turf_decal/siding/dark{
@@ -7943,9 +7924,6 @@
 /obj/structure/cable/yellow{
 	icon_state = "0-8"
 	},
-/obj/machinery/camera/autoname{
-	dir = 9
-	},
 /turf/open/floor/carpet/royalblack,
 /area/space)
 "eLG" = (
@@ -8383,7 +8361,6 @@
 /turf/open/floor/carpet/red,
 /area/space)
 "eXk" = (
-/obj/machinery/space_heater,
 /obj/effect/turf_decal/delivery,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/corner{
@@ -9911,10 +9888,6 @@
 	},
 /turf/open/floor/iron/white,
 /area/space)
-"fXu" = (
-/obj/machinery/camera/autoname/directional/south,
-/turf/open/floor/engine/co2,
-/area/space)
 "fXz" = (
 /obj/structure/chair/fancy/bench/left,
 /turf/open/floor/monotile/dark,
@@ -11216,9 +11189,6 @@
 	pixel_y = 4
 	},
 /obj/machinery/airalarm/directional/north,
-/obj/machinery/camera/autoname/directional/west{
-	network = list("ss13","medbay")
-	},
 /obj/machinery/light{
 	dir = 1
 	},
@@ -11781,12 +11751,6 @@
 	pixel_y = -28
 	},
 /turf/open/space/basic,
-/area/space)
-"hfp" = (
-/obj/machinery/camera/autoname/directional/east{
-	network = list("ss13","engine")
-	},
-/turf/open/floor/engine/airless,
 /area/space)
 "hfJ" = (
 /obj/effect/turf_decal/trimline/red/corner,
@@ -18091,20 +18055,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/space)
-"laZ" = (
-/obj/structure/closet/secure_closet/personal/patient,
-/obj/effect/turf_decal/trimline/blue/filled/line{
-	dir = 1
-	},
-/obj/effect/turf_decal/trimline/red/line{
-	dir = 1
-	},
-/obj/machinery/camera/autoname,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/open/space/basic,
-/area/space)
 "lbs" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 6
@@ -18671,10 +18621,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/space)
-"lox" = (
-/obj/machinery/door/airlock/security/glass,
-/turf/open/floor/iron/dark,
-/area/space)
 "loB" = (
 /obj/machinery/vending/cigarette,
 /obj/effect/turf_decal/trimline/blue/filled/line{
@@ -18880,9 +18826,6 @@
 	},
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 1
-	},
-/obj/machinery/camera/autoname/directional/east{
-	network = list("ss13", "security")
 	},
 /turf/open/floor/iron/dark,
 /area/space)
@@ -19355,10 +19298,6 @@
 /obj/machinery/vending/engivend,
 /obj/effect/turf_decal/bot,
 /turf/open/space/basic,
-/area/space)
-"lLe" = (
-/obj/machinery/camera/autoname/directional/south,
-/turf/open/floor/engine/plasma,
 /area/space)
 "lLT" = (
 /obj/machinery/door/airlock/external{
@@ -20378,12 +20317,6 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/item/trash/sosjerky,
 /turf/open/floor/pod,
-/area/space)
-"msf" = (
-/obj/machinery/camera/autoname/directional/east{
-	network = list("ss13","engine")
-	},
-/turf/open/floor/engine/air,
 /area/space)
 "msl" = (
 /obj/machinery/computer/telecomms/monitor,
@@ -22916,10 +22849,6 @@
 	dir = 9
 	},
 /turf/open/floor/iron/tech/grid,
-/area/space)
-"nUD" = (
-/obj/machinery/camera/autoname/directional/west,
-/turf/open/floor/engine/n2o,
 /area/space)
 "nUV" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -31153,15 +31082,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/space)
-"sCH" = (
-/obj/structure/bodycontainer/morgue{
-	dir = 2
-	},
-/obj/machinery/camera/autoname{
-	dir = 6
-	},
-/turf/open/space/basic,
-/area/space)
 "sCR" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -35656,12 +35576,6 @@
 /area/space)
 "vnN" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
-/turf/open/space/basic,
-/area/space)
-"vnT" = (
-/obj/machinery/space_heater{
-	on = 1
-	},
 /turf/open/space/basic,
 /area/space)
 "voj" = (
@@ -56180,7 +56094,7 @@ ksI
 ksI
 hcb
 kbW
-bUZ
+kbW
 kbW
 hcb
 hcb
@@ -56486,7 +56400,7 @@ kbW
 kbW
 hcb
 boA
-nUD
+boA
 boA
 hcb
 eZS
@@ -57614,7 +57528,7 @@ pio
 cTa
 dVO
 dnQ
-vnT
+ksI
 dVO
 vbK
 vbK
@@ -58002,7 +57916,7 @@ ctB
 kTA
 fxI
 gjZ
-lLe
+gTi
 hcb
 ksI
 ksI
@@ -59210,7 +59124,7 @@ hzd
 kTA
 kTM
 qwC
-fXu
+cST
 hcb
 lLT
 eZS
@@ -63438,7 +63352,7 @@ hzd
 kTA
 xsI
 iMb
-cyC
+fMX
 hcb
 def
 eZS
@@ -64646,7 +64560,7 @@ ijs
 heB
 inQ
 rYX
-ckt
+buL
 hcb
 ksI
 ksI
@@ -66150,7 +66064,7 @@ kbW
 kbW
 hcb
 xZg
-msf
+xZg
 xZg
 hcb
 eZS
@@ -66448,7 +66362,7 @@ ksI
 ksI
 hcb
 kbW
-hfp
+kbW
 kbW
 hcb
 hcb
@@ -71192,7 +71106,7 @@ jhO
 jhO
 mcm
 mUA
-beA
+pYC
 pcI
 xKc
 hcb
@@ -73917,7 +73831,7 @@ gON
 hSt
 fhe
 dVO
-laZ
+oNz
 lEh
 eNa
 wwh
@@ -77516,7 +77430,7 @@ ksI
 ksI
 ksI
 hcb
-sCH
+bHP
 xbz
 uGG
 wpH
@@ -80852,7 +80766,7 @@ aut
 vuk
 bzC
 dVO
-vnT
+ksI
 nxn
 dVO
 xXV
@@ -251123,11 +251037,11 @@ fYA
 fYA
 fYA
 eZS
-xcs
-tZF
-xcs
-xcs
-xcs
+fYA
+fYA
+fYA
+fYA
+fYA
 eZS
 fYA
 fYA
@@ -251425,11 +251339,11 @@ fYA
 fYA
 fYA
 eZS
-xcs
-tZF
-xcs
-xcs
-xcs
+fYA
+fYA
+fYA
+fYA
+fYA
 eZS
 fYA
 fYA
@@ -251727,11 +251641,11 @@ fYA
 fYA
 fYA
 eZS
-xcs
-tZF
-xcs
-xcs
-xcs
+fYA
+fYA
+fYA
+fYA
+fYA
 eZS
 fYA
 fYA
@@ -252031,9 +251945,9 @@ eZS
 eZS
 eZS
 eZS
-nXa
-fjf
-glZ
+fYA
+fYA
+fYA
 eZS
 fYA
 fYA
@@ -252323,16 +252237,16 @@ fYA
 fYA
 fYA
 fYA
+eZS
+fYA
+fYA
+eZS
 fYA
 fYA
 fYA
 fYA
 fYA
-fYA
-fYA
-fYA
-fYA
-fYA
+eZS
 fYA
 fYA
 fYA
@@ -252625,10 +252539,10 @@ fYA
 fYA
 fYA
 fYA
+eZS
 fYA
-fYA
-fYA
-fYA
+eZS
+eZS
 fYA
 fYA
 fYA
@@ -252936,7 +252850,7 @@ fYA
 fYA
 fYA
 fYA
-fYA
+eZS
 fYA
 fYA
 fYA
@@ -253234,9 +253148,9 @@ eZS
 eZS
 eZS
 eZS
-lox
-tZF
-lox
+fYA
+fYA
+fYA
 eZS
 eZS
 eZS
@@ -253536,9 +253450,9 @@ fYA
 fYA
 fYA
 eZS
-dhf
-dhf
-dhf
+fYA
+fYA
+fYA
 eZS
 fYA
 fYA
@@ -253838,9 +253752,9 @@ fYA
 fYA
 fYA
 eZS
-dhf
-dhf
-dhf
+fYA
+fYA
+fYA
 eZS
 fYA
 fYA
@@ -254140,9 +254054,9 @@ eZS
 eZS
 eZS
 eZS
-lox
-tZF
-lox
+eZS
+ksI
+eZS
 eZS
 fYA
 fYA
