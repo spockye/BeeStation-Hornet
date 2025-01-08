@@ -5548,6 +5548,12 @@
 	},
 /turf/open/floor/iron/white,
 /area/space)
+"czW" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 4
+	},
+/turf/open/space/basic,
+/area/space)
 "cAh" = (
 /obj/structure/lattice,
 /obj/effect/turf_decal/weather/dirt,
@@ -6059,6 +6065,13 @@
 	name = "Library"
 	},
 /turf/open/floor/wood/big,
+/area/space)
+"cLz" = (
+/obj/effect/turf_decal/tile/dark/opposingcorners,
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
+	},
+/turf/open/floor/iron/dark,
 /area/space)
 "cLT" = (
 /obj/machinery/door/window/brigdoor/eastleft{
@@ -8065,6 +8078,10 @@
 /obj/effect/turf_decal/edges/techfloor/corners,
 /turf/open/floor/plating,
 /area/space)
+"dHd" = (
+/obj/effect/turf_decal/siding/wood/corner,
+/turf/open/floor/carpet/red,
+/area/space)
 "dHe" = (
 /obj/structure/fluff/paper/stack{
 	dir = 4;
@@ -9588,6 +9605,12 @@
 	color = "#808080"
 	},
 /area/space)
+"eoY" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
+/turf/open/space/basic,
+/area/space)
 "epn" = (
 /obj/structure/flora/ausbushes/reedbush{
 	pixel_x = 3;
@@ -10125,6 +10148,10 @@
 	dir = 1
 	},
 /turf/open/floor/wood/big,
+/area/space)
+"eDy" = (
+/obj/effect/turf_decal/siding/wood/corner,
+/turf/open/space/basic,
 /area/space)
 "eDz" = (
 /obj/effect/turf_decal/trimline/neutral/line{
@@ -24285,6 +24312,13 @@
 	},
 /turf/open/floor/plating,
 /area/space)
+"lfM" = (
+/obj/effect/turf_decal/tile/dark/opposingcorners,
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/space)
 "lfU" = (
 /obj/item/radio/intercom{
 	pixel_y = -28
@@ -24923,6 +24957,12 @@
 "luw" = (
 /obj/structure/closet/bombcloset/security,
 /turf/open/floor/iron/dark,
+/area/space)
+"luK" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
+/turf/open/floor/carpet/red,
 /area/space)
 "luQ" = (
 /obj/effect/decal/cleanable/dirt{
@@ -26785,6 +26825,14 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/space/basic,
 /area/space)
+"mlx" = (
+/obj/effect/turf_decal/tile/dark/opposingcorners,
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
+/obj/effect/turf_decal/siding/wood/corner,
+/turf/open/floor/iron/dark,
+/area/space)
 "mms" = (
 /obj/structure/table/reinforced,
 /obj/item/grenade/frag{
@@ -27589,6 +27637,13 @@
 	dir = 8
 	},
 /turf/open/floor/plating,
+/area/space)
+"mDH" = (
+/obj/effect/turf_decal/tile/dark/opposingcorners,
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
+/turf/open/floor/iron/dark,
 /area/space)
 "mEc" = (
 /obj/effect/turf_decal/weather/dirt/corner{
@@ -28935,6 +28990,12 @@
 	pixel_y = 3
 	},
 /turf/open/space/basic,
+/area/space)
+"nmc" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/carpet/red,
 /area/space)
 "nmd" = (
 /turf/closed/wall/rust,
@@ -31284,6 +31345,12 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark,
+/area/space)
+"omo" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/carpet/red,
 /area/space)
 "omt" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
@@ -34178,6 +34245,13 @@
 	},
 /turf/open/floor/carpet,
 /area/space)
+"pzM" = (
+/obj/structure/table,
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/turf/open/openspace,
+/area/space)
 "pzX" = (
 /obj/structure/fluff/empty_sleeper/syndicate,
 /obj/machinery/light/small{
@@ -36448,6 +36522,12 @@
 	},
 /turf/open/floor/iron/dark,
 /area/space)
+"qzl" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 5
+	},
+/turf/open/floor/carpet/red,
+/area/space)
 "qzt" = (
 /obj/structure/fluff/hedge,
 /turf/open/floor/mineral/plastitanium,
@@ -37620,6 +37700,11 @@
 	pixel_x = -32
 	},
 /turf/open/floor/wood,
+/area/space)
+"raZ" = (
+/obj/effect/turf_decal/tile/dark/opposingcorners,
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/iron/dark,
 /area/space)
 "rby" = (
 /obj/effect/turf_decal/trimline/red/corner,
@@ -39805,6 +39890,12 @@
 	},
 /turf/open/floor/iron/dark,
 /area/space)
+"rSK" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/space/basic,
+/area/space)
 "rSW" = (
 /obj/machinery/vending/security,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -41190,6 +41281,12 @@
 /obj/structure/mopbucket,
 /turf/open/floor/plating/broken,
 /area/space)
+"syT" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/carpet/red,
+/area/space)
 "szs" = (
 /obj/structure/chair/fancy/comfy{
 	dir = 8
@@ -41215,6 +41312,12 @@
 /area/space)
 "szJ" = (
 /turf/open/floor/carpet/royalblack,
+/area/space)
+"szU" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 4
+	},
+/turf/open/floor/carpet/red,
 /area/space)
 "szY" = (
 /obj/effect/turf_decal/siding/dark,
@@ -42204,6 +42307,13 @@
 	},
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
+	},
+/turf/open/openspace,
+/area/space)
+"sWy" = (
+/obj/structure/table,
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
 	},
 /turf/open/openspace,
 /area/space)
@@ -43547,6 +43657,13 @@
 	},
 /turf/open/floor/iron/tech/grid,
 /area/space)
+"tCS" = (
+/obj/effect/turf_decal/tile/dark/opposingcorners,
+/obj/effect/turf_decal/siding/wood{
+	dir = 5
+	},
+/turf/open/floor/iron/dark,
+/area/space)
 "tDa" = (
 /obj/structure/chair/fancy/bench/corporate/right{
 	dir = 4
@@ -44104,6 +44221,12 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/mineral/plastitanium,
+/area/space)
+"tNT" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/turf/open/space/basic,
 /area/space)
 "tNY" = (
 /obj/effect/turf_decal/trimline/neutral/corner{
@@ -46220,6 +46343,13 @@
 	},
 /turf/open/floor/wood,
 /area/space)
+"uSd" = (
+/obj/effect/turf_decal/tile/dark/opposingcorners,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/space)
 "uSh" = (
 /obj/structure/table/glass/plasma,
 /obj/item/paper/crumpled{
@@ -46793,6 +46923,12 @@
 	dir = 4
 	},
 /turf/open/floor/plating,
+/area/space)
+"vfr" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/space/basic,
 /area/space)
 "vfs" = (
 /obj/structure/cable/yellow{
@@ -50034,6 +50170,12 @@
 	},
 /turf/open/openspace,
 /area/space)
+"wEn" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/turf/open/floor/carpet/red,
+/area/space)
 "wEt" = (
 /obj/effect/decal/cleanable/dirt{
 	icon_state = "dirt-47"
@@ -50200,6 +50342,13 @@
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/space/basic,
+/area/space)
+"wKj" = (
+/obj/effect/turf_decal/tile/dark/opposingcorners,
+/obj/effect/turf_decal/siding/wood{
+	dir = 9
+	},
+/turf/open/floor/iron/dark,
 /area/space)
 "wKr" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -51725,6 +51874,12 @@
 /obj/item/blackbox,
 /obj/item/shadowcloak,
 /turf/open/floor/noslip/dark,
+/area/space)
+"xuQ" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 9
+	},
+/turf/open/floor/carpet/red,
 /area/space)
 "xuR" = (
 /obj/effect/turf_decal/tile/dark/opposingcorners,
@@ -84578,15 +84733,15 @@ ruB
 yai
 qIm
 dTs
-kUr
-kUr
-kUr
-giG
-dTs
-kUr
-kUr
-kUr
-xuR
+ksI
+ksI
+ksI
+ksI
+ksI
+ksI
+ksI
+ksI
+ksI
 sIS
 eZS
 flZ
@@ -84880,15 +85035,15 @@ hfm
 wNV
 tZF
 sIS
-heD
-heD
-heD
-xFL
-vsN
-heD
-heD
-heD
-xFL
+vfr
+czW
+ksI
+eDy
+vfr
+czW
+ksI
+ksI
+ksI
 viR
 fCl
 mtJ
@@ -85182,15 +85337,15 @@ eZS
 eZS
 eZS
 eZS
-uDn
-heD
-heD
-xFL
-vsN
-heD
-heD
-heD
-xFL
+lWl
+uxn
+eDy
+hTP
+lWl
+mXs
+czW
+ksI
+ksI
 viR
 qIm
 mtJ
@@ -85199,15 +85354,15 @@ mtJ
 qIm
 xcs
 xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
+kUr
+kUr
+kUr
+giG
+dTs
+kUr
+kUr
+kUr
+xuR
 xcs
 xcs
 xcs
@@ -85484,6 +85639,23 @@ xcs
 xcs
 xcs
 eZS
+lWl
+uxn
+hkO
+lWl
+lWl
+lWl
+uxn
+ksI
+ksI
+viR
+fCl
+mtJ
+mtJ
+mtJ
+fCl
+xcs
+xcs
 heD
 heD
 heD
@@ -85493,23 +85665,6 @@ heD
 heD
 heD
 xFL
-viR
-fCl
-mtJ
-mtJ
-mtJ
-fCl
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
 xcs
 xcs
 xcs
@@ -85786,15 +85941,15 @@ xcs
 xcs
 xcs
 eZS
-jtM
-jtM
-jtM
-hac
-qfr
-jtM
-jtM
-jtM
-hac
+lWl
+uxn
+tNT
+sND
+lWl
+jwo
+eoY
+ksI
+ksI
 sIS
 eZS
 flZ
@@ -85803,15 +85958,15 @@ flZ
 eZS
 unt
 xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
+uDn
+heD
+heD
+xFL
+vsN
+heD
+heD
+heD
+xFL
 xcs
 xcs
 xcs
@@ -86088,15 +86243,15 @@ xcs
 xcs
 xcs
 eZS
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
+rSK
+eoY
+ksI
+tNT
+rSK
+eoY
+ksI
+ksI
+ksI
 eZS
 eZS
 eZS
@@ -86105,15 +86260,15 @@ eZS
 eZS
 unt
 xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
+heD
+heD
+heD
+xFL
+vsN
+heD
+heD
+heD
+xFL
 xcs
 xcs
 xcs
@@ -86390,15 +86545,15 @@ xcs
 xcs
 xcs
 eZS
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
+ksI
+ksI
+ksI
+ksI
+ksI
+ksI
+ksI
+ksI
+ksI
 eZS
 xcs
 xcs
@@ -86407,15 +86562,15 @@ xcs
 eZS
 unt
 xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
+jtM
+jtM
+jtM
+viR
+qfr
+jtM
+jtM
+jtM
+hac
 xcs
 xcs
 xcs
@@ -86692,15 +86847,15 @@ eZS
 xcs
 eZS
 eZS
-cPq
-cPq
-xcs
-xcs
-xcs
-xcs
-xcs
-cPq
-cPq
+kuP
+kuP
+ksI
+ksI
+ksI
+ksI
+ksI
+kuP
+kuP
 eZS
 eZS
 xcs
@@ -86995,13 +87150,13 @@ xcs
 xcs
 inj
 inj
-cPq
-cPq
-xcs
-xcs
-xcs
-cPq
-cPq
+kuP
+kuP
+ksI
+ksI
+ksI
+kuP
+kuP
 inj
 inj
 eZS
@@ -87298,11 +87453,11 @@ xcs
 xcs
 inj
 inj
-cPq
-xcs
-xcs
-xcs
-cPq
+kuP
+ksI
+ksI
+ksI
+kuP
 inj
 inj
 xcs
@@ -87601,9 +87756,9 @@ xcs
 xcs
 inj
 eZS
-xcs
-xcs
-xcs
+viR
+viR
+viR
 eZS
 inj
 xcs
@@ -87903,9 +88058,9 @@ xcs
 xcs
 xcs
 eZS
-xcs
-xcs
-xcs
+viR
+viR
+viR
 eZS
 xcs
 xcs
@@ -87917,15 +88072,15 @@ eZS
 eZS
 xcs
 xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
+viR
+viR
+dTs
+kUr
+kUr
+kUr
+xuR
+viR
+viR
 xcs
 xcs
 xcs
@@ -88205,9 +88360,9 @@ xcs
 xcs
 xcs
 xcs
-xcs
-xcs
-xcs
+viR
+viR
+viR
 xcs
 xcs
 xcs
@@ -88219,15 +88374,15 @@ xcs
 xcs
 xcs
 xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
+viR
+dTs
+mDH
+heD
+heD
+heD
+tCS
+xuR
+viR
 xcs
 xcs
 xcs
@@ -88507,9 +88662,9 @@ xcs
 xcs
 xcs
 eZS
-xcs
-xcs
-xcs
+viR
+viR
+viR
 eZS
 xcs
 xcs
@@ -88521,15 +88676,15 @@ xcs
 xcs
 xcs
 xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
+dTs
+mlx
+heD
+dHd
+syT
+szU
+heD
+tCS
+xuR
 xcs
 xcs
 xcs
@@ -88823,15 +88978,15 @@ xcs
 xcs
 xcs
 xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
+raZ
+heD
+dHd
+guj
+jag
+qzl
+szU
+heD
+uSd
 xcs
 xcs
 xcs
@@ -89125,15 +89280,15 @@ xcs
 xcs
 xcs
 xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
+raZ
+heD
+qvU
+jag
+jag
+jag
+nmc
+heD
+uSd
 xcs
 xcs
 xcs
@@ -89427,15 +89582,15 @@ xcs
 xcs
 xcs
 xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
+raZ
+heD
+wEn
+reT
+jag
+xuQ
+luK
+heD
+uSd
 xcs
 xcs
 xcs
@@ -89729,15 +89884,15 @@ xcs
 xcs
 xcs
 xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
+lfM
+cLz
+heD
+wEn
+omo
+luK
+heD
+wKj
+lQg
 xcs
 xcs
 xcs
@@ -90031,15 +90186,15 @@ dVO
 dVO
 xcs
 xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
+cPq
+pzM
+cLz
+heD
+heD
+heD
+wKj
+sWy
+cPq
 xcs
 xcs
 xcs
@@ -90333,15 +90488,15 @@ dVO
 pHU
 xcs
 xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
+inj
+cPq
+pzM
+uxh
+uxh
+uxh
+sWy
+cPq
+inj
 xcs
 xcs
 xcs
@@ -90635,15 +90790,15 @@ dVO
 dVO
 xcs
 xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
-xcs
+inj
+inj
+cPq
+viR
+viR
+viR
+cPq
+inj
+inj
 xcs
 xcs
 xcs
