@@ -80,6 +80,20 @@
 	floor_tile = /obj/item/stack/tile/catwalk_tile/iron_dark
 	catwalk_type = "darkiron"
 
+/turf/open/floor/catwalk_floor/iron_dark/water
+	name = "dark plated catwalk floor"
+	icon_state = "darkiron_above"
+	floor_tile = /obj/item/stack/tile/catwalk_tile/iron_dark
+	catwalk_type = "darkiron"
+	baseturfs = /turf/open/water
+
+/turf/open/floor/catwalk_floor/iron_dark/dirt
+	name = "dark plated catwalk floor"
+	icon_state = "darkiron_above"
+	floor_tile = /obj/item/stack/tile/catwalk_tile/iron_dark
+	catwalk_type = "darkiron"
+	baseturfs = /turf/open/floor/plating/dirt
+
 /turf/open/floor/catwalk_floor/flat_white
 	name = "white large plated catwalk floor"
 	icon_state = "flatwhite_above"

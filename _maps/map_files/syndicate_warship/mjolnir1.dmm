@@ -1,0 +1,10655 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aa" = (
+/obj/structure/closet/crate/bin,
+/turf/open/floor/prison/dark,
+/area/syndicate_mothership/control)
+"ah" = (
+/obj/structure/sign/departments/minsky/research/dorms,
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/syndicate_mothership/control)
+"al" = (
+/obj/effect/turf_decal/siding/dark/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/dark/corner{
+	dir = 4
+	},
+/turf/open/floor/iron/large,
+/area/syndicate_mothership/control)
+"an" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 4
+	},
+/obj/machinery/door/airlock/public/glass{
+	name = "Library"
+	},
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"ao" = (
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/neutral/corner,
+/obj/effect/turf_decal/trimline/yellow/warning{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/smooth_edge{
+	dir = 1
+	},
+/area/syndicate_mothership/control)
+"ap" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 4
+	},
+/obj/machinery/photocopier,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"ar" = (
+/obj/structure/guncase,
+/turf/open/floor/iron/dark/textured,
+/area/syndicate_mothership/control)
+"at" = (
+/obj/effect/turf_decal/tile/red/half/contrasted{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"ax" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/turf/open/floor/iron/dark/textured_large,
+/area/syndicate_mothership/control)
+"az" = (
+/obj/structure/bookcase/random,
+/obj/structure/sign/poster/contraband/grey_tide{
+	pixel_y = -32
+	},
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"aE" = (
+/obj/effect/turf_decal/trimline/blue/arrow_cw{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/blue/arrow_ccw{
+	dir = 8
+	},
+/obj/effect/turf_decal/arrows/white,
+/obj/effect/turf_decal/siding/dark{
+	dir = 8
+	},
+/obj/structure/sign/poster/contraband/red_rum{
+	pixel_x = -32
+	},
+/turf/open/floor/iron/dark/textured,
+/area/syndicate_mothership/control)
+"aF" = (
+/obj/machinery/cryopod{
+	dir = 8;
+	icon_state = "sleeper_s-open"
+	},
+/turf/open/floor/iron/tech/grid,
+/area/syndicate_mothership/control)
+"aH" = (
+/obj/structure/table,
+/obj/effect/turf_decal/stripes/corner,
+/obj/item/stack/cable_coil{
+	pixel_y = 9;
+	pixel_x = -2
+	},
+/obj/item/stack/cable_coil{
+	pixel_y = 5;
+	pixel_x = -2
+	},
+/obj/item/stack/cable_coil{
+	pixel_y = 1;
+	pixel_x = -2
+	},
+/obj/item/multitool{
+	pixel_x = 8;
+	pixel_y = 6
+	},
+/turf/open/floor/iron/tech,
+/area/syndicate_mothership/control)
+"aI" = (
+/obj/effect/turf_decal/siding/dark,
+/obj/effect/turf_decal/trimline/dark_blue/warning,
+/obj/machinery/light/directional/west,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"aK" = (
+/turf/open/floor/plating{
+	icon_state = "foam_plating"
+	},
+/area/syndicate_mothership/control)
+"aL" = (
+/obj/effect/turf_decal/edges/techfloor{
+	dir = 8
+	},
+/obj/machinery/light/directional/west,
+/turf/open/floor/monotile/dark,
+/area/syndicate_mothership/control)
+"aM" = (
+/obj/effect/turf_decal/trimline/dark_blue/filled/warning,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"aN" = (
+/obj/effect/turf_decal/tile/dark/fourcorners/contrasted,
+/obj/effect/turf_decal/siding/white/corner,
+/obj/machinery/door/airlock,
+/turf/open/floor/iron,
+/area/syndicate_mothership/control)
+"aO" = (
+/obj/structure/toilet{
+	pixel_y = 13
+	},
+/obj/effect/turf_decal/tile/dark/fourcorners/contrasted,
+/turf/open/floor/iron,
+/area/syndicate_mothership/control)
+"aP" = (
+/obj/structure/bodycontainer/morgue{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/iron/grid/steel{
+	color = "#808080"
+	},
+/area/syndicate_mothership/control)
+"aR" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 10;
+	layer = 2
+	},
+/obj/machinery/jukebox,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"aS" = (
+/obj/effect/turf_decal/tile/dark_blue/anticorner_ramp/contrasted{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"aT" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/green/warning{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/blue/warning{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"aU" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/siding/dark/corner{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/corner{
+	dir = 4
+	},
+/area/syndicate_mothership/control)
+"aW" = (
+/obj/structure/closet/cabinet{
+	pixel_x = 5;
+	pixel_y = 1;
+	anchored = 1
+	},
+/obj/item/trash/candy{
+	pixel_x = 3;
+	pixel_y = -8
+	},
+/obj/item/ammo_casing/spent{
+	pixel_x = 3;
+	pixel_y = 6
+	},
+/obj/item/ammo_casing/spent{
+	pixel_x = 8;
+	pixel_y = 3
+	},
+/obj/item/ammo_casing/spent{
+	pixel_x = 2;
+	pixel_y = -1
+	},
+/turf/open/floor/plating{
+	icon_state = "foam_plating"
+	},
+/area/syndicate_mothership/control)
+"bb" = (
+/obj/structure/fluff/hedge,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"bc" = (
+/obj/machinery/cell_charger,
+/obj/item/stock_parts/cell/high{
+	charge = 100;
+	maxcharge = 15000
+	},
+/obj/item/storage/belt/utility,
+/obj/item/radio/off,
+/obj/structure/table,
+/turf/open/floor/iron/dark/smooth_large,
+/area/syndicate_mothership/control)
+"be" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/stalkybush,
+/turf/open/floor/grass/no_border,
+/area/syndicate_mothership/control)
+"bh" = (
+/obj/effect/turf_decal/tile/neutral/half/contrasted,
+/turf/open/floor/iron/dark/side{
+	dir = 5
+	},
+/area/syndicate_mothership/control)
+"bk" = (
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/neutral/corner{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/trimline/blue/warning{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/smooth_edge{
+	dir = 1
+	},
+/area/syndicate_mothership/control)
+"bp" = (
+/obj/effect/turf_decal/tile/neutral/half/contrasted,
+/turf/open/floor/iron/dark/side{
+	dir = 6
+	},
+/area/syndicate_mothership/control)
+"br" = (
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 5
+	},
+/turf/open/floor/iron/dark/smooth_corner{
+	dir = 8
+	},
+/area/syndicate_mothership/control)
+"bs" = (
+/obj/structure/table/wood,
+/obj/item/toy/cards/deck/unum{
+	pixel_x = 6;
+	pixel_y = 12
+	},
+/obj/item/newspaper{
+	pixel_x = -5;
+	pixel_y = 1
+	},
+/obj/machinery/light/directional/south,
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"bw" = (
+/obj/structure/girder,
+/turf/open/floor/plating,
+/area/syndicate_mothership/control)
+"bA" = (
+/turf/open/floor/iron/corner{
+	dir = 8
+	},
+/area/syndicate_mothership/control)
+"bB" = (
+/obj/structure/rack{
+	icon = 'icons/obj/stationobjs.dmi';
+	icon_state = "minibar";
+	name = "skeletal minibar"
+	},
+/obj/item/storage/fancy/candle_box,
+/obj/item/storage/fancy/candle_box,
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"bF" = (
+/obj/structure/railing/corner,
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 10
+	},
+/turf/open/floor/iron/dark/smooth_corner{
+	dir = 4
+	},
+/area/syndicate_mothership/control)
+"bG" = (
+/obj/structure/fluff/hedge,
+/obj/machinery/light/floor,
+/turf/open/floor/iron/dark/textured,
+/area/syndicate_mothership/control)
+"bH" = (
+/obj/structure/table/reinforced,
+/obj/item/paper_bin{
+	pixel_x = -6;
+	pixel_y = 3
+	},
+/obj/item/pen{
+	pixel_x = -6;
+	pixel_y = 7
+	},
+/obj/item/pen/red{
+	pixel_x = -8;
+	pixel_y = 3
+	},
+/obj/item/clipboard{
+	pixel_x = 8;
+	pixel_y = 4
+	},
+/obj/item/paper/guides/jobs/medical/morgue{
+	pixel_x = 9;
+	pixel_y = 7
+	},
+/obj/item/paper/guides/jobs/medical/cloning{
+	pixel_x = 7;
+	pixel_y = 2
+	},
+/obj/item/clothing/mask/surgical{
+	pixel_y = -2
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 5
+	},
+/turf/open/floor/iron/grid/steel,
+/area/syndicate_mothership/control)
+"bK" = (
+/obj/structure/closet/wardrobe/grey,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/effect/turf_decal/bot_white,
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"bM" = (
+/obj/structure/filingcabinet{
+	pixel_x = -10
+	},
+/obj/structure/filingcabinet,
+/obj/structure/filingcabinet{
+	pixel_x = 10
+	},
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"bV" = (
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/obj/machinery/atmospherics/components/unary/portables_connector/visible{
+	dir = 1;
+	name = "Connector Port (Air Supply)"
+	},
+/obj/effect/turf_decal/bot,
+/turf/open/floor/engine,
+/area/syndicate_mothership/control)
+"bW" = (
+/obj/structure/filingcabinet/chestdrawer,
+/obj/effect/turf_decal/bot,
+/obj/item/toy/plush/moth{
+	pixel_y = 14
+	},
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"cb" = (
+/obj/structure/weightmachine/weightlifter,
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/iron/ridged/steel,
+/area/syndicate_mothership/control)
+"cd" = (
+/obj/effect/turf_decal/delivery/white,
+/obj/structure/closet/emcloset/anchored,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"cj" = (
+/obj/effect/turf_decal/bot_white,
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"ck" = (
+/turf/open/floor/carpet/red,
+/area/syndicate_mothership/control)
+"cr" = (
+/obj/effect/turf_decal/edges/borderfloor/black{
+	dir = 8
+	},
+/turf/open/floor/monotile/dark,
+/area/syndicate_mothership/control)
+"cu" = (
+/obj/structure/grille/broken,
+/obj/effect/decal/cleanable/crayon{
+	icon_state = "Gib"
+	},
+/turf/open/floor/plating,
+/area/syndicate_mothership/control)
+"cv" = (
+/obj/effect/turf_decal/stripes/corner,
+/turf/open/floor/iron/dark/side{
+	dir = 1
+	},
+/area/syndicate_mothership/control)
+"cw" = (
+/obj/effect/mapping_helpers/dead_body_placer,
+/turf/open/floor/iron/ridged/steel{
+	color = "#808080"
+	},
+/area/syndicate_mothership/control)
+"cx" = (
+/obj/structure/chair/fancy/shuttle{
+	dir = 1
+	},
+/obj/machinery/light/floor,
+/turf/open/floor/iron/ridged/steel{
+	color = "#808080"
+	},
+/area/syndicate_mothership/control)
+"cz" = (
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/neutral/filled/line{
+	dir = 8
+	},
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/arrows/white{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/dark_blue/warning{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/textured,
+/area/syndicate_mothership/control)
+"cA" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/green/warning{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/blue/warning{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"cD" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/textured_corner{
+	dir = 8
+	},
+/area/syndicate_mothership/control)
+"cG" = (
+/obj/effect/turf_decal/weather/dirt{
+	dir = 5
+	},
+/obj/structure/fence,
+/obj/structure/flora/grass/jungle/b{
+	pixel_x = 12;
+	pixel_y = 8
+	},
+/turf/open/floor/plating,
+/area/syndicate_mothership/control)
+"cH" = (
+/obj/machinery/door/window/eastleft{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/dark/fourcorners/contrasted,
+/turf/open/floor/iron/freezer,
+/area/syndicate_mothership/control)
+"cJ" = (
+/obj/machinery/computer/camera_advanced/syndie,
+/obj/effect/turf_decal/delivery/red,
+/turf/open/floor/iron/dark/textured,
+/area/syndicate_mothership/control)
+"cL" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/structure/table/wood,
+/obj/item/trash/boritos{
+	pixel_x = -5;
+	pixel_y = 11
+	},
+/obj/item/trash/pistachios{
+	pixel_y = 6;
+	pixel_x = 4
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"cP" = (
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 5
+	},
+/obj/structure/fluff/paper/stack{
+	dir = 4;
+	pixel_y = -2;
+	pixel_x = -18
+	},
+/turf/open/floor/iron/dark/smooth_corner{
+	dir = 8
+	},
+/area/syndicate_mothership/control)
+"cQ" = (
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"cU" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 10
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/syndicate_mothership/control)
+"cV" = (
+/obj/machinery/turnstile{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"cX" = (
+/obj/machinery/light/directional/east,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"cY" = (
+/obj/structure/closet/secure_closet/genpop,
+/obj/effect/turf_decal/bot,
+/obj/effect/spawner/lootdrop/maintenance/two,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"dd" = (
+/obj/structure/chair/fancy/comfy{
+	dir = 4
+	},
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"de" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/item/kirbyplants/random,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"dh" = (
+/obj/structure/bed/double{
+	dir = 4
+	},
+/obj/item/toy/plush/shark{
+	pixel_x = -4
+	},
+/obj/item/bedsheet/double/cmo{
+	dir = 4
+	},
+/turf/open/floor/carpet/blue,
+/area/syndicate_mothership/control)
+"dj" = (
+/obj/structure/railing{
+	dir = 2;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/trimline/neutral/line,
+/obj/effect/turf_decal/siding/dark,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/dark/smooth_edge,
+/area/syndicate_mothership/control)
+"dl" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/structure/chair/fancy/comfy{
+	color = "#742925"
+	},
+/obj/item/toy/plush/shark,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"do" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood/corner,
+/obj/effect/mapping_helpers/tile_breaker,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"dw" = (
+/obj/structure/grille/broken,
+/turf/open/floor/plating,
+/area/syndicate_mothership/control)
+"dE" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/engine/light,
+/area/syndicate_mothership/control)
+"dN" = (
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 4
+	},
+/turf/open/floor/prison/dark,
+/area/syndicate_mothership/control)
+"dO" = (
+/obj/effect/turf_decal/siding/dark/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/dark_blue/corner{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"dQ" = (
+/obj/structure/railing{
+	dir = 2;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/siding/dark,
+/obj/effect/turf_decal/siding/dark{
+	dir = 8
+	},
+/turf/open/floor/iron/large,
+/area/syndicate_mothership/control)
+"dW" = (
+/obj/structure/table/reinforced{
+	color = "#c1b6a5"
+	},
+/obj/item/paper_bin{
+	pixel_x = -6;
+	pixel_y = 6
+	},
+/obj/item/pen{
+	pixel_x = -6;
+	pixel_y = 8
+	},
+/obj/item/pen/charcoal{
+	pixel_x = -8;
+	pixel_y = 6
+	},
+/obj/item/stamp/quartermaster{
+	pixel_x = 6;
+	pixel_y = 11
+	},
+/obj/item/stamp/denied{
+	pixel_x = 6;
+	pixel_y = 6
+	},
+/obj/item/toy/figure/qm{
+	pixel_x = 8;
+	pixel_y = 1
+	},
+/turf/open/floor/iron/grid/steel{
+	color = "#808080"
+	},
+/area/syndicate_mothership/control)
+"dX" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/side{
+	dir = 5
+	},
+/area/syndicate_mothership/control)
+"dY" = (
+/obj/effect/turf_decal/siding/dark,
+/obj/structure/table/glass/plasma,
+/obj/item/folder/red{
+	pixel_x = -4;
+	pixel_y = 5
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"ec" = (
+/obj/effect/turf_decal/tile/dark_blue/anticorner_ramp/contrasted{
+	dir = 4
+	},
+/obj/machinery/firealarm/directional/east,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"ed" = (
+/obj/structure/frame/machine,
+/obj/item/stack/cable_coil/cut/red,
+/turf/open/floor/plating,
+/area/syndicate_mothership/control)
+"ef" = (
+/obj/effect/turf_decal/trimline/dark_blue/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/dark/corner{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"el" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 9
+	},
+/obj/effect/turf_decal/siding/wood/corner,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"en" = (
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 9
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 9
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/syndicate_mothership/control)
+"er" = (
+/turf/open/floor/iron/dark/side,
+/area/syndicate_mothership/control)
+"es" = (
+/obj/structure/grille,
+/obj/structure/window/plastitanium,
+/obj/effect/turf_decal/siding/dark,
+/turf/open/floor/plating,
+/area/syndicate_mothership/control)
+"et" = (
+/obj/machinery/vending/autodrobe/all_access,
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/floor/iron/grid/steel,
+/area/syndicate_mothership/control)
+"ey" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/obj/structure/dresser,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"ez" = (
+/obj/effect/turf_decal/bot_white/left,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"eC" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"eD" = (
+/obj/machinery/computer/camera_advanced/syndie,
+/obj/effect/turf_decal/delivery/white,
+/turf/open/floor/iron/grid/steel{
+	color = "#808080"
+	},
+/area/syndicate_mothership/control)
+"eE" = (
+/obj/structure/table,
+/obj/item/paper_bin{
+	pixel_x = 6;
+	pixel_y = 6
+	},
+/obj/item/pen/fountain/captain{
+	pixel_x = 6;
+	pixel_y = 7
+	},
+/obj/item/stamp/head_of_personnel{
+	pixel_x = -5;
+	pixel_y = 11
+	},
+/obj/item/stamp{
+	pixel_x = -5;
+	pixel_y = 6
+	},
+/obj/item/stamp/denied{
+	pixel_x = -5;
+	pixel_y = 1
+	},
+/obj/machinery/status_display/evac/directional/east,
+/turf/open/floor/carpet/red,
+/area/syndicate_mothership/control)
+"eF" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"eG" = (
+/obj/effect/spawner/randomarcade{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/iron/grid/steel,
+/area/syndicate_mothership/control)
+"eJ" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"eL" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/neutral/warning{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/dark_red/half/contrasted{
+	dir = 1
+	},
+/obj/structure/table/glass/plasma,
+/obj/machinery/keycard_auth{
+	pixel_x = -22
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"eM" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/computer/teleporter{
+	dir = 1
+	},
+/obj/machinery/light,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"eN" = (
+/obj/machinery/computer/camera_advanced/syndie,
+/obj/effect/turf_decal/siding/dark/corner,
+/obj/effect/turf_decal/siding/dark/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/bot,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"eR" = (
+/obj/effect/turf_decal/trimline/neutral/filled/line{
+	dir = 4
+	},
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/dark_blue/warning{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/textured,
+/area/syndicate_mothership/control)
+"eS" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/engine,
+/area/syndicate_mothership/control)
+"eT" = (
+/obj/effect/turf_decal/trimline/red/filled/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/blue/warning{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/smooth_edge{
+	dir = 8
+	},
+/area/syndicate_mothership/control)
+"eW" = (
+/obj/effect/turf_decal/edges/techfloor/corners{
+	dir = 4
+	},
+/turf/open/floor/monotile/dark,
+/area/syndicate_mothership/control)
+"eZ" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral/corner_ramp{
+	dir = 8
+	},
+/obj/machinery/suit_storage_unit/standard_unit,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/techfloorgrid/diagonal,
+/turf/open/floor/iron/tech,
+/area/syndicate_mothership/control)
+"fi" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"fn" = (
+/obj/structure/railing/corner,
+/obj/effect/turf_decal/siding/dark/corner{
+	dir = 1
+	},
+/turf/open/floor/iron/large,
+/area/syndicate_mothership/control)
+"fq" = (
+/obj/machinery/holopad,
+/obj/effect/turf_decal/box/corners{
+	dir = 1;
+	icon_state = "box_corners"
+	},
+/obj/effect/turf_decal/box/corners,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"ft" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/window/northleft{
+	dir = 4;
+	name = "Paperwork Window"
+	},
+/obj/machinery/door/window/brigdoor{
+	base_state = "rightsecure";
+	dir = 8;
+	icon_state = "rightsecure";
+	name = "Head of Personnel's Paperwork Door";
+	req_access_txt = "57"
+	},
+/obj/structure/desk_bell/speed_demon{
+	pixel_x = 5;
+	pixel_y = 11
+	},
+/turf/open/floor/plating,
+/area/syndicate_mothership/control)
+"fw" = (
+/obj/structure/fluff/hedge,
+/turf/open/floor/prison/dark,
+/area/syndicate_mothership/control)
+"fx" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/light/directional/south,
+/turf/open/floor/engine/light,
+/area/syndicate_mothership/control)
+"fz" = (
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 1
+	},
+/turf/open/floor/prison/dark,
+/area/syndicate_mothership/control)
+"fC" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 6
+	},
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 6
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"fE" = (
+/obj/structure/chair/fancy/bench/pew/right{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"fG" = (
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/obj/machinery/door/airlock/public/glass,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"fK" = (
+/obj/structure/punching_bag,
+/obj/effect/turf_decal/bot_white/right,
+/obj/effect/turf_decal/siding/white{
+	dir = 10
+	},
+/obj/item/reagent_containers/cup/glass/waterbottle{
+	pixel_x = 13;
+	pixel_y = 16
+	},
+/turf/open/floor/iron/ridged/steel,
+/area/syndicate_mothership/control)
+"fP" = (
+/obj/item/clothing/head/cone{
+	pixel_x = -10;
+	pixel_y = -15
+	},
+/obj/effect/turf_decal/bot_white,
+/obj/structure/punching_bag,
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 8
+	},
+/turf/open/floor/prison/dark,
+/area/syndicate_mothership/control)
+"fR" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"fU" = (
+/obj/effect/turf_decal/tile/red/half/contrasted{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"fX" = (
+/obj/structure/lattice,
+/turf/open/floor/plating{
+	icon_state = "foam_plating"
+	},
+/area/syndicate_mothership/control)
+"gf" = (
+/turf/open/floor/glass/plasma,
+/area/syndicate_mothership/control)
+"gm" = (
+/obj/structure/railing{
+	dir = 2;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/trimline/neutral/line,
+/obj/effect/turf_decal/siding/dark,
+/obj/effect/turf_decal/trimline/neutral/filled/warning{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/smooth_edge,
+/area/syndicate_mothership/control)
+"gp" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/dark_blue/line{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"gx" = (
+/obj/structure/stairs{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/syndicate_mothership/control)
+"gz" = (
+/obj/effect/turf_decal/siding/dark/end{
+	dir = 1
+	},
+/turf/open/floor/iron/large,
+/area/syndicate_mothership/control)
+"gB" = (
+/obj/machinery/computer/libraryconsole/bookmanagement,
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/structure/table/wood/fancy/royalblack,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"gD" = (
+/obj/effect/turf_decal/trimline/yellow,
+/turf/open/floor/iron/ridged/steel{
+	color = "#808080"
+	},
+/area/syndicate_mothership/control)
+"gF" = (
+/obj/structure/fence/cut/large{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/syndicate_mothership/control)
+"gT" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/siding/dark/corner,
+/turf/open/floor/iron/dark/corner,
+/area/syndicate_mothership/control)
+"gY" = (
+/obj/effect/turf_decal/edges/techfloor/corners{
+	dir = 1
+	},
+/turf/open/floor/monotile/dark,
+/area/syndicate_mothership/control)
+"hm" = (
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/neutral/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/dark_red/warning{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/smooth_edge{
+	dir = 1
+	},
+/area/syndicate_mothership/control)
+"hn" = (
+/obj/structure/chair/office{
+	dir = 4
+	},
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"hq" = (
+/obj/effect/turf_decal/siding/wideplating/dark/corner{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"hr" = (
+/obj/effect/turf_decal/tile/yellow/opposingcorners,
+/obj/effect/turf_decal/siding/white,
+/turf/open/floor/iron/textured,
+/area/syndicate_mothership/control)
+"hs" = (
+/obj/effect/turf_decal/siding/dark/corner,
+/obj/effect/turf_decal/stripes/closeup,
+/obj/machinery/door/airlock/grunge,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"hv" = (
+/obj/machinery/turnstile{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"hA" = (
+/obj/structure/stairs{
+	dir = 1
+	},
+/turf/open/floor/monotile/dark,
+/area/syndicate_mothership/control)
+"hE" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 5
+	},
+/obj/structure/bed/double/pod,
+/obj/item/bedsheet/double/syndie,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"hH" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner,
+/turf/open/floor/iron/dark/smooth_large,
+/area/syndicate_mothership/control)
+"hM" = (
+/obj/structure/table,
+/obj/machinery/reagentgrinder{
+	pixel_x = -1;
+	pixel_y = 12
+	},
+/obj/item/shovel/spade{
+	pixel_x = -5;
+	pixel_y = -4
+	},
+/obj/item/cultivator{
+	pixel_x = -2;
+	pixel_y = -1
+	},
+/obj/effect/spawner/lootdrop/maintenance,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/iron/techmaint,
+/area/syndicate_mothership/control)
+"hT" = (
+/obj/machinery/door/airlock/public/glass,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/iron/grid/steel,
+/area/syndicate_mothership/control)
+"hX" = (
+/obj/structure/urinal{
+	pixel_y = 28
+	},
+/obj/effect/turf_decal/tile/dark/fourcorners/contrasted,
+/obj/structure/sign/poster/contraband/lizard{
+	pixel_x = 32
+	},
+/turf/open/floor/iron,
+/area/syndicate_mothership/control)
+"hY" = (
+/obj/effect/turf_decal/tile/blue/half/contrasted{
+	alpha = 200;
+	color = "#267878";
+	dir = 2
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"ib" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"ie" = (
+/obj/structure/fluff/hedge,
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"ih" = (
+/obj/structure/railing,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/side{
+	dir = 1
+	},
+/area/syndicate_mothership/control)
+"ii" = (
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/smooth_edge{
+	dir = 1
+	},
+/area/syndicate_mothership/control)
+"ij" = (
+/obj/item/kirbyplants/random{
+	pixel_x = 2;
+	pixel_y = 9
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"it" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/item/reagent_containers/cup/soda_cans/monkey_energy{
+	pixel_x = -14;
+	pixel_y = 19
+	},
+/turf/open/floor/carpet/grimy,
+/area/syndicate_mothership/control)
+"iu" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/machinery/clonepod/prefilled,
+/obj/effect/turf_decal/stripes/end{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/syndicate_mothership/control)
+"iz" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
+/obj/structure/chair/stool/directional/south,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"iB" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/siding/dark/corner,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/dark_blue/corner,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"iC" = (
+/obj/effect/turf_decal/trimline/neutral,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/syndicate_mothership/control)
+"iF" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/effect/mapping_helpers/tile_breaker,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"iI" = (
+/obj/effect/decal/remains/xeno/larva{
+	pixel_x = -8;
+	pixel_y = -6
+	},
+/obj/effect/turf_decal/tile/blue/half/contrasted{
+	alpha = 200;
+	color = "#267878";
+	dir = 2
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"iJ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/teleport/hub{
+	req_one_access = "32"
+	},
+/obj/item/gps{
+	gpstag = "TP0"
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"iM" = (
+/obj/structure/table/glass,
+/obj/item/paper_bin{
+	pixel_x = -6;
+	pixel_y = 3
+	},
+/obj/item/pen{
+	pixel_x = -5;
+	pixel_y = 4
+	},
+/obj/item/paper{
+	pixel_x = 13;
+	pixel_y = 5
+	},
+/obj/item/paper{
+	pixel_x = 9;
+	pixel_y = 1
+	},
+/turf/open/floor/iron/textured,
+/area/syndicate_mothership/control)
+"iN" = (
+/obj/effect/turf_decal/trimline/neutral/filled/line{
+	dir = 8
+	},
+/obj/structure/railing{
+	dir = 8;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/trimline/dark_blue/warning{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/textured,
+/area/syndicate_mothership/control)
+"iO" = (
+/obj/effect/turf_decal/siding/dark/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/dark_red/anticorner/contrasted{
+	dir = 8
+	},
+/obj/machinery/light/directional/south,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"iP" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
+/obj/structure/easel,
+/obj/item/canvas/twentythree_twentythree,
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"iQ" = (
+/obj/structure/closet/wardrobe/grey,
+/obj/effect/turf_decal/bot_white,
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"iT" = (
+/obj/effect/turf_decal/tile/blue/opposingcorners{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral/opposingcorners{
+	dir = 1
+	},
+/obj/structure/railing{
+	dir = 8;
+	layer = 4.1
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"iV" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/effect/mapping_helpers/airlock/locked,
+/obj/machinery/door/airlock/vault{
+	name = "Vault Door";
+	req_access_txt = "19"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/syndicate_mothership/control)
+"iX" = (
+/turf/open/floor/carpet/green,
+/area/syndicate_mothership/control)
+"iZ" = (
+/obj/effect/turf_decal/tile/dark_blue/anticorner_ramp/contrasted,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"jg" = (
+/obj/structure/fluff/hedge,
+/obj/structure/flora/ausbushes/ppflowers{
+	pixel_y = 5
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"ji" = (
+/obj/structure/chair/fancy/comfy{
+	dir = 8
+	},
+/turf/open/floor/carpet/grimy,
+/area/syndicate_mothership/control)
+"jn" = (
+/obj/structure/table/glass,
+/obj/item/book/manual/wiki/medical_cloning{
+	pixel_x = 4;
+	pixel_y = 3
+	},
+/obj/item/folder/white{
+	pixel_x = -6
+	},
+/turf/open/floor/iron/textured,
+/area/syndicate_mothership/control)
+"jp" = (
+/obj/effect/turf_decal/trimline/blue/arrow_cw{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/blue/arrow_ccw{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/textured,
+/area/syndicate_mothership/control)
+"js" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
+/obj/effect/spawner/lootdrop/maintenance,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"jv" = (
+/obj/effect/decal/fakelattice,
+/turf/open/floor/plating{
+	icon_state = "foam_plating"
+	},
+/area/syndicate_mothership/control)
+"jz" = (
+/obj/effect/turf_decal/tile/blue/opposingcorners{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral/opposingcorners{
+	dir = 1
+	},
+/obj/machinery/computer/card/minor/cmo,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"jD" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/side,
+/area/syndicate_mothership/control)
+"jF" = (
+/obj/item/storage/fancy/candle_box{
+	pixel_x = 14;
+	pixel_y = 6
+	},
+/obj/item/storage/fancy/candle_box{
+	pixel_x = 9;
+	pixel_y = 3
+	},
+/obj/item/storage/book/bible{
+	pixel_y = 6;
+	pixel_x = -4
+	},
+/obj/structure/table/wood/fancy/royalblack,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"jG" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/neutral/warning{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/dark_red/half/contrasted{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"jI" = (
+/obj/effect/turf_decal/edges/techfloor{
+	dir = 8
+	},
+/turf/open/floor/monotile/dark,
+/area/syndicate_mothership/control)
+"jK" = (
+/turf/open/floor/plating,
+/area/syndicate_mothership/control)
+"jM" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/structure/table,
+/obj/item/paper_bin{
+	pixel_x = 5;
+	pixel_y = 6
+	},
+/obj/item/clipboard{
+	pixel_x = -9;
+	pixel_y = 6
+	},
+/obj/item/pen{
+	pixel_x = 5;
+	pixel_y = 9
+	},
+/obj/item/pen{
+	pixel_x = 5;
+	pixel_y = 6
+	},
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"jR" = (
+/obj/effect/turf_decal/edges/techfloor/corners,
+/turf/open/floor/monotile/dark,
+/area/syndicate_mothership/control)
+"jT" = (
+/obj/effect/turf_decal/tile/red/half/contrasted{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"jW" = (
+/obj/machinery/door/airlock/maintenance_hatch,
+/turf/open/space/basic,
+/area/syndicate_mothership/control)
+"ka" = (
+/obj/structure/railing{
+	dir = 8;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 8
+	},
+/turf/open/floor/iron/stairs{
+	dir = 1
+	},
+/area/syndicate_mothership/control)
+"kc" = (
+/obj/structure/bed/double/pod,
+/obj/item/bedsheet/double/hop,
+/turf/open/floor/carpet/blue,
+/area/syndicate_mothership/control)
+"ke" = (
+/obj/structure/closet/secure_closet{
+	req_access_txt = "57"
+	},
+/obj/effect/turf_decal/box/corners{
+	dir = 4;
+	icon_state = "box_corners"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/item/modular_computer/tablet/pda/syndicate,
+/obj/item/modular_computer/tablet/pda/syndicate,
+/obj/item/modular_computer/tablet/pda/syndicate,
+/obj/item/modular_computer/tablet/pda/syndicate,
+/obj/item/modular_computer/tablet/pda/syndicate,
+/obj/item/modular_computer/tablet/pda/syndicate,
+/obj/item/modular_computer/tablet/pda/syndicate,
+/obj/item/modular_computer/tablet/pda/syndicate,
+/turf/open/floor/iron/dark/side{
+	dir = 4
+	},
+/area/syndicate_mothership/control)
+"kf" = (
+/obj/effect/turf_decal/tile/neutral/corner_ramp{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"kk" = (
+/obj/item/kirbyplants{
+	icon_state = "plant-16"
+	},
+/obj/machinery/light/directional/south,
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"kt" = (
+/obj/structure/table/reinforced{
+	color = "#c1b6a5"
+	},
+/obj/item/paper_bin{
+	pixel_x = 5;
+	pixel_y = 4
+	},
+/obj/item/stamp/denied{
+	pixel_x = -6;
+	pixel_y = 8
+	},
+/obj/item/stamp/hos{
+	pixel_x = -6;
+	pixel_y = 3
+	},
+/obj/item/pen{
+	pixel_x = 5;
+	pixel_y = 6
+	},
+/obj/machinery/light/directional/east,
+/turf/open/floor/iron/grid/steel{
+	color = "#808080"
+	},
+/area/syndicate_mothership/control)
+"kv" = (
+/obj/structure/table/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/item/paper/pamphlet/ruin/spacehotel{
+	pixel_x = 7;
+	pixel_y = 5
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"kw" = (
+/obj/item/clothing/head/cone{
+	pixel_x = -7;
+	pixel_y = -7
+	},
+/obj/structure/holosign/barrier/engineering{
+	pixel_y = 20;
+	layer = 3.0
+	},
+/turf/open/floor/monotile/dark,
+/area/syndicate_mothership/control)
+"ky" = (
+/obj/effect/turf_decal/siding/wood/corner,
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"kA" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/dark/side{
+	dir = 8
+	},
+/area/syndicate_mothership/control)
+"kB" = (
+/obj/effect/turf_decal/weather/dirt{
+	dir = 6
+	},
+/turf/open/floor/plating,
+/area/syndicate_mothership/control)
+"kC" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"kD" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/structure/bed/double{
+	dir = 4
+	},
+/obj/item/bedsheet/double/dorms{
+	dir = 4
+	},
+/obj/item/candle{
+	pixel_y = 19;
+	pixel_x = 13
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"kF" = (
+/obj/machinery/door/airlock/public/glass,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"kO" = (
+/turf/open/floor/carpet/debug,
+/area/syndicate_mothership/control)
+"kQ" = (
+/obj/structure/mopbucket{
+	pixel_x = -8;
+	pixel_y = 15;
+	layer = 3.1
+	},
+/obj/item/clothing/suit/caution{
+	pixel_x = 5;
+	pixel_y = -2
+	},
+/turf/open/floor/plating,
+/area/syndicate_mothership/control)
+"kR" = (
+/obj/structure/chair/fancy/corp{
+	dir = 8
+	},
+/turf/open/floor/carpet/red,
+/area/syndicate_mothership/control)
+"kS" = (
+/obj/machinery/door/airlock/external,
+/turf/open/space/basic,
+/area/syndicate_mothership/control)
+"kU" = (
+/obj/effect/turf_decal/weather/dirt{
+	dir = 10
+	},
+/turf/open/floor/plating{
+	icon_state = "foam_plating"
+	},
+/area/syndicate_mothership/control)
+"kX" = (
+/obj/structure/table,
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/obj/item/wrench,
+/obj/item/radio{
+	pixel_y = 6;
+	pixel_x = -8
+	},
+/obj/item/radio{
+	pixel_y = 6;
+	pixel_x = -3
+	},
+/obj/item/radio{
+	pixel_y = 6;
+	pixel_x = 2
+	},
+/obj/item/storage/belt/utility,
+/turf/open/floor/iron/tech,
+/area/syndicate_mothership/control)
+"lb" = (
+/obj/structure/barricade/sandbags,
+/obj/structure/grille/broken,
+/turf/open/floor/plating,
+/area/syndicate_mothership/control)
+"lf" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/carpet/red,
+/area/syndicate_mothership/control)
+"lo" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/caution/white{
+	dir = 4
+	},
+/turf/open/floor/iron/techmaint,
+/area/syndicate_mothership/control)
+"lq" = (
+/obj/structure/table,
+/obj/item/paper_bin{
+	pixel_x = 5;
+	pixel_y = 4
+	},
+/obj/item/pen{
+	pixel_x = 5;
+	pixel_y = 4
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"ls" = (
+/obj/structure/table/reinforced{
+	color = "#c1b6a5"
+	},
+/obj/item/paper_bin{
+	pixel_x = -7;
+	pixel_y = 6
+	},
+/obj/item/pen{
+	pixel_x = -7;
+	pixel_y = 8
+	},
+/obj/item/paper_reader{
+	pixel_y = -7;
+	pixel_x = -9
+	},
+/obj/item/stamp/denied{
+	pixel_x = 5;
+	pixel_y = 11
+	},
+/obj/item/stamp/cmo{
+	pixel_x = 5;
+	pixel_y = 6
+	},
+/turf/open/floor/iron/grid/steel{
+	color = "#808080"
+	},
+/area/syndicate_mothership/control)
+"lv" = (
+/obj/machinery/smartfridge/organ,
+/turf/open/floor/iron/ridged/steel,
+/area/syndicate_mothership/control)
+"lw" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/smooth_half{
+	dir = 8
+	},
+/area/syndicate_mothership/control)
+"lz" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/dark_blue/line{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"lA" = (
+/obj/effect/turf_decal/delivery/white,
+/obj/structure/filingcabinet,
+/obj/item/folder/documents,
+/turf/open/floor/circuit/red/anim,
+/area/syndicate_mothership/control)
+"lC" = (
+/obj/effect/turf_decal/edges/borderfloor/black{
+	dir = 8
+	},
+/obj/structure/holosign/barrier/engineering{
+	pixel_y = 20;
+	layer = 3.0
+	},
+/turf/open/floor/monotile/dark,
+/area/syndicate_mothership/control)
+"lE" = (
+/obj/structure/tank_dispenser/oxygen,
+/turf/open/floor/iron/techmaint,
+/area/syndicate_mothership/control)
+"lF" = (
+/obj/structure/railing,
+/obj/structure/table/reinforced,
+/turf/open/floor/iron/dark/textured,
+/area/syndicate_mothership/control)
+"lG" = (
+/obj/structure/railing{
+	dir = 6;
+	layer = 4.3
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 6
+	},
+/obj/item/kirbyplants{
+	icon_state = "plant-10"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/syndicate_mothership/control)
+"lJ" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/trash/sosjerky,
+/turf/open/floor/carpet/grimy,
+/area/syndicate_mothership/control)
+"lL" = (
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/black/fourcorners,
+/turf/open/floor/iron/techmaint,
+/area/syndicate_mothership/control)
+"lP" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 5
+	},
+/obj/structure/table/wood,
+/obj/item/paper_bin{
+	pixel_x = 5;
+	pixel_y = 6
+	},
+/obj/item/pen{
+	pixel_x = 5;
+	pixel_y = 6
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"lR" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"lS" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/obj/machinery/holopad,
+/obj/effect/turf_decal/box,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"lX" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/side{
+	dir = 6
+	},
+/area/syndicate_mothership/control)
+"lZ" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/syndicate_mothership/control)
+"md" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 10;
+	layer = 2
+	},
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"mg" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood,
+/obj/structure/fluff/paper/stack{
+	dir = 4;
+	pixel_x = -15
+	},
+/obj/structure/fluff/paper/stack{
+	dir = 1
+	},
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"mh" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/machinery/light/directional/east,
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"mi" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/carpet/grimy,
+/area/syndicate_mothership/control)
+"ml" = (
+/obj/effect/turf_decal/trimline/neutral/filled/line{
+	dir = 8
+	},
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/arrows/white{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/dark_blue/warning{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/textured,
+/area/syndicate_mothership/control)
+"mo" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/table,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"mp" = (
+/obj/effect/spawner/randomarcade{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 4
+	},
+/obj/machinery/light/directional/south,
+/turf/open/floor/prison/dark,
+/area/syndicate_mothership/control)
+"mt" = (
+/obj/effect/turf_decal/tile/black/fourcorners,
+/turf/open/floor/iron/techmaint,
+/area/syndicate_mothership/control)
+"mw" = (
+/obj/machinery/light/directional/west,
+/turf/open/floor/monotile/dark,
+/area/syndicate_mothership/control)
+"my" = (
+/obj/structure/grille,
+/obj/structure/window/plastitanium,
+/turf/open/floor/plating,
+/area/syndicate_mothership/control)
+"mM" = (
+/obj/effect/turf_decal/bot_white/right,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"mN" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/power/shieldwallgen,
+/turf/open/floor/iron/dark/textured_large,
+/area/syndicate_mothership/control)
+"mR" = (
+/turf/open/floor/iron/stairs{
+	dir = 1
+	},
+/area/syndicate_mothership/control)
+"mV" = (
+/obj/item/kirbyplants/random,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"mX" = (
+/obj/structure/railing{
+	dir = 2;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 6
+	},
+/obj/effect/turf_decal/siding/dark,
+/obj/machinery/keycard_auth{
+	pixel_x = 22
+	},
+/turf/open/floor/iron/dark/smooth_corner{
+	dir = 1
+	},
+/area/syndicate_mothership/control)
+"mZ" = (
+/obj/structure/railing{
+	dir = 4;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/red/half/contrasted,
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"na" = (
+/obj/effect/turf_decal/siding/dark/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/dark/corner{
+	dir = 1
+	},
+/turf/open/floor/iron/large,
+/area/syndicate_mothership/control)
+"ng" = (
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 10
+	},
+/turf/open/floor/iron/dark/textured,
+/area/syndicate_mothership/control)
+"nl" = (
+/obj/effect/turf_decal/bot_white,
+/obj/structure/closet/emcloset,
+/turf/open/floor/monotile/dark,
+/area/syndicate_mothership/control)
+"nn" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/machinery/door/airlock/public/glass{
+	name = "Library"
+	},
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"np" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/red/warning,
+/obj/machinery/light/directional/south,
+/turf/open/floor/iron/dark/textured_large,
+/area/syndicate_mothership/control)
+"nq" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/turf/open/floor/iron/dark/smooth_large,
+/area/syndicate_mothership/control)
+"nw" = (
+/obj/structure/flora/grass/jungle/b,
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/brflowers,
+/obj/structure/flora/ausbushes/leafybush,
+/obj/structure/window/reinforced/survival_pod{
+	dir = 4
+	},
+/obj/structure/window/reinforced/survival_pod{
+	dir = 8
+	},
+/obj/structure/window/reinforced/survival_pod{
+	dir = 1
+	},
+/turf/open/floor/grass,
+/area/syndicate_mothership/control)
+"ny" = (
+/obj/structure/closet/secure_closet/personal/patient,
+/obj/effect/turf_decal/delivery/white,
+/turf/open/floor/iron/dark/side,
+/area/syndicate_mothership/control)
+"nH" = (
+/obj/structure/lattice,
+/turf/open/floor/plating,
+/area/syndicate_mothership/control)
+"nI" = (
+/obj/effect/turf_decal/siding/dark,
+/obj/effect/turf_decal/trimline/dark_blue/line,
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/obj/machinery/door/airlock/public/glass,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"nN" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/teleport/station,
+/obj/machinery/status_display/evac{
+	pixel_y = -32
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"nP" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/neutral/warning{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"nS" = (
+/obj/effect/turf_decal/weather/dirt,
+/obj/item/trash/can{
+	pixel_y = -4;
+	pixel_x = 23
+	},
+/turf/open/floor/plating,
+/area/syndicate_mothership/control)
+"nT" = (
+/obj/structure/railing{
+	dir = 8;
+	layer = 4.1
+	},
+/obj/structure/closet/secure_closet/personal/patient,
+/obj/effect/turf_decal/delivery/white,
+/turf/open/floor/iron/dark/side,
+/area/syndicate_mothership/control)
+"nU" = (
+/obj/structure/chair/fancy/bench/pew/right{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"nZ" = (
+/obj/structure/table,
+/obj/item/food/piedough,
+/obj/item/food/dough{
+	pixel_y = 1
+	},
+/obj/item/food/dough{
+	pixel_x = -4
+	},
+/obj/item/kitchen/rollingpin{
+	pixel_x = 3;
+	pixel_y = 5
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/sign/poster/random{
+	pixel_x = -32
+	},
+/turf/open/floor/iron/techmaint,
+/area/syndicate_mothership/control)
+"of" = (
+/obj/structure/rack,
+/obj/machinery/door/window/northleft{
+	name = "Jetpack Storage";
+	pixel_x = -1;
+	req_access_txt = "19";
+	dir = 2
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/item/tank/jetpack/carbondioxide{
+	pixel_x = -4;
+	pixel_y = -2
+	},
+/obj/item/tank/jetpack/carbondioxide{
+	pixel_x = -4;
+	pixel_y = -2
+	},
+/obj/item/tank/jetpack/carbondioxide{
+	pixel_x = -4;
+	pixel_y = -2
+	},
+/obj/item/tank/jetpack/carbondioxide{
+	pixel_y = -1
+	},
+/turf/open/floor/iron/tech,
+/area/syndicate_mothership/control)
+"oh" = (
+/obj/structure/chair{
+	dir = 4
+	},
+/turf/open/floor/prison/dark,
+/area/syndicate_mothership/control)
+"on" = (
+/obj/effect/turf_decal/trimline/neutral/filled/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/neutral/warning{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"oq" = (
+/obj/machinery/pdapainter,
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/siding/wood,
+/obj/machinery/light/directional/west,
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"or" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/turf/open/floor/iron/dark/smooth_large,
+/area/syndicate_mothership/control)
+"ot" = (
+/obj/structure/table,
+/obj/item/trash/tray,
+/obj/item/trash/energybar,
+/obj/item/trash/pistachios{
+	pixel_y = 6
+	},
+/obj/structure/sign/poster/contraband/grey_tide{
+	pixel_y = -32
+	},
+/turf/open/floor/iron/corner{
+	dir = 1
+	},
+/area/syndicate_mothership/control)
+"ov" = (
+/obj/structure/railing{
+	dir = 8;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/neutral/warning{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"ow" = (
+/obj/structure/chair/fancy/shuttle{
+	dir = 1
+	},
+/turf/open/floor/iron/ridged/steel{
+	color = "#808080"
+	},
+/area/syndicate_mothership/control)
+"oD" = (
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"oE" = (
+/turf/open/floor/iron/dark/side{
+	dir = 9
+	},
+/area/syndicate_mothership/control)
+"oI" = (
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/neutral/filled/warning,
+/obj/structure/chair/fancy/shuttle{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/trimline/purple/warning{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/smooth_edge{
+	dir = 1
+	},
+/area/syndicate_mothership/control)
+"oJ" = (
+/obj/machinery/computer/pandemic,
+/obj/effect/turf_decal/bot{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"oL" = (
+/obj/effect/turf_decal/edges/techfloor/corners{
+	dir = 8
+	},
+/turf/open/floor/monotile/dark,
+/area/syndicate_mothership/control)
+"oP" = (
+/obj/machinery/suit_storage_unit/cmo,
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/syndicate_mothership/control)
+"oU" = (
+/obj/structure/table,
+/obj/machinery/status_display/evac{
+	pixel_y = -32
+	},
+/turf/open/floor/iron/corner{
+	dir = 4
+	},
+/area/syndicate_mothership/control)
+"oW" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"oX" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/machinery/light/directional/south,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"pa" = (
+/obj/structure/closet/secure_closet/CMO,
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"pb" = (
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 8
+	},
+/obj/item/candle/infinite{
+	pixel_x = -11;
+	pixel_y = 18
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"pg" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 10
+	},
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 10
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"ph" = (
+/obj/effect/turf_decal/tile/blue/opposingcorners{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral/opposingcorners{
+	dir = 1
+	},
+/obj/machinery/light/directional/east,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"pn" = (
+/obj/machinery/recharge_station,
+/obj/effect/turf_decal/bot,
+/obj/effect/landmark/start/cyborg,
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"pp" = (
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"pr" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner,
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/loading_area/red{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/syndicate_mothership/control)
+"pu" = (
+/obj/structure/bodycontainer/morgue{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/floor/iron/grid/steel{
+	color = "#808080"
+	},
+/area/syndicate_mothership/control)
+"pA" = (
+/obj/structure/table,
+/obj/machinery/microwave{
+	pixel_y = 14;
+	pixel_x = -2
+	},
+/obj/item/knife/kitchen{
+	pixel_x = 15;
+	pixel_y = 6
+	},
+/obj/effect/turf_decal/stripes/corner,
+/obj/item/storage/box/donkpockets{
+	pixel_x = -5;
+	pixel_y = -2
+	},
+/obj/item/storage/box/donkpockets{
+	pixel_x = -5;
+	pixel_y = 3
+	},
+/turf/open/floor/iron/techmaint,
+/area/syndicate_mothership/control)
+"pC" = (
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/neutral/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/purple/warning{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/smooth_edge{
+	dir = 1
+	},
+/area/syndicate_mothership/control)
+"pH" = (
+/obj/structure/chair/fancy/comfy{
+	color = "#666666";
+	dir = 1
+	},
+/turf/open/floor/carpet/green,
+/area/syndicate_mothership/control)
+"pI" = (
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/dark/smooth_edge{
+	dir = 1
+	},
+/area/syndicate_mothership/control)
+"pJ" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
+	},
+/obj/structure/closet/secure_closet{
+	icon_door = "tac";
+	icon_state = "tac";
+	name = "bridge officer's locker";
+	req_access_txt = "3"
+	},
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"pL" = (
+/obj/structure/bed/dogbed,
+/mob/living/simple_animal/pet/dog/corgi/cardigan,
+/obj/structure/window/reinforced{
+	layer = 4.1
+	},
+/turf/open/floor/carpet/red,
+/area/syndicate_mothership/control)
+"pM" = (
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 8
+	},
+/turf/open/floor/carpet/royalblue,
+/area/syndicate_mothership/control)
+"pN" = (
+/obj/effect/turf_decal/trimline/neutral/filled/line{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"pS" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 9
+	},
+/obj/structure/closet/secure_closet{
+	icon_door = "tac";
+	icon_state = "tac";
+	name = "bridge officer's locker";
+	req_access_txt = "3"
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"pT" = (
+/obj/item/storage/pod{
+	pixel_x = 32
+	},
+/obj/structure/railing,
+/turf/open/floor/iron/dark/side{
+	dir = 1
+	},
+/area/syndicate_mothership/control)
+"pU" = (
+/obj/machinery/photocopier,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"qb" = (
+/obj/effect/turf_decal/weather/dirt{
+	dir = 10
+	},
+/obj/item/cigbutt{
+	pixel_y = 13;
+	pixel_x = -6
+	},
+/turf/open/floor/plating,
+/area/syndicate_mothership/control)
+"qc" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/structure/easel,
+/obj/item/canvas/twentythree_twentythree,
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"qi" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/ppflowers,
+/turf/open/floor/grass/no_border,
+/area/syndicate_mothership/control)
+"qn" = (
+/obj/effect/turf_decal/bot_white,
+/obj/structure/table/reinforced,
+/turf/open/floor/monotile/dark,
+/area/syndicate_mothership/control)
+"qq" = (
+/obj/machinery/suit_storage_unit/standard_unit,
+/obj/effect/turf_decal/stripes/line,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/techfloorgrid/diagonal,
+/turf/open/floor/iron/tech,
+/area/syndicate_mothership/control)
+"qs" = (
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 5
+	},
+/obj/structure/table/reinforced{
+	color = "#c1b6a5"
+	},
+/obj/item/megaphone{
+	pixel_x = -2;
+	pixel_y = 3
+	},
+/obj/item/book/manual/wiki/sopsecurity{
+	pixel_x = 4;
+	pixel_y = 3
+	},
+/obj/machinery/keycard_auth{
+	pixel_x = 22
+	},
+/turf/open/floor/iron/dark/smooth_corner{
+	dir = 8
+	},
+/area/syndicate_mothership/control)
+"qw" = (
+/obj/item/trash/candy{
+	pixel_x = 3;
+	pixel_y = -8
+	},
+/turf/open/floor/plating{
+	icon_state = "foam_plating"
+	},
+/area/syndicate_mothership/control)
+"qG" = (
+/obj/structure/bookcase/random/fiction,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"qK" = (
+/obj/structure/weightmachine,
+/obj/effect/turf_decal/siding/white,
+/turf/open/floor/iron/ridged/steel,
+/area/syndicate_mothership/control)
+"qN" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/iron/techmaint,
+/area/syndicate_mothership/control)
+"qW" = (
+/turf/open/floor/iron/dark/side{
+	dir = 1
+	},
+/area/syndicate_mothership/control)
+"qZ" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/effect/turf_decal/trimline/red/warning{
+	dir = 1
+	},
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron/dark/textured_large,
+/area/syndicate_mothership/control)
+"rc" = (
+/obj/effect/turf_decal/edges/techfloor/corners{
+	dir = 8
+	},
+/obj/machinery/light/directional/west,
+/turf/open/floor/monotile/dark,
+/area/syndicate_mothership/control)
+"rk" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
+/obj/structure/fluff/paper/stack{
+	dir = 10;
+	pixel_x = 3;
+	pixel_y = 14
+	},
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"rl" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 6;
+	layer = 2
+	},
+/obj/structure/bed/double/pod,
+/obj/item/bedsheet/double/syndie,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"rn" = (
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 5
+	},
+/turf/open/floor/carpet/royalblue,
+/area/syndicate_mothership/control)
+"rq" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/dark_red/half/contrasted{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"ru" = (
+/obj/effect/turf_decal/trimline/dark_blue/filled/line{
+	dir = 6
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"rv" = (
+/obj/item/clothing/head/cone{
+	pixel_x = -10;
+	pixel_y = 12
+	},
+/obj/effect/mapping_helpers/tile_breaker,
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"rw" = (
+/obj/structure/stairs,
+/turf/open/floor/plating,
+/area/syndicate_mothership/control)
+"rx" = (
+/obj/effect/turf_decal/tile/dark_blue/anticorner_ramp/contrasted{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"rz" = (
+/obj/structure/toilet{
+	dir = 8
+	},
+/obj/effect/spawner/lootdrop/maintenance,
+/turf/open/floor/iron/freezer,
+/area/syndicate_mothership/control)
+"rC" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/item/trash/can,
+/turf/open/floor/iron/grid/steel,
+/area/syndicate_mothership/control)
+"rE" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 10
+	},
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/obj/item/clothing/neck/stethoscope{
+	pixel_x = 2;
+	pixel_y = 4
+	},
+/turf/open/floor/carpet/royalblue,
+/area/syndicate_mothership/control)
+"rF" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 4
+	},
+/obj/structure/chair/stool/directional/south,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"rG" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"rI" = (
+/obj/effect/turf_decal/siding/dark,
+/obj/effect/turf_decal/trimline/dark_blue/line,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"rJ" = (
+/obj/effect/decal/fakelattice,
+/obj/structure/rack,
+/obj/effect/spawner/lootdrop/maintenance,
+/turf/open/floor/plating,
+/area/syndicate_mothership/control)
+"rK" = (
+/obj/effect/turf_decal/siding/dark,
+/obj/structure/table/glass/plasma,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"rM" = (
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 9
+	},
+/turf/open/floor/prison/dark,
+/area/syndicate_mothership/control)
+"rN" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 5
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"rT" = (
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 9
+	},
+/obj/structure/chair/office/light{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/smooth_corner,
+/area/syndicate_mothership/control)
+"sa" = (
+/obj/structure/flora/junglebush/large{
+	pixel_y = 0
+	},
+/obj/structure/window/reinforced/spawner/north,
+/obj/structure/window/reinforced/spawner/east,
+/obj/structure/window/reinforced/spawner/west,
+/obj/structure/window/reinforced/spawner,
+/obj/structure/flora/grass/jungle/b,
+/obj/structure/flora/grass/jungle,
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/ywflowers,
+/obj/structure/flora/ausbushes/lavendergrass,
+/turf/open/floor/grass/no_border,
+/area/syndicate_mothership/control)
+"sg" = (
+/obj/structure/railing{
+	dir = 10;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 10
+	},
+/turf/open/floor/iron/large,
+/area/syndicate_mothership/control)
+"si" = (
+/turf/open/floor/iron/dark/textured,
+/area/syndicate_mothership/control)
+"sn" = (
+/obj/structure/bodycontainer/morgue,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/iron/grid/steel{
+	color = "#808080"
+	},
+/area/syndicate_mothership/control)
+"sy" = (
+/obj/structure/safe,
+/obj/effect/turf_decal/delivery/red,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"sA" = (
+/obj/effect/turf_decal/bot,
+/obj/structure/closet/radiation,
+/turf/open/floor/monotile/dark,
+/area/syndicate_mothership/control)
+"sC" = (
+/obj/structure/closet/secure_closet/genpop,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"sF" = (
+/obj/structure/table/wood,
+/obj/item/clothing/mask/balaclava{
+	pixel_x = 6;
+	pixel_y = 6
+	},
+/obj/item/storage/pill_bottle/dice,
+/turf/open/floor/carpet/green,
+/area/syndicate_mothership/control)
+"sH" = (
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/neutral/corner,
+/obj/effect/turf_decal/trimline/purple/warning{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/smooth_edge{
+	dir = 1
+	},
+/area/syndicate_mothership/control)
+"sO" = (
+/obj/structure/railing/corner,
+/turf/open/floor/iron/stairs{
+	dir = 1
+	},
+/area/syndicate_mothership/control)
+"tc" = (
+/obj/structure/railing{
+	dir = 2;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/siding/dark,
+/obj/effect/turf_decal/trimline/neutral,
+/obj/machinery/light/floor,
+/turf/open/floor/iron/large,
+/area/syndicate_mothership/control)
+"ti" = (
+/obj/structure/table/wood,
+/obj/item/flashlight/lamp/green{
+	pixel_x = -6;
+	pixel_y = 12
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"tk" = (
+/obj/effect/turf_decal/trimline/red/corner,
+/obj/effect/turf_decal/trimline/dark_blue/warning{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/dark/textured,
+/area/syndicate_mothership/control)
+"tm" = (
+/obj/structure/table/optable,
+/obj/item/reagent_containers/medspray/sterilizine{
+	pixel_x = 13;
+	pixel_y = -13
+	},
+/obj/effect/decal/cleanable/xenoblood/xgibs/core{
+	pixel_y = 12;
+	pixel_x = 2
+	},
+/obj/item/food/meat/slab/xeno,
+/obj/item/food/meat/slab/xeno{
+	pixel_y = 3
+	},
+/obj/item/stack/sheet/xenochitin{
+	pixel_x = 2;
+	pixel_y = -6
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 8
+	},
+/turf/open/floor/iron/ridged/steel,
+/area/syndicate_mothership/control)
+"to" = (
+/turf/open/floor/engine/light,
+/area/syndicate_mothership/control)
+"ty" = (
+/obj/effect/mapping_helpers/tile_breaker,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"tC" = (
+/obj/item/cigbutt{
+	pixel_x = 9;
+	pixel_y = 1
+	},
+/turf/open/floor/carpet/green,
+/area/syndicate_mothership/control)
+"tH" = (
+/obj/effect/turf_decal/trimline/green/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/blue/corner{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"tI" = (
+/obj/effect/mapping_helpers/tile_breaker,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"tJ" = (
+/obj/machinery/computer/bounty{
+	dir = 1
+	},
+/obj/structure/window/reinforced{
+	layer = 4.1
+	},
+/turf/open/floor/carpet/red,
+/area/syndicate_mothership/control)
+"tK" = (
+/obj/effect/turf_decal/weather/dirt{
+	dir = 1
+	},
+/turf/open/floor/plating{
+	icon_state = "foam_plating"
+	},
+/area/syndicate_mothership/control)
+"tM" = (
+/obj/structure/rack,
+/turf/open/floor/iron/dark/textured,
+/area/syndicate_mothership/control)
+"tO" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/structure/fluff/paper/stack{
+	dir = 4;
+	pixel_y = -2;
+	pixel_x = -18
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/effect/mapping_helpers/tile_breaker,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"tQ" = (
+/obj/machinery/cryopod{
+	dir = 8;
+	icon_state = "sleeper_s-open"
+	},
+/obj/structure/tubes,
+/turf/open/floor/iron/tech/grid,
+/area/syndicate_mothership/control)
+"tS" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/structure/table/wood,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"tT" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 6;
+	layer = 2
+	},
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
+/turf/open/floor/carpet/grimy,
+/area/syndicate_mothership/control)
+"ub" = (
+/obj/structure/grille,
+/turf/open/floor/plating,
+/area/syndicate_mothership/control)
+"uc" = (
+/obj/machinery/computer/cargo/request{
+	dir = 1
+	},
+/obj/structure/window/reinforced{
+	layer = 4.1
+	},
+/turf/open/floor/carpet/red,
+/area/syndicate_mothership/control)
+"ud" = (
+/obj/effect/turf_decal/tile/dark/fourcorners/contrasted,
+/obj/effect/turf_decal/siding/white,
+/obj/effect/turf_decal/arrows/white,
+/turf/open/floor/iron,
+/area/syndicate_mothership/control)
+"uf" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/structure/bed,
+/obj/item/bedsheet/dorms,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"ug" = (
+/obj/effect/turf_decal/siding/dark,
+/obj/effect/turf_decal/tile/red/half/contrasted{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"ui" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/textured_corner{
+	dir = 1
+	},
+/area/syndicate_mothership/control)
+"uk" = (
+/obj/item/trash/canned/beefbroth{
+	pixel_y = 14;
+	pixel_x = -5
+	},
+/obj/item/trash/canned/peaches{
+	pixel_y = 7;
+	pixel_x = 3
+	},
+/turf/open/floor/plating,
+/area/syndicate_mothership/control)
+"un" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/machinery/holopad,
+/obj/effect/turf_decal/box/corners,
+/obj/effect/turf_decal/box/corners{
+	dir = 1;
+	icon_state = "box_corners"
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/syndicate_mothership/control)
+"us" = (
+/obj/structure/table/glass,
+/obj/item/storage/box/bodybags{
+	pixel_x = -6;
+	pixel_y = 13
+	},
+/obj/item/storage/box/bodybags{
+	pixel_x = -6;
+	pixel_y = 4
+	},
+/obj/machinery/light/directional/west,
+/turf/open/floor/iron/textured,
+/area/syndicate_mothership/control)
+"ut" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/syndicate_mothership/control)
+"uw" = (
+/obj/machinery/gateway{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"ux" = (
+/obj/machinery/vending/job_disk,
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"uy" = (
+/obj/structure/closet/firecloset,
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/turf/open/floor/iron/dark/side{
+	dir = 1
+	},
+/area/syndicate_mothership/control)
+"uB" = (
+/obj/structure/stairs,
+/turf/open/floor/iron/dark/textured_large,
+/area/syndicate_mothership/control)
+"uC" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"uE" = (
+/obj/effect/turf_decal/siding/wood/corner,
+/obj/structure/dresser,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"uG" = (
+/obj/machinery/computer/security/mining{
+	dir = 4
+	},
+/obj/machinery/light/directional/west,
+/turf/open/floor/carpet/red,
+/area/syndicate_mothership/control)
+"uH" = (
+/obj/effect/turf_decal/tile/neutral/half/contrasted{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/side{
+	dir = 10
+	},
+/area/syndicate_mothership/control)
+"uI" = (
+/obj/effect/turf_decal/siding/dark,
+/obj/effect/turf_decal/trimline/green/warning,
+/obj/effect/turf_decal/trimline/blue/warning,
+/obj/machinery/light/directional/south,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"uK" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/structure/chair{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"uN" = (
+/obj/effect/turf_decal/trimline/red/filled/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/blue/warning{
+	dir = 4
+	},
+/obj/structure/table,
+/obj/structure/railing{
+	dir = 4;
+	layer = 4.1
+	},
+/obj/item/storage/pill_bottle/mannitol{
+	pixel_y = 4;
+	pixel_x = 5
+	},
+/obj/item/wrench/medical,
+/obj/effect/turf_decal/trimline/green/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/blue/corner{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/smooth_edge{
+	dir = 8
+	},
+/area/syndicate_mothership/control)
+"uP" = (
+/obj/structure/bed{
+	icon_state = "dirty_mattress"
+	},
+/turf/open/floor/plating,
+/area/syndicate_mothership/control)
+"uT" = (
+/obj/effect/turf_decal/siding/wood/corner,
+/obj/structure/closet/secure_closet/personal/cabinet,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"uU" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/machinery/light/directional/north,
+/obj/item/trash/pistachios{
+	pixel_x = 5
+	},
+/obj/item/kirbyplants{
+	icon_state = "plant-22";
+	pixel_x = -8
+	},
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"uW" = (
+/obj/structure/chair/fancy/comfy{
+	color = "#666666"
+	},
+/turf/open/floor/carpet/green,
+/area/syndicate_mothership/control)
+"uZ" = (
+/obj/machinery/hydroponics/constructable,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/light/directional/south,
+/turf/open/floor/iron/techmaint,
+/area/syndicate_mothership/control)
+"va" = (
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/obj/machinery/door/airlock/public/glass,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"vl" = (
+/obj/effect/turf_decal/siding/wood/end{
+	dir = 8
+	},
+/turf/open/floor/carpet/grimy,
+/area/syndicate_mothership/control)
+"vm" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 10
+	},
+/obj/effect/turf_decal/trimline/blue/warning{
+	dir = 10
+	},
+/turf/open/floor/iron/dark/textured,
+/area/syndicate_mothership/control)
+"vo" = (
+/obj/effect/turf_decal/tile/yellow/opposingcorners,
+/obj/effect/turf_decal/siding/white{
+	dir = 10
+	},
+/turf/open/floor/iron/textured,
+/area/syndicate_mothership/control)
+"vx" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"vz" = (
+/obj/structure/table,
+/obj/item/gps{
+	pixel_x = 7;
+	pixel_y = 8
+	},
+/obj/item/gps{
+	pixel_x = 7;
+	pixel_y = 4
+	},
+/obj/item/gps{
+	pixel_x = 7
+	},
+/obj/machinery/cell_charger{
+	pixel_x = -3
+	},
+/obj/item/stock_parts/cell/high/plus{
+	pixel_x = -5;
+	pixel_y = 4
+	},
+/obj/item/stock_parts/cell/high/plus{
+	pixel_x = -5;
+	pixel_y = -1
+	},
+/turf/open/floor/iron/techmaint,
+/area/syndicate_mothership/control)
+"vC" = (
+/obj/structure/fence/door/opened{
+	dir = 4
+	},
+/turf/open/floor/plating/dirt,
+/area/syndicate_mothership/control)
+"vD" = (
+/obj/machinery/vending/coffee,
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/iron/grid/steel,
+/area/syndicate_mothership/control)
+"vF" = (
+/obj/machinery/vending/cigarette,
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/floor/iron/grid/steel,
+/area/syndicate_mothership/control)
+"vJ" = (
+/obj/structure/flora/rock/jungle,
+/turf/open/floor/grass/no_border,
+/area/syndicate_mothership/control)
+"vN" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"vP" = (
+/obj/machinery/computer/camera_advanced/syndie{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 10
+	},
+/turf/open/floor/iron/dark/textured,
+/area/syndicate_mothership/control)
+"vR" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/side{
+	dir = 4
+	},
+/area/syndicate_mothership/control)
+"vS" = (
+/obj/effect/spawner/structure/window/reinforced/tinted,
+/turf/open/floor/plating,
+/area/syndicate_mothership/control)
+"vW" = (
+/obj/effect/turf_decal/trimline/red/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/dark_blue/warning{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/textured,
+/area/syndicate_mothership/control)
+"wb" = (
+/obj/effect/turf_decal/siding/dark/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/dark_blue/corner{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"we" = (
+/obj/effect/turf_decal/trimline/dark_blue/filled/warning{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"wi" = (
+/obj/effect/turf_decal/tile/blue/opposingcorners{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral/opposingcorners{
+	dir = 1
+	},
+/obj/item/storage/secure/safe/directional/north,
+/obj/machinery/computer/crew,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"wj" = (
+/obj/item/kirbyplants/random,
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"wk" = (
+/obj/effect/turf_decal/tile/dark_blue/diagonal_centre,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"wm" = (
+/obj/structure/chair/fancy/bench/corporate/right{
+	dir = 4
+	},
+/turf/open/floor/monotile/dark,
+/area/syndicate_mothership/control)
+"wp" = (
+/obj/structure/table,
+/obj/structure/bedsheetbin,
+/obj/effect/turf_decal/siding/dark{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/side{
+	dir = 5
+	},
+/area/syndicate_mothership/control)
+"wr" = (
+/obj/effect/turf_decal/trimline/blue/arrow_cw{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/blue/arrow_ccw{
+	dir = 4
+	},
+/obj/effect/turf_decal/arrows/white{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/textured,
+/area/syndicate_mothership/control)
+"ws" = (
+/obj/structure/fluff/paper/stack,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/trash/candy{
+	pixel_x = 3;
+	pixel_y = -8
+	},
+/turf/open/floor/carpet/grimy,
+/area/syndicate_mothership/control)
+"wv" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/syndicate_mothership/control)
+"ww" = (
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/engine,
+/area/syndicate_mothership/control)
+"wC" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/structure/closet/secure_closet/personal/cabinet,
+/obj/item/storage/pill_bottle/floorpill/full{
+	pixel_x = 11;
+	pixel_y = -4
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"wK" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/side{
+	dir = 1
+	},
+/area/syndicate_mothership/control)
+"wM" = (
+/obj/machinery/computer/camera_advanced/syndie,
+/obj/effect/turf_decal/siding/dark/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/dark/corner,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"wO" = (
+/obj/structure/chair/fancy/bench/corporate/left{
+	dir = 4
+	},
+/turf/open/floor/monotile/dark,
+/area/syndicate_mothership/control)
+"wS" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/machinery/door/morgue{
+	name = "Private Study";
+	req_access_txt = "37"
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"wT" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 10
+	},
+/obj/effect/turf_decal/trimline/green/warning{
+	dir = 10
+	},
+/obj/effect/turf_decal/trimline/blue/warning{
+	dir = 10
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"wU" = (
+/obj/machinery/door/airlock/external,
+/turf/open/floor/plating,
+/area/syndicate_mothership/control)
+"wW" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/machinery/vending/games,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"xa" = (
+/obj/structure/railing{
+	dir = 2;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/trimline/neutral/line,
+/obj/effect/turf_decal/siding/dark,
+/obj/effect/turf_decal/trimline/neutral/corner{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/smooth_edge,
+/area/syndicate_mothership/control)
+"xe" = (
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/neutral/corner,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/trimline/blue/warning{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/smooth_edge{
+	dir = 1
+	},
+/area/syndicate_mothership/control)
+"xf" = (
+/obj/structure/railing{
+	dir = 2;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/trimline/neutral/line,
+/obj/effect/turf_decal/siding/dark,
+/obj/effect/turf_decal/trimline/neutral/corner{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/dark/smooth_edge,
+/area/syndicate_mothership/control)
+"xg" = (
+/obj/structure/table/reinforced{
+	color = "#c1b6a5"
+	},
+/obj/item/clipboard{
+	pixel_x = 11;
+	pixel_y = 4
+	},
+/turf/open/floor/iron/grid/steel{
+	color = "#808080"
+	},
+/area/syndicate_mothership/control)
+"xm" = (
+/obj/effect/turf_decal/tile/neutral/corner_ramp{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"xn" = (
+/obj/effect/turf_decal/trimline/red/corner,
+/obj/effect/turf_decal/trimline/red/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner,
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"xs" = (
+/obj/effect/decal/fakelattice,
+/obj/structure/rack,
+/obj/item/trash/waffles{
+	pixel_y = 8
+	},
+/turf/open/floor/plating,
+/area/syndicate_mothership/control)
+"xv" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/mapping_helpers/tile_breaker,
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"xD" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"xE" = (
+/obj/structure/railing{
+	dir = 2;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/trimline/neutral/line,
+/obj/effect/turf_decal/siding/dark,
+/turf/open/floor/iron/dark/smooth_edge,
+/area/syndicate_mothership/control)
+"xH" = (
+/obj/effect/spawner/randomarcade{
+	dir = 8
+	},
+/obj/structure/railing{
+	dir = 2;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 10;
+	layer = 2
+	},
+/turf/open/floor/iron/grid/steel,
+/area/syndicate_mothership/control)
+"xK" = (
+/obj/structure/table/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/item/paicard{
+	pixel_x = 5;
+	pixel_y = 2
+	},
+/obj/item/phone{
+	pixel_y = 12;
+	pixel_x = -7
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"xL" = (
+/obj/structure/chair/office{
+	dir = 4
+	},
+/turf/open/floor/carpet/red,
+/area/syndicate_mothership/control)
+"xP" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/structure/table,
+/obj/item/trash/semki{
+	pixel_x = 7;
+	pixel_y = 6
+	},
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"xQ" = (
+/obj/effect/turf_decal/trimline/blue/arrow_cw{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/blue/arrow_ccw{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/dark/textured,
+/area/syndicate_mothership/control)
+"xR" = (
+/obj/structure/table,
+/obj/item/storage/backpack/satchel/leather{
+	pixel_x = 1;
+	pixel_y = 10
+	},
+/obj/item/clothing/mask/balaclava{
+	pixel_x = -4;
+	pixel_y = 3
+	},
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"xS" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/neutral/warning{
+	dir = 4
+	},
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"xU" = (
+/obj/structure/window/reinforced/spawner/east,
+/obj/structure/closet/crate/engineering,
+/obj/structure/window/reinforced/spawner/east{
+	dir = 8
+	},
+/obj/item/hand_tele{
+	pixel_x = 1
+	},
+/obj/item/beacon{
+	pixel_x = -6
+	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/iron/dark/textured_large,
+/area/syndicate_mothership/control)
+"xV" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/textured_half{
+	dir = 1
+	},
+/area/syndicate_mothership/control)
+"xX" = (
+/obj/effect/turf_decal/trimline/green/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/blue/corner{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"xY" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"yh" = (
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"yk" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 6
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/syndicate_mothership/control)
+"yl" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/item/clothing/head/cone{
+	pixel_x = -10;
+	pixel_y = 12
+	},
+/turf/open/floor/carpet/grimy,
+/area/syndicate_mothership/control)
+"yn" = (
+/obj/effect/turf_decal/siding/wood/corner,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/structure/fluff/paper/stack{
+	dir = 10;
+	pixel_x = -8;
+	pixel_y = -5
+	},
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"yo" = (
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/neutral/filled/warning,
+/obj/structure/chair/fancy/shuttle{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/trimline/blue/warning{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/smooth_edge{
+	dir = 1
+	},
+/area/syndicate_mothership/control)
+"ys" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
+/obj/structure/fluff/paper/stack{
+	pixel_y = -14;
+	pixel_x = -15
+	},
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"yt" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/item/kirbyplants/random,
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"yx" = (
+/obj/machinery/dna_scannernew,
+/obj/effect/turf_decal/stripes/end{
+	dir = 8
+	},
+/obj/machinery/light/directional/south,
+/turf/open/floor/iron,
+/area/syndicate_mothership/control)
+"yA" = (
+/obj/machinery/shower{
+	desc = "The HS-452. Installed recently by the DonkCo Hygiene Division.";
+	dir = 4;
+	name = "emergency shower";
+	pixel_y = 1
+	},
+/obj/item/soap/syndie{
+	pixel_x = 15
+	},
+/obj/effect/turf_decal/box/red/corners{
+	dir = 1
+	},
+/obj/effect/turf_decal/box/red/corners{
+	dir = 8
+	},
+/turf/open/floor/iron/freezer,
+/area/syndicate_mothership/control)
+"yB" = (
+/obj/effect/turf_decal/stripes/closeup,
+/obj/machinery/door/airlock/hatch,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"yG" = (
+/obj/machinery/door/airlock/maintenance_hatch,
+/turf/open/floor/plating,
+/area/syndicate_mothership/control)
+"yI" = (
+/obj/structure/fluff/hedge,
+/obj/structure/flora/ausbushes/grassybush{
+	pixel_y = 6
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"yL" = (
+/obj/effect/decal/cleanable/oil/streak,
+/turf/open/floor/carpet/grimy,
+/area/syndicate_mothership/control)
+"yQ" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/structure/table/wood,
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"yR" = (
+/turf/open/floor/iron/tech,
+/area/syndicate_mothership/control)
+"yV" = (
+/obj/machinery/computer/bank_machine{
+	dir = 4
+	},
+/obj/effect/turf_decal/delivery/white,
+/turf/open/floor/circuit/red/anim,
+/area/syndicate_mothership/control)
+"yZ" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 9
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/syndicate_mothership/control)
+"zb" = (
+/obj/structure/bodycontainer/morgue,
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/iron/grid/steel{
+	color = "#808080"
+	},
+/area/syndicate_mothership/control)
+"zg" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 6;
+	layer = 2
+	},
+/obj/machinery/firealarm/directional/east,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"zi" = (
+/obj/effect/turf_decal/bot_white,
+/obj/structure/closet/firecloset,
+/turf/open/floor/monotile/dark,
+/area/syndicate_mothership/control)
+"zk" = (
+/obj/structure/tank_dispenser/oxygen{
+	pixel_x = -1;
+	pixel_y = 2
+	},
+/obj/item/toy/plush/moth/moonfly{
+	pixel_y = 18
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/syndicate_mothership/control)
+"zn" = (
+/obj/machinery/griddle,
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/iron/techmaint,
+/area/syndicate_mothership/control)
+"zo" = (
+/obj/machinery/washing_machine,
+/obj/effect/turf_decal/bot_white/left,
+/turf/open/floor/iron/dark/side{
+	dir = 9
+	},
+/area/syndicate_mothership/control)
+"zv" = (
+/obj/structure/table/reinforced,
+/obj/item/crowbar{
+	pixel_y = 9
+	},
+/obj/item/storage/belt/utility,
+/obj/machinery/recharger{
+	pixel_x = 8
+	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/iron/dark/textured_large,
+/area/syndicate_mothership/control)
+"zz" = (
+/obj/structure/closet/secure_closet/freezer/fridge{
+	pixel_x = -9
+	},
+/obj/effect/turf_decal/siding/wood/end,
+/obj/structure/musician/piano{
+	pixel_x = 11
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"zB" = (
+/obj/machinery/holopad,
+/turf/open/floor/iron/ridged/steel{
+	color = "#808080"
+	},
+/area/syndicate_mothership/control)
+"zK" = (
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/neutral/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/yellow/warning{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/smooth_edge{
+	dir = 1
+	},
+/area/syndicate_mothership/control)
+"zZ" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 6
+	},
+/obj/effect/turf_decal/trimline/blue/warning{
+	dir = 6
+	},
+/turf/open/floor/iron/dark/textured,
+/area/syndicate_mothership/control)
+"Ab" = (
+/obj/structure/frame/computer{
+	dir = 8
+	},
+/obj/item/shard,
+/turf/open/floor/plating,
+/area/syndicate_mothership/control)
+"Ag" = (
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/dark/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/neutral/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/red/corner_ramp{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"Ak" = (
+/obj/machinery/cryopod{
+	dir = 4;
+	icon_state = "sleeper_s-open"
+	},
+/turf/open/floor/iron/tech/grid,
+/area/syndicate_mothership/control)
+"Am" = (
+/obj/structure/bookcase{
+	name = "Forbidden Knowledge"
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"An" = (
+/obj/structure/table/wood,
+/obj/item/circuitboard/machine/vendor{
+	pixel_x = 4;
+	pixel_y = 5
+	},
+/obj/item/trash/raisins{
+	pixel_x = -4
+	},
+/turf/open/floor/plating,
+/area/syndicate_mothership/control)
+"As" = (
+/obj/item/taperecorder,
+/obj/item/camera,
+/obj/structure/table/wood,
+/obj/item/camera_film{
+	pixel_y = 9
+	},
+/obj/item/camera_film{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"Au" = (
+/obj/structure/flora/junglebush/c,
+/turf/open/floor/grass/no_border,
+/area/syndicate_mothership/control)
+"Av" = (
+/obj/effect/turf_decal/siding/dark/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/dark/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/dark_red/half/contrasted{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/storage/secure/safe/caps_spare/directional/east,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"Ay" = (
+/obj/effect/turf_decal/trimline/dark_blue/filled/warning{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light/directional/west,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"AA" = (
+/obj/structure/railing{
+	dir = 2;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/siding/dark,
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/turf/open/floor/iron/large,
+/area/syndicate_mothership/control)
+"AB" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
+/obj/structure/table/wood,
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"AC" = (
+/obj/structure/dresser,
+/obj/item/toy/figure/cmo{
+	pixel_x = -11;
+	pixel_y = -9
+	},
+/turf/open/floor/carpet/blue,
+/area/syndicate_mothership/control)
+"AQ" = (
+/obj/structure/railing{
+	dir = 8;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/red/half/contrasted{
+	dir = 1
+	},
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"AR" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/flora/grass/jungle,
+/obj/structure/flora/grass/jungle/b{
+	pixel_x = -18;
+	pixel_y = -14
+	},
+/turf/open/floor/grass/no_border,
+/area/syndicate_mothership/control)
+"AW" = (
+/obj/item/clothing/head/cone{
+	pixel_x = -10;
+	pixel_y = -11
+	},
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 8
+	},
+/turf/open/floor/prison/dark,
+/area/syndicate_mothership/control)
+"Bc" = (
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/obj/machinery/door/airlock/hatch,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"Bd" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/structure/table/wood,
+/obj/item/flashlight/lamp/green{
+	pixel_y = 13;
+	pixel_x = -7;
+	layer = 4.1
+	},
+/obj/item/book/manual/wiki/grenades{
+	pixel_x = 6;
+	pixel_y = 3
+	},
+/obj/item/assembly/igniter{
+	pixel_x = -6;
+	pixel_y = -5
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"Bf" = (
+/obj/effect/decal/cleanable/crayon{
+	icon_state = "Osiron";
+	pixel_x = 8;
+	pixel_y = 6
+	},
+/obj/effect/turf_decal/tile/blue/half/contrasted{
+	alpha = 200;
+	color = "#267878";
+	dir = 2
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"Bg" = (
+/obj/effect/spawner/lootdrop/maintenance,
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 5
+	},
+/turf/open/floor/prison/dark,
+/area/syndicate_mothership/control)
+"Bh" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"Bi" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/dark_red/half/contrasted{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"Bk" = (
+/obj/machinery/door/airlock/medical/glass,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"Bn" = (
+/obj/structure/table,
+/obj/machinery/microwave{
+	pixel_y = 12;
+	pixel_x = -1
+	},
+/obj/item/storage/box/donkpockets{
+	pixel_x = -5;
+	pixel_y = -5
+	},
+/obj/item/storage/box/donkpockets{
+	pixel_x = -5
+	},
+/obj/item/food/donkpocket{
+	pixel_x = 7;
+	pixel_y = 4
+	},
+/obj/item/toy/figure/syndie{
+	pixel_x = -8;
+	pixel_y = 25
+	},
+/turf/open/floor/iron/corner,
+/area/syndicate_mothership/control)
+"Bo" = (
+/obj/structure/filingcabinet/chestdrawer,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"Bp" = (
+/obj/structure/railing{
+	dir = 8;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/siding/dark/corner,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"Br" = (
+/obj/structure/closet/crate/freezer/blood,
+/obj/item/evidencebag,
+/obj/item/evidencebag,
+/obj/item/evidencebag,
+/obj/item/evidencebag,
+/obj/item/evidencebag,
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/obj/machinery/light/directional/west,
+/turf/open/floor/iron/grid/steel,
+/area/syndicate_mothership/control)
+"Bv" = (
+/obj/effect/turf_decal/trimline/neutral/filled/corner,
+/obj/effect/turf_decal/siding/dark/corner{
+	dir = 8
+	},
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"By" = (
+/obj/item/trash/cheesie{
+	pixel_y = 4;
+	pixel_x = 7
+	},
+/turf/open/floor/plating/dirt,
+/area/syndicate_mothership/control)
+"BA" = (
+/obj/machinery/light/directional/west,
+/turf/open/floor/iron/dark/side{
+	dir = 8
+	},
+/area/syndicate_mothership/control)
+"BF" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"BG" = (
+/obj/machinery/computer/cloning{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/closeup,
+/turf/open/floor/iron,
+/area/syndicate_mothership/control)
+"BJ" = (
+/obj/structure/table/reinforced{
+	color = "#c1b6a5"
+	},
+/obj/item/phone{
+	pixel_y = 5;
+	pixel_x = 10
+	},
+/obj/item/trash/boritos{
+	pixel_x = -6
+	},
+/turf/open/floor/iron/grid/steel{
+	color = "#808080"
+	},
+/area/syndicate_mothership/control)
+"BN" = (
+/obj/structure/chair/fancy/comfy{
+	color = "#742925";
+	dir = 8
+	},
+/turf/open/floor/carpet/green,
+/area/syndicate_mothership/control)
+"BQ" = (
+/obj/effect/turf_decal/siding/dark/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/dark/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/dark_red/half/contrasted{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"BZ" = (
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 8
+	},
+/turf/open/floor/prison/dark,
+/area/syndicate_mothership/control)
+"Cd" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"Cf" = (
+/obj/item/flashlight/lantern{
+	desc = "A dim lantern that attracts moths.";
+	light_on = 1;
+	pixel_y = 11
+	},
+/obj/item/food/grown/flower/poppy{
+	pixel_x = 7;
+	pixel_y = 1
+	},
+/obj/structure/table/wood/fancy/royalblack,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"Ch" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 6;
+	layer = 2
+	},
+/obj/structure/table/wood,
+/obj/machinery/recharger{
+	pixel_x = 7
+	},
+/obj/item/toy/plush/crossed{
+	pixel_x = -5
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"Cp" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 9
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"Cz" = (
+/obj/structure/railing{
+	dir = 2;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/trimline/neutral/line,
+/obj/effect/turf_decal/siding/dark,
+/obj/effect/turf_decal/trimline/neutral/filled/warning{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/dark/smooth_edge,
+/area/syndicate_mothership/control)
+"CG" = (
+/obj/machinery/vending/cola/black,
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"CI" = (
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 9
+	},
+/obj/item/kirbyplants{
+	icon_state = "plant-17"
+	},
+/turf/open/floor/iron/dark/smooth_corner,
+/area/syndicate_mothership/control)
+"CJ" = (
+/obj/structure/chair/fancy/comfy{
+	dir = 8
+	},
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"CT" = (
+/obj/machinery/computer/camera_advanced/syndie{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 6
+	},
+/turf/open/floor/iron/dark/textured,
+/area/syndicate_mothership/control)
+"CW" = (
+/obj/machinery/suit_storage_unit/standard_unit,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/machinery/light/directional/south,
+/obj/effect/turf_decal/tile/techfloorgrid/diagonal,
+/turf/open/floor/iron/tech,
+/area/syndicate_mothership/control)
+"CX" = (
+/obj/structure/bookcase/random/fiction,
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"De" = (
+/obj/effect/turf_decal/tile/yellow/opposingcorners,
+/obj/effect/turf_decal/siding/white{
+	dir = 9
+	},
+/turf/open/floor/iron/textured,
+/area/syndicate_mothership/control)
+"Dh" = (
+/turf/open/floor/plating/elevatorshaft,
+/area/syndicate_mothership/control)
+"Di" = (
+/obj/structure/table,
+/obj/structure/bedsheetbin,
+/obj/structure/sign/poster/official/fruit_bowl{
+	pixel_y = 32
+	},
+/turf/open/floor/iron/dark/side{
+	dir = 1
+	},
+/area/syndicate_mothership/control)
+"Dk" = (
+/obj/machinery/suit_storage_unit/standard_unit,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/techfloorgrid/diagonal,
+/turf/open/floor/iron/tech,
+/area/syndicate_mothership/control)
+"Dl" = (
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/neutral/filled/warning,
+/obj/structure/chair/fancy/shuttle{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/dark_red/warning{
+	dir = 1
+	},
+/obj/structure/fluff/paper/stack{
+	pixel_y = -24;
+	pixel_x = -9
+	},
+/turf/open/floor/iron/dark/smooth_edge{
+	dir = 1
+	},
+/area/syndicate_mothership/control)
+"Dp" = (
+/obj/machinery/door/airlock/command/glass,
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"Ds" = (
+/obj/structure/railing/corner,
+/turf/open/floor/iron/dark/textured,
+/area/syndicate_mothership/control)
+"DH" = (
+/obj/effect/turf_decal/tile/blue/opposingcorners{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral/opposingcorners{
+	dir = 1
+	},
+/obj/structure/table/reinforced,
+/obj/machinery/button/door{
+	id = "quarantineshutters";
+	name = "Quarantine Lockdown";
+	pixel_x = 7;
+	pixel_y = 8;
+	req_access_txt = "39"
+	},
+/obj/machinery/button/door{
+	id = "cmoshutter";
+	name = "CMO Office Shutters";
+	pixel_x = 7;
+	pixel_y = -1;
+	req_access_txt = "40"
+	},
+/obj/item/paper_bin{
+	pixel_x = -6;
+	pixel_y = 6
+	},
+/obj/item/pen{
+	pixel_x = -6;
+	pixel_y = 9
+	},
+/obj/item/pen{
+	pixel_x = -6;
+	pixel_y = 5
+	},
+/obj/item/stamp/cmo{
+	pixel_x = -8;
+	pixel_y = -3
+	},
+/obj/item/stamp/denied{
+	pixel_y = -7;
+	pixel_x = -2
+	},
+/obj/machinery/firealarm/directional/west,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"DM" = (
+/obj/structure/fluff/hedge,
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/machinery/light/directional/west,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"DP" = (
+/obj/structure/destructible/cult/tome,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"DU" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 5
+	},
+/obj/effect/turf_decal/trimline/green/warning{
+	dir = 5
+	},
+/obj/effect/turf_decal/trimline/blue/warning{
+	dir = 5
+	},
+/obj/item/kirbyplants/random,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"DW" = (
+/turf/open/floor/iron/stairs/right,
+/area/syndicate_mothership/control)
+"Eb" = (
+/obj/structure/chair/foldable{
+	dir = 8
+	},
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/syndicate_mothership/control)
+"Eh" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/structure/table/reinforced{
+	color = "#c1b6a5"
+	},
+/obj/structure/sign/poster/contraband/c20r{
+	pixel_y = 32
+	},
+/obj/item/storage/box/hug/medical{
+	pixel_x = -6;
+	pixel_y = 11
+	},
+/obj/item/storage/firstaid/regular{
+	pixel_x = 4;
+	pixel_y = 6
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"Ej" = (
+/obj/effect/turf_decal/siding/wood/corner,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"Eo" = (
+/obj/effect/turf_decal/siding/dark,
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron/checker/other,
+/area/syndicate_mothership/control)
+"Eu" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/red/half/contrasted{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"Ew" = (
+/obj/structure/stairs,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"Ex" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron/smooth_half{
+	dir = 8
+	},
+/area/syndicate_mothership/control)
+"EE" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/neutral/warning{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/neutral/warning{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"EJ" = (
+/turf/open/floor/carpet/royalblack,
+/area/syndicate_mothership/control)
+"EL" = (
+/obj/structure/lattice,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/syndicate_mothership/control)
+"EM" = (
+/obj/structure/chair/fancy/comfy,
+/turf/open/floor/carpet/royalblack,
+/area/syndicate_mothership/control)
+"EN" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/structure/table/wood,
+/obj/item/storage/photo_album{
+	pixel_x = -3;
+	pixel_y = 5
+	},
+/obj/item/storage/crayons,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"ES" = (
+/obj/effect/turf_decal/siding/dark,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"EU" = (
+/turf/open/floor/plating/dirt,
+/area/syndicate_mothership/control)
+"Fb" = (
+/obj/structure/bed,
+/obj/item/bedsheet/dorms,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"Fi" = (
+/obj/effect/turf_decal/edges/borderfloor/black/corner1{
+	dir = 1
+	},
+/turf/open/floor/monotile/dark,
+/area/syndicate_mothership/control)
+"Fl" = (
+/obj/effect/turf_decal/tile/yellow/opposingcorners,
+/obj/effect/turf_decal/siding/white{
+	dir = 1
+	},
+/turf/open/floor/iron/textured,
+/area/syndicate_mothership/control)
+"Fq" = (
+/obj/machinery/power/shieldwallgen,
+/turf/open/floor/iron/dark/textured_large,
+/area/syndicate_mothership/control)
+"Fw" = (
+/obj/effect/turf_decal/siding/dark/corner{
+	dir = 8
+	},
+/obj/structure/table/glass/plasma,
+/obj/item/paper_bin{
+	pixel_x = 5;
+	pixel_y = 4
+	},
+/obj/item/pen{
+	pixel_x = 5;
+	pixel_y = 6
+	},
+/obj/item/stamp/denied{
+	pixel_x = -6;
+	pixel_y = 8
+	},
+/obj/item/stamp/head_of_personnel{
+	pixel_x = -6;
+	pixel_y = 2
+	},
+/obj/machinery/light/directional/east,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"FD" = (
+/obj/effect/turf_decal/trimline/neutral/filled/line{
+	dir = 4
+	},
+/obj/structure/railing/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/arrows/white{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/dark_blue/warning{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/textured,
+/area/syndicate_mothership/control)
+"FE" = (
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/syndicate_mothership/control)
+"FH" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner,
+/obj/effect/turf_decal/siding/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/dark_blue/warning{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"FJ" = (
+/obj/item/clothing/head/cone{
+	pixel_x = 9;
+	pixel_y = 12
+	},
+/obj/effect/turf_decal/edges/borderfloor/black/corner1{
+	dir = 8
+	},
+/obj/machinery/light/directional/west,
+/turf/open/floor/monotile/dark,
+/area/syndicate_mothership/control)
+"FL" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 6;
+	layer = 2
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"FO" = (
+/obj/structure/weightmachine/weightlifter,
+/obj/effect/turf_decal/siding/white{
+	dir = 6
+	},
+/turf/open/floor/iron/ridged/steel,
+/area/syndicate_mothership/control)
+"FS" = (
+/obj/structure/table,
+/obj/item/storage/box/bodybags{
+	pixel_y = 13;
+	pixel_x = -6
+	},
+/obj/item/storage/box/masks{
+	pixel_x = 6;
+	pixel_y = 12
+	},
+/obj/item/storage/backpack/duffelbag/med/surgery{
+	pixel_y = 5
+	},
+/obj/item/clothing/gloves/color/latex,
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 8
+	},
+/turf/open/floor/iron/ridged/steel,
+/area/syndicate_mothership/control)
+"FV" = (
+/obj/effect/turf_decal/tile/neutral/half/contrasted{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/side{
+	dir = 9
+	},
+/area/syndicate_mothership/control)
+"FW" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/syndicate_mothership/control)
+"FZ" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/structure/table/wood,
+/obj/item/paper_bin{
+	pixel_x = 6;
+	pixel_y = 7
+	},
+/obj/item/pen{
+	pixel_x = 7;
+	pixel_y = 9
+	},
+/obj/item/storage/fancy/nugget_box{
+	pixel_x = -5
+	},
+/obj/machinery/light/directional/north,
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"Gg" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood,
+/obj/item/cigbutt{
+	pixel_x = -6;
+	pixel_y = 12
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"Gj" = (
+/obj/effect/turf_decal/trimline/dark_blue/filled/warning{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"Gl" = (
+/obj/machinery/seed_extractor,
+/obj/item/seeds/wheat,
+/obj/item/seeds/wheat,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/turf/open/floor/iron/techmaint,
+/area/syndicate_mothership/control)
+"Gn" = (
+/obj/effect/turf_decal/siding/dark/corner{
+	dir = 8
+	},
+/turf/open/floor/iron/checker/other,
+/area/syndicate_mothership/control)
+"Go" = (
+/obj/structure/table/wood,
+/obj/item/storage/fancy/donut_box,
+/obj/item/toy/cards/deck{
+	pixel_x = 2;
+	pixel_y = 13
+	},
+/turf/open/floor/carpet/green,
+/area/syndicate_mothership/control)
+"Gq" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/neutral/warning{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"Gw" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/carpet/grimy,
+/area/syndicate_mothership/control)
+"Gx" = (
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 9
+	},
+/obj/structure/table/reinforced{
+	color = "#c1b6a5"
+	},
+/obj/item/paicard{
+	pixel_x = 4
+	},
+/obj/item/book/manual/wiki/sopscience{
+	pixel_x = -4;
+	pixel_y = 4
+	},
+/obj/machinery/keycard_auth{
+	pixel_x = -22
+	},
+/obj/item/computer_hardware/hard_drive/role/signal/toxins{
+	pixel_x = 3;
+	pixel_y = 9
+	},
+/turf/open/floor/iron/dark/smooth_corner,
+/area/syndicate_mothership/control)
+"GA" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner,
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/obj/machinery/door/airlock/command/glass,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"GB" = (
+/obj/effect/mapping_helpers/tile_breaker,
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"GC" = (
+/obj/effect/turf_decal/tile/dark/fourcorners/contrasted,
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = 11
+	},
+/obj/structure/mirror{
+	pixel_x = 28
+	},
+/obj/effect/turf_decal/siding/white,
+/obj/effect/turf_decal/arrows/white,
+/turf/open/floor/iron,
+/area/syndicate_mothership/control)
+"GE" = (
+/obj/effect/turf_decal/stripes/closeup,
+/obj/machinery/door/airlock/command/glass,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"GP" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/structure/closet/secure_closet/medical1,
+/obj/effect/turf_decal/bot{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/syndicate_mothership/control)
+"GQ" = (
+/obj/machinery/computer/camera_advanced/syndie,
+/obj/effect/turf_decal/siding/dark,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"GV" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/dark_blue/line{
+	dir = 4
+	},
+/obj/machinery/light/directional/east,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"GX" = (
+/obj/structure/weightmachine,
+/obj/effect/turf_decal/siding/white,
+/obj/structure/sign/poster/official/moth4{
+	pixel_y = 32
+	},
+/turf/open/floor/iron/ridged/steel,
+/area/syndicate_mothership/control)
+"GZ" = (
+/obj/effect/turf_decal/tile/blue/opposingcorners{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral/opposingcorners{
+	dir = 1
+	},
+/obj/structure/fluff/hedge,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"Hd" = (
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = 11
+	},
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 4
+	},
+/turf/open/floor/prison/dark,
+/area/syndicate_mothership/control)
+"Hf" = (
+/obj/structure/table,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"Hg" = (
+/obj/effect/decal/cleanable/vomit/old{
+	pixel_x = 10;
+	pixel_y = -2
+	},
+/obj/effect/turf_decal/tile/blue/half/contrasted{
+	alpha = 200;
+	color = "#267878";
+	dir = 2
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"Hh" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/structure/table/wood,
+/obj/item/paicard{
+	pixel_x = -7;
+	pixel_y = 10
+	},
+/obj/item/paicard{
+	pixel_x = -1;
+	pixel_y = 6
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"Hl" = (
+/obj/structure/railing{
+	dir = 2;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/siding/dark,
+/turf/open/floor/iron/large,
+/area/syndicate_mothership/control)
+"Hn" = (
+/obj/structure/reagent_dispensers/watertank/high,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/iron/techmaint,
+/area/syndicate_mothership/control)
+"Hr" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/iron/dark/textured,
+/area/syndicate_mothership/control)
+"Hv" = (
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/obj/item/clothing/head/cone{
+	pixel_x = -10;
+	pixel_y = -15
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"HA" = (
+/obj/structure/easel,
+/obj/item/canvas/twentythree_twentythree{
+	pixel_x = 4;
+	pixel_y = 8
+	},
+/obj/item/storage/crayons,
+/turf/open/floor/iron/checker/other,
+/area/syndicate_mothership/control)
+"HB" = (
+/obj/effect/turf_decal/siding/wood/corner,
+/obj/structure/chair/stool/directional/north,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"HJ" = (
+/turf/closed/wall/r_wall,
+/area/syndicate_mothership/control)
+"HM" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/dark_blue/line{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"HQ" = (
+/turf/open/floor/carpet/purple,
+/area/syndicate_mothership/control)
+"HS" = (
+/obj/item/kirbyplants{
+	icon_state = "plant-21"
+	},
+/obj/effect/turf_decal/tile/red/half/contrasted{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"HY" = (
+/obj/machinery/vending/medical,
+/turf/open/floor/iron/textured,
+/area/syndicate_mothership/control)
+"Ib" = (
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/dark/corner{
+	dir = 4
+	},
+/turf/open/floor/iron/large,
+/area/syndicate_mothership/control)
+"Id" = (
+/obj/item/flashlight/lantern{
+	desc = "A dim lantern that attracts moths.";
+	light_on = 1;
+	pixel_y = 11
+	},
+/obj/structure/table/wood/fancy/royalblack,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"Ih" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/dark_red/half/contrasted{
+	dir = 8
+	},
+/obj/machinery/light/directional/south,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"Ii" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 1
+	},
+/turf/open/floor/iron/large,
+/area/syndicate_mothership/control)
+"Ij" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/neutral/warning{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/dark_red/half/contrasted,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"In" = (
+/obj/machinery/ore_silo,
+/obj/effect/turf_decal/delivery/white,
+/turf/open/floor/circuit/red/anim,
+/area/syndicate_mothership/control)
+"Ip" = (
+/obj/effect/decal/fakelattice,
+/obj/structure/rack,
+/obj/item/paicard{
+	pixel_x = -1;
+	pixel_y = 1
+	},
+/turf/open/floor/plating,
+/area/syndicate_mothership/control)
+"Ir" = (
+/obj/structure/punching_bag,
+/obj/effect/turf_decal/bot_white/right,
+/turf/open/floor/iron/dark/side{
+	dir = 10
+	},
+/area/syndicate_mothership/control)
+"Iv" = (
+/turf/open/floor/iron/stairs/medium,
+/area/syndicate_mothership/control)
+"IC" = (
+/obj/item/mop{
+	pixel_x = 5;
+	pixel_y = -5
+	},
+/obj/item/storage/bag/trash{
+	pixel_x = 9;
+	pixel_y = -7
+	},
+/obj/effect/decal/cleanable/greenglow,
+/obj/item/cigbutt{
+	pixel_y = 11;
+	pixel_x = 4
+	},
+/turf/open/floor/plating,
+/area/syndicate_mothership/control)
+"IE" = (
+/obj/structure/flora/grass/jungle/b,
+/obj/structure/flora/ausbushes/stalkybush,
+/obj/structure/flora/rock/pile,
+/obj/machinery/light/directional/south,
+/turf/open/floor/grass/no_border,
+/area/syndicate_mothership/control)
+"IG" = (
+/obj/machinery/vending/hydroseeds,
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 8
+	},
+/turf/open/floor/prison/dark,
+/area/syndicate_mothership/control)
+"IK" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/machinery/light/directional/north,
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"IL" = (
+/obj/structure/railing{
+	dir = 2;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 10
+	},
+/obj/effect/turf_decal/siding/dark,
+/turf/open/floor/iron/dark/smooth_corner{
+	dir = 4
+	},
+/area/syndicate_mothership/control)
+"IM" = (
+/obj/structure/bookcase/random,
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"IN" = (
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"IO" = (
+/obj/effect/turf_decal/weather/dirt{
+	dir = 8
+	},
+/obj/structure/table,
+/obj/effect/spawner/lootdrop/maintenance,
+/turf/open/floor/plating,
+/area/syndicate_mothership/control)
+"IQ" = (
+/obj/structure/table,
+/obj/item/storage/box/papersack{
+	pixel_x = 5;
+	pixel_y = 6
+	},
+/obj/item/storage/box/papersack{
+	pixel_x = 5;
+	pixel_y = 6
+	},
+/obj/item/storage/box/papersack{
+	pixel_x = 5;
+	pixel_y = 6
+	},
+/obj/item/storage/box/papersack{
+	pixel_x = 5;
+	pixel_y = 6
+	},
+/obj/item/storage/box/papersack{
+	pixel_x = 5;
+	pixel_y = 6
+	},
+/obj/item/storage/box/papersack{
+	pixel_x = 5;
+	pixel_y = 4
+	},
+/obj/item/storage/box/papersack{
+	pixel_x = 4;
+	pixel_y = 3
+	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/iron/techmaint,
+/area/syndicate_mothership/control)
+"IU" = (
+/obj/effect/turf_decal/weather/dirt/corner{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/syndicate_mothership/control)
+"IV" = (
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/dark_blue/warning{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/textured,
+/area/syndicate_mothership/control)
+"IX" = (
+/obj/structure/railing{
+	dir = 2;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/trimline/neutral/line,
+/obj/effect/turf_decal/siding/dark,
+/obj/effect/turf_decal/trimline/neutral/corner{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/dark/smooth_edge,
+/area/syndicate_mothership/control)
+"IZ" = (
+/obj/effect/turf_decal/tile/techfloorgrid/diagonal,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"Jb" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 10
+	},
+/obj/item/kirbyplants{
+	icon_state = "plant-21"
+	},
+/obj/structure/railing{
+	dir = 10;
+	layer = 4.3
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/syndicate_mothership/control)
+"Jc" = (
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/syndicate_mothership/control)
+"Je" = (
+/turf/open/floor/iron/ridged/steel{
+	color = "#808080"
+	},
+/area/syndicate_mothership/control)
+"Jg" = (
+/obj/effect/decal/fakelattice,
+/turf/open/floor/plating,
+/area/syndicate_mothership/control)
+"Jj" = (
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/turf/open/floor/iron/stairs{
+	dir = 1
+	},
+/area/syndicate_mothership/control)
+"Jk" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/dark_blue/line{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"Jp" = (
+/obj/machinery/computer/camera_advanced/syndie,
+/obj/effect/turf_decal/delivery/white,
+/turf/open/floor/iron/dark/textured,
+/area/syndicate_mothership/control)
+"Js" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/side,
+/area/syndicate_mothership/control)
+"Jt" = (
+/obj/effect/turf_decal/weather/dirt{
+	dir = 9
+	},
+/turf/open/floor/plating,
+/area/syndicate_mothership/control)
+"Jy" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/dark_blue/line{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"JB" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/item/trash/popcorn{
+	pixel_x = 16;
+	pixel_y = -4;
+	layer = 4.2
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"JD" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"JI" = (
+/obj/structure/railing/corner,
+/obj/effect/turf_decal/trimline/neutral/filled/line{
+	dir = 4
+	},
+/obj/structure/railing/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/arrows/white{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/dark_blue/warning{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/textured,
+/area/syndicate_mothership/control)
+"JL" = (
+/obj/structure/chair{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 9
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"JM" = (
+/obj/effect/turf_decal/edges/techfloor{
+	dir = 4
+	},
+/turf/open/floor/monotile/dark,
+/area/syndicate_mothership/control)
+"JN" = (
+/obj/structure/table/wood,
+/obj/item/storage/fancy/cigarettes/cigars{
+	pixel_x = 2;
+	pixel_y = 14
+	},
+/turf/open/floor/carpet/green,
+/area/syndicate_mothership/control)
+"JU" = (
+/turf/open/floor/iron/stairs/left,
+/area/syndicate_mothership/control)
+"JW" = (
+/obj/structure/bed,
+/obj/item/bedsheet/dorms,
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"JZ" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/obj/structure/bed/dogbed/cayenne,
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"Kb" = (
+/obj/item/clothing/head/cone{
+	pixel_x = 11;
+	pixel_y = -8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"Ki" = (
+/turf/open/space/basic,
+/area/space)
+"Kj" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"Kn" = (
+/turf/open/floor/iron/dark/smooth_large,
+/area/syndicate_mothership/control)
+"Ks" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/neutral/warning{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"Kt" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/structure/railing{
+	dir = 8;
+	layer = 4.1
+	},
+/obj/machinery/atmospherics/components/unary/thermomachine/freezer,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/engine,
+/area/syndicate_mothership/control)
+"Ku" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"Kx" = (
+/obj/effect/turf_decal/siding/dark,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"Ky" = (
+/obj/structure/table/reinforced,
+/obj/item/clipboard{
+	pixel_x = 7;
+	pixel_y = -1
+	},
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 6
+	},
+/turf/open/floor/carpet/royalblue,
+/area/syndicate_mothership/control)
+"Kz" = (
+/obj/structure/railing{
+	dir = 4;
+	layer = 4.1
+	},
+/obj/structure/closet/secure_closet/freezer,
+/obj/item/storage/box/ingredients/wildcard{
+	pixel_x = 6;
+	pixel_y = -3
+	},
+/obj/item/storage/box/ingredients/wildcard{
+	pixel_x = 6;
+	pixel_y = 8
+	},
+/obj/item/food/meat/slab/penguin{
+	pixel_y = -11
+	},
+/obj/item/food/meat/slab/corgi{
+	pixel_y = -9
+	},
+/obj/item/food/meat/slab/corgi{
+	pixel_y = -5
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/turf/open/floor/iron/techmaint,
+/area/syndicate_mothership/control)
+"KA" = (
+/obj/structure/rack,
+/obj/effect/turf_decal/delivery,
+/obj/item/clothing/under/rank/prisoner,
+/obj/item/clothing/under/rank/prisoner,
+/obj/item/clothing/under/rank/prisoner,
+/obj/item/clothing/under/rank/prisoner,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"KB" = (
+/obj/effect/turf_decal/siding/wood/corner,
+/obj/structure/fluff/hedge,
+/obj/effect/turf_decal/siding/wood{
+	dir = 9
+	},
+/obj/effect/turf_decal/siding/wood/corner,
+/obj/structure/flora/ausbushes/ywflowers{
+	pixel_y = 4
+	},
+/obj/structure/sign/poster/contraband/shamblers_juice{
+	pixel_x = -32
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"KC" = (
+/obj/structure/railing{
+	dir = 2;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/siding/dark,
+/obj/effect/turf_decal/siding/dark/corner{
+	dir = 4
+	},
+/turf/open/floor/iron/large,
+/area/syndicate_mothership/control)
+"KE" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"KF" = (
+/obj/item/clothing/suit/caution{
+	pixel_x = 10;
+	pixel_y = 19
+	},
+/obj/item/clothing/suit/caution{
+	pixel_x = 5;
+	pixel_y = 13
+	},
+/turf/open/floor/monotile/dark,
+/area/syndicate_mothership/control)
+"KG" = (
+/obj/effect/turf_decal/weather/dirt{
+	dir = 9
+	},
+/turf/open/floor/plating{
+	icon_state = "foam_plating"
+	},
+/area/syndicate_mothership/control)
+"KI" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/dark_blue/line{
+	dir = 8
+	},
+/obj/structure/sign/poster/contraband/robust_softdrinks{
+	pixel_x = -32
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"KM" = (
+/obj/structure/weightmachine,
+/obj/machinery/status_display/evac/directional/east,
+/turf/open/floor/iron/ridged/steel,
+/area/syndicate_mothership/control)
+"KP" = (
+/obj/structure/chair/fancy/comfy{
+	buildstackamount = 0;
+	color = "#742925";
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"KT" = (
+/obj/structure/railing{
+	dir = 6;
+	layer = 4.3
+	},
+/obj/structure/table,
+/obj/machinery/reagentgrinder{
+	pixel_x = 2;
+	pixel_y = 3
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/turf/open/floor/iron/techmaint,
+/area/syndicate_mothership/control)
+"KU" = (
+/obj/structure/stairs{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"KY" = (
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 5
+	},
+/obj/structure/chair/office{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/smooth_corner{
+	dir = 8
+	},
+/area/syndicate_mothership/control)
+"KZ" = (
+/obj/structure/closet/secure_closet/hop,
+/obj/effect/turf_decal/box/corners,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/side{
+	dir = 4
+	},
+/area/syndicate_mothership/control)
+"La" = (
+/obj/structure/rack,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/item/extinguisher{
+	pixel_x = -4
+	},
+/obj/item/extinguisher{
+	pixel_x = 1
+	},
+/obj/item/extinguisher{
+	pixel_x = 7
+	},
+/obj/item/flashlight,
+/obj/item/flashlight,
+/obj/item/hand_labeler,
+/obj/machinery/light/directional/south,
+/turf/open/floor/iron/tech,
+/area/syndicate_mothership/control)
+"Lf" = (
+/obj/machinery/computer/camera_advanced/syndie,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/iron/grid/steel{
+	color = "#808080"
+	},
+/area/syndicate_mothership/control)
+"Li" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"Ll" = (
+/obj/machinery/door/airlock/public/glass,
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/iron/grid/steel,
+/area/syndicate_mothership/control)
+"Ln" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/structure/table/reinforced{
+	color = "#c1b6a5"
+	},
+/obj/item/storage/backpack{
+	pixel_x = -2;
+	pixel_y = 11
+	},
+/obj/item/storage/backpack{
+	pixel_x = -2;
+	pixel_y = 6
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"Lo" = (
+/obj/effect/turf_decal/trimline/blue/arrow_ccw{
+	dir = 5
+	},
+/obj/effect/turf_decal/trimline/blue/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/textured,
+/area/syndicate_mothership/control)
+"Lq" = (
+/obj/machinery/biogenerator,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/iron/techmaint,
+/area/syndicate_mothership/control)
+"Ls" = (
+/obj/effect/turf_decal/siding/dark/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/green/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/blue/corner{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"Ly" = (
+/obj/effect/turf_decal/tile/blue/opposingcorners{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral/opposingcorners{
+	dir = 1
+	},
+/obj/machinery/vending/wallmed{
+	name = "Emergency NanoMed";
+	pixel_y = -27;
+	use_power = 0
+	},
+/obj/structure/bed/dogbed/runtime,
+/mob/living/simple_animal/pet/cat/Runtime{
+	pixel_y = 4
+	},
+/obj/item/toy/plush/runtime{
+	pixel_x = -6;
+	pixel_y = 1
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"LA" = (
+/obj/machinery/computer/card{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"LF" = (
+/obj/structure/table/reinforced{
+	color = "#c1b6a5"
+	},
+/obj/item/stamp/research_director{
+	pixel_x = 10;
+	pixel_y = 9
+	},
+/obj/item/stamp/denied{
+	pixel_x = 10;
+	pixel_y = 4
+	},
+/obj/item/paper_bin{
+	pixel_x = -6;
+	pixel_y = 6
+	},
+/obj/item/clipboard{
+	pixel_x = -4;
+	pixel_y = 6
+	},
+/obj/item/pen{
+	pixel_x = -6;
+	pixel_y = 6
+	},
+/obj/item/toy/plush/slimeplushie{
+	pixel_x = -5;
+	pixel_y = -8
+	},
+/obj/machinery/light/directional/west,
+/turf/open/floor/iron/grid/steel{
+	color = "#808080"
+	},
+/area/syndicate_mothership/control)
+"LH" = (
+/obj/structure/fluff/hedge,
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
+/obj/structure/flora/ausbushes/leafybush{
+	pixel_y = 11
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"LJ" = (
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 4
+	},
+/turf/open/floor/carpet/royalblue,
+/area/syndicate_mothership/control)
+"LM" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 9
+	},
+/turf/open/floor/iron/large,
+/area/syndicate_mothership/control)
+"LT" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"LU" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/obj/structure/closet/l3closet/scientist,
+/obj/effect/turf_decal/bot{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/side,
+/area/syndicate_mothership/control)
+"LW" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/obj/structure/closet/secure_closet/personal/cabinet,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"LY" = (
+/obj/structure/railing/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/dark/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/neutral/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/red/corner_ramp{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"LZ" = (
+/obj/machinery/light/directional/east,
+/turf/open/floor/iron/dark/textured,
+/area/syndicate_mothership/control)
+"Ma" = (
+/obj/item/cigbutt{
+	pixel_x = 3
+	},
+/turf/open/floor/plating,
+/area/syndicate_mothership/control)
+"Mb" = (
+/obj/effect/turf_decal/trimline/dark_blue/filled/line{
+	dir = 5
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"Mc" = (
+/obj/structure/fluff/hedge,
+/obj/effect/turf_decal/siding/wood/corner,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"Mg" = (
+/obj/structure/reagent_dispensers/water_cooler{
+	pixel_x = 10
+	},
+/turf/open/floor/iron/ridged/steel{
+	color = "#808080"
+	},
+/area/syndicate_mothership/control)
+"Mi" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"Mj" = (
+/obj/structure/table,
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/obj/item/stack/sheet/plasteel{
+	amount = 10;
+	pixel_x = 6;
+	pixel_y = 8
+	},
+/obj/item/stack/sheet/iron/fifty{
+	pixel_x = 6;
+	pixel_y = 6
+	},
+/obj/item/stack/sheet/iron/fifty{
+	pixel_x = 6;
+	pixel_y = 4
+	},
+/obj/item/stack/sheet/rglass{
+	amount = 50;
+	pixel_x = -10;
+	pixel_y = 7
+	},
+/obj/item/stack/sheet/glass/fifty{
+	pixel_x = -10;
+	pixel_y = 5
+	},
+/obj/item/stack/sheet/glass/fifty{
+	pixel_x = -10;
+	pixel_y = 3
+	},
+/turf/open/floor/iron/tech,
+/area/syndicate_mothership/control)
+"Mk" = (
+/obj/effect/turf_decal/siding/wood/corner,
+/obj/structure/bookcase/random,
+/obj/item/candle{
+	pixel_y = 19;
+	pixel_x = 13
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"Ml" = (
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/obj/machinery/door/airlock/grunge,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"Mo" = (
+/obj/effect/decal/cleanable/crayon{
+	icon_state = "Waffle";
+	pixel_x = -12
+	},
+/turf/open/floor/monotile/dark,
+/area/syndicate_mothership/control)
+"Mp" = (
+/obj/effect/turf_decal/tile/yellow/opposingcorners,
+/obj/effect/turf_decal/siding/white{
+	dir = 5
+	},
+/turf/open/floor/iron/textured,
+/area/syndicate_mothership/control)
+"Mr" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/item/beacon{
+	pixel_y = 3
+	},
+/turf/open/floor/iron/grid/steel,
+/area/syndicate_mothership/control)
+"Mv" = (
+/obj/effect/turf_decal/tile/blue/opposingcorners{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral/opposingcorners{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"MC" = (
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 9
+	},
+/turf/open/floor/carpet/royalblue,
+/area/syndicate_mothership/control)
+"MK" = (
+/obj/structure/table/wood,
+/obj/item/pen/fountain/captain{
+	pixel_x = -5;
+	pixel_y = 2
+	},
+/obj/item/toy/figure/curator{
+	layer = 4;
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/turf/open/floor/carpet/red,
+/area/syndicate_mothership/control)
+"ML" = (
+/obj/machinery/atmospherics/components/unary/thermomachine/freezer,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/engine,
+/area/syndicate_mothership/control)
+"MM" = (
+/obj/structure/closet/crate/trashcart{
+	pixel_x = -4;
+	pixel_y = 14
+	},
+/obj/item/trash/can{
+	pixel_y = 14;
+	pixel_x = 4
+	},
+/obj/item/trash/can{
+	pixel_y = 14;
+	pixel_x = 4
+	},
+/obj/item/trash/can{
+	pixel_y = 14;
+	pixel_x = 4
+	},
+/obj/effect/decal/cleanable/greenglow,
+/turf/open/floor/plating,
+/area/syndicate_mothership/control)
+"MQ" = (
+/obj/structure/table/reinforced{
+	color = "#c1b6a5"
+	},
+/obj/effect/turf_decal/trimline/red/corner,
+/turf/open/floor/iron/dark/textured,
+/area/syndicate_mothership/control)
+"MY" = (
+/obj/item/clothing/head/cone{
+	pixel_x = 9;
+	pixel_y = 12
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/syndicate_mothership/control)
+"Na" = (
+/obj/machinery/door/airlock/hatch,
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"Nc" = (
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/syndicate_mothership/control)
+"Nf" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/structure/table/wood/fancy/royalblack,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"Nh" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/neutral/warning{
+	dir = 8
+	},
+/obj/structure/table/glass/plasma,
+/obj/item/book/manual/wiki/sopservice{
+	pixel_x = 6;
+	pixel_y = 3
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"Ni" = (
+/obj/structure/ladder,
+/turf/open/floor/plating,
+/area/syndicate_mothership/control)
+"Nl" = (
+/obj/effect/turf_decal/tile/blue/opposingcorners{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral/opposingcorners{
+	dir = 1
+	},
+/obj/structure/railing{
+	dir = 8;
+	layer = 4.1
+	},
+/obj/structure/chair/office/light{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"Np" = (
+/obj/machinery/computer/operating{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 8
+	},
+/obj/machinery/light/directional/east,
+/turf/open/floor/iron/ridged/steel,
+/area/syndicate_mothership/control)
+"Ns" = (
+/obj/structure/table/wood,
+/obj/item/flashlight/lamp{
+	pixel_y = 6;
+	pixel_x = -3
+	},
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"Nt" = (
+/obj/structure/table/reinforced{
+	color = "#c1b6a5"
+	},
+/obj/item/lipstick/random{
+	pixel_x = 7;
+	pixel_y = 2
+	},
+/obj/item/lipstick/random{
+	pixel_x = 7;
+	pixel_y = -1
+	},
+/obj/item/book/manual/wiki/sopsupply{
+	pixel_x = -4;
+	pixel_y = 2
+	},
+/turf/open/floor/iron/grid/steel{
+	color = "#808080"
+	},
+/area/syndicate_mothership/control)
+"Nu" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/turf/open/floor/iron/stairs{
+	dir = 1
+	},
+/area/syndicate_mothership/control)
+"Nx" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/dark_blue/line{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"Nz" = (
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"NB" = (
+/obj/structure/railing/corner,
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/side{
+	dir = 1
+	},
+/area/syndicate_mothership/control)
+"NM" = (
+/obj/effect/turf_decal/siding/dark,
+/turf/open/floor/iron/checker/other,
+/area/syndicate_mothership/control)
+"NQ" = (
+/obj/machinery/computer/camera_advanced/syndie,
+/obj/effect/turf_decal/siding/dark,
+/obj/effect/turf_decal/delivery/white,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"NR" = (
+/obj/effect/turf_decal/siding/wood/corner,
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"NT" = (
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"NV" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 9
+	},
+/obj/effect/turf_decal/siding/wood/corner,
+/turf/open/floor/carpet/grimy,
+/area/syndicate_mothership/control)
+"NX" = (
+/obj/machinery/washing_machine,
+/obj/effect/turf_decal/box/corners{
+	dir = 1;
+	icon_state = "box_corners"
+	},
+/obj/effect/turf_decal/box/corners{
+	dir = 4;
+	icon_state = "box_corners"
+	},
+/turf/open/floor/iron/dark/side{
+	dir = 5
+	},
+/area/syndicate_mothership/control)
+"NZ" = (
+/obj/machinery/modular_computer/console/preset/curator{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"Ob" = (
+/obj/effect/turf_decal/trimline/neutral,
+/obj/machinery/light/floor,
+/turf/open/floor/iron/dark/smooth_large,
+/area/syndicate_mothership/control)
+"Oc" = (
+/obj/machinery/atmospherics/components/unary/portables_connector/visible{
+	dir = 1;
+	name = "Connector Port (Air Supply)"
+	},
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/structure/railing{
+	dir = 8;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/bot,
+/turf/open/floor/engine,
+/area/syndicate_mothership/control)
+"Oe" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 10;
+	layer = 2
+	},
+/obj/item/toy/plush/nukeplushie{
+	pixel_x = 14;
+	pixel_y = 19
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"Og" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"Oh" = (
+/obj/effect/turf_decal/siding/dark/corner,
+/obj/effect/turf_decal/tile/dark_red/half/contrasted{
+	dir = 1
+	},
+/obj/structure/table/glass/plasma,
+/obj/item/book/manual/wiki/sopengineering{
+	pixel_x = 8;
+	pixel_y = 5
+	},
+/obj/item/paper_bin{
+	pixel_x = -7;
+	pixel_y = 4
+	},
+/obj/item/pen{
+	pixel_x = -7;
+	pixel_y = 5
+	},
+/obj/item/stamp/denied{
+	pixel_x = -8;
+	pixel_y = -7
+	},
+/obj/item/stamp/chief_engineer{
+	pixel_y = -7;
+	pixel_x = 1
+	},
+/obj/machinery/light/directional/west,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"Oi" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/carpet/grimy,
+/area/syndicate_mothership/control)
+"Ok" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/structure/table/reinforced{
+	color = "#c1b6a5"
+	},
+/obj/item/tape/random{
+	pixel_x = -6;
+	pixel_y = 8
+	},
+/obj/item/tape/random{
+	pixel_x = -6;
+	pixel_y = 4
+	},
+/obj/item/tape/random{
+	pixel_x = -6
+	},
+/obj/item/taperecorder{
+	pixel_x = 10;
+	pixel_y = 5
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"Ol" = (
+/obj/machinery/vending/clothing,
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/iron/grid/steel,
+/area/syndicate_mothership/control)
+"Oo" = (
+/obj/structure/railing{
+	dir = 2;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 10
+	},
+/obj/effect/turf_decal/siding/dark,
+/obj/machinery/keycard_auth{
+	pixel_x = -22
+	},
+/turf/open/floor/iron/dark/smooth_corner{
+	dir = 4
+	},
+/area/syndicate_mothership/control)
+"Oq" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/structure/fluff/hedge,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/structure/flora/ausbushes/ppflowers{
+	pixel_y = 5
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"Ov" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/loading_area/red{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/syndicate_mothership/control)
+"Ow" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"OB" = (
+/obj/structure/table,
+/obj/item/paper/pamphlet/ruin/spacehotel{
+	pixel_x = 7;
+	pixel_y = 5
+	},
+/obj/item/paper/pamphlet/ruin/spacehotel{
+	pixel_y = 3
+	},
+/obj/item/paper/pamphlet/ruin/spacehotel{
+	pixel_x = 5;
+	pixel_y = -2
+	},
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"OG" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/structure/table,
+/obj/machinery/firealarm/directional/east,
+/obj/machinery/recharger{
+	pixel_x = 7;
+	pixel_y = 8
+	},
+/obj/item/storage/fancy/donut_box{
+	pixel_x = 1;
+	pixel_y = -2
+	},
+/obj/item/toy/figure/syndie{
+	pixel_x = 9;
+	pixel_y = -7
+	},
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"OH" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 9
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"OJ" = (
+/obj/effect/turf_decal/delivery/white,
+/obj/structure/safe,
+/turf/open/floor/circuit/red/anim,
+/area/syndicate_mothership/control)
+"OO" = (
+/obj/structure/table/wood,
+/obj/item/flashlight/lamp{
+	pixel_y = 14;
+	pixel_x = -1
+	},
+/obj/item/book/manual/random{
+	pixel_x = 7
+	},
+/turf/open/floor/carpet/red,
+/area/syndicate_mothership/control)
+"OQ" = (
+/obj/machinery/suit_storage_unit/standard_unit,
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/tile/techfloorgrid/diagonal,
+/turf/open/floor/iron/tech,
+/area/syndicate_mothership/control)
+"OY" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/obj/structure/chair{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"OZ" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 8
+	},
+/turf/open/floor/iron/checker/other,
+/area/syndicate_mothership/control)
+"Pf" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 6
+	},
+/obj/structure/table/reinforced,
+/obj/item/clothing/gloves/color/latex{
+	pixel_x = 3;
+	pixel_y = 8
+	},
+/obj/item/clothing/gloves/color/latex{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/clothing/mask/surgical{
+	pixel_x = -2;
+	pixel_y = 1
+	},
+/obj/item/clothing/mask/surgical{
+	pixel_x = -2;
+	pixel_y = -3
+	},
+/turf/open/floor/iron/grid/steel,
+/area/syndicate_mothership/control)
+"Pi" = (
+/obj/machinery/door/airlock/medical,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"Pk" = (
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/syndicate_mothership/control)
+"Pl" = (
+/obj/structure/chair/fancy/sofa/corp/left{
+	dir = 8
+	},
+/turf/open/floor/carpet/red,
+/area/syndicate_mothership/control)
+"Pr" = (
+/obj/effect/mapping_helpers/tile_breaker,
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood/corner,
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"Ps" = (
+/obj/effect/turf_decal/weather/dirt{
+	dir = 5
+	},
+/obj/item/clothing/head/cone{
+	pixel_x = 9;
+	pixel_y = 11
+	},
+/turf/open/floor/plating,
+/area/syndicate_mothership/control)
+"Px" = (
+/obj/effect/turf_decal/trimline/green,
+/turf/open/floor/iron/ridged/steel{
+	color = "#808080"
+	},
+/area/syndicate_mothership/control)
+"Py" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/structure/table/wood,
+/obj/item/camera{
+	pixel_y = 13;
+	pixel_x = -3
+	},
+/obj/item/storage/photo_album{
+	pixel_x = 2;
+	pixel_y = -1
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"Pz" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral/corner_ramp,
+/obj/machinery/suit_storage_unit/standard_unit,
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/tile/techfloorgrid/diagonal,
+/turf/open/floor/iron/tech,
+/area/syndicate_mothership/control)
+"PA" = (
+/obj/effect/turf_decal/tile/black/fourcorners,
+/obj/effect/spawner/lootdrop/maintenance,
+/turf/open/floor/iron/techmaint,
+/area/syndicate_mothership/control)
+"PB" = (
+/obj/structure/table/wood,
+/obj/item/folder,
+/obj/item/laser_pointer{
+	pixel_x = 3
+	},
+/obj/item/paicard{
+	pixel_x = 4
+	},
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"PE" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/structure/holosign/barrier/engineering{
+	pixel_y = 20;
+	layer = 3.0
+	},
+/obj/effect/mapping_helpers/tile_breaker,
+/turf/open/floor/carpet/grimy,
+/area/syndicate_mothership/control)
+"PO" = (
+/obj/effect/turf_decal/box,
+/obj/machinery/holopad,
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"PP" = (
+/obj/structure/railing{
+	dir = 2;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 6
+	},
+/obj/effect/turf_decal/siding/dark,
+/turf/open/floor/iron/dark/smooth_corner{
+	dir = 1
+	},
+/area/syndicate_mothership/control)
+"PW" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/syndicate_mothership/control)
+"PY" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/carpet/grimy,
+/area/syndicate_mothership/control)
+"Qb" = (
+/obj/machinery/hydroponics/constructable,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/obj/structure/railing{
+	dir = 4;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/turf/open/floor/iron/techmaint,
+/area/syndicate_mothership/control)
+"Qf" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"Qg" = (
+/obj/effect/turf_decal/box/red/corners,
+/obj/effect/turf_decal/box/red/corners{
+	dir = 4
+	},
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/iron/freezer,
+/area/syndicate_mothership/control)
+"Qh" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/item/bedsheet,
+/obj/structure/bed,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"Qi" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/structure/table/wood,
+/obj/item/assembly/timer{
+	pixel_y = 11;
+	pixel_x = -3
+	},
+/obj/item/wirecutters{
+	pixel_x = -3
+	},
+/obj/item/stack/cable_coil/white{
+	pixel_x = 3;
+	pixel_y = 7
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"Qo" = (
+/obj/effect/turf_decal/weather/dirt/corner{
+	dir = 8
+	},
+/obj/structure/sign/poster/contraband/random{
+	pixel_y = -32
+	},
+/obj/structure/table_frame,
+/turf/open/floor/plating,
+/area/syndicate_mothership/control)
+"Qp" = (
+/obj/structure/sign/poster/contraband/random{
+	pixel_y = -32
+	},
+/obj/structure/grille,
+/turf/open/floor/plating,
+/area/syndicate_mothership/control)
+"Qs" = (
+/obj/structure/rack,
+/obj/item/clothing/shoes/magboots{
+	pixel_x = -4;
+	pixel_y = 3
+	},
+/obj/item/clothing/shoes/magboots,
+/obj/item/clothing/shoes/magboots{
+	pixel_x = -2;
+	pixel_y = -2
+	},
+/obj/item/clothing/shoes/magboots{
+	pixel_x = 4;
+	pixel_y = -3
+	},
+/turf/open/floor/iron/tech,
+/area/syndicate_mothership/control)
+"Qu" = (
+/obj/effect/turf_decal/siding/wideplating/dark/corner{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"Qv" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/effect/mapping_helpers/tile_breaker,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"Qw" = (
+/obj/effect/turf_decal/trimline/neutral/filled/line,
+/obj/structure/table/wood,
+/obj/structure/sign/poster/contraband/pwr_game{
+	pixel_y = 32
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"QA" = (
+/obj/structure/chair/fancy/comfy{
+	color = "#666666";
+	dir = 4
+	},
+/turf/open/floor/carpet/green,
+/area/syndicate_mothership/control)
+"QD" = (
+/obj/structure/railing/corner,
+/obj/effect/turf_decal/tile/black/fourcorners,
+/turf/open/floor/iron/techmaint,
+/area/syndicate_mothership/control)
+"QF" = (
+/obj/structure/stairs,
+/turf/open/floor/monotile/dark,
+/area/syndicate_mothership/control)
+"QG" = (
+/obj/item/kirbyplants{
+	icon_state = "plant-10"
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 9
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"QH" = (
+/obj/effect/turf_decal/trimline/blue/arrow_ccw{
+	dir = 9
+	},
+/obj/effect/turf_decal/trimline/blue/corner,
+/obj/effect/turf_decal/siding/dark{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/fluff/paper/stack{
+	pixel_y = -24;
+	pixel_x = 9
+	},
+/turf/open/floor/iron/dark/textured,
+/area/syndicate_mothership/control)
+"QM" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/machinery/door/airlock,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"QO" = (
+/obj/structure/curtain,
+/obj/effect/turf_decal/siding/dark{
+	dir = 8
+	},
+/turf/open/floor/iron/freezer,
+/area/syndicate_mothership/control)
+"QQ" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/dark_blue/line{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"QS" = (
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/dark_blue/warning{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/dark/textured,
+/area/syndicate_mothership/control)
+"QT" = (
+/obj/machinery/washing_machine,
+/obj/effect/turf_decal/bot_white/right,
+/turf/open/floor/iron/dark/side{
+	dir = 5
+	},
+/area/syndicate_mothership/control)
+"QY" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/green/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/blue/corner{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"Rd" = (
+/obj/structure/flora/grass/jungle,
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/machinery/status_display/evac{
+	pixel_y = -32
+	},
+/turf/open/floor/grass/no_border,
+/area/syndicate_mothership/control)
+"Rj" = (
+/obj/structure/railing{
+	dir = 2;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/trimline/neutral/line,
+/obj/effect/turf_decal/siding/dark,
+/obj/effect/turf_decal/trimline/neutral/corner{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/smooth_edge,
+/area/syndicate_mothership/control)
+"Rr" = (
+/obj/structure/table/reinforced{
+	color = "#c1b6a5"
+	},
+/obj/effect/turf_decal/trimline/red/corner{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/textured,
+/area/syndicate_mothership/control)
+"Rz" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/structure/table/wood,
+/obj/item/storage/briefcase{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/storage/secure/briefcase,
+/obj/effect/turf_decal/siding/wood/corner,
+/obj/machinery/light/directional/south,
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"RB" = (
+/obj/structure/chair/wood{
+	dir = 8
+	},
+/turf/open/floor/carpet/red,
+/area/syndicate_mothership/control)
+"RF" = (
+/obj/structure/flora/grass/jungle,
+/obj/structure/flora/ausbushes/grassybush,
+/obj/structure/flora/ausbushes/genericbush,
+/obj/structure/flora/ausbushes/ppflowers,
+/obj/structure/flora/ausbushes/sunnybush,
+/obj/structure/window/reinforced/survival_pod{
+	dir = 4
+	},
+/obj/structure/window/reinforced/survival_pod{
+	dir = 8
+	},
+/obj/structure/window/reinforced/survival_pod{
+	dir = 2
+	},
+/turf/open/floor/grass,
+/area/syndicate_mothership/control)
+"RG" = (
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 5
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 5
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/syndicate_mothership/control)
+"RK" = (
+/obj/effect/turf_decal/tile/yellow/opposingcorners,
+/obj/effect/turf_decal/siding/white{
+	dir = 6
+	},
+/turf/open/floor/iron/textured,
+/area/syndicate_mothership/control)
+"RQ" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/obj/structure/chair/stool/directional/north,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"RR" = (
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/neutral/filled/warning,
+/obj/structure/chair/fancy/shuttle{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/yellow/warning{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/smooth_edge{
+	dir = 1
+	},
+/area/syndicate_mothership/control)
+"RT" = (
+/obj/machinery/computer/cryopod{
+	pixel_x = 32;
+	pixel_y = 30
+	},
+/obj/machinery/cryopod{
+	desc = "Suited for Cyborgs and Humanoids, the pod is a safe place for personnel affected by the Space Sleep Disorder to get some rest. If you think that this the easy way out, Nanotransen will address your situation in a later date...";
+	name = "Jail cryogenic freezer"
+	},
+/turf/open/floor/iron/checker/other,
+/area/syndicate_mothership/control)
+"RX" = (
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 6
+	},
+/turf/open/floor/iron/dark/textured,
+/area/syndicate_mothership/control)
+"RZ" = (
+/obj/machinery/firealarm/directional/east,
+/obj/structure/table,
+/obj/effect/turf_decal/siding/dark,
+/turf/open/floor/iron/dark/side{
+	dir = 6
+	},
+/area/syndicate_mothership/control)
+"Sf" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/sign/poster/contraband/bountyhunters{
+	pixel_y = 32
+	},
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/syndicate_mothership/control)
+"Sh" = (
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 9
+	},
+/turf/open/floor/iron/dark/smooth_corner,
+/area/syndicate_mothership/control)
+"Sr" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"Sx" = (
+/obj/structure/rack,
+/obj/machinery/light/directional/south,
+/obj/effect/turf_decal/delivery/white,
+/turf/open/floor/iron/dark/smooth_large,
+/area/syndicate_mothership/control)
+"Sz" = (
+/obj/structure/dresser,
+/turf/open/floor/carpet/blue,
+/area/syndicate_mothership/control)
+"SE" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/dark_blue/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/obj/machinery/door/airlock/public/glass,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"SF" = (
+/obj/structure/chair/fancy/bench/pew/left{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"SG" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/green/warning{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/blue/warning{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"SI" = (
+/obj/structure/railing{
+	dir = 6;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 6
+	},
+/turf/open/floor/iron/large,
+/area/syndicate_mothership/control)
+"SL" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/grid/steel,
+/area/syndicate_mothership/control)
+"SR" = (
+/obj/effect/turf_decal/stripes/closeup,
+/obj/machinery/door/airlock/security/glass,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"Ta" = (
+/obj/structure/fluff/hedge,
+/turf/open/floor/iron/dark/textured,
+/area/syndicate_mothership/control)
+"Td" = (
+/obj/machinery/washing_machine,
+/obj/effect/turf_decal/box/corners{
+	dir = 8;
+	icon_state = "box_corners"
+	},
+/obj/effect/turf_decal/box/corners,
+/obj/machinery/status_display/evac/directional/east,
+/turf/open/floor/iron/dark/side{
+	dir = 4
+	},
+/area/syndicate_mothership/control)
+"Te" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 5
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/syndicate_mothership/control)
+"Tk" = (
+/obj/effect/turf_decal/siding/dark,
+/obj/effect/turf_decal/trimline/blue/warning,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/dark/textured,
+/area/syndicate_mothership/control)
+"Tm" = (
+/obj/effect/mapping_helpers/tile_breaker,
+/obj/machinery/light/directional/south,
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"Tq" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"Tt" = (
+/obj/structure/railing{
+	dir = 2;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/siding/dark,
+/obj/effect/turf_decal/siding/dark{
+	dir = 5
+	},
+/turf/open/floor/iron/large,
+/area/syndicate_mothership/control)
+"Tu" = (
+/obj/structure/rack,
+/obj/effect/turf_decal/delivery,
+/obj/item/clothing/shoes/sneakers/orange,
+/obj/item/clothing/shoes/sneakers/orange,
+/obj/item/clothing/shoes/sneakers/orange,
+/obj/item/clothing/shoes/sneakers/orange,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"Tv" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/dark_blue/line{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"TC" = (
+/obj/effect/turf_decal/trimline/neutral/filled/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/dark/corner{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"TD" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/closet/crate/rcd,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/machinery/door/window/northleft{
+	layer = 3.1;
+	name = "RCD Storage";
+	req_access_txt = "19"
+	},
+/turf/open/floor/iron/tech,
+/area/syndicate_mothership/control)
+"TE" = (
+/obj/effect/turf_decal/siding/dark/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/dark_red/anticorner/contrasted,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"TG" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/structure/closet/crate/bin,
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"TM" = (
+/obj/effect/turf_decal/tile/blue/opposingcorners{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral/opposingcorners{
+	dir = 1
+	},
+/obj/structure/table/reinforced,
+/obj/item/holosign_creator/medical{
+	pixel_x = -4;
+	pixel_y = 10
+	},
+/obj/item/clothing/glasses/hud/health{
+	pixel_x = 1;
+	pixel_y = 6
+	},
+/obj/item/clothing/glasses/hud/health{
+	pixel_x = 1;
+	pixel_y = 3
+	},
+/obj/item/flashlight/pen{
+	pixel_x = -7
+	},
+/obj/structure/railing,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"TN" = (
+/obj/structure/sign/poster/contraband/random{
+	pixel_y = -32
+	},
+/turf/open/floor/plating,
+/area/syndicate_mothership/control)
+"Uc" = (
+/obj/effect/turf_decal/tile/neutral/diagonal_centre,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"Uf" = (
+/obj/structure/railing{
+	dir = 2;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 6
+	},
+/obj/effect/turf_decal/siding/dark,
+/obj/machinery/firealarm/directional/east,
+/turf/open/floor/iron/dark/smooth_corner{
+	dir = 1
+	},
+/area/syndicate_mothership/control)
+"Uh" = (
+/obj/effect/turf_decal/weather/dirt{
+	dir = 5
+	},
+/obj/item/cigbutt{
+	pixel_x = 3
+	},
+/turf/open/floor/plating,
+/area/syndicate_mothership/control)
+"Ul" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/neutral/warning{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/dark_red/half/contrasted{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"Um" = (
+/obj/structure/chair/wood{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/cobweb,
+/turf/open/floor/carpet/red,
+/area/syndicate_mothership/control)
+"Ur" = (
+/obj/effect/turf_decal/siding/dark/corner,
+/obj/effect/turf_decal/siding/dark/corner{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"UD" = (
+/obj/effect/turf_decal/trimline/blue/arrow_cw{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/blue/arrow_ccw{
+	dir = 8
+	},
+/obj/effect/turf_decal/arrows/white,
+/obj/effect/turf_decal/siding/dark{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/dark/textured,
+/area/syndicate_mothership/control)
+"UE" = (
+/obj/effect/turf_decal/siding/wood/end{
+	dir = 4
+	},
+/turf/open/floor/carpet/grimy,
+/area/syndicate_mothership/control)
+"UP" = (
+/obj/machinery/light/directional/south,
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"UR" = (
+/obj/effect/turf_decal/siding/dark/corner{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"UY" = (
+/obj/effect/turf_decal/stripes/closeup{
+	dir = 1
+	},
+/obj/machinery/door/airlock/public/glass,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"Vi" = (
+/obj/effect/turf_decal/bot_white,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"Vk" = (
+/obj/structure/table/reinforced{
+	color = "#c1b6a5"
+	},
+/obj/item/book/manual/wiki/sopmedical{
+	pixel_x = -4;
+	pixel_y = 4
+	},
+/turf/open/floor/iron/grid/steel{
+	color = "#808080"
+	},
+/area/syndicate_mothership/control)
+"Vm" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/dark_blue/line{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"Vq" = (
+/obj/item/clothing/head/cone{
+	pixel_x = 9;
+	pixel_y = 11
+	},
+/turf/open/floor/plating{
+	icon_state = "foam_plating"
+	},
+/area/syndicate_mothership/control)
+"Vv" = (
+/obj/structure/chair/fancy/comfy{
+	color = "#666666";
+	dir = 8
+	},
+/turf/open/floor/carpet/green,
+/area/syndicate_mothership/control)
+"Vx" = (
+/obj/effect/turf_decal/siding/dark,
+/obj/effect/turf_decal/trimline/dark_blue/warning,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"Vy" = (
+/turf/open/floor/bamboo,
+/area/syndicate_mothership/control)
+"VI" = (
+/obj/effect/turf_decal/tile/blue/opposingcorners{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral/opposingcorners{
+	dir = 1
+	},
+/obj/structure/chair/office/light{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"VM" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 5
+	},
+/turf/open/floor/iron/large,
+/area/syndicate_mothership/control)
+"VN" = (
+/obj/effect/turf_decal/siding/dark/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/dark/corner{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"VQ" = (
+/obj/machinery/processor,
+/obj/structure/railing{
+	dir = 2;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/iron/techmaint,
+/area/syndicate_mothership/control)
+"VT" = (
+/turf/open/floor/iron/dark/side{
+	dir = 8
+	},
+/area/syndicate_mothership/control)
+"VW" = (
+/obj/structure/chair{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/red/half/contrasted{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"Wl" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/structure/table/wood,
+/obj/item/storage/crayons{
+	pixel_x = 3;
+	pixel_y = 7
+	},
+/obj/item/storage/crayons{
+	pixel_y = 4
+	},
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"Wr" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"Ws" = (
+/obj/structure/chair/fancy/bench/pew/left{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"Wu" = (
+/obj/structure/table/wood,
+/obj/effect/decal/cleanable/robot_debris,
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"Ww" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
+/obj/machinery/light/directional/south,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"Wy" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/iron/dark/side{
+	dir = 1
+	},
+/area/syndicate_mothership/control)
+"Wz" = (
+/obj/machinery/shower{
+	dir = 8;
+	layer = 4;
+	name = "emergency shower";
+	pixel_x = 1
+	},
+/obj/effect/turf_decal/delivery,
+/obj/item/soap/nanotrasen,
+/obj/effect/turf_decal/siding/white{
+	dir = 10
+	},
+/turf/open/floor/noslip/darkblue,
+/area/syndicate_mothership/control)
+"WA" = (
+/obj/structure/closet/emcloset/anchored,
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/obj/machinery/light/directional/south,
+/turf/open/floor/iron/dark/side{
+	dir = 1
+	},
+/area/syndicate_mothership/control)
+"WI" = (
+/obj/effect/turf_decal/trimline/blue/arrow_cw,
+/obj/effect/turf_decal/trimline/blue/arrow_ccw{
+	dir = 1
+	},
+/obj/machinery/light/directional/north,
+/obj/structure/fluff/paper/stack{
+	dir = 1;
+	pixel_y = -2;
+	pixel_x = -17
+	},
+/turf/open/floor/iron/dark/textured,
+/area/syndicate_mothership/control)
+"WR" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"WV" = (
+/turf/open/floor/mineral/plastitanium/red,
+/area/syndicate_mothership/control)
+"WX" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/machinery/shower{
+	dir = 8;
+	name = "emergency shower";
+	pixel_y = -8
+	},
+/obj/effect/turf_decal/tile/dark/fourcorners/contrasted,
+/turf/open/floor/iron/freezer,
+/area/syndicate_mothership/control)
+"Xa" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/table/glass/plasma,
+/obj/item/newspaper{
+	pixel_x = 6;
+	pixel_y = 9
+	},
+/obj/item/newspaper{
+	pixel_x = 6;
+	pixel_y = 5
+	},
+/obj/item/newspaper{
+	pixel_x = 6;
+	pixel_y = 1
+	},
+/obj/item/storage/pill_bottle/happiness{
+	pixel_x = -6;
+	pixel_y = 5
+	},
+/obj/item/trash/syndi_cakes{
+	pixel_y = 6
+	},
+/obj/machinery/firealarm/directional/south,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/syndicate_mothership/control)
+"Xf" = (
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 4
+	},
+/obj/item/candle/infinite{
+	pixel_x = 12;
+	pixel_y = 18
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"Xh" = (
+/obj/machinery/door/airlock/public/glass,
+/obj/effect/turf_decal/stripes/closeup,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"Xl" = (
+/obj/item/stack/sheet/xenochitin{
+	pixel_x = 7;
+	pixel_y = -6
+	},
+/obj/effect/decal/remains/xeno,
+/turf/open/floor/iron/ridged/steel{
+	color = "#808080"
+	},
+/area/syndicate_mothership/control)
+"Xn" = (
+/obj/effect/turf_decal/weather/dirt/corner{
+	dir = 1
+	},
+/obj/structure/table,
+/obj/item/trash/energybar,
+/turf/open/floor/plating,
+/area/syndicate_mothership/control)
+"Xr" = (
+/obj/structure/chair{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 5
+	},
+/obj/structure/noticeboard{
+	pixel_y = 28
+	},
+/obj/machinery/light/directional/north,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"Xv" = (
+/obj/structure/railing{
+	dir = 2;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/siding/dark,
+/obj/effect/turf_decal/siding/dark/corner{
+	dir = 1
+	},
+/turf/open/floor/iron/large,
+/area/syndicate_mothership/control)
+"Xy" = (
+/turf/open/floor/monotile/dark,
+/area/syndicate_mothership/control)
+"XB" = (
+/obj/structure/stairs{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/syndicate_mothership/control)
+"XE" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/syndicate_mothership/control)
+"XG" = (
+/obj/machinery/cryopod{
+	dir = 4;
+	icon_state = "sleeper_s-open"
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/tech/grid,
+/area/syndicate_mothership/control)
+"XH" = (
+/obj/effect/turf_decal/stripes/red/full,
+/obj/machinery/nuclearbomb/syndicate{
+	anchored = 1
+	},
+/turf/open/floor/iron/tech/grid,
+/area/syndicate_mothership/control)
+"XT" = (
+/obj/structure/chair/fancy/sofa/corp/right{
+	dir = 8
+	},
+/turf/open/floor/carpet/red,
+/area/syndicate_mothership/control)
+"XX" = (
+/obj/structure/fluff/paper/stack{
+	dir = 10;
+	pixel_x = 3;
+	pixel_y = 14
+	},
+/turf/open/floor/carpet/green,
+/area/syndicate_mothership/control)
+"Yg" = (
+/obj/structure/stairs,
+/obj/machinery/status_display/evac{
+	pixel_y = -32
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"Yk" = (
+/obj/structure/chair/wood{
+	dir = 4
+	},
+/obj/structure/fluff/paper/stack{
+	dir = 8;
+	pixel_x = 1;
+	pixel_y = 4
+	},
+/turf/open/floor/carpet/red,
+/area/syndicate_mothership/control)
+"Yn" = (
+/obj/machinery/door/airlock/maintenance_hatch,
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/syndicate_mothership/control)
+"Yr" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 9
+	},
+/obj/effect/turf_decal/trimline/green/warning{
+	dir = 9
+	},
+/obj/effect/turf_decal/trimline/blue/warning{
+	dir = 9
+	},
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"Yu" = (
+/obj/structure/fluff/hedge,
+/turf/open/floor/monotile/dark,
+/area/syndicate_mothership/control)
+"YC" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"YE" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"YF" = (
+/obj/effect/turf_decal/trimline/red/filled/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/blue/warning{
+	dir = 4
+	},
+/obj/structure/railing{
+	dir = 4;
+	layer = 4.1
+	},
+/obj/item/kirbyplants/random,
+/turf/open/floor/iron/dark/smooth_edge{
+	dir = 8
+	},
+/area/syndicate_mothership/control)
+"YG" = (
+/obj/item/trash/tray,
+/obj/item/stack/cable_coil/cut/red,
+/obj/item/computer_hardware/hard_drive/small,
+/obj/item/computer_hardware/battery{
+	pixel_y = 6;
+	pixel_x = -4
+	},
+/obj/item/computer_hardware/network_card{
+	pixel_x = 4;
+	pixel_y = 2
+	},
+/obj/structure/table/wood,
+/turf/open/floor/plating,
+/area/syndicate_mothership/control)
+"YH" = (
+/obj/item/cigbutt{
+	pixel_x = -3;
+	pixel_y = 9
+	},
+/obj/item/cigbutt{
+	pixel_x = 12;
+	pixel_y = 10
+	},
+/turf/open/floor/plating,
+/area/syndicate_mothership/control)
+"YK" = (
+/obj/structure/railing{
+	dir = 2;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/siding/dark,
+/obj/effect/turf_decal/siding/dark{
+	dir = 9
+	},
+/turf/open/floor/iron/large,
+/area/syndicate_mothership/control)
+"YL" = (
+/obj/machinery/suit_storage_unit/standard_unit,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/techfloorgrid/diagonal,
+/turf/open/floor/iron/tech,
+/area/syndicate_mothership/control)
+"YN" = (
+/obj/effect/decal/fakelattice,
+/obj/structure/reagent_dispensers/watertank,
+/turf/open/floor/plating,
+/area/syndicate_mothership/control)
+"YQ" = (
+/obj/structure/sign/poster/official/cohiba_robusto_ad{
+	pixel_y = -32
+	},
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"YT" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/structure/table/wood,
+/obj/item/paper_bin{
+	pixel_x = -4;
+	pixel_y = 4
+	},
+/obj/item/pen{
+	pixel_x = -6;
+	pixel_y = 3
+	},
+/obj/item/cigbutt/cigarbutt{
+	pixel_x = 9
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"YY" = (
+/obj/structure/stairs{
+	dir = 1
+	},
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"Za" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/machinery/computer/slot_machine,
+/obj/machinery/light/directional/east,
+/turf/open/floor/iron/grid/steel,
+/area/syndicate_mothership/control)
+"Zo" = (
+/obj/effect/turf_decal/weather/dirt/corner{
+	dir = 4
+	},
+/obj/structure/chair/office{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/syndicate_mothership/control)
+"Zp" = (
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 1
+	},
+/obj/machinery/light/floor,
+/obj/effect/turf_decal/trimline/neutral,
+/turf/open/floor/iron/dark,
+/area/syndicate_mothership/control)
+"Zr" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/structure/table,
+/turf/open/floor/iron/dark/textured_large,
+/area/syndicate_mothership/control)
+"Zw" = (
+/obj/structure/table,
+/obj/item/paper,
+/obj/item/toy/cards/deck/unum{
+	pixel_x = 14;
+	pixel_y = 7
+	},
+/obj/item/toy/cards/deck{
+	pixel_x = 18;
+	pixel_y = 4
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"Zz" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/obj/structure/dresser,
+/obj/item/toy/plush/renault{
+	pixel_y = 14;
+	pixel_x = 4
+	},
+/obj/item/candle{
+	pixel_y = 13;
+	pixel_x = -3
+	},
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"ZA" = (
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 6
+	},
+/turf/open/floor/iron/dark/smooth_corner{
+	dir = 1
+	},
+/area/syndicate_mothership/control)
+"ZD" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+"ZK" = (
+/obj/structure/chair/fancy/comfy{
+	buildstackamount = 0;
+	color = "#742925";
+	pixel_y = 3
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/structure/sign/poster/official/high_class_martini{
+	pixel_x = 32
+	},
+/obj/machinery/light/directional/east,
+/turf/open/floor/wood,
+/area/syndicate_mothership/control)
+"ZS" = (
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/neutral/corner,
+/obj/effect/turf_decal/trimline/dark_red/warning{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/smooth_edge{
+	dir = 1
+	},
+/area/syndicate_mothership/control)
+"ZZ" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/big,
+/area/syndicate_mothership/control)
+
+(1,1,1) = {"
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Pk
+Pk
+Pk
+Pk
+Pk
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+"}
+(2,1,1) = {"
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Pk
+Pk
+my
+Pk
+Pk
+Pk
+my
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+jK
+jK
+jK
+Pk
+Pk
+kS
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+jK
+jK
+jK
+jK
+jK
+jK
+jK
+yG
+jK
+jK
+jK
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+"}
+(3,1,1) = {"
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Pk
+my
+my
+Pk
+pS
+iF
+eC
+Pk
+OH
+KE
+pJ
+Pk
+jK
+jK
+jK
+Pk
+jK
+jK
+jK
+jK
+jK
+Pk
+jK
+jK
+jK
+jK
+jK
+wU
+jK
+jK
+jK
+wU
+jK
+jK
+jK
+jK
+jK
+yG
+jK
+jK
+jK
+jK
+jK
+jK
+jK
+Pk
+Pk
+Pk
+Pk
+Pk
+jK
+jK
+jK
+yG
+jK
+jK
+jK
+jK
+jK
+jK
+Pk
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+"}
+(4,1,1) = {"
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Pk
+Pk
+Pk
+Bn
+oU
+Pk
+lP
+WR
+rl
+Pk
+hE
+Qv
+Ch
+Pk
+jK
+jK
+jK
+yG
+jK
+jK
+jK
+jK
+jK
+yG
+jK
+jK
+jK
+jK
+jK
+Pk
+jK
+jK
+jK
+Pk
+jK
+jK
+jK
+jK
+jK
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Dh
+Dh
+Dh
+Pk
+jK
+jK
+jK
+Pk
+jK
+jK
+jK
+jK
+jK
+jK
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+"}
+(5,1,1) = {"
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Pk
+KB
+zz
+bA
+ot
+Pk
+Pk
+Ml
+Pk
+Pk
+Pk
+Ml
+Pk
+Pk
+jK
+jK
+jK
+Pk
+Pk
+jK
+Ni
+jK
+jK
+Pk
+jK
+jK
+jK
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+yG
+Pk
+Pk
+yG
+Pk
+Pk
+pU
+Nz
+Bo
+Pk
+hA
+Yr
+wT
+Pk
+Dh
+Dh
+Dh
+Pk
+Pk
+Pk
+Pk
+Pk
+jK
+jK
+jK
+jK
+jK
+jK
+yG
+jK
+jK
+jK
+yG
+jK
+jK
+"}
+(6,1,1) = {"
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+my
+my
+Oq
+ji
+Oi
+Cp
+aR
+my
+oE
+BA
+VT
+kA
+kA
+Ir
+Pk
+jK
+jK
+jK
+jK
+Pk
+Pk
+Pk
+yG
+Pk
+Pk
+jK
+jK
+jK
+Pk
+ub
+ub
+ub
+ub
+ub
+ub
+ub
+Pk
+oP
+Mv
+DH
+TM
+sy
+Nz
+oJ
+Pk
+nT
+SG
+uI
+Pk
+cD
+xV
+ui
+Pk
+HY
+us
+iM
+Pk
+jK
+jK
+jK
+jK
+jK
+jK
+yG
+jK
+jK
+jK
+yG
+jK
+jK
+"}
+(7,1,1) = {"
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+my
+JL
+uK
+Oi
+ws
+do
+FL
+hs
+dX
+vR
+aU
+gT
+vR
+lX
+yG
+jK
+jK
+jK
+jK
+Pk
+aH
+kX
+yR
+TD
+Pk
+Pk
+yG
+Pk
+Pk
+dw
+HJ
+HJ
+HJ
+HJ
+HJ
+ub
+Pk
+jz
+MC
+pM
+rE
+Nl
+Mv
+iT
+my
+ny
+SG
+Ls
+aT
+QY
+Mi
+Mi
+ih
+De
+vo
+jn
+Pk
+Pk
+yG
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+"}
+(8,1,1) = {"
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Pk
+xK
+tS
+lJ
+yL
+Ow
+IM
+my
+NX
+Td
+wp
+RZ
+KM
+cb
+Pk
+gx
+gx
+jK
+jK
+Pk
+Mj
+FV
+uH
+La
+Pk
+jK
+jK
+jK
+Pk
+ub
+HJ
+yV
+Zr
+In
+HJ
+ub
+Pk
+wi
+rn
+LJ
+Ky
+VI
+Mv
+Mv
+Bk
+Yr
+xX
+Nz
+Nz
+Nz
+Nz
+Nz
+NB
+Fl
+hr
+yx
+Pk
+jK
+jK
+jK
+Pk
+Ak
+XG
+Ak
+my
+pn
+pn
+pn
+Pk
+Pk
+"}
+(9,1,1) = {"
+Ki
+Ki
+Ki
+my
+my
+Pk
+Pk
+Pk
+my
+my
+Pk
+Xr
+OY
+tO
+Li
+zg
+az
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+jK
+Pk
+qq
+qW
+er
+Dk
+Pk
+jK
+jK
+jK
+Pk
+ub
+HJ
+yZ
+Ov
+cU
+HJ
+ub
+Pk
+GZ
+GZ
+Mv
+Mv
+ph
+Mv
+Ly
+Pk
+DU
+cA
+cA
+cA
+tH
+Nz
+Nz
+pT
+Mp
+RK
+BG
+Pk
+jK
+jK
+jK
+Pk
+Sf
+PW
+Nc
+JU
+cQ
+vl
+cQ
+Pk
+Pk
+"}
+(10,1,1) = {"
+Ki
+Ki
+my
+my
+YK
+LF
+Gx
+IL
+ls
+Vk
+Pk
+Pk
+Pk
+Pk
+Bc
+Pk
+Pk
+Pk
+pp
+uG
+pL
+TG
+ux
+oq
+Pk
+ke
+KZ
+Pk
+Pk
+Pk
+Pz
+bh
+bp
+eZ
+Pk
+Pk
+Yn
+Pk
+Pk
+ub
+HJ
+qZ
+XH
+np
+HJ
+ub
+Pk
+Pk
+Pk
+Mv
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pi
+Pk
+Pk
+uN
+eT
+YF
+Pk
+WX
+cH
+iu
+Pk
+jK
+jK
+jK
+Pk
+Ex
+lw
+lw
+Iv
+cQ
+PY
+YC
+jW
+Pk
+"}
+(11,1,1) = {"
+Ki
+Ki
+my
+LM
+Xv
+Lf
+sH
+xa
+BJ
+rT
+Oo
+Oh
+eL
+Ul
+jG
+iO
+Pk
+bW
+uC
+lf
+ck
+ZD
+YC
+Pr
+Na
+Sr
+md
+Sz
+Pk
+of
+qN
+kf
+xm
+lE
+Pk
+Dh
+Dh
+Dh
+Pk
+ub
+HJ
+Te
+pr
+yk
+HJ
+dw
+Pk
+dh
+oW
+cQ
+Ns
+Pk
+sn
+zb
+Br
+Pf
+Nz
+bH
+Pk
+dE
+dE
+fx
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+yG
+Pk
+Pk
+Nc
+Nc
+Nc
+DW
+Kb
+PY
+YQ
+Pk
+Pk
+"}
+(12,1,1) = {"
+Ki
+my
+my
+Ii
+tc
+eD
+oI
+gm
+Lf
+xe
+xf
+rK
+Eb
+Nc
+Nc
+rq
+yB
+cQ
+xv
+xL
+uc
+xP
+PO
+yt
+Pk
+yQ
+pp
+kc
+Pk
+Qs
+qN
+Uc
+Uc
+vz
+Pk
+Dh
+Dh
+Dh
+Pk
+ub
+HJ
+OJ
+XE
+lA
+HJ
+ub
+Pk
+AC
+mh
+cQ
+pa
+Pk
+cw
+Je
+Nz
+Nz
+Nz
+Nz
+Pk
+to
+to
+to
+yG
+jK
+jK
+jK
+Pk
+jK
+jK
+jK
+Pk
+tQ
+aF
+aF
+my
+EL
+PE
+kk
+Pk
+Pk
+"}
+(13,1,1) = {"
+Ki
+my
+gz
+na
+Hl
+Lf
+pC
+IX
+eD
+yo
+gm
+eN
+Ks
+Gq
+Gq
+Av
+Pk
+sa
+OG
+eE
+tJ
+jM
+hn
+LA
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+qq
+Uc
+Uc
+CW
+Pk
+Dh
+Dh
+Dh
+Pk
+ub
+HJ
+HJ
+iV
+HJ
+HJ
+ub
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Xl
+cw
+Bf
+iI
+hY
+Hg
+Pk
+Kt
+eS
+Oc
+Pk
+jK
+jK
+jK
+yG
+jK
+jK
+jK
+Pk
+Pk
+Pk
+Pk
+Pk
+fX
+yl
+cQ
+my
+Pk
+"}
+(14,1,1) = {"
+Ki
+my
+ng
+VM
+Ib
+sg
+ii
+dj
+Lf
+bk
+Rj
+NQ
+ow
+gD
+Mg
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+my
+ft
+my
+Pk
+bb
+Qf
+aI
+Ew
+Pk
+OQ
+Nz
+Nz
+YL
+my
+SE
+UY
+nI
+Pk
+ub
+cu
+HJ
+ax
+HJ
+ub
+ub
+Pk
+zi
+wO
+wm
+Yu
+Pk
+aP
+pu
+FS
+tm
+Np
+lv
+Pk
+ML
+ww
+bV
+Pk
+jK
+jK
+jK
+Pk
+jK
+jK
+jK
+jK
+yG
+cQ
+cQ
+cQ
+rv
+Gw
+YC
+SL
+Pk
+"}
+(15,1,1) = {"
+Ki
+my
+Rr
+vP
+VM
+AA
+br
+ZA
+Jb
+cP
+PP
+GQ
+MY
+hH
+Xa
+Pk
+XB
+Ay
+aM
+uB
+Pk
+QH
+UD
+xQ
+aE
+vm
+Qf
+Vx
+Yg
+Pk
+Pk
+my
+Dp
+my
+my
+HM
+Nz
+rI
+Pk
+Pk
+Pk
+Pk
+iV
+Pk
+Pk
+yG
+Pk
+nl
+KF
+Xy
+qn
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+my
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+jK
+Pk
+fK
+NV
+mi
+mi
+tT
+cQ
+SL
+Pk
+"}
+(16,1,1) = {"
+Ki
+my
+cJ
+vW
+IV
+Jj
+iN
+ml
+Jj
+iN
+cz
+ka
+Kn
+nq
+Rd
+Pk
+XB
+we
+aM
+uB
+Pk
+WI
+my
+my
+my
+Tk
+BF
+dO
+Vm
+gp
+KI
+FH
+QQ
+Vm
+gp
+wb
+Nz
+ef
+fG
+pg
+oL
+aL
+gY
+kw
+nH
+nH
+FJ
+lC
+cr
+cr
+cr
+Fi
+Xy
+Xy
+rc
+jI
+gY
+Xy
+Xy
+mw
+Xy
+Xy
+QF
+Pk
+Mc
+DM
+EN
+Hh
+CX
+Pk
+Pk
+Pk
+GX
+it
+cQ
+bK
+iQ
+iQ
+my
+Pk
+"}
+(17,1,1) = {"
+Ki
+my
+Jp
+cx
+zB
+mR
+Ta
+Ta
+mR
+bG
+Ta
+mR
+Ob
+un
+IE
+Pk
+XB
+Gj
+aM
+uB
+Pk
+Lo
+wr
+jp
+wr
+zZ
+Wr
+Au
+AR
+vN
+fq
+Wr
+vJ
+qi
+vN
+Nz
+Nz
+Nz
+my
+xn
+oD
+oD
+oD
+Hv
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+oD
+QF
+Pk
+Ok
+iX
+QA
+QA
+QA
+XX
+oX
+Pk
+FO
+Gw
+UP
+Pk
+Pk
+Pk
+Pk
+Pk
+"}
+(18,1,1) = {"
+Ki
+my
+cJ
+tk
+QS
+sO
+eR
+FD
+sO
+eR
+JI
+Nu
+Kn
+or
+be
+Pk
+Pk
+Mb
+ru
+Pk
+Pk
+Pk
+Bp
+ov
+ov
+xS
+UR
+iB
+lz
+Jk
+GV
+Jy
+Tv
+lz
+Jk
+GV
+Nx
+Nx
+va
+fC
+Xy
+Xy
+jR
+JM
+eW
+Xy
+Xy
+Xy
+Xy
+jR
+JM
+eW
+Xy
+Xy
+Xy
+Mo
+Xy
+Xy
+Xy
+Xy
+Xy
+Xy
+QF
+Pk
+Ln
+uW
+sF
+Go
+JN
+pH
+JB
+es
+sa
+Gw
+cQ
+Pk
+Mk
+Bd
+Qi
+Pk
+"}
+(19,1,1) = {"
+Ki
+my
+MQ
+CT
+LM
+dQ
+Sh
+bF
+lG
+CI
+IL
+GQ
+Kn
+ut
+FW
+Bi
+yB
+rx
+Nz
+Nz
+aS
+GE
+ES
+Nc
+iC
+Nc
+YE
+Vx
+Yg
+Pk
+Pk
+my
+Dp
+my
+Pk
+Pk
+yG
+Pk
+Pk
+Pk
+my
+cV
+my
+Pk
+Pk
+Pk
+my
+my
+my
+Pk
+Pk
+Pk
+my
+an
+my
+Pk
+Pk
+ah
+Ll
+my
+Ll
+nw
+RF
+Pk
+Eh
+tC
+Vv
+Vv
+Vv
+iX
+Bh
+SL
+YC
+Gw
+YC
+QM
+IN
+iX
+BN
+Pk
+"}
+(20,1,1) = {"
+Ki
+my
+RX
+LM
+fn
+SI
+pI
+xE
+Lf
+ao
+xa
+NQ
+ow
+Px
+Je
+rq
+Pk
+cd
+wk
+wk
+sa
+Pk
+Ur
+EE
+EE
+EE
+VN
+Vx
+Ew
+Pk
+zv
+cv
+wv
+jD
+iJ
+Pk
+jK
+Pk
+Hf
+KA
+Tu
+jT
+VW
+Pk
+pA
+nZ
+VQ
+Lq
+Hn
+Gl
+Pk
+qG
+qG
+yn
+eF
+ap
+Pk
+vF
+Ej
+vx
+vx
+vx
+fi
+my
+JZ
+kC
+ZZ
+el
+Li
+Li
+rG
+Mr
+cQ
+PY
+YC
+Pk
+Zz
+uf
+wC
+Pk
+"}
+(21,1,1) = {"
+Ki
+my
+gz
+al
+Hl
+Lf
+ZS
+xf
+eD
+RR
+gm
+wM
+nP
+nP
+nP
+BQ
+yB
+ec
+cX
+Nz
+iZ
+GE
+Kx
+Nc
+iC
+Nc
+xD
+uy
+Pk
+Pk
+xU
+Wy
+WV
+Js
+nN
+Pk
+jK
+yG
+IZ
+IZ
+IZ
+fU
+VW
+my
+IQ
+mt
+lL
+mt
+mt
+hM
+Pk
+uU
+JD
+rk
+ck
+Wl
+Pk
+vD
+IN
+iX
+iX
+iX
+eJ
+hT
+cQ
+tI
+YC
+Ow
+gf
+gf
+Bh
+rC
+GB
+PY
+UP
+Pk
+Pk
+Pk
+Pk
+Pk
+"}
+(22,1,1) = {"
+Ki
+my
+my
+Ii
+tc
+eD
+Dl
+Cz
+Lf
+zK
+Rj
+dY
+Nc
+Nc
+Nc
+Ih
+Pk
+Pk
+Pk
+aN
+Pk
+Pk
+Bv
+on
+on
+on
+TC
+WA
+Pk
+Fq
+mN
+Wy
+WV
+Js
+eM
+Pk
+jK
+Pk
+sC
+sC
+cY
+jT
+HS
+my
+zn
+PA
+QD
+mt
+mt
+uZ
+Pk
+qG
+qG
+fR
+ck
+Rz
+Pk
+Pk
+IN
+iX
+iX
+iX
+eJ
+hT
+YC
+YC
+cQ
+Gg
+gf
+gf
+eJ
+my
+sa
+PY
+cQ
+Pk
+uE
+kD
+de
+Pk
+"}
+(23,1,1) = {"
+Ki
+Ki
+my
+VM
+KC
+Lf
+hm
+Rj
+xg
+KY
+mX
+Fw
+Nh
+Ij
+Ij
+TE
+sA
+Pk
+aO
+ud
+yA
+Pk
+Qw
+ck
+ck
+ck
+pN
+bb
+Pk
+Fq
+mN
+wK
+GP
+LU
+Pk
+Pk
+yG
+Pk
+Pk
+Pk
+mo
+fU
+at
+Pk
+Pk
+Kz
+KT
+lo
+lo
+Qb
+Pk
+qG
+qG
+fR
+ck
+ib
+qG
+Pk
+ie
+ZK
+kv
+KP
+LH
+my
+eG
+Za
+xH
+mV
+Tq
+Tq
+Ww
+Pk
+et
+Gw
+cQ
+QM
+IN
+Vy
+Vy
+Pk
+"}
+(24,1,1) = {"
+Ki
+Ki
+my
+my
+Tt
+kt
+qs
+Uf
+dW
+Nt
+Pk
+Pk
+Pk
+my
+my
+my
+Pk
+Pk
+hX
+GC
+Qg
+Pk
+sa
+XT
+Pl
+ck
+sa
+Pk
+Pk
+my
+my
+GA
+Pk
+Pk
+Pk
+uk
+Ma
+Jg
+lb
+Pk
+my
+hv
+my
+Pk
+qK
+rM
+fP
+BZ
+AW
+IG
+Pk
+IK
+JD
+ys
+ck
+mg
+qG
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+my
+Ll
+Ll
+my
+Pk
+Ol
+Gw
+cQ
+Pk
+LW
+cL
+Py
+Pk
+"}
+(25,1,1) = {"
+Ki
+Ki
+Ki
+my
+my
+Pk
+Pk
+Pk
+my
+my
+Pk
+Ki
+Ki
+Ki
+Ki
+Ki
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+yG
+Pk
+Pk
+mM
+Vi
+ez
+Wr
+zk
+Pk
+xs
+qw
+jv
+YH
+TN
+Pk
+mZ
+LY
+ug
+my
+FO
+fz
+Cp
+lS
+Oe
+fw
+Pk
+jg
+yI
+Ku
+qc
+iP
+Pk
+Pk
+Am
+ti
+PB
+Pk
+fE
+Ws
+Nz
+Cf
+Pk
+QG
+Og
+LT
+sa
+Pk
+zo
+Gw
+Tm
+Pk
+Pk
+Pk
+Pk
+Pk
+"}
+(26,1,1) = {"
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Pk
+Hr
+Hr
+tM
+en
+FE
+FE
+rw
+Pk
+IU
+YN
+Pk
+cj
+uw
+Vi
+Wr
+Sx
+Pk
+rJ
+Vq
+Pk
+An
+YG
+Pk
+KU
+Eu
+ug
+SR
+NM
+fz
+iz
+Zw
+RQ
+fw
+Pk
+Pk
+Pk
+nn
+my
+my
+Pk
+bM
+EJ
+EM
+As
+Pk
+Xf
+yh
+hq
+Nz
+kF
+rN
+fi
+LT
+dd
+Pk
+Di
+Gw
+cQ
+Pk
+uT
+dl
+YT
+Pk
+"}
+(27,1,1) = {"
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Pk
+si
+si
+si
+lZ
+Kn
+Kn
+rw
+Pk
+Ps
+Qo
+Pk
+ez
+Vi
+mM
+wj
+bc
+Pk
+MM
+jK
+gF
+jK
+jK
+Pk
+KU
+Eu
+ug
+my
+NM
+fz
+rF
+lq
+HB
+aa
+Pk
+Um
+Yk
+oW
+cQ
+wW
+Pk
+Cd
+EJ
+EJ
+DP
+Pk
+HQ
+HQ
+Zp
+Nz
+Pk
+YY
+Bh
+IN
+bs
+Pk
+QT
+UE
+cQ
+QM
+IN
+kO
+kO
+Pk
+"}
+(28,1,1) = {"
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Pk
+si
+si
+Ds
+RG
+Jc
+Jc
+rw
+Pk
+vC
+cG
+Pk
+Pk
+Pk
+Pk
+yG
+Pk
+Pk
+Pk
+yG
+Pk
+uP
+Ip
+Pk
+AQ
+Ag
+ug
+my
+NM
+fz
+rN
+NR
+js
+oh
+Pk
+OO
+MK
+oW
+cQ
+ky
+wS
+Kj
+EJ
+EJ
+oX
+Pk
+pb
+NT
+Qu
+jF
+Pk
+YY
+ty
+IN
+CJ
+Pk
+CG
+OB
+xR
+Pk
+ey
+Qh
+Tq
+Pk
+"}
+(29,1,1) = {"
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Pk
+si
+si
+lF
+ar
+si
+ar
+Pk
+Pk
+kU
+By
+Jt
+yG
+nS
+Uh
+kB
+KG
+aK
+Jg
+Qp
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Eo
+Bg
+Hd
+dN
+dN
+mp
+Pk
+kR
+RB
+oW
+cQ
+yt
+my
+NZ
+gB
+Nf
+bB
+Pk
+SF
+nU
+ij
+Id
+Pk
+YY
+rN
+lR
+Pk
+Pk
+my
+my
+my
+Pk
+Pk
+Pk
+Pk
+Pk
+"}
+(30,1,1) = {"
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Pk
+Pk
+Hr
+lF
+ar
+LZ
+ar
+Pk
+jK
+Zo
+IO
+Xn
+bw
+aW
+qb
+EU
+tK
+ed
+IC
+Jg
+Pk
+jK
+Jg
+jK
+Pk
+xY
+IN
+Xh
+Gn
+OZ
+vS
+QO
+QO
+Pk
+Pk
+Pk
+FZ
+AB
+Wu
+Pk
+Pk
+Pk
+my
+my
+Pk
+Pk
+Pk
+my
+my
+Pk
+Pk
+Pk
+my
+my
+Pk
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+"}
+(31,1,1) = {"
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Pk
+Ab
+kQ
+wU
+jK
+Jg
+jK
+Pk
+Fb
+JW
+my
+RT
+HA
+vS
+Wz
+rz
+Pk
+Ki
+Pk
+Pk
+my
+Pk
+Pk
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+"}
+(32,1,1) = {"
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Pk
+Pk
+Pk
+Pk
+jK
+jK
+jK
+Pk
+Pk
+Pk
+Pk
+my
+my
+Pk
+Pk
+Pk
+Pk
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+"}
+(33,1,1) = {"
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Pk
+Pk
+wU
+Pk
+Pk
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+Ki
+"}
