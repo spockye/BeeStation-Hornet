@@ -3587,6 +3587,18 @@
 	},
 /turf/open/floor/iron/dark,
 /area/space)
+"bzv" = (
+/obj/effect/turf_decal/tile/green/half/contrasted{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/brown/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/dark_green,
+/turf/open/floor/iron/edge{
+	dir = 4
+	},
+/area/space)
 "bzK" = (
 /obj/effect/turf_decal/siding/dark{
 	dir = 1
@@ -3643,6 +3655,7 @@
 	dir = 8
 	},
 /obj/structure/closet/secure_closet/personal/cabinet,
+/obj/item/storage/briefcase,
 /turf/open/floor/wood,
 /area/space)
 "bBn" = (
@@ -4893,10 +4906,10 @@
 /turf/open/floor/iron/dark,
 /area/space)
 "ceI" = (
-/obj/structure/table/wood/fancy/royalblack,
 /obj/effect/turf_decal/siding/dark{
 	dir = 1
 	},
+/obj/machinery/vending/wardrobe/bar_wardrobe,
 /turf/open/floor/iron/dark/textured,
 /area/space)
 "ceK" = (
@@ -5495,6 +5508,18 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/iron/showroomfloor,
+/area/space)
+"cto" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 8
+	},
+/obj/structure/stairs{
+	dir = 4
+	},
+/obj/structure/sign/poster/official/cleanliness{
+	pixel_x = 32
+	},
+/turf/open/floor/wood,
 /area/space)
 "ctH" = (
 /obj/effect/turf_decal/guideline/guideline_out_arrow/brown{
@@ -8209,6 +8234,16 @@
 	dir = 8
 	},
 /area/space)
+"dEu" = (
+/obj/structure/table/wood,
+/obj/structure/sign/poster/contraband/sun_kist{
+	pixel_x = 32
+	},
+/obj/item/statuebust{
+	pixel_y = 12
+	},
+/turf/open/floor/wood/big,
+/area/space)
 "dEA" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner,
 /obj/effect/turf_decal/trimline/red/corner,
@@ -8234,6 +8269,10 @@
 	},
 /obj/structure/chair{
 	dir = 8
+	},
+/obj/structure/sign/poster/contraband/cc64k_ad{
+	pixel_y = -32;
+	pixel_x = -32
 	},
 /turf/open/floor/sepia,
 /area/space)
@@ -11413,6 +11452,12 @@
 	},
 /turf/open/floor/wood/big,
 /area/space)
+"eZx" = (
+/obj/effect/turf_decal/siding/dark_green{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/space)
 "eZK" = (
 /obj/effect/turf_decal/edges/borderfloor{
 	dir = 10
@@ -14195,6 +14240,25 @@
 /obj/structure/girder,
 /turf/open/floor/plating/broken,
 /area/space)
+"gou" = (
+/obj/effect/turf_decal/tile/green/corner_ramp{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/bar/corner_ramp{
+	dir = 1
+	},
+/obj/item/cigbutt{
+	pixel_x = -13;
+	pixel_y = -9
+	},
+/obj/effect/mapping_helpers/tile_breaker,
+/obj/effect/turf_decal/siding/dark_green{
+	dir = 4
+	},
+/turf/open/floor/iron/corner{
+	dir = 4
+	},
+/area/space)
 "goL" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/poddoor/shutters/preopen,
@@ -14334,6 +14398,24 @@
 /obj/structure/bed/double,
 /obj/item/bedsheet/double/black,
 /turf/open/floor/carpet/royalblack,
+/area/space)
+"gtf" = (
+/obj/structure/closet/l3closet/janitor,
+/obj/item/grenade/clusterbuster/cleaner,
+/obj/item/reagent_containers/spray/cleaner{
+	pixel_x = 7;
+	pixel_y = -9
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/bot,
+/obj/item/stock_parts/cell/high{
+	pixel_y = -8
+	},
+/turf/open/floor/iron/smooth_edge{
+	dir = 4
+	},
 /area/space)
 "gtx" = (
 /obj/effect/decal/cleanable/dirt,
@@ -15374,6 +15456,14 @@
 /obj/structure/chair/stool/directional/east,
 /turf/open/floor/iron/dark,
 /area/space)
+"gML" = (
+/obj/effect/turf_decal/stripes/closeup,
+/obj/effect/turf_decal/tile/dark_green/fourcorners/contrasted,
+/obj/structure/sign/poster/contraband/d_day_promo{
+	pixel_y = 32
+	},
+/turf/open/floor/iron/smooth_half,
+/area/space)
 "gNj" = (
 /obj/structure/chair/office{
 	dir = 1
@@ -16102,6 +16192,16 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/monotile/dark,
 /area/space)
+"hjj" = (
+/obj/structure/chair/wood{
+	dir = 8
+	},
+/obj/item/trash/can{
+	pixel_x = -10;
+	pixel_y = -7
+	},
+/turf/open/floor/wood,
+/area/space)
 "hjz" = (
 /obj/structure/bed/pod,
 /obj/machinery/shower{
@@ -16549,6 +16649,9 @@
 "hsf" = (
 /obj/structure/table/wood,
 /obj/effect/decal/cleanable/robot_debris,
+/obj/item/toy/mecha/darkgygax{
+	pixel_y = 9
+	},
 /turf/open/floor/wood/big,
 /area/space)
 "hsj" = (
@@ -16642,6 +16745,7 @@
 /area/space)
 "htN" = (
 /obj/structure/table/wood/fancy/black,
+/obj/item/trash/candle,
 /turf/open/floor/wood,
 /area/space)
 "htV" = (
@@ -20727,6 +20831,13 @@
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/plating/dirt/jungle/dark,
 /area/space)
+"jla" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/cup/glass/mug{
+	pixel_x = 9
+	},
+/turf/open/floor/wood,
+/area/space)
 "jlf" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 6
@@ -21899,6 +22010,13 @@
 /obj/structure/fans/tiny,
 /turf/open/floor/iron/dark,
 /area/space)
+"jON" = (
+/obj/effect/turf_decal/siding/brown{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/dark_green,
+/turf/open/floor/iron/grid/steel,
+/area/space)
 "jOW" = (
 /obj/structure/curtain,
 /obj/machinery/shower{
@@ -23011,7 +23129,6 @@
 /area/space)
 "kpl" = (
 /obj/structure/bed/dogbed,
-/mob/living/simple_animal/pet/dog/corgi/cardigan,
 /obj/structure/window/reinforced{
 	layer = 4.1
 	},
@@ -24262,6 +24379,9 @@
 /obj/machinery/vending/boozeomat,
 /obj/effect/turf_decal/siding/dark{
 	dir = 4
+	},
+/obj/structure/sign/painting/library{
+	pixel_y = -32
 	},
 /turf/open/floor/iron/dark/textured,
 /area/space)
@@ -25969,12 +26089,21 @@
 /turf/open/floor/iron,
 /area/space)
 "lGX" = (
-/obj/structure/table/wood/fancy/royalblack,
 /obj/effect/turf_decal/siding/dark{
 	dir = 1
 	},
 /obj/structure/sign/barsign{
 	pixel_y = -32
+	},
+/obj/structure/closet/secure_closet/bar{
+	req_access_txt = "25"
+	},
+/obj/item/gun/ballistic/shotgun/doublebarrel{
+	pixel_y = 3
+	},
+/obj/item/toy/figure/bartender{
+	pixel_x = 9;
+	pixel_y = -8
 	},
 /turf/open/floor/iron/dark/textured,
 /area/space)
@@ -27053,6 +27182,12 @@
 	},
 /turf/open/floor/iron/dark,
 /area/space)
+"mcb" = (
+/obj/structure/sign/departments/custodian{
+	pixel_x = -32
+	},
+/turf/open/floor/plating,
+/area/space)
 "mcc" = (
 /obj/structure/rack,
 /obj/item/tank/jetpack/carbondioxide{
@@ -27165,6 +27300,15 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark,
+/area/space)
+"mef" = (
+/obj/structure/chair/wood{
+	dir = 4
+	},
+/obj/structure/sign/poster/contraband/bountyhunters{
+	pixel_y = -32
+	},
+/turf/open/floor/wood,
 /area/space)
 "mej" = (
 /obj/effect/turf_decal/siding/dark/corner{
@@ -29503,6 +29647,12 @@
 	},
 /turf/open/floor/iron/checker,
 /area/space)
+"njH" = (
+/obj/item/statuebust{
+	pixel_y = 12
+	},
+/turf/open/space/basic,
+/area/space)
 "njQ" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 9
@@ -30849,6 +30999,21 @@
 /obj/structure/grille,
 /obj/structure/window/shuttle,
 /turf/open/floor/plating,
+/area/space)
+"nMM" = (
+/obj/structure/table/reinforced{
+	color = "#c1b6a5"
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood,
+/obj/machinery/door/poddoor/shutters/preopen,
+/obj/item/trash/pistachios{
+	pixel_x = 8;
+	pixel_y = 6
+	},
+/turf/open/floor/sepia,
 /area/space)
 "nMN" = (
 /obj/machinery/door/poddoor/shutters/preopen{
@@ -33253,7 +33418,22 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/siding/white/corner,
+/obj/structure/sign/departments/botany{
+	pixel_x = -32
+	},
 /turf/open/floor/sepia,
+/area/space)
+"oId" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/cup/glass/coffee{
+	pixel_x = -8;
+	pixel_y = 6
+	},
+/obj/item/trash/syndi_cakes{
+	pixel_y = 6;
+	pixel_x = 2
+	},
+/turf/open/floor/wood,
 /area/space)
 "oIh" = (
 /obj/machinery/airalarm/directional/south,
@@ -34159,6 +34339,21 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/space)
+"pbP" = (
+/obj/effect/turf_decal/stripes/red/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/green/half/contrasted{
+	dir = 1
+	},
+/obj/effect/spawner/lootdrop/glowstick/lit,
+/obj/structure/sign/departments/custodian{
+	pixel_x = 32
+	},
+/turf/open/floor/iron/edge{
+	dir = 4
+	},
+/area/space)
 "pcc" = (
 /obj/effect/turf_decal/weather/dirt,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -34526,6 +34721,9 @@
 /obj/structure/fluff/hedge,
 /obj/structure/flora/ausbushes/ppflowers{
 	pixel_y = 5
+	},
+/obj/structure/sign/plaques/deempisi{
+	pixel_x = -32
 	},
 /turf/open/floor/wood/big,
 /area/space)
@@ -36755,15 +36953,6 @@
 	},
 /turf/open/space/basic,
 /area/space)
-"qjb" = (
-/obj/structure/closet/secure_closet/bar{
-	req_access_txt = "25"
-	},
-/obj/item/gun/ballistic/shotgun/doublebarrel{
-	pixel_y = 5
-	},
-/turf/open/floor/carpet/grimy,
-/area/space)
 "qjf" = (
 /obj/effect/turf_decal/trimline/yellow/filled/line{
 	dir = 1
@@ -38749,6 +38938,9 @@
 	color = "#742925";
 	dir = 8
 	},
+/obj/item/trash/boritos{
+	pixel_y = -16
+	},
 /turf/open/floor/wood,
 /area/space)
 "rby" = (
@@ -39324,6 +39516,7 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 4
 	},
+/obj/item/storage/wallet/random,
 /turf/open/floor/wood,
 /area/space)
 "rnK" = (
@@ -42115,6 +42308,9 @@
 	},
 /obj/effect/turf_decal/siding/white{
 	dir = 4
+	},
+/obj/structure/sign/poster/contraband/syndiemoth{
+	pixel_x = -32
 	},
 /turf/open/floor/wood,
 /area/space)
@@ -45222,6 +45418,16 @@
 	},
 /turf/open/floor/pod/dark,
 /area/space)
+"tMP" = (
+/obj/effect/turf_decal/tile/green/half/contrasted,
+/obj/effect/turf_decal/tile/bar/half/contrasted{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/dark_green/corner,
+/turf/open/floor/iron/edge{
+	dir = 8
+	},
+/area/space)
 "tNl" = (
 /obj/structure/grille,
 /turf/open/floor/plating{
@@ -45351,6 +45557,10 @@
 /obj/structure/chair/fancy/sofa/old/left{
 	color = "#742925";
 	dir = 4
+	},
+/obj/item/trash/cheesie{
+	pixel_y = -9;
+	pixel_x = 3
 	},
 /turf/open/floor/wood,
 /area/space)
@@ -45821,7 +46031,9 @@
 /obj/effect/turf_decal/siding/dark{
 	dir = 1
 	},
-/obj/machinery/vending/wardrobe/bar_wardrobe,
+/obj/structure/sign/painting/library{
+	pixel_y = -32
+	},
 /turf/open/floor/sepia,
 /area/space)
 "udr" = (
@@ -48240,6 +48452,9 @@
 /obj/effect/turf_decal/siding/white/corner,
 /obj/effect/turf_decal/trimline/green/corner{
 	dir = 1
+	},
+/obj/structure/sign/poster/contraband/space_up{
+	pixel_x = -32
 	},
 /turf/open/floor/sepia,
 /area/space)
@@ -52222,6 +52437,9 @@
 	color = "#742925";
 	dir = 8
 	},
+/obj/item/toy/plush/runtime{
+	pixel_x = -2
+	},
 /turf/open/floor/wood,
 /area/space)
 "wWj" = (
@@ -52549,6 +52767,12 @@
 	pixel_y = 6
 	},
 /turf/open/floor/wood,
+/area/space)
+"xfc" = (
+/obj/structure/table,
+/obj/machinery/fax/service,
+/obj/effect/turf_decal/tile/dark_green/fourcorners/contrasted,
+/turf/open/floor/iron,
 /area/space)
 "xft" = (
 /obj/effect/turf_decal/siding/dark/corner{
@@ -54369,6 +54593,9 @@
 /obj/effect/turf_decal/siding/wood,
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
+	},
+/obj/item/trash/candle{
+	pixel_x = -9
 	},
 /turf/open/floor/wood/big,
 /area/space)
@@ -86881,7 +87108,7 @@ eZS
 eZS
 qwH
 qwH
-qwH
+cto
 tZF
 ksI
 ksI
@@ -87476,8 +87703,8 @@ eZS
 aPW
 awU
 tZF
-ake
-ake
+oId
+jla
 kmI
 dta
 eiW
@@ -88390,7 +88617,7 @@ dXH
 dXH
 rNP
 hvA
-oJM
+nMM
 jmE
 xOo
 xOo
@@ -88993,16 +89220,16 @@ sUb
 aBV
 rZe
 sAF
-qXz
+dEu
 bHP
 sIS
 xOo
-qjb
+xOo
 udq
 eZS
 eZS
-ksI
-ksI
+eZS
+eZS
 bwo
 bwo
 uNG
@@ -89304,7 +89531,7 @@ eZS
 eZS
 ksI
 ksI
-ksI
+eZS
 bwo
 dDC
 uNG
@@ -89594,19 +89821,19 @@ wyp
 cdM
 aWg
 jvt
-jvt
+mef
 eZS
 wsB
 sNu
 xYX
 tKO
-gPT
-anH
-fPz
+tMP
+gou
+eZx
+ksI
+ksI
+ksI
 eZS
-ksI
-ksI
-ksI
 bwo
 dMv
 uNG
@@ -89899,16 +90126,16 @@ htN
 aKp
 eZS
 pvQ
-tKX
+pbP
 iJT
 owp
-qCg
-fLn
+bzv
+fPz
 xNx
 eZS
 ksI
 ksI
-ksI
+eZS
 bwo
 tmk
 sNw
@@ -90198,19 +90425,19 @@ xQL
 cdM
 aWg
 vmC
-vmC
+hjj
 eZS
 aHe
 eZS
 eZS
 qkC
-vLC
-hZS
+jON
+xfc
 eZS
 eZS
-ksI
-ksI
-ksI
+eZS
+eZS
+eZS
 bwo
 bwo
 wPt
@@ -90804,7 +91031,7 @@ pNB
 eZS
 pYC
 eZS
-uAd
+gML
 lOn
 mli
 rNc
@@ -91108,7 +91335,7 @@ pYC
 eZS
 sEk
 qjM
-dWG
+gtf
 xkS
 fiN
 aOP
@@ -91712,7 +91939,7 @@ pYC
 pYC
 pYC
 pYC
-pYC
+mcb
 pYC
 pYC
 pYC
@@ -96241,7 +96468,7 @@ bwo
 ksI
 ksI
 ksI
-ksI
+njH
 ksI
 ksI
 ksI
