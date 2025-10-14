@@ -10,6 +10,7 @@
 	armor_type = /datum/armor/mask_gas
 	flags_cover = MASKCOVERSEYES | MASKCOVERSMOUTH
 	resistance_flags = NONE
+	custom_price = 50
 
 
 /datum/armor/mask_gas
@@ -30,7 +31,7 @@
 	desc = "A gas mask with built-in welding goggles and a face shield. Looks like a skull - clearly designed by a nerd."
 	icon_state = "weldingmask"
 	custom_materials = list(/datum/material/iron=4000, /datum/material/glass=2000)
-	flash_protect = 2
+	flash_protect = FLASH_PROTECTION_WELDER
 	tint = 2
 	armor_type = /datum/armor/gas_welding
 	actions_types = list(/datum/action/item_action/toggle)
@@ -72,6 +73,7 @@
 	desc = "A close-fitting tactical mask that can be connected to an air supply."
 	icon_state = "syndicate"
 	strip_delay = 60
+	trade_flags = TRADE_CONTRABAND
 
 /obj/item/clothing/mask/gas/clown_hat
 	name = "clown wig and mask"
@@ -113,7 +115,7 @@
 
 	if(src && choice && !user.incapacitated() && in_range(user,src))
 		icon_state = options[choice]
-		user.update_inv_wear_mask()
+		user.update_worn_mask()
 		for(var/X in actions)
 			var/datum/action/A = X
 			A.update_buttons()
@@ -164,7 +166,7 @@
 
 	if(src && choice && !user.incapacitated() && in_range(user,src))
 		icon_state = options[choice]
-		user.update_inv_wear_mask()
+		user.update_worn_mask()
 		for(var/X in actions)
 			var/datum/action/A = X
 			A.update_buttons()
@@ -246,7 +248,7 @@
 
 	if(src && choice && !M.stat && in_range(M,src))
 		icon_state = options[choice]
-		user.update_inv_wear_mask()
+		user.update_worn_mask()
 		for(var/X in actions)
 			var/datum/action/A = X
 			A.update_buttons()

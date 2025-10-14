@@ -36,7 +36,7 @@ CREATION_TEST_IGNORE_SUBTYPES(/obj/machinery/button)
 	if(built)
 		setDir(ndir)
 		panel_open = TRUE
-		update_icon()
+		update_appearance()
 
 
 	if(!built && !device && device_type)
@@ -53,26 +53,30 @@ CREATION_TEST_IGNORE_SUBTYPES(/obj/machinery/button)
 			board.accesses = req_one_access
 
 
-/obj/machinery/button/update_icon()
-	cut_overlays()
+/obj/machinery/button/update_icon_state()
 	if(panel_open)
 		icon_state = "button-open"
-		if(device)
-			add_overlay("button-device")
-		if(board)
-			add_overlay("button-board")
+		return ..()
+	if(machine_stat & (NOPOWER|BROKEN))
+		icon_state = "[skin]-p"
+		return ..()
+	icon_state = skin
+	return ..()
 
-	else
-		if(machine_stat & (NOPOWER|BROKEN))
-			icon_state = "[skin]-p"
-		else
-			icon_state = skin
+/obj/machinery/button/update_overlays()
+	. = ..()
+	if(!panel_open)
+		return
+	if(device)
+		. += "button-device"
+	if(board)
+		. += "button-board"
 
 /obj/machinery/button/attackby(obj/item/W, mob/living/user, params)
 	if(W.tool_behaviour == TOOL_SCREWDRIVER)
 		if(panel_open || allowed(user))
 			default_deconstruction_screwdriver(user, "button-open", "[skin]",W)
-			update_icon()
+			update_appearance()
 		else
 			to_chat(user, span_danger("Maintenance Access Denied."))
 			flick("[skin]-denied", src)
@@ -106,7 +110,7 @@ CREATION_TEST_IGNORE_SUBTYPES(/obj/machinery/button)
 				playsound(loc, 'sound/items/deconstruct.ogg', 50, 1)
 				qdel(src)
 
-		update_icon()
+		update_appearance()
 		return
 
 	if(!user.combat_mode && !(W.item_flags & NOBLUDGEON))
@@ -154,7 +158,7 @@ CREATION_TEST_IGNORE_SUBTYPES(/obj/machinery/button)
 				req_access = list()
 				req_one_access = list()
 				board = null
-			update_icon()
+			update_appearance()
 			to_chat(user, span_notice("You remove electronics from the button frame."))
 
 		else
@@ -182,7 +186,7 @@ CREATION_TEST_IGNORE_SUBTYPES(/obj/machinery/button)
 	if(device)
 		device.pulsed(user)
 
-	addtimer(CALLBACK(src, TYPE_PROC_REF(/atom, update_icon)), 15)
+	addtimer(CALLBACK(src, TYPE_PROC_REF(/atom, update_appearance)), 15)
 
 
 /obj/machinery/button/door
@@ -309,3 +313,19 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/button/shieldwallgen, 24)
 
 /obj/machinery/button/shieldwallgen/connect_to_shuttle(obj/docking_port/mobile/port, obj/docking_port/stationary/dock)
 	id = "[REF(port)][id]"
+
+/obj/machinery/button/add_context_self(datum/screentip_context/context, mob/user)
+	if (length(req_access) || length(req_one_access) || req_access_txt != "0" || req_one_access_txt != "0")
+		context.add_access_context("Access Required", allowed(user))
+	if (context.accept_silicons())
+		if (!panel_open)
+			context.add_attack_hand_action("Activate")
+		return
+	if (panel_open)
+		if(device || board)
+			context.add_attack_hand_action("Remove Electronics")
+		else
+			context.add_attack_hand_action("Change Appearance")
+	else
+		context.add_attack_hand_action("Push")
+	context.add_left_click_item_action("Hack", /obj/item/card/emag)

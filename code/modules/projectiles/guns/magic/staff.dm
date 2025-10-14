@@ -7,8 +7,11 @@
 	item_flags = NEEDS_PERMIT | NO_MAT_REDEMPTION
 	weapon_weight = WEAPON_MEDIUM
 	fire_rate = 1.5
-	block_power = 20 //staffs can block shit if you're walking
-	block_upgrade_walk = TRUE
+
+	canblock = TRUE
+	block_power = 50
+	block_flags = BLOCKING_ACTIVE | BLOCKING_UNBALANCE
+
 
 /obj/item/gun/magic/staff/change
 	name = "staff of change"
@@ -99,6 +102,8 @@
 	item_state = "honker"
 	max_charges = 4
 	recharge_rate = 8
+	custom_price = 10000
+	max_demand = 10
 
 /obj/item/gun/magic/staff/spellblade
 	name = "spellblade"
@@ -116,15 +121,12 @@
 	sharpness = SHARP_DISMEMBER
 	bleed_force = BLEED_DEEP_WOUND
 	max_charges = 4
+	custom_price = 40000
+	max_demand = 2
 
 /obj/item/gun/magic/staff/spellblade/Initialize(mapload)
 	. = ..()
 	AddComponent(/datum/component/butchering, 15, 125, 0, hitsound)
-
-/obj/item/gun/magic/staff/spellblade/hit_reaction(mob/living/carbon/human/owner, atom/movable/hitby, attack_text = "the attack", final_block_chance = 0, damage = 0, attack_type = MELEE_ATTACK)
-	if(attack_type == PROJECTILE_ATTACK)
-		final_block_chance = 0
-	return ..()
 
 /obj/item/gun/magic/staff/locker
 	name = "staff of the locker"

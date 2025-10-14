@@ -48,6 +48,12 @@
 	blood_DNA = null
 	return TRUE
 
+/datum/component/forensics/proc/is_bloody(datum/source, clean_types)
+	if(!isitem(parent))
+		return FALSE
+
+	return length(blood_DNA) > 0
+
 /datum/component/forensics/proc/wipe_fibers()
 	fibers = null
 	return TRUE
@@ -97,7 +103,7 @@
 			if(!ignoregloves)
 				H.gloves.add_fingerprint(H, TRUE) //ignoregloves = 1 to avoid infinite loop.
 				return
-		var/full_print = rustg_hash_string(RUSTG_HASH_MD5, H.dna.uni_identity)
+		var/full_print = rustg_hash_string(RUSTG_HASH_MD5, H.dna.unique_identity)
 		LAZYSET(fingerprints, full_print, full_print)
 	return TRUE
 
@@ -204,5 +210,6 @@
 		return
 	if(!length(blood_DNA))
 		return
-	var/obj/item/I = parent
-	I.AddElement(/datum/element/decal/blood) //TODO: make decals actually work on all the items, it doesnt appear on a lot of them for some reason
+	if(isitem(parent))
+		var/obj/item/I = parent
+		I.AddElement(/datum/element/decal/blood, initial(I.icon) || I.icon, initial(I.icon_state) || I.icon_state, _color = get_blood_dna_color(blood_DNA))

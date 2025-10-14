@@ -51,10 +51,17 @@
 	if(owner.stat == DEAD || !owner.mind)
 		qdel(src)
 		return
-	var/list/mob/dead/observer/candidates = poll_candidates_for_mob("Do you want to play as [owner]'s imaginary friend?", ROLE_IMAGINARY_FRIEND, null, 7.5 SECONDS, friend)
-	if(LAZYLEN(candidates))
-		var/mob/dead/observer/C = pick(candidates)
-		friend.key = C.key
+
+	var/mob/dead/observer/candidate = SSpolling.poll_ghosts_for_target(
+		check_jobban = ROLE_IMAGINARY_FRIEND,
+		poll_time = 10 SECONDS,
+		checked_target = owner,
+		jump_target = owner,
+		role_name_text = "[owner]'s imaginary friend",
+		alert_pic = owner,
+	)
+	if(candidate)
+		friend.key = candidate.key
 		friend_initialized = TRUE
 	else
 		qdel(src)
@@ -170,12 +177,12 @@ CREATION_TEST_IGNORE_SUBTYPES(/mob/camera/imaginary_friend)
 		to_chat(src, span_hear("You hear a distant voice in your head..."))
 		to_chat(src, span_gamesay("[span_name("[speaker]")] [span_message("[say_quote(speech_args[SPEECH_MESSAGE])]")]"))
 
-/mob/camera/imaginary_friend/say(message, bubble_type, var/list/spans = list(), sanitize = TRUE, datum/language/language = null, ignore_spam = FALSE, forced = null)
+/mob/camera/imaginary_friend/say(message, bubble_type, list/spans = list(), sanitize = TRUE, datum/language/language = null, ignore_spam = FALSE, forced = null)
 	if (!message)
 		return
 
 	if (src.client)
-		if(client.prefs.muted & MUTE_IC)
+		if(client.player_details.muted & MUTE_IC)
 			to_chat(src, "You cannot send IC messages (muted).")
 			return
 		if (src.client.handle_spam_prevention(message,MUTE_IC))

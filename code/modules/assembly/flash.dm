@@ -90,6 +90,7 @@
 	light_power = FLASH_LIGHT_POWER
 	light_on = FALSE
 	item_flags = ISWEAPON
+	custom_price = 20
 	var/flashing_overlay = "flash-f"
 	var/last_used = 0 //last world.time it was used.
 	var/cooldown = 20
@@ -216,7 +217,7 @@
 			return FALSE
 		if(FLASH_USE_BURNOUT)
 			burn_out()
-	if(is_head_revolutionary(user) && !burnt_out)
+	if(IS_HEAD_REVOLUTIONARY(user) && !burnt_out)
 		//Flash will drain to a minimum of 1 charge when used by a head rev.
 		if(bulb.charges_left < rand(2, initial(bulb.charges_left) - 1))
 			bulb.charges_left ++

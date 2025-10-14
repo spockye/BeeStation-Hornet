@@ -164,7 +164,7 @@
 		// If the recipient's mind has gone, then anyone can open their mail
 		// whether a mind can actually be qdel'd is an exercise for the reader
 		if(recipient && recipient != user?.mind)
-			if(!is_changeling(user) && !(user?.mind?.has_antag_datum(/datum/antagonist/obsessed)))
+			if(!IS_CHANGELING(user) && !(user?.mind?.has_antag_datum(/datum/antagonist/obsessed)))
 				to_chat(user, span_notice("You can't open somebody else's mail! That's <em>immoral</em>!"))
 				return
 			var/can_open = FALSE
@@ -234,6 +234,7 @@
 	desc = "A certified post crate from CentCom."
 	icon_state = "mail_crate"
 	door_anim_time = 0
+	custom_price = 0
 
 /* Fills this mail crate with N pieces of mail, where N is the lower of the amount var passed,
 ** and the maximum capacity of this crate. If N is larger than the number of alive human players, the excess will be junkmail.*/

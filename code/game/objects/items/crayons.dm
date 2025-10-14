@@ -520,6 +520,7 @@
 	icon = 'icons/obj/crayons.dmi'
 	icon_state = "crayonbox"
 	w_class = WEIGHT_CLASS_SMALL
+	custom_price = 15
 
 /obj/item/storage/crayons/Initialize(mapload)
 	. = ..()
@@ -728,6 +729,9 @@
 		return FALSE
 
 	. = ..()
+
+/obj/item/toy/crayon/spraycan/attackby_storage_insert(datum/component/storage, atom/storage_holder, mob/user)
+	return is_capped
 
 /obj/item/toy/crayon/spraycan/update_icon_state()
 	icon_state = is_capped ? icon_capped : icon_uncapped

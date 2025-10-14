@@ -1,7 +1,6 @@
 /obj/item/flashlight
 	name = "flashlight"
 	desc = "A hand-held emergency light."
-	custom_price = 10
 	icon = 'icons/obj/lighting.dmi'
 	icon_state = "flashlight"
 	item_state = "flashlight"
@@ -17,6 +16,7 @@
 	light_range = 4
 	light_power = 1
 	light_on = FALSE
+	custom_price = 15
 	/// The sound the light makes when it's turned on
 	var/sound_on = 'sound/items/flashlight_on.ogg'
 	/// The sound the light makes when it's turned off
@@ -153,7 +153,7 @@
 	 * Handle eyes
 	 */
 
-	var/obj/item/organ/eyes/E = M.getorganslot(ORGAN_SLOT_EYES)
+	var/obj/item/organ/eyes/E = M.get_organ_slot(ORGAN_SLOT_EYES)
 
 	if((M.head && M.head.flags_cover & HEADCOVERSEYES) || (M.wear_mask && M.wear_mask.flags_cover & MASKCOVERSEYES) || (M.glasses && M.glasses.flags_cover & GLASSESCOVERSEYES))
 		results += span_notice("[M.p_their()] eyes are covered by [(M.head && M.head.flags_cover & HEADCOVERSEYES) ? "a helmet" : (M.wear_mask && M.wear_mask.flags_cover & MASKCOVERSEYES) ? "a mask": "some glasses"].")
@@ -225,6 +225,7 @@ CREATION_TEST_IGNORE_SUBTYPES(/obj/effect/temp_visual/medical_holosign)
 	force = 9 // Not as good as a stun baton.
 	light_range = 5 // A little better than the standard flashlight.
 	hitsound = 'sound/weapons/genhit1.ogg'
+	custom_price = 45
 
 // the desk lamps are a bit special
 /obj/item/flashlight/lamp
@@ -286,10 +287,11 @@ CREATION_TEST_IGNORE_SUBTYPES(/obj/effect/temp_visual/medical_holosign)
 	grind_results = list(/datum/reagent/sulfur = 15)
 	sound_on = 'sound/items/matchstick_lit.ogg'
 	sound_off = null
+	custom_price = 10
 
 /obj/item/flashlight/flare/Initialize(mapload)
 	. = ..()
-	fuel = rand(1600, 2000)
+	fuel = rand(120, 240)
 
 /obj/item/flashlight/flare/process(delta_time)
 	open_flame(heat)
@@ -333,7 +335,7 @@ CREATION_TEST_IGNORE_SUBTYPES(/obj/effect/temp_visual/medical_holosign)
 
 	. = ..()
 	// All good, turn it on.
-	if(.)
+	if(!.)
 		user.visible_message(span_notice("[user] lights \the [src]."), span_notice("You light \the [src]!"))
 		force = on_damage
 		damtype = BURN
@@ -464,7 +466,7 @@ CREATION_TEST_IGNORE_SUBTYPES(/obj/effect/temp_visual/medical_holosign)
 
 
 /obj/item/flashlight/glowstick/Initialize(mapload)
-	fuel = rand(3200, 4000)
+	fuel = rand(60, 240)
 	set_light_color(color)
 	. = ..()
 
@@ -522,7 +524,7 @@ CREATION_TEST_IGNORE_SUBTYPES(/obj/effect/temp_visual/medical_holosign)
 		return
 
 	. = ..()
-	if(.)
+	if(!.)
 		user.visible_message(span_notice("[user] cracks and shakes [src]."), span_notice("You crack and shake [src], turning it on!"))
 		START_PROCESSING(SSobj, src)
 		burn_pickup = FALSE
@@ -531,7 +533,7 @@ CREATION_TEST_IGNORE_SUBTYPES(/obj/effect/temp_visual/medical_holosign)
 	if(!fuel)
 		user.visible_message(span_suicide("[user] is trying to squirt [src]'s fluids into [user.p_their()] eyes... but it's empty!"))
 		return SHAME
-	var/obj/item/organ/eyes/eyes = user.getorganslot(ORGAN_SLOT_EYES)
+	var/obj/item/organ/eyes/eyes = user.get_organ_slot(ORGAN_SLOT_EYES)
 	if(!eyes)
 		user.visible_message(span_suicide("[user] is trying to squirt [src]'s fluids into [user.p_their()] eyes... but [user.p_they()] don't have any!"))
 		return SHAME

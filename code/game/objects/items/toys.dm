@@ -32,6 +32,8 @@
 	throw_speed = 3
 	throw_range = 7
 	force = 0
+	custom_price = 25
+	max_demand = 25
 
 /*
  * Empty plushies before stuffing
@@ -442,8 +444,8 @@
 	twohand_force = 0
 	attack_verb_continuous = list("attacks", "strikes", "hits")
 	attack_verb_simple = list("attack", "strike", "hit")
-	block_upgrade_walk = FALSE
-	block_level = 0
+
+	canblock = FALSE
 	item_flags = ISWEAPON
 
 /obj/item/dualsaber/toy/on_wield(obj/item/source, mob/living/carbon/user)
@@ -451,7 +453,7 @@
 	sharpness = BLUNT
 	bleed_force = 0
 
-/obj/item/dualsaber/toy/hit_reaction(mob/living/carbon/human/owner, atom/movable/hitby, attack_text = "the attack", final_block_chance = 0, damage = 0, attack_type = MELEE_ATTACK)
+/obj/item/dualsaber/toy/hit_reaction(mob/living/carbon/human/owner, atom/movable/hitby, attack_text = "the attack", damage = 0, attack_type = MELEE_ATTACK)
 	return 0
 
 /obj/item/dualsaber/toy/IsReflect() //Stops Toy Dualsabers from reflecting energy projectiles
@@ -472,15 +474,17 @@
 	righthand_file = 'icons/mob/inhands/weapons/swords_righthand.dmi'
 	flags_1 = CONDUCT_1
 	slot_flags = ITEM_SLOT_BELT | ITEM_SLOT_BACK
-	force = 5
+	force = 15
 	throwforce = 5
 	w_class = WEIGHT_CLASS_NORMAL
 	attack_verb_continuous = list("attacks", "slashes", "stabs", "slices")
 	attack_verb_simple = list("attack", "slash", "stab", "slice")
 	hitsound = 'sound/weapons/bladeslice.ogg'
-	block_flags = BLOCKING_ACTIVE | BLOCKING_PROJECTILE //if it some how gets block level, katanas block projectiles for the meme
+
+	canblock = TRUE
+	block_flags = BLOCKING_ACTIVE | BLOCKING_NASTY | BLOCKING_PROJECTILE
 	item_flags = ISWEAPON
-	sharpness = SHARP
+	sharpness = SHARP_DISMEMBER
 	bleed_force = BLEED_SURFACE
 
 /*
@@ -495,7 +499,7 @@
 	w_class = WEIGHT_CLASS_TINY
 	var/ash_type = /obj/effect/decal/cleanable/ash
 
-/obj/item/toy/snappop/proc/pop_burst(var/n=3, var/c=1)
+/obj/item/toy/snappop/proc/pop_burst(n=3, c=1)
 	var/datum/effect_system/spark_spread/s = new()
 	s.set_up(n, c, src)
 	s.start()
@@ -866,6 +870,7 @@
 	deckstyle = "nanotrasen"
 	icon_state = "deck_nanotrasen_full"
 	w_class = WEIGHT_CLASS_SMALL
+	custom_price = 15
 	var/cooldown = 0
 	var/obj/machinery/computer/holodeck/holo = null // Holodeck cards should not be infinite
 	var/list/cards = list()
@@ -1200,6 +1205,7 @@
 	card_attack_verb_continuous = list("attacks", "slices", "dices", "slashes", "cuts")
 	card_attack_verb_simple = list("attack", "slice", "dice", "slash", "cut")
 	resistance_flags = NONE
+	trade_flags = TRADE_CONTRABAND
 
 /*
  * Fake nuke
@@ -1358,7 +1364,7 @@
 
 /obj/item/toy/cog/examine(mob/user)
 	. = ..()
-	if(is_servant_of_ratvar(user))
+	if(IS_SERVANT_OF_RATVAR(user))
 		. += span_warning("It's clearly a fake, how could anybody fall for this!")
 
 /*
@@ -1375,7 +1381,7 @@
 
 /obj/item/toy/replica_fabricator/examine(mob/user)
 	. = ..()
-	if(is_servant_of_ratvar(user))
+	if(IS_SERVANT_OF_RATVAR(user))
 		. += span_warning("It's clearly a fake, how could anybody fall for this!")
 
 /*
@@ -1647,7 +1653,7 @@
 
 /obj/item/toy/dummy
 	name = "ventriloquist dummy"
-	desc = "It's a dummy, dummy."
+	desc = "It's a dummy, dummy. Use .l to talk out of it if held in your left hand, or .r if held in your right hand."
 	icon = 'icons/obj/toy.dmi'
 	icon_state = "puppet"
 	item_state = "puppet"
@@ -1655,8 +1661,12 @@
 
 //Add changing looks when i feel suicidal about making 20 inhands for these.
 /obj/item/toy/dummy/attack_self(mob/user)
-	var/new_name = stripped_input(usr,"What would you like to name the dummy?","Input a name",doll_name,MAX_NAME_LEN)
-	if(!new_name)
+	var/new_name = tgui_input_text(usr, "What would you like to name the dummy?", "Input a name", doll_name, MAX_NAME_LEN)
+	if(!new_name) // no input so we return
+		to_chat(user, span_warning("You need to enter something!"))
+		return
+	if(CHAT_FILTER_CHECK(new_name)) // check for forbidden words
+		to_chat(user, span_warning("That name contains forbidden words."))
 		return
 	doll_name = new_name
 	to_chat(user, "You name the dummy as \"[doll_name]\"")
@@ -1893,6 +1903,7 @@
 /obj/item/storage/box/yatzy
 	name = "Game of Yatzy"
 	desc = "Contains all the pieces required to play a game of Yatzy with up to 4 friends!"
+	custom_price = 15
 
 /obj/item/storage/box/yatzy/PopulateContents()
 	new /obj/item/storage/pill_bottle/dice_cup/yatzy(src)

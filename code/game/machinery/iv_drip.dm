@@ -14,6 +14,7 @@
 	var/mode = IV_INJECTING
 	///Internal beaker
 	var/obj/item/reagent_containers/beaker
+	custom_price = 50
 	///Typecache of containers we accept
 	var/static/list/drip_containers = typecacheof(list(
 		/obj/item/reagent_containers/blood,
@@ -187,6 +188,14 @@
 	else
 		toggle_mode()
 
+/obj/machinery/iv_drip/add_context_self(datum/screentip_context/context, mob/user, obj/item/item)
+	if (attached)
+		context.add_attack_hand_action("Detach [capitalize(attached.name)]")
+	else if (beaker)
+		context.add_attack_hand_action("Eject Beaker")
+	else
+		context.add_attack_hand_action("Toggle Mode")
+
 /obj/machinery/iv_drip/verb/eject_beaker()
 	set category = "Object"
 	set name = "Remove IV Container"
@@ -258,7 +267,6 @@
 		new /obj/machinery/anesthetic_machine(loc)
 		qdel(src)
 
-
 /obj/machinery/iv_drip/saline
 	name = "saline drip"
 	desc = "An all-you-can-drip saline canister designed to supply a hospital without running out, with a scary looking pump rigged to inject saline into containers, but filling people directly might be a bad idea."
@@ -270,7 +278,7 @@
 	. = ..()
 	beaker = new /obj/item/reagent_containers/cup/saline(src)
 
-/obj/machinery/iv_drip/saline/ComponentInitialize()
+/obj/machinery/iv_drip/saline/Initialize(mapload)
 	. = ..()
 	AddElement(/datum/element/update_icon_blocker)
 

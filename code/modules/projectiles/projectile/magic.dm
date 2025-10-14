@@ -45,14 +45,11 @@
 	. = ..()
 	if(!isliving(target))
 		return
-	if(target.ishellbound())
-		return BULLET_ACT_BLOCK
 	if(iscarbon(target))
 		var/mob/living/carbon/C = target
 		C.regenerate_limbs()
 		C.regenerate_organs()
-	if(target.revive(full_heal = 1))
-		target.grab_ghost(force = TRUE) // even suicides
+	if(target.revive(ADMIN_HEAL_ALL & ~HEAL_REFRESH_ORGANS, force_grab_ghost = TRUE)) // This heals suicides
 		to_chat(target, span_notice("You rise with a start, you're alive!!!"))
 	else if(target.stat != DEAD)
 		to_chat(target, span_notice("You feel great!"))
@@ -126,7 +123,7 @@
 	T.ChangeTurf(/turf/open/floor/plating, flags = CHANGETURF_INHERIT_AIR)
 	D.Open()
 
-/obj/projectile/magic/door/proc/OpenDoor(var/obj/machinery/door/D)
+/obj/projectile/magic/door/proc/OpenDoor(obj/machinery/door/D)
 	if(istype(D, /obj/machinery/door/airlock))
 		var/obj/machinery/door/airlock/A = D
 		A.locked = FALSE
@@ -146,7 +143,6 @@
 
 /obj/projectile/magic/change/on_hit(atom/target)
 	. = ..()
-
 	if(isliving(target))
 		var/mob/living/victim = target
 		victim.wabbajack(set_wabbajack_effect, set_wabbajack_changeflags)
@@ -162,7 +158,7 @@
 	. = ..()
 	target.animate_atom_living(firer)
 
-/atom/proc/animate_atom_living(var/mob/living/owner = null)
+/atom/proc/animate_atom_living(mob/living/owner = null)
 	if((isitem(src) || isstructure(src)) && !is_type_in_list(src, GLOB.protected_objects))
 		if(istype(src, /obj/structure/statue/petrified))
 			var/obj/structure/statue/petrified/P = src
@@ -391,7 +387,7 @@
 		possession_test(target)
 		return BULLET_ACT_HIT
 
-/obj/projectile/magic/wipe/proc/possession_test(var/mob/living/carbon/M)
+/obj/projectile/magic/wipe/proc/possession_test(mob/living/carbon/M)
 	var/datum/brain_trauma/special/imaginary_friend/trapped_owner/trauma = M.gain_trauma(/datum/brain_trauma/special/imaginary_friend/trapped_owner)
 	var/poll_message = "Do you want to play as [M.real_name]?"
 	var/ban_key = BAN_ROLE_ALL_ANTAGONISTS
@@ -404,19 +400,28 @@
 		if(A)
 			poll_message = "[poll_message] Status:[A.name]."
 			ban_key = A.banning_key
-	var/list/mob/dead/observer/candidates = poll_candidates_for_mob(poll_message, ban_key, null, 10 SECONDS, M, ignore_category = FALSE)
+	var/mob/dead/observer/candidate = SSpolling.poll_ghosts_for_target(
+		question = poll_message,
+		check_jobban = ban_key,
+		poll_time = 10 SECONDS,
+		checked_target = M,
+		jump_target = M,
+		role_name_text = "ghost possession",
+		alert_pic = M,
+	)
 	if(M.stat == DEAD)//boo.
 		return
-	if(LAZYLEN(candidates))
-		var/mob/dead/observer/C = pick(candidates)
-		to_chat(M, "You have been noticed by a ghost, and it has possessed you!")
+	if(candidate)
 		var/oldkey = M.key
 		M.ghostize(FALSE)
-		M.key = C.key
+		M.key = candidate.key
+
 		trauma.friend.key = oldkey
 		trauma.friend.reset_perspective(null)
 		trauma.friend.Show()
 		trauma.friend_initialized = TRUE
+
+		to_chat(M, "You have been noticed by a ghost, and it has possessed you!")
 	else
 		to_chat(M, span_notice("Your mind has managed to go unnoticed in the spirit world."))
 		qdel(trauma)
