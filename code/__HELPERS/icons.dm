@@ -1131,7 +1131,7 @@ GLOBAL_LIST_EMPTY(friendly_animal_types)
 	if(job)
 		job.equip(body, TRUE, FALSE, outfit_override = outfit_override)
 	if(outfit)
-		body.equipOutfit(outfit_override,visualsOnly = TRUE)
+		body.equipOutfit(outfit_override,visuals_only = TRUE)
 
 	var/icon/out_icon = icon('icons/effects/effects.dmi', "nothing")
 	COMPILE_OVERLAYS(body)
@@ -1289,7 +1289,7 @@ GLOBAL_LIST_EMPTY(friendly_animal_types)
  * * sourceonly - if TRUE, only generate the asset and send back the asset url, instead of tags that display the icon to players
  * * extra_clases - string of extra css classes to use when returning the icon string
  */
-/proc/icon2html(atom/thing, client/target, icon_state, dir = SOUTH, frame = 1, moving = FALSE, sourceonly = FALSE)
+/proc/icon2html(atom/thing, client/target, icon_state, dir = SOUTH, frame = 1, moving = FALSE, sourceonly = FALSE, extra_classes = null)
 	if (!thing)
 		return
 
@@ -1320,7 +1320,7 @@ GLOBAL_LIST_EMPTY(friendly_animal_types)
 				SSassets.transport.send_assets(thing2, name)
 			if(sourceonly)
 				return SSassets.transport.get_asset_url(name)
-			return "<img class='icon icon-misc' src='[SSassets.transport.get_asset_url(name)]'>"
+			return "<img class='[extra_classes] icon icon-misc' src='[SSassets.transport.get_asset_url(name)]'>"
 
 		//its either an atom, image, or mutable_appearance, we want its icon var
 		icon2collapse = thing.icon
@@ -1360,7 +1360,7 @@ GLOBAL_LIST_EMPTY(friendly_animal_types)
 		SSassets.transport.send_assets(client_target, key)
 	if(sourceonly)
 		return SSassets.transport.get_asset_url(key)
-	return "<img class='icon icon-[icon_state]' src='[SSassets.transport.get_asset_url(key)]'>"
+	return "<img class='[extra_classes] icon icon-[icon_state]' src='[SSassets.transport.get_asset_url(key)]'>"
 
 /proc/icon2base64html(thing)
 	if (!thing)
@@ -1467,13 +1467,13 @@ GLOBAL_LIST_EMPTY(friendly_animal_types)
 	return image_to_center
 
 ///Flickers an overlay on an atom
-/proc/flick_overlay_static(overlay_image, atom/source, duration)
+/atom/proc/flick_overlay_static(overlay_image, duration)
 	set waitfor = FALSE
-	if(!source || !overlay_image)
+	if(!overlay_image)
 		return
-	source.add_overlay(overlay_image)
+	add_overlay(overlay_image)
 	sleep(duration)
-	source.cut_overlay(overlay_image)
+	cut_overlay(overlay_image)
 
 ///Perform a shake on an atom, resets its position afterwards
 /atom/proc/Shake(pixelshiftx = 15, pixelshifty = 15, duration = 250)

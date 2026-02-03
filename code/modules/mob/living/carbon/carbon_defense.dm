@@ -40,7 +40,7 @@
 
 /mob/living/carbon/check_projectile_dismemberment(obj/projectile/P, def_zone)
 	var/obj/item/bodypart/affecting = get_bodypart(def_zone)
-	if(affecting && affecting.dismemberable && affecting.get_damage() >= (affecting.max_damage - P.dismemberment))
+	if(affecting && !(affecting.bodypart_flags & BODYPART_UNREMOVABLE) && affecting.get_damage() >= (affecting.max_damage - P.dismemberment))
 		affecting.dismember(P.damtype)
 
 /mob/living/carbon/proc/can_catch_item(skip_throw_mode_check)
@@ -102,6 +102,9 @@
 			cauterise_wounds(AMOUNT_TO_BLEED_INTENSITY(I.force / 3))
 			to_chat(src, span_userdanger("The heat from [I] cauterizes your bleeding!"))
 			playsound(src, 'sound/surgery/cautery2.ogg', 70)
+
+		if(istype(I, /obj/item/melee/baton) && I.damtype == STAMINA)
+			batong_act(I, user, affecting, armour_block)
 
 		var/dismember_limb = FALSE
 		var/weapon_sharpness = I.is_sharp()
@@ -225,11 +228,10 @@
 				span_userdanger("The [M.name] has shocked you!"))
 			do_sparks(5, TRUE, src)
 			Knockdown(M.powerlevel*5)
-			if(stuttering < M.powerlevel)
-				stuttering = M.powerlevel
+			set_stutter_if_lower(M.powerlevel * 5)
 			if(M.transformeffects & SLIME_EFFECT_ORANGE)
 				adjust_fire_stacks(2)
-				IgniteMob()
+				ignite_mob()
 			adjustFireLoss(M.powerlevel * 3)
 			updatehealth()
 		return TRUE
@@ -322,7 +324,7 @@
 	//Jitter and other fluff.
 	do_jitter_animation(300)
 	adjust_timed_status_effect(20 SECONDS, /datum/status_effect/jitter)
-	stuttering += 2
+	adjust_stutter(4 SECONDS)
 	addtimer(CALLBACK(src, PROC_REF(secondary_shock), should_stun), 2 SECONDS)
 	return shock_damage
 
@@ -470,6 +472,14 @@
 		if(prob(20))
 			to_chat(src, span_notice("Something bright flashes in the corner of your vision!"))
 
+/mob/living/carbon/batong_act(obj/item/melee/baton/batong, mob/living/user, obj/item/bodypart/affecting, armour_block = 0)
+	. = ..()
+	adjust_stutter(batong.active_force / 2) //0.5 seconds of stuttering speech for every 10 stamina damage
+	do_stun_animation()
+	if(ismonkey(src))
+		emote("screech")
+	else
+		emote("scream")
 
 /mob/living/carbon/soundbang_act(intensity = 1, stun_pwr = 20, damage_pwr = 5, deafen_pwr = 15)
 	var/list/reflist = list(intensity) // Need to wrap this in a list so we can pass a reference
@@ -484,17 +494,18 @@
 				Paralyze((stun_pwr*effect_amount)*0.1)
 			Knockdown(stun_pwr*effect_amount)
 
-		if(istype(ears) && (deafen_pwr || damage_pwr))
+		if(ears && (deafen_pwr || damage_pwr))
 			var/ear_damage = damage_pwr * effect_amount
 			var/deaf = deafen_pwr * effect_amount
-			adjustEarDamage(ear_damage,deaf)
+			ears.adjustEarDamage(ear_damage,deaf)
 
 			if(ears.damage >= 15)
 				to_chat(src, span_warning("Your ears start to ring badly!"))
 				if(prob(ears.damage - 5))
 					to_chat(src, span_userdanger("You can't hear anything!"))
-					ears.damage = min(ears.damage, ears.maxHealth)
+					// Makes you deaf, enough that you need a proper source of healing, it won't self heal
 					// you need earmuffs, inacusiate, or replacement
+					ears.set_organ_damage(ears.maxHealth)
 			else if(ears.damage >= 5)
 				to_chat(src, span_warning("Your ears start to ring!"))
 			SEND_SOUND(src, sound('sound/weapons/flash_ring.ogg',0,1,0,250))
@@ -519,7 +530,7 @@
 /mob/living/carbon/can_hear()
 	. = FALSE
 	var/obj/item/organ/ears/ears = get_organ_slot(ORGAN_SLOT_EARS)
-	if(istype(ears) && !ears.deaf)
+	if(ears && !HAS_TRAIT(src, TRAIT_DEAF))
 		. = TRUE
 
 /mob/living/carbon/adjustOxyLoss(amount, updating_health = TRUE, forced = FALSE)

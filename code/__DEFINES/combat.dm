@@ -54,7 +54,7 @@
 #define ARMOR_LIST_DURABILITY list(ACID, FIRE)
 
 /// All armors, preferable in the order as seen above
-#define ARMOR_LIST_ALL list(MELEE, BULLET, LASER, ENERGY, BOMB, BIO, STAMINA, BLEED, ACID, FIRE)
+#define ARMOR_LIST_ALL list(MELEE, BULLET, LASER, ENERGY, BOMB, BIO, STAMINA, BLEED, ACID, FIRE, CONSUME)
 
 //bitflag damage defines used for suicide_act
 #define BRUTELOSS (1<<0)
@@ -70,8 +70,6 @@
 #define EFFECT_UNCONSCIOUS "unconscious"
 #define EFFECT_PARALYZE "paralyze"
 #define EFFECT_IMMOBILIZE "immobilize"
-#define EFFECT_STUTTER "stutter"
-#define EFFECT_SLUR "slur"
 #define EFFECT_EYE_BLUR "eye_blur"
 #define EFFECT_DROWSY "drowsy"
 
@@ -97,7 +95,7 @@
 #define CLICK_CD_RAPID 2
 #define CLICK_CD_HYPER_RAPID 1
 #define CLICK_CD_CLICK_ABILITY 6
-#define CLICK_CD_BREAKOUT 20
+#define CLICK_CD_BREAKOUT 100
 #define CLICK_CD_HANDCUFFED 10
 #define CLICK_CD_RESIST 20
 #define CLICK_CD_GRABBING 10
@@ -107,6 +105,7 @@
 
 //Cuff resist speeds
 #define FAST_CUFFBREAK 1
+#define INSTANT_CUFFBREAK 2
 
 //Grab levels
 #define GRAB_PASSIVE 0
@@ -232,6 +231,7 @@ GLOBAL_LIST_INIT(shove_disarming_types, typecacheof(list(
 #define BLOCKING_COUNTERATTACK		(1<<3) //if it parries a bare hand or a weapon, has a chance to return a hit
 #define BLOCKING_UNBALANCE			(1<<4) //has a chance to knock the opponent off-balance (knockdown + longer attack delay)
 #define BLOCKING_UNBLOCKABLE		(1<<5) //attacks with this item can only be blocked by another unblockable item
+#define BLOCKING_EFFORTLESS			(1<<6) //This marks an attacking item as effortless to block, making it deal no stamina damage
 
 // Object/Item sharpness
 #define BLUNT					0	//Can only remove limbs if they're easy to remove
@@ -315,3 +315,5 @@ GLOBAL_LIST_INIT(shove_disarming_types, typecacheof(list(
 #define ENERGY_SHIELD_INVISIBLE (1 << 2)
 /// Energy shield will take max damage when EMP'd
 #define ENERGY_SHIELD_EMP_VULNERABLE (1 << 3)
+/// Energy shield starts at 0 health
+#define ENERGY_SHIELD_DEPLETE_EQUIP (1 << 4)

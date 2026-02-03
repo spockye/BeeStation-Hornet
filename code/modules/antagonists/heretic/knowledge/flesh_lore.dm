@@ -108,7 +108,7 @@
 	log_game("[key_name(source)] created a ghoul, controlled by [key_name(human_target)].")
 	message_admins("[ADMIN_LOOKUPFLW(source)] created a ghoul, [ADMIN_LOOKUPFLW(human_target)].")
 
-	RegisterSignal(human_target, COMSIG_MOB_DEATH, PROC_REF(remove_ghoul))
+	RegisterSignal(human_target, COMSIG_LIVING_DEATH, PROC_REF(remove_ghoul))
 	human_target.revive(ADMIN_HEAL_ALL) // Have to do an admin heal here, otherwise they'll likely just die due to missing organs or limbs
 	human_target.setMaxHealth(GHOUL_MAX_HEALTH)
 	human_target.health = GHOUL_MAX_HEALTH
@@ -127,7 +127,7 @@
 	source.remove_status_effect(/datum/status_effect/ghoul)
 	source.mind.remove_antag_datum(/datum/antagonist/heretic_monster)
 
-	UnregisterSignal(source, COMSIG_MOB_DEATH)
+	UnregisterSignal(source, COMSIG_LIVING_DEATH)
 
 /datum/heretic_knowledge/limited_amount/flesh_ghoul
 	name = "Imperfect Ritual"
@@ -171,15 +171,14 @@
 
 	if(!soon_to_be_ghoul.mind || !soon_to_be_ghoul.client)
 		message_admins("[ADMIN_LOOKUPFLW(user)] is creating a voiceless dead of a body with no player.")
-		var/mob/dead/observer/candidate = SSpolling.poll_ghosts_for_target(
-			question = "Do you want to play as a [soon_to_be_ghoul.real_name], a voiceless dead?",
-			check_jobban = ROLE_HERETIC,
-			poll_time = 10 SECONDS,
-			checked_target = soon_to_be_ghoul,
-			jump_target = soon_to_be_ghoul,
-			role_name_text = "voiceless dead",
-			alert_pic = soon_to_be_ghoul,
-		)
+		var/datum/poll_config/config = new()
+		config.question = "Do you want to play as a [soon_to_be_ghoul.real_name], a voiceless dead?"
+		config.check_jobban = ROLE_HERETIC
+		config.poll_time = 10 SECONDS
+		config.jump_target = soon_to_be_ghoul
+		config.role_name_text = "voiceless dead"
+		config.alert_pic = soon_to_be_ghoul
+		var/mob/dead/observer/candidate = SSpolling.poll_ghosts_for_target(config, checked_target = soon_to_be_ghoul)
 		if(!candidate)
 			loc.balloon_alert(user, "Ritual failed, no ghosts")
 			return FALSE
@@ -205,7 +204,7 @@
 	selected_atoms -= soon_to_be_ghoul
 	LAZYADD(created_items, WEAKREF(soon_to_be_ghoul))
 
-	RegisterSignal(soon_to_be_ghoul, COMSIG_MOB_DEATH, PROC_REF(remove_ghoul))
+	RegisterSignal(soon_to_be_ghoul, COMSIG_LIVING_DEATH, PROC_REF(remove_ghoul))
 	return TRUE
 
 /datum/heretic_knowledge/limited_amount/flesh_ghoul/proc/remove_ghoul(mob/living/carbon/human/source)
@@ -216,7 +215,7 @@
 	source.remove_status_effect(/datum/status_effect/ghoul)
 	source.mind.remove_antag_datum(/datum/antagonist/heretic_monster)
 
-	UnregisterSignal(source, COMSIG_MOB_DEATH)
+	UnregisterSignal(source, COMSIG_LIVING_DEATH)
 
 /datum/heretic_knowledge/flesh_mark
 	name = "Mark of Flesh"

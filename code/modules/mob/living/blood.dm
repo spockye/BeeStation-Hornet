@@ -28,7 +28,7 @@ bleedsuppress has been replaced for is_bandaged(). Note that is_bleeding() retur
 	id = "bleeding"
 	status_type = STATUS_EFFECT_MERGE
 	alert_type = /atom/movable/screen/alert/status_effect/bleeding
-	tick_interval = 1 SECONDS
+	tick_interval = 0.2 SECONDS
 
 	var/bandaged_bleeding = 0
 	var/bleed_rate = 0
@@ -37,28 +37,31 @@ bleedsuppress has been replaced for is_bandaged(). Note that is_bleeding() retur
 
 /datum/status_effect/bleeding/merge(bleed_level)
 	src.bleed_rate = src.bleed_rate + max(min(bleed_level * bleed_level, sqrt(bleed_level)) / max(src.bleed_rate, 1), bleed_level - src.bleed_rate)
+	update_shown_duration()
 
 /datum/status_effect/bleeding/on_creation(mob/living/new_owner, bleed_rate)
 	src.bleed_rate = bleed_rate
 	return ..()
 
-/datum/status_effect/bleeding/tick()
+/datum/status_effect/bleeding/tick(seconds_between_ticks)
 	if (HAS_TRAIT(owner, TRAIT_NO_BLOOD))
 		qdel(src)
 		return
-	time_applied += tick_interval
-	if (time_applied < 1 SECONDS)
-		if(bleed_rate >= BLEED_DEEP_WOUND)
-			owner.add_splatter_floor(owner.loc)
-		else
+
+	time_applied += seconds_between_ticks SECONDS
+
+	var/should_process = time_applied >= 1 SECONDS
+	if (!should_process)
+		// For heavy bleeding, leave drops if we are standing.
+		// If we are lying down, allow the trail to form
+		// This doesn't actually cause you to lose blood any faster
+		if (bleed_rate > BLEED_RATE_MINOR && owner.body_position == STANDING_UP && !HAS_TRAIT(owner, TRAIT_BLEED_HELD))
 			owner.add_splatter_floor(owner.loc, TRUE)
 		return
 	time_applied = 0
 	// Non-humans stop bleeding a lot quicker, even if it is not a minor cut
 	if (!ishuman(owner))
 		bleed_rate -= BLEED_HEAL_RATE_MINOR * 4 * bleed_heal_multiplier
-	// Set the rate at which we process, so we bleed more on the ground when heavy bleeding
-	tick_interval = bleed_rate <= BLEED_RATE_MINOR ? 1 SECONDS : 0.2 SECONDS
 	// Reduce the actual rate of bleeding
 	if (ishuman(owner))
 		if (bleed_rate > 0 && bleed_rate < BLEED_RATE_MINOR)
@@ -75,11 +78,14 @@ bleedsuppress has been replaced for is_bandaged(). Note that is_bleeding() retur
 		final_bleed_rate = max(0, final_bleed_rate - BLEED_RATE_MINOR)
 	// We aren't actually bleeding
 	if (final_bleed_rate <= 0)
+		update_shown_duration()
 		return
 	// Actually do the bleeding
 	owner.bleed(min(MAX_BLEED_RATE, final_bleed_rate))
+	// Update the alert to show current bleed rate
+	update_shown_duration()
 
-/datum/status_effect/bleeding/update_icon()
+/datum/status_effect/bleeding/update_shown_duration()
 	if(QDELETED(owner))
 		stack_trace("Tried to update bleeding icon [src] on deleted mob")
 		return
@@ -159,10 +165,6 @@ bleedsuppress has been replaced for is_bandaged(). Note that is_bleeding() retur
 		blur_eyes(1)
 		var/datum/reagent/blood = get_blood_id() //Not every race has "BLOOD" rushing from the wound
 		to_chat(src, "[span_userdanger("[blood.name] starts rushing out of the open wound!")]")
-	if(bleed_level >= BLEED_CUT)
-		add_splatter_floor(src.loc)
-	else
-		add_splatter_floor(src.loc, 1)
 
 /mob/living/carbon/human/add_bleeding(bleed_level)
 	if(HAS_TRAIT(src, TRAIT_NOBLOOD))
@@ -233,7 +235,7 @@ bleedsuppress has been replaced for is_bandaged(). Note that is_bleeding() retur
 	var/datum/status_effect/bleeding/bleed = has_status_effect(/datum/status_effect/bleeding)
 	if (!bleed)
 		return
-	bleed.update_icon()
+	bleed.update_shown_duration()
 
 /mob/living/carbon/proc/stop_holding_wounds()
 	var/located = FALSE
@@ -245,7 +247,7 @@ bleedsuppress has been replaced for is_bandaged(). Note that is_bleeding() retur
 	var/datum/status_effect/bleeding/bleed = has_status_effect(/datum/status_effect/bleeding)
 	if (!bleed)
 		return
-	bleed.update_icon()
+	bleed.update_shown_duration()
 
 /mob/living/carbon/proc/suppress_bloodloss(amount)
 	var/datum/status_effect/bleeding/bleed = has_status_effect(/datum/status_effect/bleeding)
@@ -254,7 +256,7 @@ bleedsuppress has been replaced for is_bandaged(). Note that is_bleeding() retur
 	var/reduced_amount = min(bleed.bleed_rate, amount)
 	bleed.bleed_rate -= reduced_amount
 	bleed.bandaged_bleeding += reduced_amount
-	bleed.update_icon()
+	bleed.update_shown_duration()
 	if (bleed.bleed_rate <= 0)
 		stop_holding_wounds()
 
@@ -340,7 +342,7 @@ bleedsuppress has been replaced for is_bandaged(). Note that is_bleeding() retur
 		adjustOxyLoss(health_difference)
 
 /mob/living/proc/bleed(amt)
-	add_splatter_floor(src.loc, 1)
+	add_splatter_floor(src.loc, TRUE)
 
 //Makes a blood drop, leaking amt units of blood from the mob
 /mob/living/carbon/bleed(amt)
@@ -349,15 +351,15 @@ bleedsuppress has been replaced for is_bandaged(). Note that is_bleeding() retur
 		// See the top of this file for desmos lines
 		var/decrease_multiplier = BLEED_RATE_MULTIPLIER
 		var/obj/item/organ/heart/heart = get_organ_slot(ORGAN_SLOT_HEART)
-		if (!heart || !heart.beating)
+		if (!heart || !heart.beating || src.stat == DEAD)
 			decrease_multiplier = BLEED_RATE_MULTIPLIER_NO_HEART
 		var/blood_loss_amount = blood_volume - blood_volume * NUM_E ** (-(amt * decrease_multiplier)/BLOOD_VOLUME_NORMAL)
 		blood_volume = max(blood_volume - blood_loss_amount, 0)
-		if(isturf(src.loc) && !isgroundlessturf(src.loc) && prob(sqrt(blood_loss_amount)*BLOOD_DRIP_RATE_MOD)) //Blood loss still happens in locker, floor stays clean
+		if(prob(sqrt(blood_loss_amount)*BLOOD_DRIP_RATE_MOD)) //Blood loss still happens in locker, floor stays clean
 			if(blood_loss_amount >= 2)
 				add_splatter_floor(src.loc)
 			else
-				add_splatter_floor(src.loc, 1)
+				add_splatter_floor(src.loc, TRUE)
 
 /mob/living/carbon/human/bleed(amt)
 	amt *= physiology.bleed_mod
@@ -497,8 +499,12 @@ bleedsuppress has been replaced for is_bandaged(). Note that is_bleeding() retur
 		return
 	if(get_blood_id() != /datum/reagent/blood)
 		return
-	if(!T)
+	if (!T)
 		T = get_turf(src)
+	if(T && !isturf(T))
+		T = get_turf(T)
+	if (!T || isgroundlessturf(T))
+		return
 
 	var/list/temp_blood_DNA
 	if(small_drip)

@@ -222,7 +222,7 @@ CREATION_TEST_IGNORE_SUBTYPES(/obj/structure/closet/supplypod)
 /obj/structure/closet/supplypod/toggle(mob/living/user) //Supplypods shouldn't be able to be manually opened under any circumstances, as the open() proc generates supply order datums
 	return
 
-/obj/structure/closet/supplypod/open(mob/living/user, force = TRUE)
+/obj/structure/closet/supplypod/open(mob/living/user, force = FALSE, special_effects = TRUE)
 	return
 
 /obj/structure/closet/supplypod/proc/handleReturnAfterDeparting(atom/movable/holder = src)
@@ -257,7 +257,7 @@ CREATION_TEST_IGNORE_SUBTYPES(/obj/structure/closet/supplypod)
 				for (var/bp in carbon_target_mob.bodyparts) //Look at the bodyparts in our poor mob beneath our pod as it lands
 					var/obj/item/bodypart/bodypart = bp
 					if(bodypart.body_part != HEAD && bodypart.body_part != CHEST)//we dont want to kill him, just teach em a lesson!
-						if (bodypart.dismemberable)
+						if (!(bodypart.bodypart_flags & BODYPART_UNREMOVABLE))
 							bodypart.dismember() //Using the power of flextape i've sawed this man's limb in half!
 							break
 			if (effectOrgans) //effectOrgans means remove every organ in our mob
@@ -271,7 +271,7 @@ CREATION_TEST_IGNORE_SUBTYPES(/obj/structure/closet/supplypod)
 				for (var/bp in carbon_target_mob.bodyparts) //Look at the bodyparts in our poor mob beneath our pod as it lands
 					var/obj/item/bodypart/bodypart = bp
 					var/destination = get_edge_target_turf(turf_underneath, pick(GLOB.alldirs))
-					if (bodypart.dismemberable)
+					if (!(bodypart.bodypart_flags & BODYPART_UNREMOVABLE))
 						bodypart.dismember() //Using the power of flextape i've sawed this man's bodypart in half!
 						bodypart.throw_at(destination, 2, 3)
 						sleep(1)
@@ -687,5 +687,5 @@ CREATION_TEST_IGNORE_SUBTYPES(/obj/effect/pod_landingzone)
 	desc = "This disk provides a firmware update to the Express Supply Console, granting the use of Nanotrasen's Bluespace Drop Pods to the supply department."
 	icon = 'icons/obj/module.dmi'
 	icon_state = "cargodisk"
-	item_state = "card-id"
+	inhand_icon_state = "card-id"
 	w_class = WEIGHT_CLASS_SMALL
