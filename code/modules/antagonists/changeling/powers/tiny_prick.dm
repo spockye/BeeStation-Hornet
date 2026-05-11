@@ -124,7 +124,7 @@
 /obj/item/melee/arm_blade/false
 	desc = "A grotesque mass of flesh that used to be your arm. Although it looks dangerous at first, you can tell it's actually quite dull and useless."
 	sharpness = BLUNT //Not actually sharp
-	force = 5 //Basically as strong as a punch
+	force = 10 //This is still going to do more than a fist
 	fake = TRUE
 
 /datum/action/changeling/sting/false_armblade/can_sting(mob/user, mob/target)
@@ -216,7 +216,7 @@
 	to_chat(target, span_danger("Your eyes burn horrifically!"))
 	target.become_nearsighted(EYE_DAMAGE)
 	target.adjust_blindness(20)
-	target.blur_eyes(40)
+	target.set_eye_blur_if_lower(80 SECONDS)
 	return TRUE
 
 /datum/action/changeling/sting/LSD

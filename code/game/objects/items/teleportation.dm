@@ -16,8 +16,7 @@
 	desc = "Used to track portable teleportation beacons and targets with embedded tracking implants."
 	icon = 'icons/obj/device.dmi'
 	icon_state = "locator"
-	var/temp = null
-	flags_1 = CONDUCT_1
+	obj_flags = CONDUCTS_ELECTRICITY
 	w_class = WEIGHT_CLASS_SMALL
 	inhand_icon_state = "electronic"
 	lefthand_file = 'icons/mob/inhands/misc/devices_lefthand.dmi'
@@ -126,6 +125,7 @@
 /obj/item/hand_tele/Initialize(mapload)
 	. = ..()
 	active_portal_pairs = list()
+	AddElement(/datum/element/trackable)
 
 /obj/item/hand_tele/pre_attack(atom/target, mob/user, params)
 	if(try_dispel_portal(target, user))
@@ -185,7 +185,7 @@
 	if(turfs.len)
 		L["None (Dangerous)"] = pick(turfs)
 	var/t1 = tgui_input_list(user, "Please select a teleporter to lock in on.", "Hand Teleporter", L)
-	if (!t1 || user.get_active_held_item() != src || user.incapacitated())
+	if (!t1 || user.get_active_held_item() != src || user.incapacitated)
 		return
 	if(active_portal_pairs.len >= max_portal_pairs)
 		user.show_message(span_notice("\The [src] is recharging!"))
@@ -329,15 +329,19 @@
 	check_charges()
 
 /obj/item/teleporter/emp_act(severity)
-	if(prob(50 / severity))
-		if(istype(loc, /mob/living/carbon/human))
-			var/mob/living/carbon/human/user = loc
-			to_chat(user, span_danger("[src] buzzes and activates!"))
-			attempt_teleport(user, TRUE) //EMP Activates a teleport with no safety.
-		else
-			visible_message(span_warning("[src] activates and blinks out of existence!"))
-			do_sparks(2, 1, src)
-			qdel(src)
+	. = ..()
+	if(. & EMP_PROTECT_SELF)
+		return
+	if(!prob(50 / severity))
+		return
+	if(istype(loc, /mob/living/carbon/human))
+		var/mob/living/carbon/human/user = loc
+		to_chat(user, span_danger("[src] buzzes and activates!"))
+		attempt_teleport(user, TRUE) //EMP Activates a teleport with no safety.
+	else
+		visible_message(span_warning("[src] activates and blinks out of existence!"))
+		do_sparks(2, 1, src)
+		qdel(src)
 
 /obj/item/teleporter/proc/attempt_teleport(mob/user, EMP_D = FALSE)
 	if(!charges)

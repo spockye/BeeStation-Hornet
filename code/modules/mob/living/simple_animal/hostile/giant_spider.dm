@@ -133,7 +133,7 @@
 
 // Handles faster movement on webs
 // This is triggered after the first time a spider steps on/off a web, making web-peeking using this harder
-/mob/living/simple_animal/hostile/poison/giant_spider/Moved(atom/oldloc, dir)
+/mob/living/simple_animal/hostile/poison/giant_spider/Moved(atom/old_loc, movement_dir, forced, list/old_locs, momentum_change = TRUE)
 	. = ..()
 	if(onweb_speed == null)
 		return
@@ -561,7 +561,7 @@
 	. = ..()
 	if(!.)
 		return FALSE
-	if(owner.incapacitated())
+	if(owner.incapacitated)
 		return FALSE
 	if(DOING_INTERACTION(owner, INTERACTION_SPIDER_KEY))
 		return FALSE

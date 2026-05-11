@@ -9,21 +9,21 @@
 /proc/random_eye_color()
 	switch(pick(20;"brown",20;"hazel",20;"grey",15;"blue",15;"green",1;"amber",1;"albino"))
 		if("brown")
-			return "630"
+			return COLOR_BROWNER_BROWN
 		if("hazel")
-			return "542"
+			return "#554422"
 		if("grey")
-			return pick("666","777","888","999","aaa","bbb","ccc")
+			return pick("#666666","#777777","#888888","#999999","#aaaaaa","#bbbbbb","#cccccc")
 		if("blue")
-			return "36c"
+			return "#3366cc"
 		if("green")
-			return "060"
+			return "#006600"
 		if("amber")
-			return "fc0"
+			return COLOR_YELLOW
 		if("albino")
-			return pick("c","d","e","f") + pick("0","1","2","3","4","5","6","7","8","9") + pick("0","1","2","3","4","5","6","7","8","9")
+			return "#" + pick("cc","dd","ee","ff") + pick("00","11","22","33","44","55","66","77","88","99") + pick("00","11","22","33","44","55","66","77","88","99")
 		else
-			return "000"
+			return COLOR_BLACK
 
 /proc/random_underwear(gender)
 	if(!GLOB.underwear_list.len)
@@ -66,12 +66,12 @@
 		init_sprite_accessory_subtypes(/datum/sprite_accessory/body_markings, GLOB.body_markings_list)
 	if(!GLOB.wings_list.len)
 		init_sprite_accessory_subtypes(/datum/sprite_accessory/wings, GLOB.wings_list)
-	if(!GLOB.moth_wings_roundstart_list.len)
-		init_sprite_accessory_subtypes(/datum/sprite_accessory/moth_wings, GLOB.moth_wings_roundstart_list)
-	if(!GLOB.moth_antennae_roundstart_list.len)
-		init_sprite_accessory_subtypes(/datum/sprite_accessory/moth_antennae, GLOB.moth_antennae_roundstart_list)
-	if(!GLOB.moth_markings_roundstart_list.len)
-		init_sprite_accessory_subtypes(/datum/sprite_accessory/moth_markings, GLOB.moth_markings_roundstart_list)
+	if(!GLOB.moth_wings_list.len)
+		init_sprite_accessory_subtypes(/datum/sprite_accessory/moth_wings, GLOB.moth_wings_list)
+	if(!GLOB.moth_antennae_list.len)
+		init_sprite_accessory_subtypes(/datum/sprite_accessory/moth_antennae, GLOB.moth_antennae_list)
+	if(!GLOB.moth_markings_list.len)
+		init_sprite_accessory_subtypes(/datum/sprite_accessory/moth_markings, GLOB.moth_markings_list)
 	if(!GLOB.ipc_screens_list.len)
 		init_sprite_accessory_subtypes(/datum/sprite_accessory/ipc_screens, GLOB.ipc_screens_list)
 	if(!GLOB.ipc_antennas_list.len)
@@ -110,22 +110,22 @@
 	return(
 		list(
 		"body_size" = "Normal",
-		"mcolor" = pick("FFFFFF","7F7F7F", "7FFF7F", "7F7FFF", "FF7F7F", "7FFFFF", "FF7FFF", "FFFF7F"),
+		"mcolor" = pick(COLOR_WHITE, "#7F7F7F", "#7FFF7F", "#7F7FFF", "#FF7F7F", "#7FFFFF", "#FF7FFF", "#FFFF7F"),
 		"ethcolor" = GLOB.color_list_ethereal[pick(GLOB.color_list_ethereal)],
 		"tail_lizard" = pick(GLOB.tails_list_lizard),
-		"tail_human" = "None",
-		"wings" = "None",
+		"tail_human" = SPRITE_ACCESSORY_NONE,
+		"wings" = SPRITE_ACCESSORY_NONE,
 		"snout" = pick(GLOB.snouts_list),
 		"horns" = pick(GLOB.horns_list),
-		"ears" = "None",
+		"ears" = SPRITE_ACCESSORY_NONE,
 		"frills" = pick(GLOB.frills_list),
 		"spines" = pick(GLOB.spines_list),
 		"body_markings" = pick(GLOB.body_markings_list),
 		"legs" = "Normal Legs",
 		"caps" = pick(GLOB.caps_list),
-		"moth_wings" = pick(GLOB.moth_wings_roundstart_list),
-		"moth_antennae" = pick(GLOB.moth_antennae_roundstart_list),
-		"moth_markings" = pick(GLOB.moth_markings_roundstart_list),
+		"moth_wings" = pick(GLOB.moth_wings_list),
+		"moth_antennae" = pick(GLOB.moth_antennae_list),
+		"moth_markings" = pick(GLOB.moth_markings_list),
 		"ipc_screen" = pick(GLOB.ipc_screens_list),
 		"ipc_antenna" = pick(GLOB.ipc_antennas_list),
 		"ipc_chassis" = pick(GLOB.ipc_chassis_list),
@@ -273,6 +273,8 @@ GLOBAL_LIST_INIT(skin_tone_names, list(
 		if(!hidden && delay >= 1 SECONDS)
 			cog = new(user)
 
+	SEND_SIGNAL(user, COMSIG_DO_AFTER_BEGAN)
+
 	var/endtime = world.time + delay
 	var/starttime = world.time
 	. = TRUE
@@ -312,6 +314,7 @@ GLOBAL_LIST_INIT(skin_tone_names, list(
 			return
 		// all out, let's clear er out fully
 		LAZYREMOVE(user.do_afters, interaction_key)
+	SEND_SIGNAL(user, COMSIG_DO_AFTER_ENDED)
 
 /// Returns the total amount of do_afters this mob is taking part in
 /mob/proc/do_after_count()
@@ -375,8 +378,11 @@ GLOBAL_LIST_INIT(skin_tone_names, list(
 
 	return spawned_mobs
 
-/proc/deadchat_broadcast(message, mob/follow_target=null, turf/turf_target=null, speaker_key=null, message_type=DEADCHAT_REGULAR)
-	message = span_linkify("[message]")
+// Displays a message in deadchat, sent by source. Source is not linkified, message is, to avoid stuff like character names to be linkified.
+// Automatically gives the class deadsay to the whole message (message + source)
+/proc/deadchat_broadcast(message, source=null, mob/follow_target=null, turf/turf_target=null, speaker_key=null, message_type=DEADCHAT_REGULAR)
+	message = span_deadsay("[source][span_linkify(message)]")
+
 	for(var/mob/M in GLOB.player_list)
 		var/death_rattle = TRUE
 		var/arrivals_rattle = TRUE

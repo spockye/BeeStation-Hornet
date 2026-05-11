@@ -1,4 +1,5 @@
 /obj/item/reagent_containers/cup
+	abstract_type = /obj/item/reagent_containers/cup
 	name = "glass"
 	amount_per_transfer_from_this = 10
 	possible_transfer_amounts = list(5, 10, 15, 20, 25, 30, 50)
@@ -137,7 +138,7 @@
 		to_chat(user, span_notice("You fill [src] with [trans] unit\s of the contents of [target]."))
 
 /obj/item/reagent_containers/cup/attackby(obj/item/attacking_item, mob/user, params)
-	var/hotness = attacking_item.is_hot()
+	var/hotness = attacking_item.get_temperature()
 	if(hotness && reagents)
 		reagents.expose_temperature(hotness)
 		to_chat(user, span_notice("You heat [name] with [attacking_item]!"))
@@ -438,7 +439,7 @@
 	volume = 5000
 	list_reagents = list(/datum/reagent/medicine/salglu_solution = 5000)
 
-/obj/item/reagent_containers/cup/saline/Moved(atom/OldLoc, Dir)
+/obj/item/reagent_containers/cup/saline/Moved(atom/old_loc, movement_dir, forced, list/old_locs, momentum_change = TRUE)
 	if (loc && !istype(loc, /obj/machinery/iv_drip/saline))
 		qdel(src)
 		return

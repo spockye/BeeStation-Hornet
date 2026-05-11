@@ -147,7 +147,8 @@
 	var/immobilize = 0
 	var/unconscious = 0
 	var/eyeblur = 0
-	var/drowsy = 0
+	/// Drowsiness applied on projectile hit
+	var/drowsy = 0 SECONDS
 	/// Jittering applied on projectile hit
 	var/jitter = 0 SECONDS
 	/// Extra stamina damage applied on projectile hit (in addition to the main damage)
@@ -598,14 +599,14 @@
  * Scan turf we're now in for anything we can/should hit. This is useful for hitting non dense objects the user
  * directly clicks on, as well as for PHASING projectiles to be able to hit things at all as they don't ever Bump().
  */
-/obj/projectile/Moved(atom/OldLoc, Dir)
+/obj/projectile/Moved(atom/old_loc, movement_dir, forced, list/old_locs, momentum_change = TRUE)
 	. = ..()
 	if(!fired)
 		return
 	if(temporary_unstoppable_movement)
 		temporary_unstoppable_movement = FALSE
 		movement_type &= ~PHASING
-	scan_moved_turf()		//mostly used for making sure we can hit a non-dense object the user directly clicked on, and for penetrating projectiles that don't bump
+	scan_moved_turf() //mostly used for making sure we can hit a non-dense object the user directly clicked on, and for penetrating projectiles that don't bump
 
 /**
  * Checks if we should pierce something.
@@ -877,9 +878,10 @@
 		homing_offset_y = -homing_offset_y
 
 //Spread is FORCED!
-/obj/projectile/proc/preparePixelProjectile(atom/target, atom/source, modifiers, spread = 0)
-	if(!isnull(modifiers) && !islist(modifiers))
+/obj/projectile/proc/preparePixelProjectile(atom/target, atom/source, list/modifiers = null, spread = 0)
+	if(!(isnull(modifiers) || islist(modifiers)))
 		stack_trace("WARNING: Projectile [type] fired with non-list modifiers, likely was passed click params.")
+		modifiers = null
 
 	var/turf/current_location = get_turf(source)
 	var/turf/targloc = get_turf(target)
@@ -994,6 +996,25 @@
 
 /obj/projectile/experience_pressure_difference()
 	return
+
+/// Fire a projectile from this atom at another atom
+/atom/proc/fire_projectile(projectile_type, atom/target, sound, firer, list/ignore_targets = list())
+	if (!isnull(sound))
+		playsound(src, sound, vol = 100, vary = TRUE)
+
+	var/turf/startloc = get_turf(src)
+	var/obj/projectile/bullet = new projectile_type(startloc)
+	bullet.starting = startloc
+	for (var/atom/thing as anything in ignore_targets)
+		bullet.impacted[WEAKREF(thing)] = TRUE
+	bullet.firer = firer || src
+	bullet.fired_from = src
+	bullet.yo = target.y - startloc.y
+	bullet.xo = target.x - startloc.x
+	bullet.original = target
+	bullet.preparePixelProjectile(target, src)
+	bullet.fire()
+	return bullet
 
 #undef MOVES_HITSCAN
 #undef MUZZLE_EFFECT_PIXEL_INCREMENT

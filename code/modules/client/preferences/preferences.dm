@@ -235,7 +235,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 	var/list/data = list()
 
 	data["character_preview_view"] = character_preview_view.assigned_map
-	data["overflow_role"] = SSjob.GetJob(SSjob.overflow_role).title
+	data["overflow_role"] = SSjob.GetJobType(SSjob.overflow_role).title
 	data["window"] = current_window
 
 	data["content_unlocked"] = unlock_content
@@ -339,14 +339,10 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 			if (isnull(requested_preference))
 				return FALSE
 
-			if (!istype(requested_preference, /datum/preference/color) \
-				&& !istype(requested_preference, /datum/preference/color_legacy) \
-			)
+			if (!istype(requested_preference, /datum/preference/color))
 				return FALSE
 
 			var/default_value = read_preference(requested_preference.type)
-			if (istype(requested_preference, /datum/preference/color_legacy))
-				default_value = expand_three_digit_color(default_value)
 
 			// Yielding
 			var/new_color = tgui_color_picker(

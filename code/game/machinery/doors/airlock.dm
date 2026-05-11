@@ -146,7 +146,7 @@
 	var/static/list/connections = list(
 		COMSIG_ATOM_ATTACK_HAND = PROC_REF(on_attack_hand)
 	)
-	AddElement(/datum/element/connect_loc, src, connections)
+	AddElement(/datum/element/connect_loc, connections)
 
 	return INITIALIZE_HINT_LATELOAD
 
@@ -291,10 +291,9 @@
 
 /obj/machinery/door/airlock/Destroy()
 	QDEL_NULL(wires)
-	if(charge)
-		qdel(charge)
-		charge = null
 	QDEL_NULL(electronics)
+	if(charge)
+		QDEL_NULL(charge)
 	if (cyclelinkedairlock)
 		if (cyclelinkedairlock.cyclelinkedairlock == src)
 			cyclelinkedairlock.cyclelinkedairlock = null
@@ -304,7 +303,7 @@
 		for(var/obj/machinery/door/airlock/otherlock as anything in close_others)
 			otherlock.close_others -= src
 		close_others.Cut()
-	qdel(note)
+	QDEL_NULL(note)
 	for(var/datum/atom_hud/data/diagnostic/diag_hud in GLOB.huds)
 		diag_hud.remove_from_hud(src)
 	return ..()
@@ -677,52 +676,54 @@
 	ui_interact(user)
 	return TRUE
 
+#define CHECK_HACK_STATUS(hacker) \
+	if(canAIControl(hacker)) {\
+		to_chat(hacker, "Alert cancelled. Airlock control has been restored without our assistance.");\
+		aiHacking = FALSE;\
+		return;\
+	}\
+	else if(!canAIHack()) {\
+		to_chat(hacker, "Connection lost! Unable to hack airlock.");\
+		aiHacking = FALSE;\
+		return;\
+	}
+
 /obj/machinery/door/airlock/proc/hack(mob/user)
-	set waitfor = 0
-	if(!aiHacking)
-		aiHacking = TRUE
-		to_chat(user, "Airlock AI control has been blocked. Beginning fault-detection.")
-		sleep(50)
-		if(canAIControl(user))
-			to_chat(user, "Alert cancelled. Airlock control has been restored without our assistance.")
-			aiHacking = FALSE
-			return
-		else if(!canAIHack())
-			to_chat(user, "Connection lost! Unable to hack airlock.")
-			aiHacking = FALSE
-			return
-		to_chat(user, "Fault confirmed: airlock control wire disabled or cut.")
-		sleep(20)
-		to_chat(user, "Attempting to hack into airlock. This may take some time.")
-		sleep(200)
-		if(canAIControl(user))
-			to_chat(user, "Alert cancelled. Airlock control has been restored without our assistance.")
-			aiHacking = FALSE
-			return
-		else if(!canAIHack())
-			to_chat(user, "Connection lost! Unable to hack airlock.")
-			aiHacking = FALSE
-			return
-		to_chat(user, "Upload access confirmed. Loading control program into airlock software.")
-		sleep(170)
-		if(canAIControl(user))
-			to_chat(user, "Alert cancelled. Airlock control has been restored without our assistance.")
-			aiHacking = FALSE
-			return
-		else if(!canAIHack())
-			to_chat(user, "Connection lost! Unable to hack airlock.")
-			aiHacking = FALSE
-			return
-		to_chat(user, "Transfer complete. Forcing airlock to execute program.")
-		sleep(50)
-		//disable blocked control
-		aiControlDisabled = 2
-		to_chat(user, "Receiving control information from airlock.")
-		sleep(10)
-		//bring up airlock dialog
-		aiHacking = FALSE
-		if(user)
-			attack_ai(user)
+	set waitfor = FALSE
+	if(aiHacking)
+		return
+
+	aiHacking = TRUE
+
+	to_chat(user, span_info("Airlock AI control has been blocked. Beginning fault-detection."))
+	sleep(5 SECONDS)
+
+	CHECK_HACK_STATUS(user)
+	to_chat(user, span_info("Fault confirmed: airlock control wire disabled or cut."))
+	sleep(2 SECONDS)
+
+	CHECK_HACK_STATUS(user)
+	to_chat(user, span_info("Attempting to hack into airlock. This may take some time."))
+	sleep(20 SECONDS)
+
+	CHECK_HACK_STATUS(user)
+	to_chat(user, span_info("Upload access confirmed. Loading control program into airlock software."))
+	sleep(17 SECONDS)
+
+	CHECK_HACK_STATUS(user)
+	to_chat(user, span_info("Transfer complete. Forcing airlock to execute program."))
+	sleep(5 SECONDS)
+
+	to_chat(user, span_info("Receiving control information from airlock."))
+	aiControlDisabled = 2
+	aiHacking = FALSE
+	sleep(1 SECONDS)
+
+	//bring up airlock dialog
+	if(user)
+		attack_silicon(user)
+
+#undef CHECK_HACK_STATUS
 
 /obj/machinery/door/airlock/attack_animal(mob/user)
 	if(isElectrified() && shock(user, 100))
@@ -1067,7 +1068,7 @@
 		charge = null
 		return
 	//End Airlock Charges
-	if(I?.tool_behaviour == TOOL_CROWBAR && should_try_removing_electronics() && !operating)
+	if(I.tool_behaviour == TOOL_CROWBAR && should_try_removing_electronics() && !operating)
 		user.visible_message("[user] removes the electronics from the airlock assembly.", \
 			span_notice("You start to remove electronics from the airlock assembly..."))
 		if(I.use_tool(src, user, 40, volume=100))
@@ -1092,7 +1093,7 @@
 				var/time_to_open = 50
 				playsound(src, 'sound/machines/airlock_alien_prying.ogg', 100, TRUE) //is it aliens or just the CE being a dick?
 				prying_so_hard = TRUE
-				if(do_after(user, time_to_open, src))
+				if(I.use_tool(src, user, time_to_open, volume = 50))
 					if(check_electrified && shock(user,100))
 						prying_so_hard = FALSE
 						return
@@ -1497,7 +1498,7 @@
 	wire["shock"] = !wires.is_cut(WIRE_SHOCK)
 	wire["id_scanner"] = !wires.is_cut(WIRE_IDSCAN)
 	wire["bolts"] = !wires.is_cut(WIRE_BOLTS)
-	wire["lights"] = !wires.is_cut(WIRE_LIGHT)
+	wire["lights"] = !wires.is_cut(WIRE_BOLTLIGHT)
 	wire["safe"] = !wires.is_cut(WIRE_SAFETY)
 	wire["timing"] = !wires.is_cut(WIRE_TIMING)
 

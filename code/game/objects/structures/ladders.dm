@@ -167,7 +167,7 @@ CREATION_TEST_IGNORE_SUBTYPES(/obj/structure/ladder)
 			going_up = TRUE
 		if("Down")
 			going_up = FALSE
-		if("Cancel")
+		else
 			return
 
 	if(is_ghost || !travel_time)
@@ -176,7 +176,7 @@ CREATION_TEST_IGNORE_SUBTYPES(/obj/structure/ladder)
 		INVOKE_ASYNC(src, PROC_REF(start_travelling), user, going_up)
 
 /obj/structure/ladder/proc/check_menu(mob/user, is_ghost)
-	if(user.incapacitated() || (!user.Adjacent(src)))
+	if(user.incapacitated || (!user.Adjacent(src)))
 		return FALSE
 	return TRUE
 

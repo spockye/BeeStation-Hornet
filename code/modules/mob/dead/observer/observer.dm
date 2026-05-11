@@ -114,10 +114,10 @@ GLOBAL_VAR_INIT(observer_default_invisibility, INVISIBILITY_SPIRIT)
 			var/mob/living/carbon/human/body_human = body
 			if(HAIR in body_human.dna.species.species_traits)
 				hair_style = body_human.hair_style
-				hair_color = brighten_color(body_human.hair_color)
+				hair_color = ghostify_color(body_human.hair_color)
 			if(FACEHAIR in body_human.dna.species.species_traits)
 				facial_hair_style = body_human.facial_hair_style
-				facial_hair_color = brighten_color(body_human.facial_hair_color)
+				facial_hair_color = ghostify_color(body_human.facial_hair_color)
 
 	update_icon()
 
@@ -156,6 +156,8 @@ GLOBAL_VAR_INIT(observer_default_invisibility, INVISIBILITY_SPIRIT)
 	AddElement(/datum/element/movetype_handler)
 	ADD_TRAIT(src, TRAIT_MOVE_FLOATING, "ghost")
 	ADD_TRAIT(src, TRAIT_SECURITY_HUD, ref(src))
+	ADD_TRAIT(src, TRAIT_HEAR_THROUGH_DARKNESS, INNATE_TRAIT)
+	ADD_TRAIT(src, TRAIT_GOOD_HEARING, INNATE_TRAIT)
 
 	remove_verb(/mob/dead/observer/verb/cancel_camera_ghosts) //we only add it when observing
 
@@ -239,7 +241,7 @@ GLOBAL_VAR_INIT(observer_default_invisibility, INVISIBILITY_SPIRIT)
 			if(S?.icon_state)
 				facial_hair_overlay = mutable_appearance(S.icon, "[S.icon_state]", CALCULATE_MOB_OVERLAY_LAYER(HAIR_LAYER))
 				if(facial_hair_color)
-					facial_hair_overlay.color = "#" + facial_hair_color
+					facial_hair_overlay.color = facial_hair_color
 				facial_hair_overlay.alpha = 200
 				add_overlay(facial_hair_overlay)
 		if(hair_style)
@@ -247,52 +249,29 @@ GLOBAL_VAR_INIT(observer_default_invisibility, INVISIBILITY_SPIRIT)
 			if(S?.icon_state)
 				hair_overlay = mutable_appearance(S.icon, "[S.icon_state]", CALCULATE_MOB_OVERLAY_LAYER(HAIR_LAYER))
 				if(hair_color)
-					hair_overlay.color = "#" + hair_color
+					hair_overlay.color = hair_color
 				hair_overlay.alpha = 200
 				add_overlay(hair_overlay)
 
 /*
- * Increase the brightness of a color by calculating the average distance between the R, G and B values,
- * and maximum brightness, then adding 30% of that average to R, G and B.
- *
- * I'll make this proc global and move it to its own file in a future update. |- Ricotez
+ * Increase the brightness of a color and desaturates it slightly to make it suitable for ghosts
+ * We use HSL for this, makes life SOOO easy
  */
-/mob/proc/brighten_color(input_color)
-	var/r_val
-	var/b_val
-	var/g_val
-	var/color_format = length(input_color)
-	if(color_format != length_char(input_color))
-		return 0
-	if(color_format == 3)
-		r_val = hex2num(copytext(input_color, 1, 2)) * 16
-		g_val = hex2num(copytext(input_color, 2, 3)) * 16
-		b_val = hex2num(copytext(input_color, 3, 4)) * 16
-	else if(color_format == 6)
-		r_val = hex2num(copytext(input_color, 1, 3))
-		g_val = hex2num(copytext(input_color, 3, 5))
-		b_val = hex2num(copytext(input_color, 5, 7))
-	else
-		return 0 //If the color format is not 3 or 6, you're using an unexpected way to represent a color.
+/proc/ghostify_color(input_color)
+	var/list/read_color = rgb2num(input_color, COLORSPACE_HSL)
 
-	r_val += (255 - r_val) * 0.4
-	if(r_val > 255)
-		r_val = 255
-	g_val += (255 - g_val) * 0.4
-	if(g_val > 255)
-		g_val = 255
-	b_val += (255 - b_val) * 0.4
-	if(b_val > 255)
-		b_val = 255
+	// Clamp so it still has color, can't get too bright/desaturated
+	var/sat = clamp(read_color[2] - 15, 30, read_color[2])
+	var/lum = clamp(read_color[3] + 15, read_color[3], 80)
 
-	return copytext(rgb(r_val, g_val, b_val), 2)
+	return rgb(read_color[1], sat, lum, space = COLORSPACE_HSL)
 
 /*
 Transfer_mind is there to check if mob is being deleted/not going to have a body.
 Works together with spawning an observer, noted above.
 */
 
-/mob/proc/ghostize(can_reenter_corpse = TRUE,sentience_retention = SENTIENCE_SKIP)
+/mob/proc/ghostize(can_reenter_corpse = TRUE, sentience_retention = SENTIENCE_SKIP)
 	if(key)
 		if(key[1] != "@") // Skip aghosts.
 			stop_sound_channel(CHANNEL_HEARTBEAT) //Stop heartbeat sounds because You Are A Ghost Now
@@ -302,11 +281,12 @@ Works together with spawning an observer, noted above.
 			ghost.can_reenter_corpse = can_reenter_corpse
 			ghost.key = key
 
-			//If we cannot re-enter we note the time of conceptual death in player details.
-			if(can_reenter_corpse)
-				ghost.client?.player_details.time_of_death = ghost.mind?.current ? mind.current.timeofdeath : world.time
-			else
-				ghost.client.player_details.time_of_death = world.time
+			var/recordable_time = world.time
+			var/mob/living/former_mob = ghost.mind?.current
+			if(isliving(former_mob))
+				recordable_time = former_mob.timeofdeath
+
+			ghost.client?.player_details.time_of_death = recordable_time
 
 			return ghost
 
@@ -381,6 +361,17 @@ This is the proc mobs get to turn into a ghost. Forked from ghostize due to comp
 	if(mind.current.key && mind.current.key[1] != "@")	//makes sure we don't accidentally kick any clients
 		to_chat(usr, span_warning("Another consciousness is in your body...It is resisting you."))
 		return
+	//--------------------------------------
+	// identical to the codes from 'observe()', but calling that proc makes a SpacemanDMM warning
+	if(observetarget) // stop observing.
+		to_chat(src, span_notice("You stopped observing [observetarget]"))
+		LAZYREMOVE(observetarget.observers, src)
+		observetarget = null
+		set_mob_eye_to(MOB_EYE_SELF)
+		if(hud_used)
+			client.screen = list()
+			hud_used.show_hud(hud_used.hud_version)
+	//--------------------------------------
 	client.view_size.resetToDefault(getScreenSize(src))//Let's reset so people can't become allseeing gods //For real this time
 	SStgui.on_transfer(src, mind.current) // Transfer NanoUIs.
 	mind.current.key = key
@@ -673,14 +664,11 @@ This is the proc mobs get to turn into a ghost. Forked from ghostize due to comp
 	target.faction = list(FACTION_NEUTRAL)
 	return 1
 
-//this is a mob verb instead of atom for performance reasons
-//see /mob/verb/examinate() in mob.dm for more info
-//overridden here and in /mob/living for different point span classes and sanity checks
-/mob/dead/observer/pointed(atom/A as mob|obj|turf in view())
+/mob/dead/observer/_pointed(atom/pointed_at)
 	if(!..())
-		return 0
-	usr.visible_message(span_deadsay("<b>[src]</b> points to [A]."))
-	return 1
+		return FALSE
+
+	usr.visible_message(span_deadsay("<b>[src]</b> points to [pointed_at]."))
 
 /mob/dead/observer/verb/view_manifest()
 	set name = "View Crew Manifest"
@@ -857,11 +845,11 @@ This is the proc mobs get to turn into a ghost. Forked from ghostize due to comp
 
 	if(HAIR in species.species_traits)
 		hair_style = client.prefs.read_character_preference(/datum/preference/choiced/hairstyle)
-		hair_color = brighten_color(client.prefs.read_character_preference(/datum/preference/color_legacy/hair_color))
+		hair_color = ghostify_color(client.prefs.read_character_preference(/datum/preference/color/hair_color))
 
 	if(FACEHAIR in species.species_traits)
 		facial_hair_style = client.prefs.read_character_preference(/datum/preference/choiced/facial_hairstyle)
-		facial_hair_color = brighten_color(client.prefs.read_character_preference(/datum/preference/color_legacy/facial_hair_color))
+		facial_hair_color = ghostify_color(client.prefs.read_character_preference(/datum/preference/color/facial_hair_color))
 
 	update_icon()
 
@@ -893,32 +881,36 @@ This is the proc mobs get to turn into a ghost. Forked from ghostize due to comp
 		if(NAMEOF(src, can_respawn))
 			create_mob_hud()
 
-/mob/dead/observer/reset_perspective(atom/new_eye)
-	if(client)
-		if(ismob(client.eye) && (client.eye != src))
-			var/mob/target = client.eye
-			observetarget = null
-			if(target.observers)
-				target.observers -= src
-				UNSETEMPTY(target.observers)
-	if(..())
+/mob/dead/observer/verb/cancel_camera_ghosts()
+	set name = "Cancel Camera View"
+	set category = "Ghost"
+
+	if(observetarget) // stop observing
+		to_chat(src, span_notice("You stopped observing [observetarget]"))
+		LAZYREMOVE(observetarget.observers, src)
+		observetarget = null
+		set_mob_eye_to(MOB_EYE_SELF)
 		if(hud_used)
 			client.screen = list()
 			hud_used.show_hud(hud_used.hud_version)
 
-/mob/dead/observer/verb/cancel_camera_ghosts()
-	set name = "Cancel Camera View"
-	set category = "Ghost"
-	reset_perspective(null)
 	remove_verb(/mob/dead/observer/verb/cancel_camera_ghosts)
 
 /mob/dead/observer/verb/observe()
 	set name = "Observe"
 	set category = "Ghost"
 
-	var/list/creatures = getpois()
+	if(observetarget) // stop observing
+		to_chat(src, span_notice("You stopped observing [observetarget]"))
+		LAZYREMOVE(observetarget.observers, src)
+		observetarget = null
+		set_mob_eye_to(MOB_EYE_SELF)
+		if(hud_used)
+			client.screen = list()
+			hud_used.show_hud(hud_used.hud_version)
+		return
 
-	reset_perspective(null)
+	var/list/creatures = getpois()
 
 	var/eye_name = null
 
@@ -929,15 +921,14 @@ This is the proc mobs get to turn into a ghost. Forked from ghostize due to comp
 
 	var/mob/mob_eye = creatures[eye_name]
 	//Istype so we filter out points of interest that are not mobs
-	if(client && mob_eye && istype(mob_eye))
-		client.set_eye(mob_eye)
-		add_verb(/mob/dead/observer/verb/cancel_camera_ghosts)
-		if(mob_eye.hud_used)
+	if(client && mob_eye && ismob(mob_eye))
+		observetarget = mob_eye
+		LAZYOR(observetarget.observers, src)
+		set_mob_eye_to(observetarget)
+		to_chat(src, span_notice("You started observing [observetarget]"))
+		if(observetarget.hud_used)
 			client.screen = list()
-			LAZYINITLIST(mob_eye.observers)
-			mob_eye.observers |= src
-			mob_eye.hud_used.show_hud(mob_eye.hud_used.hud_version, src)
-			observetarget = mob_eye
+			observetarget.hud_used.show_hud(observetarget.hud_used.hud_version, src)
 
 /mob/dead/observer/verb/register_pai_candidate()
 	set category = "Ghost"

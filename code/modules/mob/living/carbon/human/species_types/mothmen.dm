@@ -11,7 +11,8 @@
 	id = SPECIES_MOTH
 	species_traits = list(
 		LIPS,
-		HAS_MARKINGS
+		HAS_MARKINGS,
+		MUTCOLORS,
 	)
 	inherent_traits = list(
 		TRAIT_TACKLING_WINGED_ATTACKER
@@ -20,7 +21,8 @@
 	mutant_bodyparts = list(
 		"moth_wings" = "Plain",
 		"moth_antennae" = "Plain",
-		"moth_markings" = "None",
+		"moth_markings" = SPRITE_ACCESSORY_NONE,
+		"moth_eyes" = "Default",
 		"body_size" = "Normal"
 	)
 	attack_verb = "slash"
@@ -49,14 +51,30 @@
 
 /datum/species/moth/handle_chemicals(datum/reagent/chem, mob/living/carbon/human/H, delta_time, times_fired)
 	if(chem.type == /datum/reagent/toxin/pestkiller)
-		H.adjustToxLoss(3 * REAGENTS_EFFECT_MULTIPLIER * delta_time)
+		H.adjustToxLoss(3 * REM * delta_time)
 		H.reagents.remove_reagent(chem.type, REAGENTS_METABOLISM * delta_time)
 		return FALSE
 	return ..()
-/datum/species/moth/check_species_weakness(obj/item/weapon, mob/living/attacker)
-	if(istype(weapon, /obj/item/melee/flyswatter))
-		return 9 //flyswatters deal 10x damage to moths
-	return 0
+
+/datum/species/moth/on_species_gain(mob/living/carbon/human/human_who_gained_species, datum/species/old_species, pref_load)
+	if(human_who_gained_species.dna?.features["moth_eyes"] == "Domestic")
+		mutanteyes = /obj/item/organ/eyes/moth/domestic
+	else
+		mutanteyes = /obj/item/organ/eyes/moth
+	if(!pref_load)
+		human_who_gained_species.dna?.features["mcolor"] = "#f4d697"
+	. = ..()
+	RegisterSignal(human_who_gained_species, COMSIG_MOB_APPLY_DAMAGE_MODIFIERS, PROC_REF(damage_weakness))
+
+/datum/species/moth/on_species_loss(mob/living/carbon/human/C, datum/species/new_species, pref_load)
+	. = ..()
+	UnregisterSignal(C, COMSIG_MOB_APPLY_DAMAGE_MODIFIERS)
+
+/datum/species/moth/proc/damage_weakness(datum/source, list/damage_mods, damage_amount, damagetype, def_zone, sharpness, attack_direction, obj/item/attacking_item)
+	SIGNAL_HANDLER
+
+	if(istype(attacking_item, /obj/item/melee/flyswatter))
+		damage_mods += 10 // Yes, a 10x damage modifier
 
 /datum/species/moth/get_laugh_sound(mob/living/carbon/user)
 	return 'sound/emotes/moth/mothlaugh.ogg'
@@ -104,7 +122,7 @@
 		if(!ismoth(H))
 			to_chat(H, span_warning("You have lost your mandibles and cannot weave anymore!."))
 			return
-		if(H.incapacitated())
+		if(H.incapacitated)
 			to_chat(H, span_warning("You cannot weave a cocoon in your current state."))
 			return
 		if(!HAS_TRAIT(H, TRAIT_MOTH_BURNT))
@@ -229,3 +247,7 @@
 	)
 
 	return to_add
+
+/datum/species/moth/prepare_human_for_preview(mob/living/carbon/human/human)
+	human.dna.features["mcolor"] = "#f4d697"
+	human.update_body(TRUE)

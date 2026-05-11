@@ -28,6 +28,7 @@
 #define COLOR_OFF_WHITE "#fff5ed"
 #define COLOR_VERY_LIGHT_GRAY "#EEEEEE"
 #define COLOR_SILVER "#C0C0C0"
+#define COLOR_SONIC_SILVER "#757575"
 #define COLOR_GRAY "#808080"
 #define COLOR_FLOORTILE_GRAY "#8D8B8B"
 #define COLOR_ASSISTANT_GRAY "#6E6E6E"
@@ -58,6 +59,7 @@
 #define COLOR_VIBRANT_LIME "#00FF00"
 #define COLOR_PALE_GREEN "#20e28e"
 #define COLOR_LIME "#32CD32"
+#define COLOR_DARK_LIME "#00aa00"
 #define COLOR_GREEN "#008000"
 #define COLOR_DARK_MODERATE_LIME_GREEN "#44964A"
 #define COLOR_VERY_DARK_LIME_GREEN "#003300"
@@ -93,6 +95,7 @@
 #define COLOR_ORANGE "#FF9900"
 #define COLOR_LIGHT_ORANGE "#ffc44d"
 #define COLOR_ENGINEERING_ORANGE "#FFA62B"
+#define COLOR_MOSTLY_PURE_ORANGE "#ff8000"
 #define COLOR_DARK_ORANGE "#C3630C"
 #define COLOR_BEIGE "#CEB689"
 #define COLOR_DARK_MODERATE_ORANGE "#8B633B"
@@ -133,21 +136,6 @@
 #define COLOR_ASSEMBLY_LBLUE "#5D99BE"
 #define COLOR_ASSEMBLY_BLUE "#38559E"
 #define COLOR_ASSEMBLY_PURPLE "#6F6192"
-
-
-///Pipe colors
-#define COLOR_PIPE_AMETHYST "#822BFF"
-#define COLOR_PIPE_BLUE "#0000FF"
-#define COLOR_PIPE_BROWN "#B26438"
-#define COLOR_PIPE_CYAN "#00FFF9"
-#define COLOR_PIPE_DARK "#454545"
-#define COLOR_PIPE_GREEN "#1EFF00"
-#define COLOR_PIPE_GREY "#FFFFFF"
-#define COLOR_PIPE_ORANGE "#FF8119"
-#define COLOR_PIPE_PURPLE "#8000B6"
-#define COLOR_PIPE_RED "#FF0000"
-#define COLOR_PIPE_VIOLET "#400080"
-#define COLOR_PIPE_YELLOW "#FFC600"
 
 /**
  * Some defines to generalise colours used in lighting.
@@ -195,7 +183,6 @@
 /// deep crimson
 #define LIGHT_COLOR_BLOOD_MAGIC "#D00000"
 
-#define LIGHT_COLOR_WHITE "#FFFFFF" //! Full white. rgb(255, 255, 255)
 #define LIGHT_COLOR_RED "#FA8282" //! Warm but extremely diluted red. rgb(250, 130, 130)
 #define LIGHT_COLOR_CLOCKWORK "#BE8700"
 
@@ -211,6 +198,8 @@
 #define COLOR_DISPLAY_RED "#BE3455"
 #define COLOR_DISPLAY_YELLOW "#FFF743"
 #define COLOR_DISPLAY_GREEN "#3CF046"
+
+#define DEFAULT_HEX_COLOR_LEN 6
 
 // check "chat-light-theme.scss" and "chat-dark-theme.scss"
 GLOBAL_LIST_INIT(color_list_blood_brothers, shuffle(list(
@@ -286,3 +275,8 @@ GLOBAL_LIST_INIT(color_list_rainbow, list(
 #define COLOR_GNOME_WHITE "#e8e8e8"
 #define COLOR_GNOME_GREY "#a9a9a9"
 #define COLOR_GNOME_BLACK "#303030"
+
+#define CM_COLOR_SAT_MIN 0.6
+#define CM_COLOR_SAT_MAX 0.7
+#define CM_COLOR_LUM_MIN 0.65
+#define CM_COLOR_LUM_MAX 0.75

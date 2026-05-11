@@ -1,5 +1,6 @@
 
 /obj/structure/statue
+	abstract_type = /obj/structure/statue
 	name = "statue"
 	desc = "Placeholder. Yell at Qwerty if you SOMEHOW see this."
 	icon = 'icons/obj/statue.dmi'
@@ -134,7 +135,7 @@
 	. = ..()
 
 /obj/structure/statue/plasma/attackby(obj/item/W, mob/user, params)
-	if(W.is_hot() > 300)//If the temperature of the object is over 300, then ignite
+	if(W.get_temperature() > 300)//If the temperature of the object is over 300, then ignite
 		plasma_ignition(6, user)
 	else
 		return ..()

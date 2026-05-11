@@ -1,4 +1,5 @@
 /obj/item/clothing/gloves/color
+	abstract_type = /obj/item/clothing/gloves/color
 
 /obj/item/clothing/gloves/color/yellow
 	desc = "These gloves provide protection against electric shock."
@@ -203,7 +204,7 @@
 	worn_icon_state = "latex"
 	siemens_coefficient = 0.3
 	armor_type = /datum/armor/color_latex
-	clothing_traits = list(TRAIT_QUICK_CARRY, TRAIT_FINGERPRINT_PASSTHROUGH)
+	clothing_traits = list(TRAIT_QUICK_CARRY)
 	resistance_flags = NONE
 
 /datum/armor/color_latex

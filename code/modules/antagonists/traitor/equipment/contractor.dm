@@ -181,12 +181,14 @@
 	if (.)
 		to_chat(user, span_notice("The uplink vibrates quietly, connecting to nearby agents..."))
 
-		var/datum/poll_config/config = new()
-		config.check_jobban = ROLE_CONTRACTOR_SUPPORT_UNIT
-		config.poll_time = 10 SECONDS
-		config.jump_target = user
-		config.role_name_text = "contractor support unit for [user.real_name]"
-		config.alert_pic = user
+		var/datum/poll_config/config = new(
+			check_jobban = ROLE_CONTRACTOR_SUPPORT_UNIT,
+			poll_time = 10 SECONDS,
+			jump_target = user,
+			role_name_text = "contractor support unit for [user.real_name]",
+			alert_pic = user,
+			amount_to_pick = 1,
+		)
 		var/mob/dead/observer/candidate = SSpolling.poll_ghosts_one_choice(config)
 
 		if(candidate)
@@ -206,7 +208,7 @@
 	suit = /obj/item/clothing/suit/chameleon
 	back = /obj/item/storage/backpack
 	belt = /obj/item/modular_computer/tablet/pda/preset/chameleon
-	mask = /obj/item/clothing/mask/cigarette/syndicate
+	mask = /obj/item/cigarette/syndicate
 	shoes = /obj/item/clothing/shoes/chameleon/noslip
 	ears = /obj/item/radio/headset/chameleon
 	id = /obj/item/card/id/syndicate
@@ -217,7 +219,7 @@
 
 /datum/outfit/contractor_partner/post_equip(mob/living/carbon/human/H, visuals_only)
 	. = ..()
-	var/obj/item/clothing/mask/cigarette/syndicate/cig = H.get_item_by_slot(ITEM_SLOT_MASK)
+	var/obj/item/cigarette/syndicate/cig = H.get_item_by_slot(ITEM_SLOT_MASK)
 
 	// pre-light their cig
 	cig.light()

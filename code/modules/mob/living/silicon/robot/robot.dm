@@ -28,6 +28,8 @@
 
 	ident = rand(1, 999)
 
+	previous_health = health
+
 	if(ispath(cell))
 		cell = new cell(src)
 
@@ -560,6 +562,9 @@
 		eye_lights.icon = icon
 		add_overlay(eye_lights)
 
+	if(combat_indicator)
+		vis_contents += GLOB.combat_indicator_vis
+
 	if(opened)
 		if(wiresexposed)
 			add_overlay("[model.special_cover_key]-opencover +w")
@@ -571,6 +576,10 @@
 		var/mutable_appearance/head_overlay = hat.build_worn_icon(default_layer = 20, default_icon_file = 'icons/mob/clothing/head/default.dmi')
 		head_overlay.pixel_y += hat_offset
 		add_overlay(head_overlay)
+	// Re-add the sentry shield overlay if the status effect is active, since cut_overlays() removes it
+	var/datum/status_effect/cyborg_sentry/sentry_effect = has_status_effect(/datum/status_effect/cyborg_sentry)
+	if(sentry_effect?.shield_overlay)
+		add_overlay(sentry_effect.shield_overlay)
 	update_appearance(UPDATE_OVERLAYS)
 
 /mob/living/silicon/robot/proc/self_destruct(mob/user)
@@ -609,7 +618,7 @@
 	set category = "IC"
 	set src = usr
 
-	if(incapacitated())
+	if(incapacitated)
 		return
 	var/obj/item/held_item = get_active_held_item()
 	if(held_item)
@@ -1114,7 +1123,7 @@
 		M.visible_message(span_warning("[M] really can't seem to mount [src]..."))
 		return
 
-	if(stat || incapacitated())
+	if(stat || incapacitated)
 		return
 	if(model && !model.allow_riding)
 		M.visible_message(span_boldwarning("Unfortunately, [M] just can't seem to hold onto [src]!"))

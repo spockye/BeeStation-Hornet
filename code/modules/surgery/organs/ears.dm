@@ -79,7 +79,7 @@
 	. = ..()
 	if(istype(ear_owner) && ear_owner.dna)
 		color = ear_owner.hair_color
-		ear_owner.dna.features["ears"] = "None"
+		ear_owner.dna.features["ears"] = SPRITE_ACCESSORY_NONE
 		ear_owner.dna.species.mutant_bodyparts -= "ears"
 		ear_owner.update_body()
 
@@ -113,8 +113,7 @@
 	zone = "head"
 	slot = "ears"
 	gender = PLURAL
-	status = ORGAN_ROBOTIC
-	organ_flags = ORGAN_SYNTHETIC
+	organ_flags = ORGAN_ROBOTIC
 
 /obj/item/organ/ears/robot/emp_act(severity)
 	. = ..()

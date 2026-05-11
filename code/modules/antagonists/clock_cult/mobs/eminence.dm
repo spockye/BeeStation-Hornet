@@ -63,7 +63,7 @@
 /mob/living/simple_animal/eminence/gib()
 	return
 
-/mob/living/simple_animal/eminence/UnarmedAttack(atom/A)
+/mob/living/simple_animal/eminence/UnarmedAttack(atom/A, proximity_flag, modifiers)
 	return FALSE
 
 /mob/living/simple_animal/eminence/start_pulling(atom/movable/AM, state, force = move_force, supress_message = FALSE)
@@ -126,7 +126,8 @@
 	return FALSE
 
 /mob/living/simple_animal/eminence/Move(atom/newloc, direct)
-	if(istype(get_area(newloc), /area/chapel))
+	if(istype(get_area(newloc),
+/area/station/service/chapel))
 		to_chat(usr, span_warning("You cannot move on to holy grounds!"))
 		return
 	. = ..()
@@ -161,7 +162,7 @@
 	name = "eminence internal listener"
 	desc = "if you can see this, call a coder"
 	canhear_range = 0
-	radio_silent = TRUE
+	radio_noise = FALSE
 	prison_radio = TRUE
 
 

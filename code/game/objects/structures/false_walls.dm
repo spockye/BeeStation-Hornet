@@ -160,9 +160,10 @@
 	return null
 
 /obj/structure/falsewall/reinforced/attackby(obj/item/tool, mob/user)
-	..()
 	if(tool.tool_behaviour == TOOL_WIRECUTTER)
 		dismantle(user, TRUE, tool)
+		return TRUE
+	return ..()
 
 /*
  * Uranium Falsewalls
@@ -226,7 +227,7 @@
 	AddElement(/datum/element/atmos_sensitive)
 
 /obj/structure/falsewall/plasma/attackby(obj/item/W, mob/user, params)
-	if(W.is_hot() > 300)
+	if(W.get_temperature() > 300)
 		if(plasma_ignition(6, user))
 			new /obj/structure/girder/displaced(loc)
 

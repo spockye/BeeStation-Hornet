@@ -17,7 +17,7 @@
 /mob/dead/new_player/Initialize(mapload)
 	if(client && SSticker.state == GAME_STATE_STARTUP)
 		var/atom/movable/screen/splash/S = new(null, client, TRUE, TRUE)
-		S.Fade(TRUE)
+		S.fade(TRUE)
 
 	if(length(GLOB.newplayer_start))
 		forceMove(pick(GLOB.newplayer_start))
@@ -284,7 +284,7 @@
 	var/datum/job/job = SSjob.GetJob(rank)
 	if(!job)
 		return JOB_UNAVAILABLE_GENERIC
-	if(job.lock_flags)
+	if(!(job.job_flags & JOB_NEW_PLAYER_JOINABLE))
 		return JOB_UNAVAILABLE_LOCKED
 	if(!job.has_space())
 		if(job.title == JOB_NAME_ASSISTANT)
@@ -374,7 +374,7 @@
 		SSjob.SendToLateJoin(character)
 		if(!arrivals_docked)
 			var/atom/movable/screen/splash/Spl = new(null, character.client, TRUE)
-			Spl.Fade(TRUE)
+			Spl.fade(TRUE)
 			character.playsound_local(get_turf(character), 'sound/voice/welcomeBee.ogg', 50)
 
 		character.update_parallax_teleport()
@@ -410,7 +410,7 @@
 	if(CONFIG_GET(flag/allow_latejoin_antagonists) && humanc)
 		SSdynamic.on_player_latejoin(humanc)
 
-	if(CONFIG_GET(flag/roundstart_traits))
+	if((job.job_flags & JOB_ASSIGN_QUIRKS) && CONFIG_GET(flag/roundstart_traits))
 		SSquirks.AssignQuirks(character.mind, character.client, TRUE)
 
 	if(humanc)
@@ -482,8 +482,8 @@
 
 	var/mob/living/carbon/human/H = new(loc)
 
-	H.apply_prefs_job(client, SSjob.GetJob(mind.assigned_role))
-	LAZYADD(client.player_details.joined_as_jobs, SSjob.GetJob(mind.assigned_role))
+	H.apply_prefs_job(client, mind.assigned_role_datum)
+	LAZYADD(client.player_details.joined_as_jobs, mind.assigned_role_datum)
 	if(QDELETED(src) || !client)
 		return // Disconnected while checking for the appearance ban.
 	if(mind)

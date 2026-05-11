@@ -107,21 +107,23 @@
 		robot.hud_used.update_robot_modules_display()
 
 /obj/item/robot_model/proc/respawn_consumable(mob/living/silicon/robot/robot, coeff = 1)
+	SHOULD_CALL_PARENT(TRUE)
+
 	for(var/datum/robot_energy_storage/st in storages)
 		st.energy = min(st.max_energy, st.energy + coeff * st.recharge_rate)
 
 	// Refresh flashes, stun baton charge, energy gun charge
-	for(var/obj/item/item in get_usable_modules())
-		if(istype(item, /obj/item/assembly/flash))
-			var/obj/item/assembly/flash/flash = item
+	for(var/obj/item/module in get_usable_modules())
+		if(istype(module, /obj/item/assembly/flash))
+			var/obj/item/assembly/flash/flash = module
 			flash.bulb.charges_left = INFINITY
 			flash.burnt_out = FALSE
 			flash.update_icon()
-		else if(istype(item, /obj/item/melee/baton))
-			var/obj/item/melee/baton/stun_baton = item
-			stun_baton.cell?.charge = stun_baton.cell.maxcharge
-		else if(istype(item, /obj/item/gun/energy))
-			var/obj/item/gun/energy/energy_gun = item
+		else if(istype(module, /obj/item/melee/baton/security))
+			var/obj/item/melee/baton/security/baton = module
+			baton.cell?.charge = baton.cell.maxcharge
+		else if(istype(module, /obj/item/gun/energy))
+			var/obj/item/gun/energy/energy_gun = module
 			if(!energy_gun.chambered)
 				energy_gun.recharge_newshot() //try to reload a new shot.
 
@@ -187,6 +189,7 @@
 	robot.setDir(SOUTH)
 	robot.set_anchored(FALSE)
 	robot.notransform = FALSE
+	robot.updatehealth()
 	robot.update_icons()
 	robot.notify_ai(NEW_MODEL)
 	if(robot.hud_used)
@@ -203,7 +206,7 @@
 /obj/item/robot_model/proc/check_menu(mob/living/silicon/robot/user, obj/item/robot_model/old_module)
 	if(!istype(user))
 		return FALSE
-	if(user.incapacitated())
+	if(user.incapacitated)
 		return FALSE
 	if(user.model != old_module)
 		return FALSE
@@ -580,6 +583,7 @@
 		/obj/item/gps/cyborg,
 		/obj/item/borg/charger,
 		/obj/item/extinguisher/mini,
+		/obj/item/harmalarm,
 		/obj/item/weldingtool/cyborg/mini,
 		/obj/item/crowbar/cyborg,
 		/obj/item/borg/lollipop,
@@ -597,10 +601,10 @@
 
 //Aside from bomb and acid, not actually a lot of armor
 /datum/armor/cyborg
-	melee = 30
-	bullet = 30
-	laser = 30
-	energy = 30
+	melee = 50
+	bullet = 50
+	laser = 50
+	energy = 50
 	bomb = 50
 	acid = 100
 
@@ -623,13 +627,24 @@
 			return FALSE
 	. = ..()
 
+/obj/item/robot_model/guard/rebuild_modules()
+	. = ..()
+	var/mob/living/silicon/robot/robot = loc
+	if(!istype(robot))
+		return
+	for(var/obj/item/gun/energy/e_gun/mini/exploration/cyborg/gun in modules)
+		// Ensure the sentry toggle action is granted to the borg, even if the gun is sitting in the inventory
+		// rather than held in a hand slot.
+		for(var/datum/action/sentry_toggle/action in gun.actions)
+			action.Grant(robot)
+
 // --------------------- Deathsquad
 /obj/item/robot_model/deathsquad
 	name = "CentCom"
 	basic_modules = list(
 		/obj/item/assembly/flash/cyborg,
 		/obj/item/restraints/handcuffs/cable/zipties,
-		/obj/item/melee/baton/loaded,
+		/obj/item/melee/baton/security/loaded,
 		/obj/item/borg/charger,
 		/obj/item/weldingtool/cyborg/mini,
 		/obj/item/shield/riot/tele,

@@ -1,4 +1,5 @@
 /obj/item/restraints
+	abstract_type = /obj/item/restraints
 	breakouttime = 1 MINUTES
 	item_flags = ISWEAPON
 
@@ -18,7 +19,7 @@
 	worn_icon_state = "handcuff"
 	lefthand_file = 'icons/mob/inhands/equipment/security_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/security_righthand.dmi'
-	flags_1 = CONDUCT_1
+	obj_flags = CONDUCTS_ELECTRICITY
 	slot_flags = ITEM_SLOT_BELT
 	throwforce = 0
 	w_class = WEIGHT_CLASS_SMALL
@@ -96,7 +97,7 @@
 	desc = "Looks like some cables tied together. Could be used to tie something up."
 	icon_state = "cuff"
 	inhand_icon_state = "coil"
-	color = "#ff0000"
+	color = COLOR_RED
 	lefthand_file = 'icons/mob/inhands/equipment/tools_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/tools_righthand.dmi'
 	custom_materials = list(/datum/material/iron=150, /datum/material/glass=75)
@@ -105,25 +106,19 @@
 	custom_price = 15
 
 /obj/item/restraints/handcuffs/cable/red
-	color = "#ff0000"
+	color = COLOR_RED
 
 /obj/item/restraints/handcuffs/cable/yellow
-	color = "#ffff00"
-
-/obj/item/restraints/handcuffs/cable/blue
-	color = "#1919c8"
+	color = COLOR_YELLOW
 
 /obj/item/restraints/handcuffs/cable/green
-	color = "#00aa00"
+	color = COLOR_DARK_LIME
 
 /obj/item/restraints/handcuffs/cable/pink
-	color = "#ff3ccd"
+	color = COLOR_LIGHT_PINK
 
 /obj/item/restraints/handcuffs/cable/orange
-	color = "#ff8000"
-
-/obj/item/restraints/handcuffs/cable/cyan
-	color = "#00ffff"
+	color = COLOR_MOSTLY_PURE_ORANGE
 
 /obj/item/restraints/handcuffs/cable/white
 	color = null
@@ -210,7 +205,7 @@
 	icon_state = "handcuff"
 	lefthand_file = 'icons/mob/inhands/equipment/security_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/security_righthand.dmi'
-	flags_1 = CONDUCT_1
+	obj_flags = CONDUCTS_ELECTRICITY
 	throwforce = 0
 	w_class = WEIGHT_CLASS_NORMAL
 	slowdown = 7
@@ -327,6 +322,7 @@
 	breakouttime = 2 SECONDS // Cyborgs shouldn't have a strong restraint
 
 /obj/item/restraints/legcuffs/beartrap/energy/emp_act(severity)
+	. = ..()
 	do_sparks(1, TRUE, src)
 	qdel(src)
 

@@ -30,6 +30,7 @@
 
 /datum/config_entry/flag/donator_items 	// do you need to be a donator to use donator items
 
+/datum/config_entry/flag/combat_indicator //Whether we show combat indicators when combat mode is enabled
 /datum/config_entry/number/traitor_objectives_amount
 	config_entry_value = 2
 	min_val = 0
@@ -113,7 +114,8 @@
 
 /datum/config_entry/flag/no_summon_events	//Allowed
 
-/datum/config_entry/flag/no_intercept_report	//Whether or not to send a communications intercept report roundstart. This may be overridden by gamemodes.
+/datum/config_entry/flag/intercept_report	//Whether or not to send a communications intercept report roundstart. This may be overridden by gamemodes.
+	config_entry_value = TRUE
 
 /datum/config_entry/number/arrivals_shuttle_dock_window	//Time from when a player late joins on the arrivals shuttle to when the shuttle docks on the station
 	config_entry_value = 55
@@ -351,6 +353,9 @@
 //Mob spam prevention
 /datum/config_entry/number/max_cube_monkeys
 	config_entry_value = 100
+/datum/config_entry/number/ratcap
+	config_entry_value = 64
+	min_val = 0
 /datum/config_entry/number/max_chickens
 	config_entry_value = 100
 /datum/config_entry/number/max_slimes
@@ -415,9 +420,6 @@
 
 /datum/config_entry/flag/special_symptom_thresholds
 
-/datum/config_entry/number/virus_thinning_cap
-	config_entry_value = 4
-
 /**
  * A config that skews with the random spawners weights
  * If the value is lower than 1, it'll tend to even out the odds
@@ -427,3 +429,7 @@
 	integer = FALSE
 	default = 1
 	min_val = 0.05
+
+/datum/config_entry/flag/common_radio_audio
+	config_entry_value = 1
+	default = 1

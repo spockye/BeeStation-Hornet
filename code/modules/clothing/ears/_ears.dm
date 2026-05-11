@@ -1,6 +1,7 @@
 
 //Ears: currently only used for headsets and earmuffs
 /obj/item/clothing/ears
+	abstract_type = /obj/item/clothing/ears
 	name = "ears"
 	w_class = WEIGHT_CLASS_TINY
 	throwforce = 0
@@ -81,7 +82,7 @@
 	return ..()
 
 /obj/item/clothing/ears/headphones/proc/should_stop_playing(mob/user)
-	return user.incapacitated() || !((loc == user) || (isturf(loc) && Adjacent(user)))
+	return user.incapacitated || !((loc == user) || (isturf(loc) && Adjacent(user)))
 
 /obj/item/clothing/ears/headphones/AltClick(mob/user)
 	. = ..()

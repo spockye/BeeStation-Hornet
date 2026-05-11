@@ -1,4 +1,5 @@
 /obj/effect/decal/cleanable
+	abstract_type = /obj/effect/decal/cleanable
 	gender = PLURAL
 	layer = ABOVE_NORMAL_TURF_LAYER
 	var/list/random_icon_states = null
@@ -65,11 +66,11 @@ CREATION_TEST_IGNORE_SUBTYPES(/obj/effect/decal/cleanable)
 			if(!reagents.total_volume) //scooped up all of it
 				qdel(src)
 				return
-	if(W.is_hot()) //todo: make heating a reagent holder proc
-		if(istype(W, /obj/item/clothing/mask/cigarette))
+	if(W.get_temperature()) //todo: make heating a reagent holder proc
+		if(istype(W, /obj/item/cigarette))
 			return
 		else
-			var/hotness = W.is_hot()
+			var/hotness = W.get_temperature()
 			reagents.expose_temperature(hotness)
 			to_chat(user, span_notice("You heat [name] with [W]!"))
 	else

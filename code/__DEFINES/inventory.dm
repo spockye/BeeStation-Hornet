@@ -213,7 +213,6 @@ GLOBAL_LIST_INIT(detective_vest_allowed, (list(
 	/obj/item/lighter,
 	/obj/item/melee/baton,
 	/obj/item/melee/tonfa,
-	/obj/item/melee/classic_baton/police,
 	/obj/item/reagent_containers/peppercloud_deployer,
 	/obj/item/restraints/handcuffs,
 	/obj/item/storage/fancy/cigarettes,
@@ -230,10 +229,9 @@ GLOBAL_LIST_INIT(security_vest_allowed, (list(
 	/obj/item/knife/combat,
 	/obj/item/melee/baton,
 	/obj/item/melee/tonfa,
-	/obj/item/melee/classic_baton/police/telescopic,
+	/obj/item/melee/baton/telescopic,
 	/obj/item/reagent_containers/peppercloud_deployer,
 	/obj/item/restraints/handcuffs,
-	/obj/item/storage/belt/sabre/carbon_fiber,
 	/obj/item/tank/internals/emergency_oxygen,
 	/obj/item/tank/internals/plasmaman)))
 
@@ -248,7 +246,7 @@ GLOBAL_LIST_INIT(security_wintercoat_allowed, (list(
 	/obj/item/lighter,
 	/obj/item/melee/baton,
 	/obj/item/melee/tonfa,
-	/obj/item/melee/classic_baton/police/telescopic,
+	/obj/item/melee/baton/telescopic,
 	/obj/item/reagent_containers/peppercloud_deployer,
 	/obj/item/restraints/handcuffs,
 	/obj/item/tank/internals/emergency_oxygen,

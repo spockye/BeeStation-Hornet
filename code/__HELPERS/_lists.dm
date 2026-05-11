@@ -160,6 +160,7 @@
 	}
 
 #define SORT_FIRST_INDEX(list) (list[1])
+#define SORT_COMPARE_DIRECTLY(thing) (thing)
 #define SORT_VAR_NO_TYPE(varname) var/varname
 /****
 	* Even more custom binary search sorted insert, using defines instead of vars
@@ -864,12 +865,15 @@
 		UNTYPED_LIST_ADD(keys, key)
 	return keys
 
-/// Checks if a value is contained in an associative list's values
-/proc/assoc_contains_value(list/input, check_for)
+/// Turns an associative list into a flat list of keys, but for sprite accessories, respecting the locked variable
+/proc/assoc_to_keys_features(list/input)
+	var/list/keys = list()
 	for(var/key in input)
-		if(input[key] == check_for)
-			return TRUE
-	return FALSE
+		var/datum/sprite_accessory/value = input[key]
+		if(value?.locked)
+			continue
+		UNTYPED_LIST_ADD(keys, key)
+	return keys
 
 /// Gets the first key that contains the given value in an associative list, otherwise, returns null.
 /proc/assoc_key_for_value(list/input, check_for)

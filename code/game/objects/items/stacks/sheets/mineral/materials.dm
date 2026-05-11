@@ -17,6 +17,9 @@ Mineral Sheets
 
 /* Sandstone */
 
+/obj/item/stack/sheet/mineral
+	abstract_type = /obj/item/stack/sheet/mineral
+
 /obj/item/stack/sheet/mineral/sandstone
 	name = "sandstone brick"
 	desc = "This appears to be a combination of both sand and stone."
@@ -94,7 +97,7 @@ Mineral Sheets
 	return GLOB.plasma_recipes
 
 /obj/item/stack/sheet/mineral/plasma/attackby(obj/item/W as obj, mob/user as mob, params)
-	if(W.is_hot() > 300)//If the temperature of the object is over 300, then ignite
+	if(W.get_temperature() > 300)//If the temperature of the object is over 300, then ignite
 		plasma_ignition(amount/5, user)
 	else
 		return ..()
@@ -222,11 +225,11 @@ Mineral Sheets
 	novariants = TRUE
 
 /obj/item/stack/sheet/mineral/coal/attackby(obj/item/W, mob/user, params)
-	if(W.is_hot() > 300)//If the temperature of the object is over 300, then ignite
+	if(W.get_temperature() > 300)//If the temperature of the object is over 300, then ignite
 		var/turf/T = get_turf(src)
 		message_admins("Coal ignited by [ADMIN_LOOKUPFLW(user)] in [ADMIN_VERBOSEJMP(T)]")
 		log_game("Coal ignited by [key_name(user)] in [AREACOORD(T)]")
-		fire_act(W.is_hot())
+		fire_act(W.get_temperature())
 		return TRUE
 	else
 		return ..()
